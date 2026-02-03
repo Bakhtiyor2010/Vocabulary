@@ -76,6 +76,6 @@ th {
     td:nth-child(3),
     th:last-child,
     td:last-child {
-        width: 300px;
+        width: 350px;
     }
 }

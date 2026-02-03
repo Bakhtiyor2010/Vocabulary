@@ -246,7 +246,107 @@
     },
     {
         "word": "gesture",
-        "definition": "An action performed to express a feeling or intention.",
+        "definition": "An action performed to       express a feeling or intention.",
         "example": "He gave her a flower as a kind gesture."
+    },
+    {
+        "word": "wheel into",
+        "definition": "To move something, usually a person in a wheelchair or a large object, into a place.",
+        "example": "The patient was wheeled into the hospital room."
+    },
+    {
+        "word": "delight",
+        "definition": "To make someone very happy or give them great pleasure.",
+        "example": "He would delight his friend with stories of the outside world."
+    },
+    {
+        "word": "bedridden",
+        "definition": "Confined to a bed because of illness or injury.",
+        "example": "The bedridden man could not see outside, so he relied on his friend’s stories."
+    },
+    {
+        "word": "companion",
+        "definition": "A person who spends time with or stays with someone; a friend or partner.",
+        "example": "His only companion in the hospital was the man next to the window."
+    },
+    {
+        "word": "wonder",
+        "definition": "A feeling of amazement or admiration; something very surprising or beautiful.",
+        "example": "The man could not see the wonders his friend described."
+    },
+    {
+        "word": "coughing fit",
+        "definition": "A sudden period of repeated coughing.",
+        "example": "During a coughing fit, he stopped breathing."
+    },
+    {
+        "word": "wheel out",
+        "definition": "To move someone or something out of a place using a wheeled device.",
+        "example": "The dead patient was wheeled out of the room."
+    },
+    {
+        "word": "recount",
+        "definition": "To tell someone about something, usually a story or event.",
+        "example": "He would recount the sights outside the window in detail."
+    },
+    {
+        "word": "sight",
+        "definition": "Something that is seen or can be seen; a view.",
+        "example": "The man shared the beautiful sights of the park with his friend."
+    },
+    {
+        "word": "comply (with)",
+        "definition": "To act according to a rule, request, or command.",
+        "example": "The nurse complied with the patient’s request to move his bed."
+    },
+    {
+        "word": "attending",
+        "definition": "Being present and taking care of someone, especially in a hospital.",
+        "example": "The attending nurse moved his bed next to the window."
+    },
+    {
+        "word": "make shake",
+        "definition": "To cause someone to tremble or be very surprised or scared.",
+        "example": "The view outside the window made him shake with shock."
+    },
+    {
+        "word": "stark",
+        "definition": "Very plain, empty, or harsh in appearance.",
+        "example": "The window faced a stark brick wall, not the park."
+    },
+    {
+        "word": "conjure up",
+        "definition": "To make someone imagine or think of something, especially something that is not really there.",
+        "example": "He conjured up beautiful scenes to comfort his friend."
+    },
+    {
+        "word": "selfless",
+        "definition": "Concerned more with the needs and wishes of others than with one’s own.",
+        "example": "His actions were selfless, done purely out of love."
+    },
+    {
+        "word": "in the overall scheme of",
+        "definition": "Considering the bigger picture or the entire situation.",
+        "example": "In the overall scheme of things, our problems are small."
+    },
+    {
+        "word": "blip on",
+        "definition": "A very small, temporary, or insignificant event in a larger context.",
+        "example": "Our lives are just a blip on the canvas of eternity."
+    },
+    {
+        "word": "canvas",
+        "definition": "A surface for painting; here it means the 'whole picture' of life or existence.",
+        "example": "Our lives are mere blips on the canvas of eternity."
+    },
+    {
+        "word": "eternity",
+        "definition": "Infinite or unending time.",
+        "example": "Life is short, but the universe goes on for eternity."
+    },
+    {
+        "word": "savor",
+        "definition": "To enjoy something completely, especially an experience or moment.",
+        "example": "We should savor the journey of life, not just the destination."
     }
 ]

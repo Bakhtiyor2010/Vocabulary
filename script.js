@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       wrapper.className = "table-wrapper";
 
       const table = document.createElement("table");
-      table.border = "1";
       table.style.borderCollapse = "collapse";
       table.style.marginBottom = "20px";
 
@@ -51,13 +50,23 @@ document.addEventListener("DOMContentLoaded", async () => {
       return wrapper;
     };
 
-    const chunkSize = 5;
+    const chunkSize = window.innerWidth <= 1000 ? 5 : vocabulary.length;
+
     for (let i = 0; i < vocabulary.length; i += chunkSize) {
       const chunk = vocabulary.slice(i, i + chunkSize);
       const tableWrapper = createTable(i, chunk);
       contentDiv.appendChild(tableWrapper);
     }
 
+    window.addEventListener("resize", () => {
+      contentDiv.innerHTML = "";
+      const newChunkSize = window.innerWidth <= 1000 ? 5 : vocabulary.length;
+      for (let i = 0; i < vocabulary.length; i += newChunkSize) {
+        const chunk = vocabulary.slice(i, i + newChunkSize);
+        const tableWrapper = createTable(i, chunk);
+        contentDiv.appendChild(tableWrapper);
+      }
+    });
   } catch (error) {
     console.error("Error loading vocabulary:", error);
   }
