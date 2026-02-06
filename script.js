@@ -4,69 +4,75 @@ document.addEventListener("DOMContentLoaded", async () => {
     const vocabulary = await response.json();
     const contentDiv = document.getElementById("content");
 
-    const createTable = (startIndex, words) => {
-      const wrapper = document.createElement("div");
-      wrapper.className = "table-wrapper";
-
+    const renderTable = (words) => {
       const table = document.createElement("table");
       table.style.borderCollapse = "collapse";
-      table.style.marginBottom = "20px";
+      table.style.width = "100%";
 
       const thead = document.createElement("thead");
       const trHead = document.createElement("tr");
-      ["No", "Word", "Definition", "Example"].forEach((text) => {
+
+      ["No", "Word", "Synonym", "Definition", "Example"].forEach((text) => {
         const th = document.createElement("th");
         th.textContent = text;
         trHead.appendChild(th);
       });
+
       thead.appendChild(trHead);
       table.appendChild(thead);
 
       const tbody = document.createElement("tbody");
-      words.forEach(({ word, definition, example }, index) => {
+
+      words.forEach(({ word, definition, synonym, example }, index) => {
         const tr = document.createElement("tr");
 
-        const tdNo = document.createElement("td");
-        tdNo.innerHTML = `<b>${startIndex + index + 1}</b>`;
-        tr.appendChild(tdNo);
-
-        const tdWord = document.createElement("td");
-        tdWord.innerHTML = `<b><i>${word}</i></b>`;
-        tr.appendChild(tdWord);
-
-        const tdDef = document.createElement("td");
-        tdDef.textContent = definition;
-        tr.appendChild(tdDef);
-
-        const tdExample = document.createElement("td");
-        tdExample.textContent = example;
-        tr.appendChild(tdExample);
+        tr.innerHTML = `
+          <td><b>${index + 1}</b></td>
+          <td><b><i>${word}</i></b></td>
+          <td>${synonym}</td>
+          <td>${definition}</td>
+          <td>${example}</td>
+        `;
 
         tbody.appendChild(tr);
       });
 
       table.appendChild(tbody);
-      wrapper.appendChild(table);
-      return wrapper;
+      contentDiv.appendChild(table);
     };
 
-    const chunkSize = window.innerWidth <= 1000 ? 5 : vocabulary.length;
+    const renderList = (words) => {
+      const ol = document.createElement("ol");
 
-    for (let i = 0; i < vocabulary.length; i += chunkSize) {
-      const chunk = vocabulary.slice(i, i + chunkSize);
-      const tableWrapper = createTable(i, chunk);
-      contentDiv.appendChild(tableWrapper);
-    }
+      words.forEach(({ word, definition, synonym, example }) => {
+        const li = document.createElement("li");
 
-    window.addEventListener("resize", () => {
+        li.innerHTML = `
+          <b>Word:</b> <i>${word}</i> <br>
+          <b>Synonym:</b> ${synonym} <br>
+          <b>Definition:</b> ${definition} <br>
+          <b>Example:</b> ${example}
+        `;
+
+        ol.appendChild(li);
+        ol.appendChild(document.createElement("br"));
+      });
+
+      contentDiv.appendChild(ol);
+    };
+
+    const render = () => {
       contentDiv.innerHTML = "";
-      const newChunkSize = window.innerWidth <= 1000 ? 5 : vocabulary.length;
-      for (let i = 0; i < vocabulary.length; i += newChunkSize) {
-        const chunk = vocabulary.slice(i, i + newChunkSize);
-        const tableWrapper = createTable(i, chunk);
-        contentDiv.appendChild(tableWrapper);
+
+      if (window.innerWidth < 1400) {
+        renderList(vocabulary);
+      } else {
+        renderTable(vocabulary);
       }
-    });
+    };
+
+    render();
+    window.addEventListener("resize", render);
   } catch (error) {
     console.error("Error loading vocabulary:", error);
   }

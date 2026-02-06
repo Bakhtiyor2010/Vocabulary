@@ -4,9 +4,9 @@ body {
     margin: 0;
     padding: 20px;
     color: #1f2933;
-    line-height: 35px;
+    line-height: 30px;
     letter-spacing: 1px;
-    word-spacing: 3px;
+    word-spacing: 2px;
 }
 
 section {
@@ -45,7 +45,7 @@ td {
 
 th:first-child,
 td:first-child {
-    width: 50px;
+    width: 30px;
     text-align: center;
 }
 
@@ -59,17 +59,29 @@ th:nth-child(3),
 td:nth-child(3),
 th:last-child,
 td:last-child {
-    width: calc((100% - (50px + 150px)) / 2);
+    width: calc((100% - (30px + 100px)) / 2);
 }
 
 th {
     background: #eef2ff;
 }
 
+tr {
+    transition: all 0.2s;
+}
+
+tr:hover {
+    background: #f1f5f9;
+}
+
 @media(max-width:1000px) {
     body {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 25px;
+        padding: 0;
+        padding-right: 10px;
+        text-align: justify;
+        background: white;
     }
 
     th:nth-child(3),

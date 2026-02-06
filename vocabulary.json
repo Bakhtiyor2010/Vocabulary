@@ -1,352 +1,194 @@
 [
     {
-        "word": "Preface",
-        "definition": "An introduction at the beginning of a book, usually written by the author, explaining the purpose or context of the book.",
-        "example": "The preface of the novel explained why the author chose to write about his childhood."
+        "word": "potter",
+        "synonym": "ceramist",
+        "definition": "A person who makes pottery, especially by shaping clay and firing it in a kiln.",
+        "example": "The local potter sells handmade mugs and bowls at the weekend market."
     },
     {
-        "word": "In doing so",
-        "definition": "A phrase used to show that one action causes another or is connected to another.",
-        "example": "She studied hard for her exams and, in doing so, improved her grades significantly."
+        "word": "vessel",
+        "synonym": "container",
+        "definition": "A hollow container, especially one used to hold liquids or for artistic purposes.",
+        "example": "The ship was a large vessel carrying cargo across the Atlantic."
     },
     {
-        "word": "Deliberately",
-        "definition": "Intentionally; done on purpose rather than by accident.",
-        "example": "He deliberately left the meeting early to avoid answering difficult questions."
+        "word": "smother",
+        "synonym": "suffocate",
+        "definition": "To cover or envelop completely, often in order to extinguish or suppress.",
+        "example": "She tried to smother the fire with a heavy blanket."
     },
     {
-        "word": "By choice",
-        "definition": "Voluntarily; because someone has decided to, not because they were forced.",
-        "example": "She lives in the countryside by choice, even though the city offers more opportunities."
+        "word": "hue",
+        "synonym": "shade",
+        "definition": "A particular color or shade of a color.",
+        "example": "The sunset painted the sky in a brilliant hue of orange and pink."
     },
     {
-        "word": "By default",
-        "definition": "Automatically; happening because no alternative was chosen.",
-        "example": "He became the team leader by default because no one else volunteered."
+        "word": "etch",
+        "synonym": "engrave",
+        "definition": "To cut or carve a design, pattern, or text into a surface, usually for artistic or recording purposes.",
+        "example": "The artist etched her initials into the metal plate."
     },
     {
-        "word": "Distill",
-        "definition": "To extract the essential meaning or most important part of something.",
-        "example": "The teacher tried to distill the complex theory into a few simple points."
+        "word": "line drawing",
+        "synonym": "sketch",
+        "definition": "A drawing consisting of lines without shading or coloring, often used to show shape or outline.",
+        "example": "He created a simple line drawing of the building before adding color."
     },
     {
-        "word": "Set about",
-        "definition": "To begin doing something, usually with a plan or purpose.",
-        "example": "She set about organizing her notes for the big presentation."
+        "word": "line",
+        "synonym": "stroke",
+        "definition": "A long, narrow mark or band, often drawn or visible on a surface.",
+        "example": "She drew a straight line across the page with her ruler."
     },
     {
-        "word": "Compile",
-        "definition": "To collect information or items from various sources and put them together.",
-        "example": "He compiled a list of the best restaurants in the city for his blog."
+        "word": "foothill",
+        "synonym": "hillside",
+        "definition": "A low hill at the base of a mountain or mountain range.",
+        "example": "They hiked up the foothill to get a better view of the valley below."
     },
     {
-        "word": "Heartfelt",
-        "definition": "Sincere and deeply felt; showing genuine emotion.",
-        "example": "She gave a heartfelt speech thanking everyone for their support."
+        "word": "marking",
+        "synonym": "inscription",
+        "definition": "A visible sign, symbol, or pattern on a surface, often for identification or decoration.",
+        "example": "The turtle’s shell had unique markings that made it easy to identify."
     },
     {
-        "word": "In the high hope",
-        "definition": "With strong optimism or expectation that something good will happen.",
-        "example": "He wrote the letter in the high hope that it would reach the right person."
+        "word": "high-resolution",
+        "synonym": "detailed",
+        "definition": "Describing an image or display that has a very high level of detail or clarity.",
+        "example": "The scientist examined high-resolution images of the cells under a microscope."
     },
     {
-        "word": "Act on",
-        "definition": "To take action based on advice, information, or knowledge.",
-        "example": "If you want to improve your health, you must act on the doctor’s recommendations."
+        "word": "phylum",
+        "synonym": "division",
+        "definition": "A principal taxonomic category that ranks above class and below kingdom, used to group organisms with a common basic structure.",
+        "example": "Humans belong to the phylum Chordata, which includes all animals with a notochord."
     },
     {
-        "word": "Trial",
-        "definition": "A test, challenge, or difficult experience.",
-        "example": "She faced many trials before finally achieving her dream of becoming a doctor."
+        "word": "evergreen",
+        "synonym": "perennial",
+        "definition": "A plant that retains green leaves throughout the year instead of shedding them seasonally.",
+        "example": "Pine trees are evergreen and keep their needles even in winter."
     },
     {
-        "word": "Enrich",
-        "definition": "To improve or enhance the quality, value, or meaning of something.",
-        "example": "Traveling can enrich your understanding of different cultures."
+        "word": "year-round",
+        "synonym": "all-season",
+        "definition": "Continuing throughout the entire year; not limited to a specific season.",
+        "example": "The park is open year-round for visitors to enjoy."
     },
     {
-        "word": "Prosperity",
-        "definition": "Success, wealth, or good fortune, often both financial and personal.",
-        "example": "Hard work and determination can lead to prosperity in life."
+        "word": "larch tree",
+        "synonym": "deciduous conifer",
+        "definition": "A type of coniferous tree that loses its needles in autumn, unlike most conifers.",
+        "example": "The larch tree turns golden before shedding its needles in the fall."
     },
     {
-        "word": "rejoice",
-        "definition": "To feel or show great joy or happiness.",
-        "example": "When she received the award, she could not help but rejoice with her friends."
+        "word": "needle",
+        "synonym": "leaf",
+        "definition": "A thin, pointed leaf of certain trees, such as pines, spruces, and firs.",
+        "example": "The pine tree’s needles provide insulation against the cold."
     },
     {
-        "word": "missile",
-        "definition": "A weapon that is launched and can travel through the air to hit a target, often used in military contexts.",
-        "example": "The country tested a new missile that could reach targets hundreds of miles away."
+        "word": "spatulae",
+        "synonym": "flaps",
+        "definition": "Small, flat structures, often at the tips of hairs or appendages, that help in attachment or spreading.",
+        "example": "The gecko's spatulae at the tips of its toes allow it to stick to walls."
     },
     {
-        "word": "pinpoint",
-        "definition": "To locate or identify something with great accuracy.",
-        "example": "Scientists were able to pinpoint the source of the earthquake."
+        "word": "cling",
+        "synonym": "adhere",
+        "definition": "To hold on tightly to something or stick closely to a surface.",
+        "example": "The wet shirt clung to her skin after she got caught in the rain."
     },
     {
-        "word": "keep a date with",
-        "definition": "To attend an appointment, meeting, or scheduled time with someone.",
-        "example": "I promised to keep a date with my teacher at 3 p.m. to discuss my project."
+        "word": "straddle",
+        "synonym": "bridge",
+        "definition": "To exist or live across two different conditions, situations, or places at the same time.",
+        "example": "She had to straddle two jobs to support her family while continuing her studies."
     },
     {
-        "word": "fax machine",
-        "definition": "A device that sends printed documents over a telephone line.",
-        "example": "Before email became popular, the office relied on a fax machine to send contracts quickly."
+        "word": "oral history",
+        "synonym": "testimonial",
+        "definition": "A recorded account of personal experiences or events told by someone who witnessed or experienced them.",
+        "example": "The museum collected oral histories from veterans to preserve their stories."
     },
     {
-        "word": "have the privilege to",
-        "definition": "To have the special right or honor to do something.",
-        "example": "I have the privilege to meet the president during the ceremony."
+        "word": "subject",
+        "synonym": "participant",
+        "definition": "A person or individual being studied, observed, or documented in research.",
+        "example": "The psychologist interviewed each subject about their daily habits."
     },
     {
-        "word": "slip into",
-        "definition": "To move or pass into something gradually or without notice.",
-        "example": "Days slip into weeks when you are busy with work."
+        "word": "encompass",
+        "synonym": "include",
+        "definition": "To surround, contain, or cover something completely; to include a wide range or area.",
+        "example": "The national park encompasses forests, lakes, and mountains within its boundaries."
     },
     {
-        "word": "deathbed",
-        "definition": "The bed on which someone is dying; used figuratively to refer to the last moments of life.",
-        "example": "On his deathbed, he told his children how much he loved them."
+        "word": "seek",
+        "synonym": "consult",
+        "definition": "To try to obtain, ask for, or look for something, such as advice, help, or information.",
+        "example": "She sought guidance from her mentor before making a major career decision."
     },
     {
-        "word": "sigh",
-        "definition": "A long, deep breath expressing relief, sadness, or tiredness.",
-        "example": "She let out a sigh after finishing the difficult exam."
+        "word": "slim",
+        "synonym": "narrow",
+        "definition": "To make something thinner or narrower in shape or size.",
+        "example": "The designer slimmed the furniture legs to give the table a more elegant look."
     },
     {
-        "word": "keynote",
-        "definition": "The main or central speech at a conference or event.",
-        "example": "The CEO delivered the keynote at the annual business conference."
+        "word": "tilt out",
+        "synonym": "angle",
+        "definition": "To slant or lean something away from a vertical or horizontal position.",
+        "example": "He tilted the painting out slightly to reduce glare from the lights."
     },
     {
-        "word": "leadership",
-        "definition": "The ability to guide, direct, or inspire others.",
-        "example": "Her leadership skills helped the team complete the project ahead of schedule."
+        "word": "tilt",
+        "synonym": "lean",
+        "definition": "To cause to slope, slant, or lean in a particular direction.",
+        "example": "The old bookshelf began to tilt after years of holding heavy books."
     },
     {
-        "word": "insight",
-        "definition": "A deep understanding of a person, situation, or concept.",
-        "example": "His book provides valuable insight into human behavior."
+        "word": "score",
+        "synonym": "sheet music",
+        "definition": "A written representation of a musical composition, showing all the parts for performers.",
+        "example": "The pianist studied the score carefully before the recital."
     },
     {
-        "word": "invariably",
-        "definition": "Always; without change.",
-        "example": "He invariably arrives at work before 8 a.m."
+        "word": "vocal direction",
+        "synonym": "singing instruction",
+        "definition": "Instructions in a musical score that guide singers on how to perform certain passages, including style, dynamics, or expression.",
+        "example": "The conductor gave clear vocal directions to help the choir sing in harmony."
     },
     {
-        "word": "center on",
-        "definition": "To focus primarily on something.",
-        "example": "The discussion centered on ways to improve education."
+        "word": "notation",
+        "synonym": "musical symbols",
+        "definition": "A system of written symbols used to represent music, sounds, or instructions for performance.",
+        "example": "The composer wrote precise notation to indicate the rhythm and pitch of each instrument."
     },
     {
-        "word": "simplify",
-        "definition": "To make something easier or less complicated.",
-        "example": "We need to simplify the instructions so everyone can understand."
+        "word": "typical",
+        "synonym": "usual",
+        "definition": "Representing what is normal or expected in a particular situation.",
+        "example": "A typical day at school starts with morning announcements."
     },
     {
-        "word": "calling",
-        "definition": "A strong inner impulse toward a particular career or purpose in life.",
-        "example": "She felt a calling to become a teacher and help children learn."
+        "word": "surveyor",
+        "synonym": "inspector",
+        "definition": "A person who measures and examines land, structures, or sites to determine boundaries or layout.",
+        "example": "The surveyor marked the property lines before construction began."
     },
     {
-        "word": "worthy",
-        "definition": "Deserving respect, attention, or effort.",
-        "example": "He made a worthy contribution to the charity."
+        "word": "grid",
+        "synonym": "matrix",
+        "definition": "A network of lines that cross each other to form squares, used for measurement or organization.",
+        "example": "The city streets are laid out in a grid pattern for easy navigation."
     },
     {
-        "word": "noble",
-        "definition": "Having high moral qualities or ideals.",
-        "example": "She pursued a noble goal of helping the poor."
-    },
-    {
-        "word": "objective",
-        "definition": "A goal or purpose someone aims to achieve.",
-        "example": "The main objective of the project is to reduce pollution."
-    },
-    {
-        "word": "manifest",
-        "definition": "To show or demonstrate something clearly.",
-        "example": "His dedication manifested in the way he helped everyone in the team."
-    },
-    {
-        "word": "sum up",
-        "definition": "To briefly state the main points or essence of something.",
-        "example": "He tried to sum up the meeting in a few sentences."
-    },
-    {
-        "word": "all too often",
-        "definition": "Used to say that something happens frequently, usually in a negative sense.",
-        "example": "All too often, people ignore small problems until they become big issues."
-    },
-    {
-        "word": "grand",
-        "definition": "Impressive, large, or significant in scale or importance.",
-        "example": "They stayed in a grand hotel overlooking the ocean."
-    },
-    {
-        "word": "feat",
-        "definition": "An achievement that requires skill, courage, or effort.",
-        "example": "Climbing Mount Everest is a remarkable feat."
-    },
-    {
-        "word": "decency",
-        "definition": "Behavior that is morally good, polite, and considerate.",
-        "example": "He showed decency by helping the elderly woman cross the street."
-    },
-    {
-        "word": "over the course of",
-        "definition": "During the duration of a period of time.",
-        "example": "Over the course of the year, she learned three new languages."
-    },
-    {
-        "word": "compassion",
-        "definition": "Sympathetic concern for the suffering or misfortune of others.",
-        "example": "Volunteers showed great compassion to the victims of the flood."
-    },
-    {
-        "word": "courtesy",
-        "definition": "Polite behavior and respect toward others.",
-        "example": "He thanked the driver out of courtesy."
-    },
-    {
-        "word": "worthwhile",
-        "definition": "Valuable or meaningful; worth the time or effort.",
-        "example": "Volunteering at the shelter was a worthwhile experience."
-    },
-    {
-        "word": "toll",
-        "definition": "A metaphorical cost or price that must be paid.",
-        "example": "Years of stress took a toll on his health."
-    },
-    {
-        "word": "tithe",
-        "definition": "A gift, often financial, given as a contribution, typically as a sign of gratitude or support.",
-        "example": "They decided to tithe 10% of their income to charity."
-    },
-    {
-        "word": "have a practice of",
-        "definition": "To routinely or habitually do something; to make a habit of doing something regularly.",
-        "example": "He has a practice of sending thank-you emails after every meeting."
-    },
-    {
-        "word": "enclosed",
-        "definition": "Included inside something, usually a letter or package.",
-        "example": "Please find the documents enclosed in this envelope."
-    },
-    {
-        "word": "blessing",
-        "definition": "A prayer, expression of approval, or good wish for someone.",
-        "example": "They asked for the priest’s blessing before the journey."
-    },
-    {
-        "word": "gratitude",
-        "definition": "The feeling of thankfulness or appreciation.",
-        "example": "She sent a card to express her gratitude for the help she received."
-    },
-    {
-        "word": "gesture",
-        "definition": "An action performed to       express a feeling or intention.",
-        "example": "He gave her a flower as a kind gesture."
-    },
-    {
-        "word": "wheel into",
-        "definition": "To move something, usually a person in a wheelchair or a large object, into a place.",
-        "example": "The patient was wheeled into the hospital room."
-    },
-    {
-        "word": "delight",
-        "definition": "To make someone very happy or give them great pleasure.",
-        "example": "He would delight his friend with stories of the outside world."
-    },
-    {
-        "word": "bedridden",
-        "definition": "Confined to a bed because of illness or injury.",
-        "example": "The bedridden man could not see outside, so he relied on his friend’s stories."
-    },
-    {
-        "word": "companion",
-        "definition": "A person who spends time with or stays with someone; a friend or partner.",
-        "example": "His only companion in the hospital was the man next to the window."
-    },
-    {
-        "word": "wonder",
-        "definition": "A feeling of amazement or admiration; something very surprising or beautiful.",
-        "example": "The man could not see the wonders his friend described."
-    },
-    {
-        "word": "coughing fit",
-        "definition": "A sudden period of repeated coughing.",
-        "example": "During a coughing fit, he stopped breathing."
-    },
-    {
-        "word": "wheel out",
-        "definition": "To move someone or something out of a place using a wheeled device.",
-        "example": "The dead patient was wheeled out of the room."
-    },
-    {
-        "word": "recount",
-        "definition": "To tell someone about something, usually a story or event.",
-        "example": "He would recount the sights outside the window in detail."
-    },
-    {
-        "word": "sight",
-        "definition": "Something that is seen or can be seen; a view.",
-        "example": "The man shared the beautiful sights of the park with his friend."
-    },
-    {
-        "word": "comply (with)",
-        "definition": "To act according to a rule, request, or command.",
-        "example": "The nurse complied with the patient’s request to move his bed."
-    },
-    {
-        "word": "attending",
-        "definition": "Being present and taking care of someone, especially in a hospital.",
-        "example": "The attending nurse moved his bed next to the window."
-    },
-    {
-        "word": "make shake",
-        "definition": "To cause someone to tremble or be very surprised or scared.",
-        "example": "The view outside the window made him shake with shock."
-    },
-    {
-        "word": "stark",
-        "definition": "Very plain, empty, or harsh in appearance.",
-        "example": "The window faced a stark brick wall, not the park."
-    },
-    {
-        "word": "conjure up",
-        "definition": "To make someone imagine or think of something, especially something that is not really there.",
-        "example": "He conjured up beautiful scenes to comfort his friend."
-    },
-    {
-        "word": "selfless",
-        "definition": "Concerned more with the needs and wishes of others than with one’s own.",
-        "example": "His actions were selfless, done purely out of love."
-    },
-    {
-        "word": "in the overall scheme of",
-        "definition": "Considering the bigger picture or the entire situation.",
-        "example": "In the overall scheme of things, our problems are small."
-    },
-    {
-        "word": "blip on",
-        "definition": "A very small, temporary, or insignificant event in a larger context.",
-        "example": "Our lives are just a blip on the canvas of eternity."
-    },
-    {
-        "word": "canvas",
-        "definition": "A surface for painting; here it means the 'whole picture' of life or existence.",
-        "example": "Our lives are mere blips on the canvas of eternity."
-    },
-    {
-        "word": "eternity",
-        "definition": "Infinite or unending time.",
-        "example": "Life is short, but the universe goes on for eternity."
-    },
-    {
-        "word": "savor",
-        "definition": "To enjoy something completely, especially an experience or moment.",
-        "example": "We should savor the journey of life, not just the destination."
+        "word": "map onto",
+        "synonym": "plot",
+        "definition": "To record or assign something onto a specific layout or reference system.",
+        "example": "The scientist mapped the sample locations onto the chart for analysis."
     }
 ]
