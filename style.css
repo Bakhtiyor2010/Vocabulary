@@ -9,12 +9,15 @@ body {
     word-spacing: 2px;
 }
 
-section {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #1272d1;
 }
 
 .table-wrapper {
@@ -50,16 +53,18 @@ td:first-child {
 }
 
 th:nth-child(2),
-td:nth-child(2) {
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3) {
     width: 200px;
     min-width: 100px;
 }
 
-th:nth-child(3),
-td:nth-child(3),
+th:nth-child(4),
+td:nth-child(4),
 th:last-child,
 td:last-child {
-    width: calc((100% - (30px + 100px)) / 2);
+    width: calc((100% - (30px + 200px)) / 2);
 }
 
 th {
@@ -74,11 +79,43 @@ tr:hover {
     background: #f1f5f9;
 }
 
+#modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modal>div {
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 15px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+#modal-close {
+    float: right;
+    cursor: pointer;
+}
+
+#results li {
+    cursor: pointer;
+    padding: 6px 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+#results li:hover {
+    background: #f1f5f9;
+}
+
 @media(max-width:1000px) {
     body {
-        font-size: 14px;
         line-height: 25px;
-        padding: 0;
         padding-right: 10px;
         text-align: justify;
         background: white;

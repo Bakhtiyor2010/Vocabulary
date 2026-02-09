@@ -1,194 +1,366 @@
-[
-    {
-        "word": "potter",
-        "synonym": "ceramist",
-        "definition": "A person who makes pottery, especially by shaping clay and firing it in a kiln.",
-        "example": "The local potter sells handmade mugs and bowls at the weekend market."
-    },
-    {
-        "word": "vessel",
-        "synonym": "container",
-        "definition": "A hollow container, especially one used to hold liquids or for artistic purposes.",
-        "example": "The ship was a large vessel carrying cargo across the Atlantic."
-    },
-    {
-        "word": "smother",
-        "synonym": "suffocate",
-        "definition": "To cover or envelop completely, often in order to extinguish or suppress.",
-        "example": "She tried to smother the fire with a heavy blanket."
-    },
-    {
-        "word": "hue",
-        "synonym": "shade",
-        "definition": "A particular color or shade of a color.",
-        "example": "The sunset painted the sky in a brilliant hue of orange and pink."
-    },
-    {
-        "word": "etch",
-        "synonym": "engrave",
-        "definition": "To cut or carve a design, pattern, or text into a surface, usually for artistic or recording purposes.",
-        "example": "The artist etched her initials into the metal plate."
-    },
-    {
-        "word": "line drawing",
-        "synonym": "sketch",
-        "definition": "A drawing consisting of lines without shading or coloring, often used to show shape or outline.",
-        "example": "He created a simple line drawing of the building before adding color."
-    },
-    {
-        "word": "line",
-        "synonym": "stroke",
-        "definition": "A long, narrow mark or band, often drawn or visible on a surface.",
-        "example": "She drew a straight line across the page with her ruler."
-    },
-    {
-        "word": "foothill",
-        "synonym": "hillside",
-        "definition": "A low hill at the base of a mountain or mountain range.",
-        "example": "They hiked up the foothill to get a better view of the valley below."
-    },
-    {
-        "word": "marking",
-        "synonym": "inscription",
-        "definition": "A visible sign, symbol, or pattern on a surface, often for identification or decoration.",
-        "example": "The turtle’s shell had unique markings that made it easy to identify."
-    },
-    {
-        "word": "high-resolution",
-        "synonym": "detailed",
-        "definition": "Describing an image or display that has a very high level of detail or clarity.",
-        "example": "The scientist examined high-resolution images of the cells under a microscope."
-    },
-    {
-        "word": "phylum",
-        "synonym": "division",
-        "definition": "A principal taxonomic category that ranks above class and below kingdom, used to group organisms with a common basic structure.",
-        "example": "Humans belong to the phylum Chordata, which includes all animals with a notochord."
-    },
-    {
-        "word": "evergreen",
-        "synonym": "perennial",
-        "definition": "A plant that retains green leaves throughout the year instead of shedding them seasonally.",
-        "example": "Pine trees are evergreen and keep their needles even in winter."
-    },
-    {
-        "word": "year-round",
-        "synonym": "all-season",
-        "definition": "Continuing throughout the entire year; not limited to a specific season.",
-        "example": "The park is open year-round for visitors to enjoy."
-    },
-    {
-        "word": "larch tree",
-        "synonym": "deciduous conifer",
-        "definition": "A type of coniferous tree that loses its needles in autumn, unlike most conifers.",
-        "example": "The larch tree turns golden before shedding its needles in the fall."
-    },
-    {
-        "word": "needle",
-        "synonym": "leaf",
-        "definition": "A thin, pointed leaf of certain trees, such as pines, spruces, and firs.",
-        "example": "The pine tree’s needles provide insulation against the cold."
-    },
-    {
-        "word": "spatulae",
-        "synonym": "flaps",
-        "definition": "Small, flat structures, often at the tips of hairs or appendages, that help in attachment or spreading.",
-        "example": "The gecko's spatulae at the tips of its toes allow it to stick to walls."
-    },
-    {
-        "word": "cling",
-        "synonym": "adhere",
-        "definition": "To hold on tightly to something or stick closely to a surface.",
-        "example": "The wet shirt clung to her skin after she got caught in the rain."
-    },
-    {
-        "word": "straddle",
-        "synonym": "bridge",
-        "definition": "To exist or live across two different conditions, situations, or places at the same time.",
-        "example": "She had to straddle two jobs to support her family while continuing her studies."
-    },
-    {
-        "word": "oral history",
-        "synonym": "testimonial",
-        "definition": "A recorded account of personal experiences or events told by someone who witnessed or experienced them.",
-        "example": "The museum collected oral histories from veterans to preserve their stories."
-    },
-    {
-        "word": "subject",
-        "synonym": "participant",
-        "definition": "A person or individual being studied, observed, or documented in research.",
-        "example": "The psychologist interviewed each subject about their daily habits."
-    },
-    {
-        "word": "encompass",
-        "synonym": "include",
-        "definition": "To surround, contain, or cover something completely; to include a wide range or area.",
-        "example": "The national park encompasses forests, lakes, and mountains within its boundaries."
-    },
-    {
-        "word": "seek",
-        "synonym": "consult",
-        "definition": "To try to obtain, ask for, or look for something, such as advice, help, or information.",
-        "example": "She sought guidance from her mentor before making a major career decision."
-    },
-    {
-        "word": "slim",
-        "synonym": "narrow",
-        "definition": "To make something thinner or narrower in shape or size.",
-        "example": "The designer slimmed the furniture legs to give the table a more elegant look."
-    },
-    {
-        "word": "tilt out",
-        "synonym": "angle",
-        "definition": "To slant or lean something away from a vertical or horizontal position.",
-        "example": "He tilted the painting out slightly to reduce glare from the lights."
-    },
-    {
-        "word": "tilt",
-        "synonym": "lean",
-        "definition": "To cause to slope, slant, or lean in a particular direction.",
-        "example": "The old bookshelf began to tilt after years of holding heavy books."
-    },
-    {
-        "word": "score",
-        "synonym": "sheet music",
-        "definition": "A written representation of a musical composition, showing all the parts for performers.",
-        "example": "The pianist studied the score carefully before the recital."
-    },
-    {
-        "word": "vocal direction",
-        "synonym": "singing instruction",
-        "definition": "Instructions in a musical score that guide singers on how to perform certain passages, including style, dynamics, or expression.",
-        "example": "The conductor gave clear vocal directions to help the choir sing in harmony."
-    },
-    {
-        "word": "notation",
-        "synonym": "musical symbols",
-        "definition": "A system of written symbols used to represent music, sounds, or instructions for performance.",
-        "example": "The composer wrote precise notation to indicate the rhythm and pitch of each instrument."
-    },
-    {
-        "word": "typical",
-        "synonym": "usual",
-        "definition": "Representing what is normal or expected in a particular situation.",
-        "example": "A typical day at school starts with morning announcements."
-    },
-    {
-        "word": "surveyor",
-        "synonym": "inspector",
-        "definition": "A person who measures and examines land, structures, or sites to determine boundaries or layout.",
-        "example": "The surveyor marked the property lines before construction began."
-    },
-    {
-        "word": "grid",
-        "synonym": "matrix",
-        "definition": "A network of lines that cross each other to form squares, used for measurement or organization.",
-        "example": "The city streets are laid out in a grid pattern for easy navigation."
-    },
-    {
-        "word": "map onto",
-        "synonym": "plot",
-        "definition": "To record or assign something onto a specific layout or reference system.",
-        "example": "The scientist mapped the sample locations onto the chart for analysis."
-    }
-]
+{
+    "Transition Vocabs": [
+        {
+            "word": "potter",
+            "synonym": "ceramist",
+            "definition": "A person who makes pottery, especially by shaping clay and firing it in a kiln.",
+            "example": "The local potter sells handmade mugs and bowls at the weekend market."
+        },
+        {
+            "word": "vessel",
+            "synonym": "container",
+            "definition": "A hollow container, especially one used to hold liquids or for artistic purposes.",
+            "example": "The ship was a large vessel carrying cargo across the Atlantic."
+        },
+        {
+            "word": "smother",
+            "synonym": "suffocate",
+            "definition": "To cover or envelop completely, often in order to extinguish or suppress.",
+            "example": "She tried to smother the fire with a heavy blanket."
+        },
+        {
+            "word": "hue",
+            "synonym": "shade",
+            "definition": "A particular color or shade of a color.",
+            "example": "The sunset painted the sky in a brilliant hue of orange and pink."
+        },
+        {
+            "word": "etch",
+            "synonym": "engrave",
+            "definition": "To cut or carve a design, pattern, or text into a surface, usually for artistic or recording purposes.",
+            "example": "The artist etched her initials into the metal plate."
+        },
+        {
+            "word": "line drawing",
+            "synonym": "sketch",
+            "definition": "A drawing consisting of lines without shading or coloring, often used to show shape or outline.",
+            "example": "He created a simple line drawing of the building before adding color."
+        },
+        {
+            "word": "line",
+            "synonym": "stroke",
+            "definition": "A long, narrow mark or band, often drawn or visible on a surface.",
+            "example": "She drew a straight line across the page with her ruler."
+        },
+        {
+            "word": "foothill",
+            "synonym": "hillside",
+            "definition": "A low hill at the base of a mountain or mountain range.",
+            "example": "They hiked up the foothill to get a better view of the valley below."
+        },
+        {
+            "word": "marking",
+            "synonym": "inscription",
+            "definition": "A visible sign, symbol, or pattern on a surface, often for identification or decoration.",
+            "example": "The turtle’s shell had unique markings that made it easy to identify."
+        },
+        {
+            "word": "high-resolution",
+            "synonym": "detailed",
+            "definition": "Describing an image or display that has a very high level of detail or clarity.",
+            "example": "The scientist examined high-resolution images of the cells under a microscope."
+        },
+        {
+            "word": "phylum",
+            "synonym": "division",
+            "definition": "A principal taxonomic category that ranks above class and below kingdom, used to group organisms with a common basic structure.",
+            "example": "Humans belong to the phylum Chordata, which includes all animals with a notochord."
+        },
+        {
+            "word": "evergreen",
+            "synonym": "perennial",
+            "definition": "A plant that retains green leaves throughout the year instead of shedding them seasonally.",
+            "example": "Pine trees are evergreen and keep their needles even in winter."
+        },
+        {
+            "word": "year-round",
+            "synonym": "all-season",
+            "definition": "Continuing throughout the entire year; not limited to a specific season.",
+            "example": "The park is open year-round for visitors to enjoy."
+        },
+        {
+            "word": "larch tree",
+            "synonym": "deciduous conifer",
+            "definition": "A type of coniferous tree that loses its needles in autumn, unlike most conifers.",
+            "example": "The larch tree turns golden before shedding its needles in the fall."
+        },
+        {
+            "word": "needle",
+            "synonym": "leaf",
+            "definition": "A thin, pointed leaf of certain trees, such as pines, spruces, and firs.",
+            "example": "The pine tree’s needles provide insulation against the cold."
+        },
+        {
+            "word": "spatulae",
+            "synonym": "flaps",
+            "definition": "Small, flat structures, often at the tips of hairs or appendages, that help in attachment or spreading.",
+            "example": "The gecko's spatulae at the tips of its toes allow it to stick to walls."
+        },
+        {
+            "word": "cling",
+            "synonym": "adhere",
+            "definition": "To hold on tightly to something or stick closely to a surface.",
+            "example": "The wet shirt clung to her skin after she got caught in the rain."
+        },
+        {
+            "word": "straddle",
+            "synonym": "bridge",
+            "definition": "To exist or live across two different conditions, situations, or places at the same time.",
+            "example": "She had to straddle two jobs to support her family while continuing her studies."
+        },
+        {
+            "word": "oral history",
+            "synonym": "testimonial",
+            "definition": "A recorded account of personal experiences or events told by someone who witnessed or experienced them.",
+            "example": "The museum collected oral histories from veterans to preserve their stories."
+        },
+        {
+            "word": "subject",
+            "synonym": "participant",
+            "definition": "A person or individual being studied, observed, or documented in research.",
+            "example": "The psychologist interviewed each subject about their daily habits."
+        },
+        {
+            "word": "encompass",
+            "synonym": "include",
+            "definition": "To surround, contain, or cover something completely; to include a wide range or area.",
+            "example": "The national park encompasses forests, lakes, and mountains within its boundaries."
+        },
+        {
+            "word": "seek",
+            "synonym": "consult",
+            "definition": "To try to obtain, ask for, or look for something, such as advice, help, or information.",
+            "example": "She sought guidance from her mentor before making a major career decision."
+        },
+        {
+            "word": "slim",
+            "synonym": "narrow",
+            "definition": "To make something thinner or narrower in shape or size.",
+            "example": "The designer slimmed the furniture legs to give the table a more elegant look."
+        },
+        {
+            "word": "tilt out",
+            "synonym": "angle",
+            "definition": "To slant or lean something away from a vertical or horizontal position.",
+            "example": "He tilted the painting out slightly to reduce glare from the lights."
+        },
+        {
+            "word": "tilt",
+            "synonym": "lean",
+            "definition": "To cause to slope, slant, or lean in a particular direction.",
+            "example": "The old bookshelf began to tilt after years of holding heavy books."
+        },
+        {
+            "word": "score",
+            "synonym": "sheet music",
+            "definition": "A written representation of a musical composition, showing all the parts for performers.",
+            "example": "The pianist studied the score carefully before the recital."
+        },
+        {
+            "word": "vocal direction",
+            "synonym": "singing instruction",
+            "definition": "Instructions in a musical score that guide singers on how to perform certain passages, including style, dynamics, or expression.",
+            "example": "The conductor gave clear vocal directions to help the choir sing in harmony."
+        },
+        {
+            "word": "notation",
+            "synonym": "musical symbols",
+            "definition": "A system of written symbols used to represent music, sounds, or instructions for performance.",
+            "example": "The composer wrote precise notation to indicate the rhythm and pitch of each instrument."
+        },
+        {
+            "word": "typical",
+            "synonym": "usual",
+            "definition": "Representing what is normal or expected in a particular situation.",
+            "example": "A typical day at school starts with morning announcements."
+        },
+        {
+            "word": "surveyor",
+            "synonym": "inspector",
+            "definition": "A person who measures and examines land, structures, or sites to determine boundaries or layout.",
+            "example": "The surveyor marked the property lines before construction began."
+        },
+        {
+            "word": "grid",
+            "synonym": "matrix",
+            "definition": "A network of lines that cross each other to form squares, used for measurement or organization.",
+            "example": "The city streets are laid out in a grid pattern for easy navigation."
+        },
+        {
+            "word": "map onto",
+            "synonym": "plot",
+            "definition": "To record or assign something onto a specific layout or reference system.",
+            "example": "The scientist mapped the sample locations onto the chart for analysis."
+        }
+    ],
+    "Student Notes Vocabs": [
+        {
+            "word": "coupler",
+            "synonym": "connector",
+            "definition": "A device for connecting train cars together.",
+            "example": "The engineer replaced the old coupler to ensure the new train cars were securely joined."
+        },
+        {
+            "word": "perishable",
+            "synonym": "spoiling",
+            "definition": "Likely to decay or go bad quickly, especially food.",
+            "example": "You should store perishable items like milk and cheese in the fridge."
+        },
+        {
+            "word": "surreal",
+            "synonym": "dreamlike",
+            "definition": "Having a strange, dreamlike, or unreal quality.",
+            "example": "The movie’s surreal landscapes made the audience feel as if they were in a dream."
+        },
+        {
+            "word": "sprout",
+            "synonym": "grow",
+            "definition": "To begin to grow or produce shoots or buds.",
+            "example": "After a few days of watering, the seeds started to sprout in the garden."
+        },
+        {
+            "word": "symbolic",
+            "synonym": "representative",
+            "definition": "Serving as a symbol or representing something beyond the literal meaning.",
+            "example": "The dove is symbolic of peace in many cultures."
+        },
+        {
+            "word": "self-portrait",
+            "synonym": "autoportrait",
+            "definition": "A painting, drawing, or photograph of an artist created by the artist themselves.",
+            "example": "The student drew a self-portrait using only pencil and shading techniques."
+        },
+        {
+            "word": "startle",
+            "synonym": "surprise",
+            "definition": "To cause a sudden shock or fear; to surprise.",
+            "example": "The loud clap of thunder startled everyone in the room."
+        },
+        {
+            "word": "steady",
+            "synonym": "constant",
+            "definition": "Firm, regular, and unchanging in intensity or rate.",
+            "example": "She held the ladder steady while her brother climbed up to fix the roof."
+        },
+        {
+            "word": "prominent",
+            "synonym": "notable",
+            "definition": "Important, well-known, or easily noticed.",
+            "example": "The prominent scientist was invited to speak at the international conference."
+        },
+        {
+            "word": "flutist",
+            "synonym": "flautist",
+            "definition": "A person who plays the flute professionally or as a hobby.",
+            "example": "The flutist practiced daily to perfect her performance for the concert."
+        },
+        {
+            "word": "beatbox",
+            "synonym": "vocal percussion",
+            "definition": "To produce percussion sounds and rhythms using the mouth, lips, tongue, and voice.",
+            "example": "He learned to beatbox by watching online tutorials and practicing every day."
+        },
+        {
+            "word": "multimedia",
+            "synonym": "multiform",
+            "definition": "Using more than one form of communication or artistic expression, such as text, images, video, and sound.",
+            "example": "The museum hosted a multimedia exhibition featuring paintings, video installations, and sound art."
+        },
+        {
+            "word": "visual artist",
+            "synonym": "painter/sculptor/illustrator",
+            "definition": "A person who creates art primarily to be seen, including painting, sculpture, photography, and installations.",
+            "example": "As a visual artist, she specializes in creating large-scale murals for public spaces."
+        },
+        {
+            "word": "fuse",
+            "synonym": "merge",
+            "definition": "To join or blend two or more things together to form a single entity.",
+            "example": "The chef decided to fuse traditional Italian flavors with Japanese ingredients in her new dish."
+        },
+        {
+            "word": "rear wheel",
+            "synonym": "back wheel",
+            "definition": "The wheel located at the back of a bicycle, vehicle, or machine.",
+            "example": "He replaced the rear wheel of his bicycle after it got damaged during the ride."
+        },
+        {
+            "word": "infantryman",
+            "synonym": "foot soldier",
+            "definition": "A soldier who fights on foot, often as part of an army's infantry.",
+            "example": "The infantryman trained for months before being deployed to the front lines."
+        },
+        {
+            "word": "corps",
+            "synonym": "unit",
+            "definition": "A branch or organized group of people in the military or other organization.",
+            "example": "The army formed a new engineering corps to handle construction and logistics."
+        },
+        {
+            "word": "reenact",
+            "synonym": "replicate",
+            "definition": "To perform or act out an event that happened in the past.",
+            "example": "Each year, the community reenacts the historic battle to educate visitors about local history."
+        },
+        {
+            "word": "infantryman",
+            "synonym": "foot soldier",
+            "definition": "A soldier who fights on foot, often as part of an army's infantry.",
+            "example": "The infantryman trained for months before being deployed to the front lines."
+        },
+        {
+            "word": "corps",
+            "synonym": "unit",
+            "definition": "A branch or organized group of people in the military or other organization.",
+            "example": "The army formed a new engineering corps to handle construction and logistics."
+        },
+        {
+            "word": "reenact",
+            "synonym": "replicate",
+            "definition": "To perform or act out an event that happened in the past.",
+            "example": "Each year, the community reenacts the historic battle to educate visitors about local history."
+        },
+        {
+            "word": "perching",
+            "synonym": "resting",
+            "definition": "Sitting or resting on a branch, ledge, or similar elevated spot, as birds often do.",
+            "example": "The sparrow was perching on the windowsill, watching the garden below."
+        },
+        {
+            "word": "tilework",
+            "synonym": "tiling",
+            "definition": "Decorative work made with ceramic or stone tiles.",
+            "example": "The mosque's walls were covered in colorful tilework featuring geometric patterns."
+        },
+        {
+            "word": "intricate",
+            "synonym": "complex",
+            "definition": "Very detailed, complicated, and carefully made.",
+            "example": "The intricate carving on the wooden door impressed all visitors."
+        },
+        {
+            "word": "stamp into",
+            "synonym": "impress",
+            "definition": "To press a design or pattern into a surface.",
+            "example": "The artisan stamped intricate patterns into the leather to decorate the book cover."
+        },
+        {
+            "word": "oversee",
+            "synonym": "supervise",
+            "definition": "To watch over and manage a project, task, or group of people.",
+            "example": "The manager will oversee the new construction project to ensure it stays on schedule."
+        },
+        {
+            "word": "scan",
+            "synonym": "digitize",
+            "definition": "To examine something carefully or to make a digital copy, often using a machine.",
+            "example": "The librarian will scan the old manuscripts to preserve them digitally."
+        },
+        {
+            "word": "rock art",
+            "synonym": "cave painting",
+            "definition": "Paintings or carvings made on natural rock surfaces, usually by ancient peoples.",
+            "example": "Archaeologists discovered prehistoric rock art depicting hunting scenes in the cave."
+        }
+    ]
+}

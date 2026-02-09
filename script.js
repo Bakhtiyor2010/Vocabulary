@@ -1,13 +1,52 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("./vocabulary.json");
-    const vocabulary = await response.json();
+    const allVocabulary = await response.json();
+
     const contentDiv = document.getElementById("content");
+    const groupsSection = document.getElementById("groups");
+    const searchBox = document.getElementById("search-box");
+    const resultsSection = document.getElementById("results");
+
+    const params = new URLSearchParams(window.location.search);
+    const group = params.get("group");
+
+    const modal = document.getElementById("modal");
+    const modalWord = document.getElementById("modal-word");
+    const modalSynonym = document.getElementById("modal-synonym");
+    const modalDefinition = document.getElementById("modal-definition");
+    const modalExample = document.getElementById("modal-example");
+    const modalClose = document.getElementById("modal-close");
+
+    const openModal = (w) => {
+      modalWord.textContent = w.word;
+      modalSynonym.textContent = w.synonym;
+      modalDefinition.textContent = w.definition;
+      modalExample.textContent = w.example;
+      modal.style.display = "flex";
+    };
+
+    modalClose.onclick = () => (modal.style.display = "none");
+    modal.onclick = (e) => {
+      if (e.target === modal) modal.style.display = "none";
+    };
+
+    const renderGroups = () => {
+      Object.keys(allVocabulary).forEach((g) => {
+        const link = document.createElement("a");
+        link.href = `?group=${g}`;
+        link.target = "_blank";
+        link.textContent = g.toUpperCase();
+        link.style.display = "block";
+        groupsSection.appendChild(link);
+      });
+    };
 
     const renderTable = (words) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "table-wrapper";
+
       const table = document.createElement("table");
-      table.style.borderCollapse = "collapse";
-      table.style.width = "100%";
 
       const thead = document.createElement("thead");
       const trHead = document.createElement("tr");
@@ -25,7 +64,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       words.forEach(({ word, definition, synonym, example }, index) => {
         const tr = document.createElement("tr");
-
         tr.innerHTML = `
           <td><b>${index + 1}</b></td>
           <td><b><i>${word}</i></b></td>
@@ -33,44 +71,92 @@ document.addEventListener("DOMContentLoaded", async () => {
           <td>${definition}</td>
           <td>${example}</td>
         `;
-
         tbody.appendChild(tr);
       });
 
       table.appendChild(tbody);
-      contentDiv.appendChild(table);
+      wrapper.appendChild(table);
+      contentDiv.appendChild(wrapper);
     };
 
     const renderList = (words) => {
+      const section = document.createElement("section");
       const ol = document.createElement("ol");
 
       words.forEach(({ word, definition, synonym, example }) => {
         const li = document.createElement("li");
-
         li.innerHTML = `
-          <b>Word:</b> <i>${word}</i> <br>
-          <b>Synonym:</b> ${synonym} <br>
-          <b>Definition:</b> ${definition} <br>
+          <b>Word:</b> <i>${word}</i><br>
+          <b>Synonym:</b> ${synonym}<br>
+          <b>Definition:</b> ${definition}<br>
           <b>Example:</b> ${example}
         `;
-
         ol.appendChild(li);
         ol.appendChild(document.createElement("br"));
       });
 
-      contentDiv.appendChild(ol);
+      section.appendChild(ol);
+      contentDiv.appendChild(section);
+    };
+
+    const initMainSearch = () => {
+      const allWords = Object.values(allVocabulary).flat();
+
+      const input = document.createElement("input");
+      input.type = "text";
+      input.placeholder = "Search word...";
+      input.style.width = "100%";
+      input.style.padding = "10px";
+      input.style.fontSize = "16px";
+      input.style.boxSizing = "border-box";
+
+      const ul = document.createElement("ul");
+      ul.style.listStyle = "none";
+      ul.style.padding = "0";
+      ul.style.marginTop = "10px";
+
+      input.addEventListener("input", () => {
+        const value = input.value.toLowerCase();
+        ul.innerHTML = "";
+        if (!value) return;
+
+        allWords
+          .filter((w) => w.word.toLowerCase().includes(value))
+          .forEach((w) => {
+            const li = document.createElement("li");
+            li.textContent = w.word;
+            li.style.padding = "5px 0";
+            li.style.cursor = "pointer";
+            li.onclick = () => openModal(w);
+            ul.appendChild(li);
+          });
+      });
+
+      searchBox.appendChild(input);
+      resultsSection.appendChild(ul);
     };
 
     const render = () => {
       contentDiv.innerHTML = "";
+      if (!group || !allVocabulary[group]) return;
 
-      if (window.innerWidth < 1400) {
+      const vocabulary = allVocabulary[group];
+
+      if (window.innerWidth < 1000) {
         renderList(vocabulary);
       } else {
         renderTable(vocabulary);
       }
     };
 
+    renderGroups();
+
+    if (!group) {
+      initMainSearch();
+      return;
+    }
+
+    groupsSection.style.display = "none";
     render();
     window.addEventListener("resize", render);
   } catch (error) {

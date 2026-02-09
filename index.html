@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
     <title>Vocabulary</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer="true"></script>
 </head>
 <body>
+    <div id="search-box"></div>
+    <div id="results"></div>
+    <hr>
+    <div id="groups"></div>
     <div id="content"></div>
+
+    <div id="modal">
+        <div>
+            <span id="modal-close">×</span>
+            <h2 id="modal-word"></h2>
+            <p><b>Synonym:</b> <span id="modal-synonym"></span></p>
+            <p><b>Definition:</b> <span id="modal-definition"></span></p>
+            <p><b>Example:</b> <span id="modal-example"></span></p>
+        </div>
+    </div>
 </body>
 </html>
