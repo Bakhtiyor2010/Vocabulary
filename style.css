@@ -6,6 +6,7 @@ body {
     color: #1f2933;
     line-height: 30px;
     letter-spacing: 1px;
+    font-size: 20px;
     word-spacing: 2px;
 }
 
@@ -116,8 +117,8 @@ tr:hover {
 @media(max-width:1000px) {
     body {
         line-height: 25px;
-        padding-right: 10px;
         text-align: justify;
+        font-size: 15px;
         background: white;
     }
 
