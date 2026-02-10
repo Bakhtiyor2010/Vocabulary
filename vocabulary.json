@@ -361,6 +361,66 @@
             "synonym": "cave painting",
             "definition": "Paintings or carvings made on natural rock surfaces, usually by ancient peoples.",
             "example": "Archaeologists discovered prehistoric rock art depicting hunting scenes in the cave."
+        },
+        {
+            "word": "down payment",
+            "synonym": "deposit",
+            "definition": "An initial payment made when purchasing something expensive, with the remaining amount paid later.",
+            "example": "They paid a down payment on the house before taking a loan."
+        },
+        {
+            "word": "constant",
+            "synonym": "continuous",
+            "definition": "Something that does not change or happens all the time.",
+            "example": "There was constant noise coming from the street."
+        },
+        {
+            "word": "impede",
+            "synonym": "obstruct",
+            "definition": "To slow down or prevent progress or movement.",
+            "example": "Poor weather conditions can impede travel."
+        },
+        {
+            "word": "pool",
+            "synonym": "combine",
+            "definition": "To collect or combine resources, money, or efforts together.",
+            "example": "The team pooled their ideas to solve the problem."
+        },
+        {
+            "word": "thundersnow",
+            "synonym": "snowstorm with thunder",
+            "definition": "A rare weather phenomenon where thunder and lightning occur during snowfall.",
+            "example": "The region experienced thundersnow during the winter storm."
+        },
+        {
+            "word": "thalamus",
+            "synonym": "sensory relay center",
+            "definition": "A part of the brain that relays sensory information to the cerebral cortex.",
+            "example": "The thalamus processes signals related to sight and sound."
+        },
+        {
+            "word": "neural circuit",
+            "synonym": "neural network",
+            "definition": "A group of interconnected neurons that work together to process information.",
+            "example": "Memory formation depends on specific neural circuits."
+        },
+        {
+            "word": "spatial",
+            "synonym": "positional",
+            "definition": "Related to space, position, or physical arrangement.",
+            "example": "The test measured the students’ spatial abilities."
+        },
+        {
+            "word": "cue",
+            "synonym": "signal",
+            "definition": "A hint or signal that triggers a response or action.",
+            "example": "The teacher gave a verbal cue to start writing."
+        },
+        {
+            "word": "circuitry",
+            "synonym": "wiring",
+            "definition": "The system of electrical circuits or interconnected pathways in a device or brain.",
+            "example": "The phone stopped working due to damaged circuitry."
         }
     ]
 }
