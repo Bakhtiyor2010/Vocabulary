@@ -105,15 +105,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       const input = document.createElement("input");
       input.type = "text";
       input.placeholder = "Search word...";
-      input.style.width = "100%";
-      input.style.padding = "10px";
-      input.style.fontSize = "16px";
-      input.style.boxSizing = "border-box";
 
       const ul = document.createElement("ul");
-      ul.style.listStyle = "none";
-      ul.style.padding = "0";
-      ul.style.marginTop = "10px";
 
       input.addEventListener("input", () => {
         const value = input.value.toLowerCase();
@@ -125,8 +118,6 @@ document.addEventListener("DOMContentLoaded", async () => {
           .forEach((w) => {
             const li = document.createElement("li");
             li.textContent = w.word;
-            li.style.padding = "5px 0";
-            li.style.cursor = "pointer";
             li.onclick = () => openModal(w);
             ul.appendChild(li);
           });

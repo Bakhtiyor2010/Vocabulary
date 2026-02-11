@@ -303,24 +303,6 @@
             "example": "Each year, the community reenacts the historic battle to educate visitors about local history."
         },
         {
-            "word": "infantryman",
-            "synonym": "foot soldier",
-            "definition": "A soldier who fights on foot, often as part of an army's infantry.",
-            "example": "The infantryman trained for months before being deployed to the front lines."
-        },
-        {
-            "word": "corps",
-            "synonym": "unit",
-            "definition": "A branch or organized group of people in the military or other organization.",
-            "example": "The army formed a new engineering corps to handle construction and logistics."
-        },
-        {
-            "word": "reenact",
-            "synonym": "replicate",
-            "definition": "To perform or act out an event that happened in the past.",
-            "example": "Each year, the community reenacts the historic battle to educate visitors about local history."
-        },
-        {
             "word": "perching",
             "synonym": "resting",
             "definition": "Sitting or resting on a branch, ledge, or similar elevated spot, as birds often do.",
@@ -421,6 +403,170 @@
             "synonym": "wiring",
             "definition": "The system of electrical circuits or interconnected pathways in a device or brain.",
             "example": "The phone stopped working due to damaged circuitry."
+        }
+    ],
+    "Sentence Types": [
+        {
+            "word": "conform",
+            "synonym": "adhere",
+            "definition": "To act in accordance with rules, standards, or expectations.",
+            "example": "Writers often conform to grammatical rules to make their work clear and professional."
+        },
+        {
+            "word": "convention",
+            "synonym": "standard",
+            "definition": "An established practice, rule, or standard widely accepted by a group or society.",
+            "example": "Using paragraphs to organize ideas is a convention in academic writing."
+        },
+        {
+            "word": "decay",
+            "synonym": "deterioration",
+            "definition": "The process by which something gradually breaks down or decomposes.",
+            "example": "The decay of the old tree made it unsafe to climb."
+        },
+        {
+            "word": "gamma radiation",
+            "synonym": "gamma rays",
+            "definition": "High-energy electromagnetic radiation emitted during the decay of radioactive atomic nuclei.",
+            "example": "Gamma radiation is used in medical treatments to target cancer cells."
+        },
+        {
+            "word": "initiative",
+            "synonym": "program",
+            "definition": "A new plan or strategy designed to achieve a specific goal.",
+            "example": "The government launched an initiative to improve public transportation."
+        },
+        {
+            "word": "overburdened",
+            "synonym": "overloaded",
+            "definition": "Carrying too much work, responsibility, or pressure.",
+            "example": "The overburdened teachers struggled to grade all the assignments on time."
+        },
+        {
+            "word": "utility",
+            "synonym": "service",
+            "definition": "A public service such as electricity, water, or gas that is provided for general use.",
+            "example": "The city restored the water utility after the storm caused a blackout."
+        },
+        {
+            "word": "employee housing",
+            "synonym": "staff housing",
+            "definition": "Housing provided by an organization or company for its workers.",
+            "example": "The national park built employee housing to accommodate seasonal rangers."
+        },
+        {
+            "word": "orchard",
+            "synonym": "fruit farm",
+            "definition": "A piece of land where fruit trees are cultivated.",
+            "example": "The family visited the apple orchard every autumn to pick fresh fruit."
+        },
+        {
+            "word": "versatile",
+            "synonym": "adaptable",
+            "definition": "Able to be used for many different purposes or functions.",
+            "example": "Plastic is versatile, as it can be molded into countless shapes and products."
+        },
+        {
+            "word": "biodegrade",
+            "synonym": "decompose",
+            "definition": "To break down naturally through the action of bacteria, fungi, or other biological processes.",
+            "example": "Some packaging materials can biodegrade within a few months."
+        },
+        {
+            "word": "landfill",
+            "synonym": "dump",
+            "definition": "A site for the disposal of waste materials by burial under layers of soil.",
+            "example": "Many plastic products end up in landfills where they take hundreds of years to decompose."
+        },
+        {
+            "word": "nonrenewable",
+            "synonym": "finite",
+            "definition": "A resource that cannot be replaced or regenerated at the rate it is consumed.",
+            "example": "Petroleum is a nonrenewable resource, so it must be used carefully."
+        },
+        {
+            "word": "petroleum",
+            "synonym": "oil",
+            "definition": "A naturally occurring liquid found beneath the Earth's surface, used as fuel and for making plastics.",
+            "example": "Most commercial plastics are made from petroleum."
+        },
+        {
+            "word": "disability rights activist",
+            "synonym": "advocate",
+            "definition": "A person who works to promote and protect the rights of people with disabilities.",
+            "example": "Kitty Cone was a disability rights activist who fought for equal opportunities for all."
+        },
+        {
+            "word": "plead",
+            "synonym": "request",
+            "definition": "To make an urgent or emotional appeal.",
+            "example": "The activists pleaded with lawmakers to pass the antidiscrimination legislation."
+        },
+        {
+            "word": "to no effect",
+            "synonym": "ineffectively",
+            "definition": "Without producing any result or desired outcome.",
+            "example": "They petitioned the government for years, but it was to no effect."
+        },
+        {
+            "word": "for the passage of key antidiscrimination legislation",
+            "synonym": "to pass important equality laws",
+            "definition": "In order to have important laws preventing discrimination approved and enacted.",
+            "example": "The group organized campaigns for the passage of key antidiscrimination legislation."
+        },
+        {
+            "word": "lawmaker",
+            "synonym": "legislator",
+            "definition": "A person who makes or enacts laws, typically a member of a legislative body.",
+            "example": "Lawmakers debated the bill before finally approving it."
+        },
+        {
+            "word": "stage",
+            "synonym": "organize",
+            "definition": "To plan and carry out an event or activity, often publicly.",
+            "example": "The activists staged a protest outside the federal building."
+        },
+        {
+            "word": "sit-in",
+            "synonym": "demonstration",
+            "definition": "A form of protest in which participants occupy a space and refuse to leave until their demands are met.",
+            "example": "The sit-in lasted for several weeks until the legislation was signed."
+        },
+        {
+            "word": "reed",
+            "synonym": "mouthpiece",
+            "definition": "A thin strip of material on a wind instrument that vibrates to produce sound.",
+            "example": "The musician replaced the old reed on her clarinet to improve the sound."
+        },
+        {
+            "word": "mouthpiece",
+            "synonym": "reed",
+            "definition": "The part of a wind instrument that is placed in or near the mouth to produce sound.",
+            "example": "He cleaned the mouthpiece of his saxophone before practice."
+        },
+        {
+            "word": "cane",
+            "synonym": "reed wood",
+            "definition": "The material, usually from a plant, used to make the vibrating strips in wind instruments.",
+            "example": "The double reed is made from two pieces of cane that produce a unique sound."
+        },
+        {
+            "word": "I think, therefore I am",
+            "synonym": "Cogito, ergo sum",
+            "definition": "A philosophical statement by René Descartes asserting that the very act of thinking proves one's existence.",
+            "example": "Descartes concluded 'I think, therefore I am' to demonstrate the certainty of his own existence."
+        },
+        {
+            "word": "mask",
+            "synonym": "hide",
+            "definition": "To conceal or cover the true nature of something.",
+            "example": "The phrase's simplicity masks its philosophical depth."
+        },
+        {
+            "word": "ponder",
+            "synonym": "consider",
+            "definition": "To think about something carefully, especially in depth.",
+            "example": "Only those who exist can ponder questions about their own existence."
         }
     ]
 }
