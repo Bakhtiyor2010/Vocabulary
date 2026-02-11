@@ -113,14 +113,22 @@ document.addEventListener("DOMContentLoaded", async () => {
         ul.innerHTML = "";
         if (!value) return;
 
-        allWords
-          .filter((w) => w.word.toLowerCase().includes(value))
-          .forEach((w) => {
+        const matches = allWords.filter((w) =>
+          w.word.toLowerCase().includes(value),
+        );
+        if (matches.length) {
+          matches.forEach((w) => {
             const li = document.createElement("li");
             li.textContent = w.word;
             li.onclick = () => openModal(w);
             ul.appendChild(li);
           });
+        } else {
+          const span = document.createElement("span");
+          span.textContent = `No word found for "${value}"`;
+          span.style.color = "red";
+          ul.appendChild(span);
+        }
       });
 
       searchBox.appendChild(input);

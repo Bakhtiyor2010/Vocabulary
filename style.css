@@ -5,7 +5,7 @@ body {
     color: #1f2933;
     line-height: 30px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
 }
 
@@ -101,6 +101,8 @@ tr:hover {
 #modal-close {
     float: right;
     cursor: pointer;
+    font-size: 35px;
+    color: red;
 }
 
 #results li {
