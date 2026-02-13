@@ -568,5 +568,349 @@
             "definition": "To think about something carefully, especially in depth.",
             "example": "Only those who exist can ponder questions about their own existence."
         }
+    ],
+    "Joining and Separating": [
+        {
+            "word": "petition",
+            "synonym": "request",
+            "definition": "A formal written request signed by many people appealing to authority for a specific cause.",
+            "example": "Students started a petition to have longer library hours during exam week."
+        },
+        {
+            "word": "take aback",
+            "synonym": "surprise",
+            "definition": "To shock or surprise someone greatly.",
+            "example": "I was completely taken aback when I saw the stunning view from the mountain top."
+        },
+        {
+            "word": "illustration",
+            "synonym": "drawing",
+            "definition": "A visual representation or drawing used to explain or decorate something.",
+            "example": "The book included a beautiful illustration of a medieval castle."
+        },
+        {
+            "word": "illuminated",
+            "synonym": "lit up",
+            "definition": "Decorated or brightened, often with artistic lighting or designs.",
+            "example": "The cathedral had illuminated manuscripts on display in the gallery."
+        },
+        {
+            "word": "initial",
+            "synonym": "first",
+            "definition": "Occurring at the beginning; also, the first letter of a name.",
+            "example": "Her initial reaction was to laugh, but then she realized the seriousness of the situation."
+        },
+        {
+            "word": "target",
+            "synonym": "aim",
+            "definition": "A goal or object that someone directs effort or action toward.",
+            "example": "The marketing campaign is designed to target young adults aged 18–25."
+        },
+        {
+            "word": "DNA sequence",
+            "synonym": "genetic code",
+            "definition": "The precise order of nucleotides in a DNA molecule.",
+            "example": "Researchers analyzed the DNA sequence to determine the origin of the rare plant species."
+        },
+        {
+            "word": "conscious",
+            "synonym": "aware",
+            "definition": "Aware of and responding to one's surroundings; deliberate or intentional.",
+            "example": "She was fully conscious of the risks but decided to climb the mountain anyway."
+        },
+        {
+            "word": "acquire",
+            "synonym": "obtain",
+            "definition": "To gain or obtain something through effort or experience.",
+            "example": "He managed to acquire several rare stamps for his collection."
+        },
+        {
+            "word": "ambiguity",
+            "synonym": "uncertainty",
+            "definition": "The quality of being open to more than one interpretation; unclear meaning.",
+            "example": "The lawyer pointed out the ambiguity in the contract that could lead to disputes."
+        },
+        {
+            "word": "robe",
+            "synonym": "gown",
+            "definition": "A long, loose outer garment, often worn for ceremonial or formal occasions.",
+            "example": "The professor wore a traditional robe during the graduation ceremony."
+        },
+        {
+            "word": "attain",
+            "synonym": "achieve",
+            "definition": "To reach, accomplish, or achieve a goal or level of success.",
+            "example": "After years of practice, she finally attained mastery in playing the violin."
+        },
+        {
+            "word": "prefrontal cortex",
+            "synonym": "frontal lobe",
+            "definition": "The front part of the brain responsible for decision-making, planning, and social behavior.",
+            "example": "Meditation can help improve the function of the prefrontal cortex."
+        },
+        {
+            "word": "stalk",
+            "synonym": "pursue",
+            "definition": "To follow or pursue stealthily or persistently.",
+            "example": "The photographer stalked the rare bird quietly to get a perfect shot."
+        },
+        {
+            "word": "ultrasonic sound",
+            "synonym": "high-frequency sound",
+            "definition": "Sound waves with frequencies above the upper limit of human hearing.",
+            "example": "Bats use ultrasonic sound to navigate in complete darkness."
+        },
+        {
+            "word": "undergraduate",
+            "synonym": "college student",
+            "definition": "A student pursuing a first degree at a college or university.",
+            "example": "She worked as an undergraduate research assistant in the chemistry lab."
+        },
+        {
+            "word": "specialize",
+            "synonym": "focus on",
+            "definition": "To concentrate on a particular subject, skill, or area of study.",
+            "example": "He decided to specialize in renewable energy engineering at university."
+        },
+        {
+            "word": "commonsense",
+            "synonym": "practical knowledge",
+            "definition": "Sound practical judgment that is shared by most people.",
+            "example": "It’s commonsense to carry an umbrella when the forecast predicts rain."
+        },
+        {
+            "word": "theatrical",
+            "synonym": "dramatic",
+            "definition": "Relating to drama, theater, or exaggerated performance.",
+            "example": "Her theatrical gestures made the storytelling more engaging for the children."
+        },
+        {
+            "word": "draw influence",
+            "synonym": "take inspiration",
+            "definition": "To gain inspiration or ideas from someone or something.",
+            "example": "The designer drew influence from Japanese minimalism for the new collection."
+        },
+        {
+            "word": "choreographer",
+            "synonym": "dance director",
+            "definition": "A person who creates and arranges dance movements for performances.",
+            "example": "The choreographer designed a new ballet for the city’s performing arts festival."
+        },
+        {
+            "word": "hospitality",
+            "synonym": "accommodation",
+            "definition": "The friendly and generous reception and entertainment of guests or visitors.",
+            "example": "The hotel is known for its excellent hospitality and attention to detail."
+        },
+        {
+            "word": "transit",
+            "synonym": "transportation",
+            "definition": "The act or system of moving people or goods from one place to another.",
+            "example": "The city has invested heavily in public transit to reduce traffic congestion."
+        },
+        {
+            "word": "practically speaking",
+            "synonym": "in reality",
+            "definition": "Considering real-world conditions rather than theory or ideals.",
+            "example": "Practically speaking, it’s impossible to finish the project in one day."
+        },
+        {
+            "word": "taper",
+            "synonym": "narrow gradually",
+            "definition": "To become or make something gradually thinner or smaller toward one end.",
+            "example": "The path begins to taper as it reaches the forest."
+        },
+        {
+            "word": "spectrum",
+            "synonym": "range",
+            "definition": "A broad range of related ideas, values, or elements.",
+            "example": "The university offers a wide spectrum of engineering programs."
+        },
+        {
+            "word": "undulating",
+            "synonym": "wavelike",
+            "definition": "Having a smooth rising and falling shape or movement.",
+            "example": "The hikers walked across undulating hills."
+        },
+        {
+            "word": "shimmery",
+            "synonym": "sparkling",
+            "definition": "Shining with a soft, flickering light.",
+            "example": "The lake looked shimmery under the sunset."
+        },
+        {
+            "word": "iron-oxide paint",
+            "synonym": "metallic pigment paint",
+            "definition": "Paint containing iron compounds that create rich, often metallic colors.",
+            "example": "The sculpture was coated in iron-oxide paint to prevent rust."
+        },
+        {
+            "word": "in one sitting",
+            "synonym": "without stopping",
+            "definition": "Completed in a single continuous period of time.",
+            "example": "He finished the entire novel in one sitting."
+        },
+        {
+            "word": "showcase",
+            "synonym": "display",
+            "definition": "To present or exhibit something in an impressive way.",
+            "example": "The exhibition will showcase local artists."
+        },
+        {
+            "word": "towering",
+            "synonym": "very tall",
+            "definition": "Extremely tall or high in height.",
+            "example": "Towering skyscrapers filled the city skyline."
+        },
+        {
+            "word": "map out",
+            "synonym": "outline",
+            "definition": "To plan or describe something in detail.",
+            "example": "She mapped out her career goals for the next five years."
+        },
+        {
+            "word": "classification",
+            "synonym": "categorization",
+            "definition": "The process of arranging things into categories based on shared characteristics.",
+            "example": "The scientist developed a new classification system for plants."
+        },
+        {
+            "word": "the market for work",
+            "synonym": "demand for art",
+            "definition": "The level of demand for a particular type of creative or professional output.",
+            "example": "The market for work in digital design has grown rapidly."
+        },
+        {
+            "word": "the stock market",
+            "synonym": "financial market",
+            "definition": "The system where shares of publicly traded companies are bought and sold.",
+            "example": "Many investors monitor the stock market daily."
+        },
+        {
+            "word": "stunt",
+            "synonym": "hinder",
+            "definition": "To slow down or prevent growth or development.",
+            "example": "Lack of sleep can stunt cognitive performance."
+        },
+        {
+            "word": "instability",
+            "synonym": "unpredictability",
+            "definition": "The state of being unstable or likely to change suddenly.",
+            "example": "Political instability affected the country’s economy."
+        },
+        {
+            "word": "three-quarters",
+            "synonym": "75 percent",
+            "definition": "An amount equal to three out of four equal parts.",
+            "example": "Three-quarters of the class passed the exam."
+        },
+        {
+            "word": "pantry",
+            "synonym": "food storage room",
+            "definition": "A small room or cupboard where food is stored.",
+            "example": "She checked the pantry before going grocery shopping."
+        },
+        {
+            "word": "staple",
+            "synonym": "basic item",
+            "definition": "A main or important element of something, especially food.",
+            "example": "Rice is a staple food in many Asian countries."
+        },
+        {
+            "word": "snakehead",
+            "synonym": "invasive fish",
+            "definition": "A freshwater fish known for its snake-like head and aggressive behavior.",
+            "example": "The snakehead has spread rapidly in several rivers."
+        },
+        {
+            "word": "aptly",
+            "synonym": "appropriately",
+            "definition": "In a way that is suitable or fitting.",
+            "example": "The book is aptly titled 'The Future of Technology.'"
+        },
+        {
+            "word": "scaly",
+            "synonym": "covered in scales",
+            "definition": "Having a surface covered with small, hard plates.",
+            "example": "The reptile’s scaly skin protected it from predators."
+        },
+        {
+            "word": "fin",
+            "synonym": "flipper",
+            "definition": "A thin appendage on a fish used for movement and balance in water.",
+            "example": "The shark’s fin cut through the surface of the water."
+        },
+        {
+            "word": "unevenly",
+            "synonym": "irregularly",
+            "definition": "In a way that is not level, balanced, or equal.",
+            "example": "The bricks were unevenly placed."
+        },
+        {
+            "word": "tack",
+            "synonym": "fasten",
+            "definition": "To attach something using small nails or pins.",
+            "example": "He tacked the poster onto the wall."
+        },
+        {
+            "word": "afterthought",
+            "synonym": "secondary idea",
+            "definition": "Something added later that was not originally planned.",
+            "example": "The decorations looked like an afterthought."
+        },
+        {
+            "word": "swarm",
+            "synonym": "large group",
+            "definition": "A large number of insects or animals moving together.",
+            "example": "A swarm of bees gathered near the tree."
+        },
+        {
+            "word": "narrator",
+            "synonym": "storyteller",
+            "definition": "A person who tells a story.",
+            "example": "The narrator describes events from a personal perspective."
+        },
+        {
+            "word": "dimensional",
+            "synonym": "having dimensions",
+            "definition": "Relating to measurable extent such as length, width, and height.",
+            "example": "The artist created a dimensional sculpture."
+        },
+        {
+            "word": "mural",
+            "synonym": "wall painting",
+            "definition": "A large painting or artwork applied directly to a wall.",
+            "example": "The city commissioned a mural downtown."
+        },
+        {
+            "word": "piecework",
+            "synonym": "assembled parts",
+            "definition": "Work produced by assembling separate pieces into a whole.",
+            "example": "The quilt was created through detailed piecework."
+        },
+        {
+            "word": "soapstone",
+            "synonym": "soft carving stone",
+            "definition": "A soft, easily carved stone often used in sculpture.",
+            "example": "The artist sculpted the figure from soapstone."
+        },
+        {
+            "word": "slab",
+            "synonym": "thick slice",
+            "definition": "A large, thick, flat piece of material.",
+            "example": "The countertop was made from a single slab of marble."
+        },
+        {
+            "word": "limb",
+            "synonym": "arm or leg",
+            "definition": "An arm or leg of a person or animal.",
+            "example": "The athlete injured his lower limb during the match."
+        },
+        {
+            "word": "counterpart",
+            "synonym": "equivalent",
+            "definition": "A person or thing that corresponds to or has the same function as another.",
+            "example": "The modern device is smaller than its earlier counterpart."
+        }
     ]
 }
