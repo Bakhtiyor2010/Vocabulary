@@ -911,6 +911,402 @@
             "synonym": "equivalent",
             "definition": "A person or thing that corresponds to or has the same function as another.",
             "example": "The modern device is smaller than its earlier counterpart."
+        },
+        {
+            "word": "agitation",
+            "synonym": "excitement",
+            "definition": "A state of nervousness, disturbance, or rapid motion, often used for molecules in science contexts.",
+            "example": "The difference between hot and cold water is the level of molecular agitation."
+        },
+        {
+            "word": "careen",
+            "synonym": "swerve",
+            "definition": "To move swiftly and in an uncontrolled way.",
+            "example": "The molecules careen around and collide with each other rapidly."
+        },
+        {
+            "word": "collide",
+            "synonym": "crash",
+            "definition": "To come together with forceful impact.",
+            "example": "The molecules collide constantly when heated."
+        },
+        {
+            "word": "condense",
+            "synonym": "solidify",
+            "definition": "To change from a gas to a liquid or denser form.",
+            "example": "Water vapor condenses on the cold window pane."
+        },
+        {
+            "word": "pane",
+            "synonym": "glass sheet",
+            "definition": "A single sheet of glass in a window or door.",
+            "example": "Raindrops formed on the window pane."
+        },
+        {
+            "word": "refer to",
+            "synonym": "mention",
+            "definition": "To indicate, point out, or direct attention to someone or something.",
+            "example": "Dolphins appear to refer to each other by using clicks and squeaks."
+        },
+        {
+            "word": "squeak",
+            "synonym": "chirp",
+            "definition": "A short, high-pitched sound.",
+            "example": "The baby mouse let out a tiny squeak."
+        },
+        {
+            "word": "preliminary",
+            "synonym": "initial",
+            "definition": "Coming before the main event or action; early stage.",
+            "example": "Preliminary findings suggest that dolphins use names."
+        },
+        {
+            "word": "quest",
+            "synonym": "search",
+            "definition": "A long or arduous search for something.",
+            "example": "The quest to decipher the Rosetta Stone took many years."
+        },
+        {
+            "word": "decipher",
+            "synonym": "decode",
+            "definition": "To convert a code or writing into understandable form.",
+            "example": "Scholars worked hard to decipher ancient hieroglyphs."
+        },
+        {
+            "word": "decode",
+            "synonym": "decipher",
+            "definition": "To translate or interpret information from a code.",
+            "example": "The secret message was decoded successfully."
+        },
+        {
+            "word": "seek",
+            "synonym": "search",
+            "definition": "To try to find or obtain something.",
+            "example": "Scientists seek answers to complex biological questions."
+        },
+        {
+            "word": "script",
+            "synonym": "writing system",
+            "definition": "A system of written symbols used for communication.",
+            "example": "Ancient Egyptian hieroglyphs were a complex script."
+        },
+        {
+            "word": "timekeeper",
+            "synonym": "clock",
+            "definition": "A device or person that keeps track of time accurately.",
+            "example": "The cesium fountain atomic clock, the most precise timekeeper available, is expected to become inaccurate by less than a single second over the next 50 million years."
+        },
+        {
+            "word": "denote",
+            "synonym": "indicate",
+            "definition": "To indicate, represent, or serve as a sign of something.",
+            "example": "Used in some martial arts, the red belt of several colored belts is intended to denote ranking level and skill."
+        },
+        {
+            "word": "belt",
+            "synonym": "sash",
+            "definition": "A band worn around the waist, often used in martial arts to indicate rank.",
+            "example": "Used in some martial arts, the red belt of several colored belts is intended to denote ranking level and skill."
+        },
+        {
+            "word": "practitioner",
+            "synonym": "professional",
+            "definition": "A person who actively engages in a profession or art.",
+            "example": "Practitioners of martial arts follow strict rules to earn higher belts."
+        },
+        {
+            "word": "line",
+            "synonym": "category",
+            "definition": "A row, series, or sequence, often of people, objects, or tests.",
+            "example": "Comparing and contrasting across species lines, especially when distinct species-specific tests are used, is particularly challenging."
+        },
+        {
+            "word": "distinctive",
+            "synonym": "unique",
+            "definition": "Clearly different from others; characteristic of a particular thing or place.",
+            "example": "New Zealand, one of the last lands to be settled by humans, developed distinctive animal and plant life during its long isolation."
+        },
+        {
+            "word": "forensic",
+            "synonym": "legal",
+            "definition": "Relating to the application of science to law and legal investigations.",
+            "example": "Forensic biology, the application of biology to law enforcement, has been used to identify illegal products such as ivory."
+        },
+        {
+            "word": "collision",
+            "synonym": "crash",
+            "definition": "An instance of two or more objects striking each other.",
+            "example": "Forensic biology has also been used to investigate bird collisions with wind turbines."
+        },
+        {
+            "word": "wind turbine",
+            "synonym": "windmill",
+            "definition": "A structure that converts wind energy into electricity using rotating blades.",
+            "example": "Bird collisions with wind turbines have prompted ecological studies to reduce their impact."
+        },
+        {
+            "word": "wingspan",
+            "synonym": "wing width",
+            "definition": "The distance from the tip of one wing to the tip of the other wing of a bird or insect.",
+            "example": "The wingspan of the monarch butterfly, a species commonly mistaken for the similar-looking viceroy butterfly, ranges from 8.9 to 10.2 centimeters."
+        },
+        {
+            "word": "call into",
+            "synonym": "question",
+            "definition": "To bring something under scrutiny or doubt.",
+            "example": "Some traditional assumptions about how to treat jellyfish stings have recently been called into question."
+        },
+        {
+            "word": "rinse",
+            "synonym": "wash",
+            "definition": "To clean something by using a liquid to remove dirt or unwanted substance.",
+            "example": "Rinsing the affected areas with seawater, for example, only spreads the stings to a larger area."
+        },
+        {
+            "word": "attribute",
+            "synonym": "ascribe",
+            "definition": "To regard something as being caused by or credited to someone or something.",
+            "example": "The unusually large size of the Komodo dragon has been attributed to one of its ancient ancestors, the immense varanid lizard."
+        },
+        {
+            "word": "unprecedented",
+            "synonym": "extraordinary",
+            "definition": "Never done or known before.",
+            "example": "Judy Chicago's The Dinner Party was exhibited to more than a million people on three continents through an unprecedented worldwide grassroots movement."
+        },
+        {
+            "word": "grassroots",
+            "synonym": "community-driven",
+            "definition": "Involving ordinary people at a local level rather than leaders or elites.",
+            "example": "Judy Chicago's The Dinner Party reached people worldwide through a grassroots movement."
+        },
+        {
+            "word": "magisterial",
+            "synonym": "authoritative",
+            "definition": "Having the characteristics of a master or expert; authoritative.",
+            "example": "According to the Motif Index of Folk Literature, a magisterial six-volume compilation, many cultures have told similar stories to explain solar eclipses."
+        },
+        {
+            "word": "six-volume",
+            "synonym": "multi-volume",
+            "definition": "Composed of six separate books or parts.",
+            "example": "The magisterial six-volume compilation of myths, legends, and folktales was collected by folklorists in the early twentieth century."
+        },
+        {
+            "word": "compilation",
+            "synonym": "collection",
+            "definition": "A collection of materials put together from various sources.",
+            "example": "The six-volume compilation organized myths, legends, and folktales from many cultures."
+        },
+        {
+            "word": "eclipse",
+            "synonym": "obscuration",
+            "definition": "An event in which one celestial body moves into the shadow of another.",
+            "example": "Many cultures have told similar stories to explain the occurrence of solar eclipses."
+        },
+        {
+            "word": "trait",
+            "synonym": "characteristic",
+            "definition": "A distinguishing quality or characteristic, often of a living being.",
+            "example": "Despite the fact that parrots are well known for their cognition, long lives and advanced traits, their lifespans and relative brain size are comparable to those of primates."
+        },
+        {
+            "word": "lure",
+            "synonym": "attract",
+            "definition": "To entice or attract someone or something, often using a bait or appeal.",
+            "example": "Carnivorous species of flora such as the pitcher plant use bright colors that lure insects."
+        },
+        {
+            "word": "pitcher",
+            "synonym": "container plant",
+            "definition": "A type of carnivorous plant that traps insects in a deep cavity filled with liquid.",
+            "example": "Carnivorous species of flora such as the pitcher plant use bright colors that lure insects."
+        },
+        {
+            "word": "trap",
+            "synonym": "snare",
+            "definition": "A device or strategy for capturing something, often used by animals or plants.",
+            "example": "Some plants deploy traps that insects cannot escape."
+        },
+        {
+            "word": "deploy",
+            "synonym": "utilize",
+            "definition": "To strategically place or use something for a specific purpose.",
+            "example": "Carnivorous plants deploy traps using nectar, smells, and bright colors."
+        },
+        {
+            "word": "blockade",
+            "synonym": "barrier",
+            "definition": "An obstacle or barrier that prevents movement or access.",
+            "example": "Some plants use blockades of bristles that prevent prey from escaping."
+        },
+        {
+            "word": "bristle",
+            "synonym": "stiff hair",
+            "definition": "A short, stiff hair or spine on an animal or plant.",
+            "example": "The plant’s trap is lined with bristles to prevent prey from escaping."
+        },
+        {
+            "word": "deputy",
+            "synonym": "assistant",
+            "definition": "A person appointed to assist or act on behalf of another, often in a professional role.",
+            "example": "Timothy O'Hara, deputy head of marine sciences at Australia’s Museum Victoria, is leading an effort to develop a database of marine biodiversity worldwide."
+        },
+        {
+            "word": "tackle",
+            "synonym": "address",
+            "definition": "To confront or deal with a problem or challenge.",
+            "example": "Because tackling every ocean species in existence is a monumental task, O'Hara and his team are focusing on the brittle star."
+        },
+        {
+            "word": "monumental",
+            "synonym": "immense",
+            "definition": "Extremely large, important, or difficult.",
+            "example": "Because tackling every ocean species in existence is a monumental task, O'Hara and his team are focusing on the brittle star."
+        },
+        {
+            "word": "brittle",
+            "synonym": "fragile",
+            "definition": "Easily broken or delicate.",
+            "example": "O'Hara and his team are focusing on the brittle and spindlier cousin of the more famous sea star."
+        },
+        {
+            "word": "spindlier",
+            "synonym": "slender",
+            "definition": "Thin, delicate, and fragile in form.",
+            "example": "The team focuses on the brittle and spindlier cousin of the more famous sea star."
+        },
+        {
+            "word": "span",
+            "synonym": "extent",
+            "definition": "The length, duration, or reach of something.",
+            "example": "The historical records span 1,614 oceanic expeditions from the last century."
+        },
+        {
+            "word": "fathom",
+            "synonym": "understand",
+            "definition": "To understand something deeply or comprehend fully.",
+            "example": "Auden's contradictions made him a difficult person to fathom."
+        },
+        {
+            "word": "defy",
+            "synonym": "resist",
+            "definition": "To challenge, resist, or go against something.",
+            "example": "His poems, which often appear simple, straightforward, defy easy understanding."
+        },
+        {
+            "word": "creep over",
+            "synonym": "spread",
+            "definition": "To slowly move over a surface.",
+            "example": "On the streets of London, pink hollyhocks creep over high brick walls."
+        },
+        {
+            "word": "courtyard",
+            "synonym": "enclosed yard",
+            "definition": "An open space enclosed by buildings or walls, often within a house or complex.",
+            "example": "Ivy climbs over courtyards, creating patches of green with fruit trees and flowers."
+        },
+        {
+            "word": "real estate",
+            "synonym": "property",
+            "definition": "Property consisting of land and the buildings on it.",
+            "example": "With more than 300 gardens—some public, others private—London has become one of Europe’s greenest capitals in terms of real estate."
+        },
+        {
+            "word": "patch",
+            "synonym": "small area",
+            "definition": "A small piece or area of something.",
+            "example": "Patches of green with fruit trees and flowers add beauty to the city."
+        },
+        {
+            "word": "adept",
+            "synonym": "skilled",
+            "definition": "Highly skilled or proficient at a task or activity.",
+            "example": "Singer may or may not have been a genius with machines, but he was remarkably adept at displaying his name on the machines he and Clark produced."
+        },
+        {
+            "word": "dutiful",
+            "synonym": "obedient",
+            "definition": "Conscientiously fulfilling one’s obligations or responsibilities.",
+            "example": "In the popular imagination, ants are often depicted as dutiful factory workers."
+        },
+        {
+            "word": "portrayal",
+            "synonym": "depiction",
+            "definition": "The act of representing or describing something in a particular way.",
+            "example": "According to entomologist Deborah Gordon, the common portrayal of ants as brave soldiers or dutiful workers is largely fiction."
+        },
+        {
+            "word": "letter tile",
+            "synonym": "game piece",
+            "definition": "A small tile with a letter used in word games.",
+            "example": "Alfred Mosher Butts created Scrabble using a variation of existing word games, with each game having the same set of letter tiles and point values."
+        },
+        {
+            "word": "point value",
+            "synonym": "score",
+            "definition": "The score assigned to a letter tile in a word game.",
+            "example": "Each letter tile in Scrabble is assigned a point value to determine the score of words."
+        },
+        {
+            "word": "acclaim",
+            "synonym": "praise",
+            "definition": "Public recognition or approval for an achievement.",
+            "example": "Grant Wood never achieved the kind of critical acclaim earned by other twentieth-century artists in the United States."
+        },
+        {
+            "word": "satirize",
+            "synonym": "mock",
+            "definition": "To criticize or poke fun at through satire or humor.",
+            "example": "Grant Wood’s painting, American Gothic, endlessly satirizes aspects of American life."
+        },
+        {
+            "word": "emanate",
+            "synonym": "radiate",
+            "definition": "To flow out, originate from, or come forth from a source.",
+            "example": "In November 1895, the German physicist Wilhelm Roentgen accidentally discovered an image created by X-rays emanating from a vacuum tube."
+        },
+        {
+            "word": "many kinds of matter",
+            "synonym": "various materials",
+            "definition": "A phrase describing a wide range of physical substances.",
+            "example": "Roentgen discovered that X-rays were capable of passing through many kinds of matter."
+        },
+        {
+            "word": "vertebrate",
+            "synonym": "backboned animal",
+            "definition": "An animal with a backbone or spinal column.",
+            "example": "Pterosaurs, the first flying vertebrates, had wings made of a membrane supported by elongated fingers."
+        },
+        {
+            "word": "over-elongated",
+            "synonym": "excessively long",
+            "definition": "Extremely or unusually extended in length.",
+            "example": "The first flying vertebrates had over-elongated fingers that supported their wing membranes."
+        },
+        {
+            "word": "frantically",
+            "synonym": "desperately",
+            "definition": "In a hurried, anxious, or panicked manner.",
+            "example": "Scientists searched frantically for a cure after polio became a serious public health problem."
+        },
+        {
+            "word": "spur",
+            "synonym": "encourage",
+            "definition": "To stimulate or motivate someone to take action.",
+            "example": "President Roosevelt founded the March of Dimes to spur the development of new treatments for polio."
+        },
+        {
+            "word": "regiment",
+            "synonym": "military unit",
+            "definition": "A unit of soldiers organized for military service.",
+            "example": "The Agojie, an all-female military regiment in Dahomey, dates back to at least 1729."
+        },
+        {
+            "word": "troupe",
+            "synonym": "group",
+            "definition": "A group of performers or people working together.",
+            "example": "The Agojie were formed from a troupe of women who were already experienced elephant hunters."
         }
     ]
 }
