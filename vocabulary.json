@@ -1308,5 +1308,97 @@
             "definition": "A group of performers or people working together.",
             "example": "The traveling theater troupe performed in village squares across the country."
         }
+    ],
+    "02/19/2026": [
+        {
+            "word": "muckraker",
+            "synonym": "investigative journalist",
+            "definition": "A journalist who exposes corruption, misconduct, or injustice in institutions.",
+            "example": "The muckraker published a series of articles revealing corruption in the city government."
+        },
+        {
+            "word": "thoroughness",
+            "synonym": "meticulousness",
+            "definition": "The quality of being careful, detailed, and complete in doing something.",
+            "example": "Her thoroughness in checking the data prevented several serious mistakes."
+        },
+        {
+            "word": "signatory",
+            "synonym": "signer",
+            "definition": "A person or organization that signs an official document and agrees to its terms.",
+            "example": "Each signatory to the agreement promised to follow the new regulations."
+        },
+        {
+            "word": "pilgrim",
+            "synonym": "traveler",
+            "definition": "A person who journeys to a sacred or historically significant place for religious or meaningful reasons.",
+            "example": "The pilgrim traveled hundreds of miles to visit the ancient temple."
+        },
+        {
+            "word": "shock wave",
+            "synonym": "blast wave",
+            "definition": "A powerful wave of energy that moves rapidly through a medium, usually caused by an explosion or sudden impact.",
+            "example": "The explosion sent a shock wave through the valley, rattling windows miles away."
+        },
+        {
+            "word": "ensemble",
+            "synonym": "group",
+            "definition": "A coordinated group of musicians, performers, or components that function together as a unit.",
+            "example": "The jazz ensemble rehearses every evening before their weekend performances."
+        },
+        {
+            "word": "homage",
+            "synonym": "tribute",
+            "definition": "A public expression of respect, honor, or admiration for someone or something.",
+            "example": "The film was created as a homage to classic silent cinema."
+        },
+        {
+            "word": "crown shyness",
+            "synonym": "canopy gap phenomenon",
+            "definition": "A natural occurrence in which the upper branches of neighboring trees grow close but do not touch, forming visible gaps in the forest canopy.",
+            "example": "From above, the forest displayed crown shyness, with narrow spaces separating the treetops."
+        },
+        {
+            "word": "neighbor",
+            "synonym": "adjacent resident",
+            "definition": "A person or entity located nearby or next to another.",
+            "example": "Our neighbor helped us fix the fence after the storm."
+        },
+        {
+            "word": "overlap",
+            "synonym": "intersect",
+            "definition": "To extend over or cover part of something else.",
+            "example": "The two research areas overlap in their focus on environmental policy."
+        },
+        {
+            "word": "abrasion",
+            "synonym": "scraping",
+            "definition": "Damage caused by rubbing, scraping, or friction between surfaces.",
+            "example": "The abrasion on the metal surface was caused by repeated contact with sand."
+        },
+        {
+            "word": "posit",
+            "synonym": "propose",
+            "definition": "To put forward as a basis for argument, assumption, or theory.",
+            "example": "The scientist posited a new explanation for the unusual chemical reaction."
+        },
+        {
+            "word": "ecotype",
+            "synonym": "subspecies",
+            "definition": "A distinct population within a species that has adapted genetically to specific environmental conditions.",
+            "example": "The desert ecotype of the plant has developed thicker leaves to conserve water."
+        },
+        {
+            "word": "take pride in",
+            "synonym": "be proud of",
+            "definition": "To feel satisfaction or a sense of honor about an achievement, quality, or association.",
+            "example": "She takes pride in her academic achievements and works hard to maintain them."
+        },
+        {
+            "word": "missionary",
+            "synonym": "evangelist",
+            "definition": "A person sent on a religious mission to promote their faith, often in a foreign region.",
+            "example": "The missionary traveled abroad to build schools and share his religious teachings."
+        }
     ]
 }

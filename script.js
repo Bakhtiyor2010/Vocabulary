@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const modalClose = document.getElementById("modal-close");
 
     const openModal = (w) => {
-      modalWord.textContent = w.word;
+      modalWord.innerHTML = `<b>Word:</b> ${w.word}`;
       modalSynonym.textContent = w.synonym;
       modalDefinition.textContent = w.definition;
       modalExample.textContent = w.example;
