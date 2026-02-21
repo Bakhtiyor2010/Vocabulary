@@ -1400,5 +1400,115 @@
             "definition": "A person sent on a religious mission to promote their faith, often in a foreign region.",
             "example": "The missionary traveled abroad to build schools and share his religious teachings."
         }
+    ],
+    "02/21/2026": [
+        {
+            "word": "retention",
+            "synonym": "continued loyalty",
+            "definition": "the ability of a company to keep customers over time",
+            "example": "The company improved customer retention by offering better after-sales support."
+        },
+        {
+            "word": "paradox",
+            "synonym": "contradiction",
+            "definition": "a situation that seems illogical because it contains two opposite ideas that are both true",
+            "example": "It is a paradox that taking a break can sometimes make you more productive."
+        },
+        {
+            "word": "click chemistry",
+            "synonym": "modular chemical synthesis",
+            "definition": "a field of chemistry focused on quickly and efficiently joining small molecular units together",
+            "example": "Scientists use click chemistry to build complex molecules in a simple and reliable way."
+        },
+        {
+            "word": "coin",
+            "synonym": "invent (a term)",
+            "definition": "to create or introduce a new word or expression",
+            "example": "The scientist coined a new term to describe the discovery."
+        },
+        {
+            "word": "revolve around the pursuit of",
+            "synonym": "focus on seeking",
+            "definition": "to center on trying to achieve or obtain something",
+            "example": "Her career revolves around the pursuit of scientific innovation."
+        },
+        {
+            "word": "virtue",
+            "synonym": "moral excellence",
+            "definition": "a quality considered morally good or beneficial",
+            "example": "Honesty is a virtue that many people admire."
+        },
+        {
+            "word": "prevalent",
+            "synonym": "widespread",
+            "definition": "commonly occurring or existing in a particular place or time",
+            "example": "Smartphones are prevalent among teenagers today."
+        },
+        {
+            "word": "thick-shelled",
+            "synonym": "hard-shelled",
+            "definition": "having a strong and thick outer covering",
+            "example": "The thick-shelled turtle is well protected from predators."
+        },
+        {
+            "word": "thin-shelled",
+            "synonym": "delicate-shelled",
+            "definition": "having a light or fragile outer covering",
+            "example": "Thin-shelled eggs must be handled carefully to avoid breaking."
+        },
+        {
+            "word": "art canon",
+            "synonym": "established artistic standards",
+            "definition": "the group of artworks that are widely accepted as important and influential",
+            "example": "Many modern painters have challenged the traditional art canon."
+        },
+        {
+            "word": "star quilt",
+            "synonym": "traditional Lakota quilt pattern",
+            "definition": "a ceremonial quilt design featuring a multi-pointed star that holds cultural and spiritual significance in Lakota tradition",
+            "example": "The museum displayed a beautiful star quilt made by local artisans."
+        },
+        {
+            "word": "open-ended",
+            "synonym": "not fixed in interpretation",
+            "definition": "allowing for multiple interpretations or outcomes rather than one fixed meaning",
+            "example": "The teacher asked an open-ended question to encourage discussion."
+        },
+        {
+            "word": "inaugural",
+            "synonym": "ceremonial opening",
+            "definition": "marking the beginning of an official position or event",
+            "example": "The president delivered an inaugural speech after taking office."
+        },
+        {
+            "word": "assert",
+            "synonym": "state firmly",
+            "definition": "to declare something confidently and forcefully",
+            "example": "She asserted that hard work leads to success."
+        },
+        {
+            "word": "highway",
+            "synonym": "major road",
+            "definition": "a main public road connecting cities or regions",
+            "example": "We drove along the highway to reach the capital."
+        },
+        {
+            "word": "collective",
+            "synonym": "shared",
+            "definition": "belonging to or done by a group rather than an individual",
+            "example": "The team made a collective decision to change their strategy."
+        },
+        {
+            "word": "roam",
+            "synonym": "wander",
+            "definition": "to move about freely without a fixed direction",
+            "example": "Wild horses roam across the open plains."
+        },
+        {
+            "word": "repertoire",
+            "synonym": "range of performances",
+            "definition": "the full collection of songs, pieces, or skills that a performer can present",
+            "example": "The pianist expanded her repertoire to include classical and modern works."
+        }
     ]
 }
