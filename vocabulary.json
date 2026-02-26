@@ -1525,12 +1525,6 @@
             "example": "The documentary was so thought-provoking that we discussed it for hours."
         },
         {
-            "word": "feature",
-            "synonym": "highlight",
-            "definition": "to prominently display or include something",
-            "example": "The museum will feature local artists next month."
-        },
-        {
             "word": "reference",
             "synonym": "mention",
             "definition": "to refer to or make connection with something",
@@ -1561,22 +1555,10 @@
             "example": "The architect conceived a unique design for the new library."
         },
         {
-            "word": "reproducible",
-            "synonym": "replicable",
-            "definition": "able to be made again in the same way with the same results",
-            "example": "The experiment must be reproducible to be scientifically valid."
-        },
-        {
             "word": "reference group",
             "synonym": "comparison category",
             "definition": "a standard group used for comparison in classification",
             "example": "The sample was tested against a reference group for accuracy."
-        },
-        {
-            "word": "clay-rich",
-            "synonym": "high-clay",
-            "definition": "containing a large amount of clay",
-            "example": "Clay-rich soil retains water longer than sandy soil."
         },
         {
             "word": "subsoil",
@@ -1595,24 +1577,6 @@
             "synonym": "clause",
             "definition": "a specific part of a legal document or law",
             "example": "The contract includes a provision about late payments."
-        },
-        {
-            "word": "biodiversity",
-            "synonym": "biological diversity",
-            "definition": "the variety of plant and animal life in a particular area",
-            "example": "Rainforests have high biodiversity."
-        },
-        {
-            "word": "administrative",
-            "synonym": "managerial",
-            "definition": "relating to organization and management",
-            "example": "She works in the administrative department of the company."
-        },
-        {
-            "word": "rover",
-            "synonym": "exploration vehicle",
-            "definition": "a robotic vehicle designed to move across the surface of a planet",
-            "example": "The rover sent new images from the Martian surface."
         },
         {
             "word": "coring",
@@ -1645,12 +1609,6 @@
             "example": "The acclaimed author received another literary award."
         },
         {
-            "word": "plant litter",
-            "synonym": "organic debris",
-            "definition": "dead plant material such as leaves and stems covering the ground",
-            "example": "Plant litter helps enrich the soil over time."
-        },
-        {
             "word": "seedling emergence",
             "synonym": "sprouting",
             "definition": "the stage when a young plant rises above the soil surface",
@@ -1661,12 +1619,6 @@
             "synonym": "moderately moist",
             "definition": "having a moderate amount of moisture",
             "example": "Mesic forests support a wide range of plant species."
-        },
-        {
-            "word": "midlatitude",
-            "synonym": "temperate-zone",
-            "definition": "located between the tropics and polar regions",
-            "example": "Midlatitude regions often experience four distinct seasons."
         },
         {
             "word": "sprout",
