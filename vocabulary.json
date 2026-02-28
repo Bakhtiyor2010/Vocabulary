@@ -1626,5 +1626,229 @@
             "definition": "to begin to grow from a seed",
             "example": "The beans will sprout within a few days."
         }
+    ],
+    "02/28/2026": [
+        {
+            "word": "proximity",
+            "synonym": "nearness",
+            "definition": "the state of being close to something in distance, time, or relationship",
+            "example": "Living in close proximity to wildlife can change animal behavior."
+        },
+        {
+            "word": "mariner",
+            "synonym": "sailor",
+            "definition": "a person who navigates or assists in navigating a ship",
+            "example": "Ancient Polynesian mariners navigated vast ocean distances without maps."
+        },
+        {
+            "word": "hulled",
+            "synonym": "having a hull",
+            "definition": "having a hull, which is the main body of a ship or boat",
+            "example": "The double-hulled canoe was stable in rough waters."
+        },
+        {
+            "word": "pocket",
+            "synonym": "cluster",
+            "definition": "a small isolated group or area",
+            "example": "Small pockets of resistance formed across the colonies."
+        },
+        {
+            "word": "resistance",
+            "synonym": "opposition",
+            "definition": "organized opposition to authority or control",
+            "example": "The resistance coordinated secret messages through the mail network."
+        },
+        {
+            "word": "commit",
+            "synonym": "dedicate",
+            "definition": "to pledge or bind oneself to a course of action",
+            "example": "The writer seemed willing to commit every thought to paper."
+        },
+        {
+            "word": "prehistoric",
+            "synonym": "ancient",
+            "definition": "relating to the period before written records",
+            "example": "Prehistoric communities built stone circles for ritual purposes."
+        },
+        {
+            "word": "flaked",
+            "synonym": "chipped",
+            "definition": "broken or shaped by removing small pieces",
+            "example": "Flaked stone tools were common in early societies."
+        },
+        {
+            "word": "bear",
+            "synonym": "carry",
+            "definition": "to have or display a particular quality",
+            "example": "The structures bear striking similarities to Stonehenge."
+        },
+        {
+            "word": "spot",
+            "synonym": "notice",
+            "definition": "to see or recognize someone or something, often unexpectedly",
+            "example": "The choreographer spotted her talent during a live performance."
+        },
+        {
+            "word": "knit",
+            "synonym": "join",
+            "definition": "to grow or join together naturally, especially after being broken",
+            "example": "After a fracture, the bone slowly knits back together."
+        },
+        {
+            "word": "reef",
+            "synonym": "coral formation",
+            "definition": "a ridge of rock, sand, or coral near the surface of water",
+            "example": "The coral reef supports thousands of marine species."
+        },
+        {
+            "word": "bleach",
+            "synonym": "whiten",
+            "definition": "to lose color or become pale, often due to stress or chemicals",
+            "example": "Rising temperatures cause coral to bleach."
+        },
+        {
+            "word": "persistent",
+            "synonym": "continuous",
+            "definition": "continuing for a long time without stopping",
+            "example": "Even a persistent increase in temperature can damage reefs."
+        },
+        {
+            "word": "legitimize",
+            "synonym": "validate",
+            "definition": "to make something lawful or acceptable",
+            "example": "The king legitimized his rule by strengthening alliances."
+        },
+        {
+            "word": "suppress",
+            "synonym": "crush",
+            "definition": "to put an end to by force or authority",
+            "example": "The army was sent to suppress the rebellion."
+        },
+        {
+            "word": "rebellion",
+            "synonym": "uprising",
+            "definition": "an organized attempt to resist or overthrow authority",
+            "example": "The rebellion spread quickly across the region."
+        },
+        {
+            "word": "proclaim",
+            "synonym": "declare",
+            "definition": "to announce officially or publicly",
+            "example": "He proclaimed his loyalty to the crown."
+        },
+        {
+            "word": "curator",
+            "synonym": "museum official",
+            "definition": "a person responsible for managing a museum or art collection",
+            "example": "The curator organized a new exhibition."
+        },
+        {
+            "word": "drag",
+            "synonym": "pull",
+            "definition": "to pull something along a surface with effort",
+            "example": "They dragged a log across the creek to form a bridge."
+        },
+        {
+            "word": "creek",
+            "synonym": "stream",
+            "definition": "a small, narrow river",
+            "example": "The bridge crossed a shallow creek."
+        },
+        {
+            "word": "shift",
+            "synonym": "move",
+            "definition": "to change position or direction",
+            "example": "He shifted his gaze toward the waterfall."
+        },
+        {
+            "word": "gaze",
+            "synonym": "stare",
+            "definition": "to look steadily at something",
+            "example": "She fixed her gaze on the horizon."
+        },
+        {
+            "word": "gin",
+            "synonym": "engine (abbreviation)",
+            "definition": "a machine for separating cotton fibers from seeds; short for 'engine'",
+            "example": "The cotton gin transformed agriculture."
+        },
+        {
+            "word": "treatise",
+            "synonym": "formal work",
+            "definition": "a written work dealing formally and systematically with a subject",
+            "example": "The economist published a treatise on free markets."
+        },
+        {
+            "word": "span",
+            "synonym": "cover",
+            "definition": "to extend across or include a range",
+            "example": "Her research spans multiple scientific fields."
+        },
+        {
+            "word": "bed",
+            "synonym": "base",
+            "definition": "the bottom surface of a body of water or layer of material",
+            "example": "Scientists studied the lake bed for signs of life."
+        },
+        {
+            "word": "cap",
+            "synonym": "top layer",
+            "definition": "a covering or topmost layer",
+            "example": "The polar ice cap is shrinking due to warming."
+        },
+        {
+            "word": "sub-atomic",
+            "synonym": "particle-level",
+            "definition": "relating to particles smaller than an atom, such as electrons or protons",
+            "example": "Quantum mechanics describes the behavior of sub-atomic particles."
+        },
+        {
+            "word": "representative",
+            "synonym": "delegate",
+            "definition": "a person chosen or appointed to act or speak on behalf of others",
+            "example": "Each country sent a representative to the International Sanitary Conference."
+        },
+        {
+            "word": "doomsayer",
+            "synonym": "pessimist",
+            "definition": "a person who predicts disaster or catastrophe",
+            "example": "Doomsayers predicted widespread famine due to population growth."
+        },
+        {
+            "word": "gloomily",
+            "synonym": "pessimistically",
+            "definition": "in a sad or pessimistic manner",
+            "example": "Critics gloomily forecasted economic collapse."
+        },
+        {
+            "word": "bark beetle",
+            "synonym": "wood-boring insect",
+            "definition": "a type of beetle that feeds and reproduces in the bark of trees, often causing damage",
+            "example": "The bark beetle infestation spread rapidly through the forest."
+        },
+        {
+            "word": "harness",
+            "synonym": "utilize",
+            "definition": "to control and use something effectively for a particular purpose",
+            "example": "Scientists hope to harness ionic movement for new technologies."
+        },
+        {
+            "word": "dormant",
+            "synonym": "inactive",
+            "definition": "temporarily inactive or in a state of suspended activity",
+            "example": "The bacteria remain dormant until conditions improve."
+        },
+        {
+            "word": "revive",
+            "synonym": "reactivate",
+            "definition": "to restore to life or active use",
+            "example": "The microbes revive when nutrients become available."
+        },
+        {
+            "word": "simulation",
+            "synonym": "model",
+            "definition": "a representation or imitation of a real-world process used for study or testing",
+            "example": "The simulation modeled the Moon’s formation after the collision."
+        }
     ]
 }
