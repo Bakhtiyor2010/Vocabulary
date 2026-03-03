@@ -1850,5 +1850,175 @@
             "definition": "a representation or imitation of a real-world process used for study or testing",
             "example": "The simulation modeled the Moon’s formation after the collision."
         }
+    ],
+    "03/03/2026": [
+        {
+            "word": "familial",
+            "synonym": "domestic",
+            "definition": "Relating to family or family relationships.",
+            "example": "She felt a strong familial bond with her cousins despite living in different countries."
+        },
+        {
+            "word": "withdraw",
+            "synonym": "retreat",
+            "definition": "To remove oneself or something from a place, situation, or participation.",
+            "example": "The army decided to withdraw from the battlefield after heavy losses."
+        },
+        {
+            "word": "side effect",
+            "synonym": "secondary effect",
+            "definition": "An unintended result that occurs in addition to the intended outcome, often related to medicine or actions.",
+            "example": "Drowsiness is a common side effect of this medication."
+        },
+        {
+            "word": "self-enclosed",
+            "synonym": "introverted",
+            "definition": "Reserved or isolated; not openly sharing thoughts or feelings.",
+            "example": "He remained self-enclosed during the discussion and rarely expressed his opinions."
+        },
+        {
+            "word": "clash",
+            "synonym": "conflict",
+            "definition": "A violent confrontation or a serious disagreement.",
+            "example": "The two teams had a fierce clash during the championship game."
+        },
+        {
+            "word": "prompt",
+            "synonym": "motivate",
+            "definition": "To cause or bring about an action or response.",
+            "example": "Her curiosity prompted her to research the topic further."
+        },
+        {
+            "word": "world-class",
+            "synonym": "elite",
+            "definition": "Among the best in the world; of the highest quality.",
+            "example": "The university is known for its world-class research facilities."
+        },
+        {
+            "word": "lead paint",
+            "synonym": "toxic paint",
+            "definition": "Paint that contains lead, which can be hazardous to health, especially if ingested or inhaled.",
+            "example": "Older homes may still contain lead paint on their walls."
+        },
+        {
+            "word": "boast",
+            "synonym": "brag",
+            "definition": "To speak with pride about an achievement or possession; to possess something impressive.",
+            "example": "The city boasts several historic landmarks."
+        },
+        {
+            "word": "folk-art",
+            "synonym": "traditional art",
+            "definition": "Art created by ordinary people that reflects the traditions and culture of a community.",
+            "example": "The museum featured a collection of folk-art from rural villages."
+        },
+        {
+            "word": "delightful",
+            "synonym": "charming",
+            "definition": "Causing great pleasure or enjoyment.",
+            "example": "The small town had a delightful atmosphere during the festival."
+        },
+        {
+            "word": "halfway around",
+            "synonym": "across",
+            "definition": "At or to a point that is half the distance around something, often the world.",
+            "example": "She traveled halfway around the world to attend the conference."
+        },
+        {
+            "word": "craft",
+            "synonym": "skill",
+            "definition": "An activity involving skill in making things by hand.",
+            "example": "Basket weaving is a traditional craft in many cultures."
+        },
+        {
+            "word": "prefabricated",
+            "synonym": "prebuilt",
+            "definition": "Made in sections beforehand and assembled later.",
+            "example": "The workers installed a prefabricated house in just a few days."
+        },
+        {
+            "word": "bulk",
+            "synonym": "majority",
+            "definition": "The largest part or main mass of something.",
+            "example": "The bulk of the materials was delivered in the morning."
+        },
+        {
+            "word": "drive down",
+            "synonym": "reduce",
+            "definition": "To cause something to decrease, especially prices or costs.",
+            "example": "Increased competition helped drive down the price of smartphones."
+        },
+        {
+            "word": "prestigious",
+            "synonym": "distinguished",
+            "definition": "Highly respected and admired.",
+            "example": "He earned a scholarship to a prestigious university."
+        },
+        {
+            "word": "vine",
+            "synonym": "climber",
+            "definition": "A plant with long, flexible stems that grows by climbing or spreading along the ground.",
+            "example": "Grapes grow on a vine that needs support."
+        },
+        {
+            "word": "fracture",
+            "synonym": "break",
+            "definition": "To crack, split, or break into parts.",
+            "example": "The movement of tectonic plates can fracture the Earth's crust."
+        },
+        {
+            "word": "yurt",
+            "synonym": "tent",
+            "definition": "A circular, portable tent traditionally used by nomadic peoples of Central Asia.",
+            "example": "The family lived in a yurt during their migration."
+        },
+        {
+            "word": "campaign document",
+            "synonym": "political publication",
+            "definition": "A printed or written material used to promote a political candidate or party.",
+            "example": "The speech was later published as a campaign document."
+        },
+        {
+            "word": "pit",
+            "synonym": "oppose",
+            "definition": "To set someone or something in direct competition or conflict with another.",
+            "example": "The debate will pit the two candidates against each other."
+        },
+        {
+            "word": "denounce",
+            "synonym": "condemn",
+            "definition": "To publicly declare something to be wrong or evil.",
+            "example": "The leader chose to denounce the policy during the press conference."
+        },
+        {
+            "word": "accomplished",
+            "synonym": "skilled",
+            "definition": "Highly trained or proficient in a particular activity.",
+            "example": "She is an accomplished pianist who has performed internationally."
+        },
+        {
+            "word": "precursor",
+            "synonym": "forerunner",
+            "definition": "A person or thing that comes before another and leads to its development.",
+            "example": "The early computer was a precursor to modern laptops."
+        },
+        {
+            "word": "commission",
+            "synonym": "assignment",
+            "definition": "An official order or task given to a person or group.",
+            "example": "The architects received a commission to design the new library."
+        },
+        {
+            "word": "carriage",
+            "synonym": "wagon",
+            "definition": "A horse-drawn vehicle used for transporting people.",
+            "example": "Visitors toured the historic town in a carriage."
+        },
+        {
+            "word": "body of",
+            "synonym": "mass of",
+            "definition": "A large, distinct area or quantity of something, especially water.",
+            "example": "The lake is a major body of water in the region."
+        }
     ]
 }
