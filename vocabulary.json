@@ -2020,5 +2020,529 @@
             "definition": "A large, distinct area or quantity of something, especially water.",
             "example": "The lake is a major body of water in the region."
         }
+    ],
+    "03/05/2026": [
+        {
+            "word": "refugee",
+            "synonym": "displaced person",
+            "definition": "A person forced to leave their country to escape danger or persecution.",
+            "example": "Monkman's painting depicts Indigenous people in a boat rescuing refugees."
+        },
+        {
+            "word": "coastline",
+            "synonym": "shoreline",
+            "definition": "The outline or boundary where land meets the sea.",
+            "example": "López Marrero georeferenced aerial photographs of Puerto Rico's coastline."
+        },
+        {
+            "word": "georeference",
+            "synonym": "map coordinates",
+            "definition": "To assign geographic coordinates to an image so mapping software can locate it in the real world.",
+            "example": "Georeferencing enables mapping software to place an image in its real-world location."
+        },
+        {
+            "word": "mapping software",
+            "synonym": "GIS software",
+            "definition": "Computer programs used to visualize, analyze, and manage geographic data.",
+            "example": "Georeferenced images can be used in mapping software to study changes over time."
+        },
+        {
+            "word": "prevailing",
+            "synonym": "dominant",
+            "definition": "Existing at a particular time; commonly accepted or widespread.",
+            "example": "Carl Sauer challenged prevailing views that landscapes alone shape culture."
+        },
+        {
+            "word": "virtue",
+            "synonym": "strength",
+            "definition": "A quality or characteristic considered morally good or effective.",
+            "example": "Sauer argued cultures shape themselves by virtue of their interactions with the environment."
+        },
+        {
+            "word": "wok",
+            "synonym": "Chinese pan",
+            "definition": "A round, wide-based cooking pan originating from China, designed for stir-frying.",
+            "example": "The wok's round, wide base helps cook food evenly, and its high, angled sides contain oil splatters."
+        },
+        {
+            "word": "oil splatters",
+            "synonym": "grease droplets",
+            "definition": "Small drops of hot oil that fly out of a pan during cooking.",
+            "example": "The wok’s high, angled sides help contain oil splatters while cooking."
+        },
+        {
+            "word": "bitingly",
+            "synonym": "sharply",
+            "definition": "In a way that is sharply critical or cutting.",
+            "example": "The Spartans were known for their bitingly concise wit."
+        },
+        {
+            "word": "laconic",
+            "synonym": "concise",
+            "definition": "Using very few words; terse.",
+            "example": "Spartans maintained a laconic style even in dangerous situations."
+        },
+        {
+            "word": "wit",
+            "synonym": "cleverness",
+            "definition": "Mental sharpness and inventiveness; keen intelligence.",
+            "example": "Their laconic wit allowed Spartans to respond sharply with just a word."
+        },
+        {
+            "word": "peril",
+            "synonym": "danger",
+            "definition": "Serious and immediate danger.",
+            "example": "Even in great peril, the Spartans responded with just the word 'If.'"
+        },
+        {
+            "word": "turn out",
+            "synonym": "evict",
+            "definition": "To remove someone from a place.",
+            "example": "Philip II warned, 'If I invade Laconia, I shall turn you out.'"
+        },
+        {
+            "word": "tetras",
+            "synonym": "small freshwater fish",
+            "definition": "A species of small freshwater fish, some populations of which live in surface waters and some in caves.",
+            "example": "Mexican tetras have both surface-dwelling and cave-dwelling populations."
+        },
+        {
+            "word": "asymmetrical",
+            "synonym": "uneven",
+            "definition": "Not identical on both sides of a central line; uneven in shape or structure.",
+            "example": "Cave-dwelling tetras have asymmetrical skulls with more sensory receptors on one side."
+        },
+        {
+            "word": "sensory receptor",
+            "synonym": "sensory organ",
+            "definition": "A specialized cell or organ that detects changes in the environment and sends signals to the nervous system.",
+            "example": "Cave-dwelling tetras use sensory receptors to navigate in total darkness."
+        },
+        {
+            "word": "tinker",
+            "synonym": "fiddle",
+            "definition": "To make small changes to something, often in a casual or experimental way.",
+            "example": "Henry James 'lived in a world of second thoughts,' frequently tinkering with his novels after their initial publication."
+        },
+        {
+            "word": "extreme",
+            "synonym": "radical",
+            "definition": "Very large in degree; far from ordinary or usual.",
+            "example": "The differences between the 1881 and 1908 editions of A Portrait of a Lady are extreme."
+        },
+        {
+            "word": "reading",
+            "synonym": "measurement",
+            "definition": "A recorded value from an instrument or sensor.",
+            "example": "Each month, readings of a single second from atomic clocks are taken worldwide."
+        },
+        {
+            "word": "atomic clock",
+            "synonym": "precision clock",
+            "definition": "A clock that measures time based on the vibrations of atoms, highly precise.",
+            "example": "BIPM collects readings from atomic clocks around the world to maintain Coordinated Universal Time."
+        },
+        {
+            "word": "meticulous",
+            "synonym": "careful",
+            "definition": "Showing great attention to detail; very precise.",
+            "example": "BIPM metrologists perform the meticulous work of assembling disparate readings into a time standard."
+        },
+        {
+            "word": "minutely",
+            "synonym": "finely",
+            "definition": "In a very small or detailed way.",
+            "example": "The minutely disparate readings from atomic clocks are combined to create a global time standard."
+        },
+        {
+            "word": "disparate",
+            "synonym": "different",
+            "definition": "Fundamentally different or distinct.",
+            "example": "The BIPM combines minutely disparate readings into a globally shared time standard."
+        },
+        {
+            "word": "probe",
+            "synonym": "small exploration device",
+            "definition": "A small device used to explore or gather data in places where humans or larger equipment cannot reach.",
+            "example": "Microprobes could be deployed virtually anywhere on the surface of Mars."
+        },
+        {
+            "word": "deploy",
+            "synonym": "position",
+            "definition": "To arrange or put into use effectively.",
+            "example": "Microprobes, weighing as little as 50 milligrams, could be deployed in regions inaccessible to rovers."
+        },
+        {
+            "word": "confidentiality",
+            "synonym": "privacy",
+            "definition": "The state of keeping information secret or private.",
+            "example": "Medical students may violate patient confidentiality when mentioning patients on social media."
+        },
+        {
+            "word": "meteor shower",
+            "synonym": "shooting star event",
+            "definition": "An event in which multiple meteors appear to originate from the same point in the sky.",
+            "example": "All meteors in a meteor shower appear to originate from a single spot called the radiant."
+        },
+        {
+            "word": "constellation",
+            "synonym": "star pattern",
+            "definition": "A group of stars forming a recognizable pattern in the sky.",
+            "example": "The Perseid meteor shower's radiant is located within the constellation Perseus."
+        },
+        {
+            "word": "radiant",
+            "synonym": "origin point",
+            "definition": "The point in the sky from which meteors in a meteor shower appear to originate.",
+            "example": "The meteor shower's radiant is the point in the sky that gives the shower its name."
+        },
+        {
+            "word": "emissivity",
+            "synonym": "heat emission",
+            "definition": "The ability of a material to emit heat as thermal radiation.",
+            "example": "Reflective metal fibers had an emissivity of 0.02, while silicon carbide fibers had 0.74."
+        },
+        {
+            "word": "guard cell",
+            "synonym": "pore regulator cell",
+            "definition": "A specialized cell in a plant that regulates the opening and closing of pores for gas exchange and water loss.",
+            "example": "Guard cells are specialized cells that help regulate a plant's water loss."
+        },
+        {
+            "word": "pore",
+            "synonym": "opening",
+            "definition": "A tiny opening on the surface of leaves or skin through which gases or liquids can pass.",
+            "example": "Guard cells surround a plant's pore to control the intake of carbon dioxide and water loss."
+        },
+        {
+            "word": "aurora",
+            "synonym": "polar light",
+            "definition": "A natural display of colored lights in the sky near the poles, caused by charged solar particles colliding with the atmosphere.",
+            "example": "Earth's auroras result from charged particles released by the Sun colliding with atoms in the atmosphere."
+        },
+        {
+            "word": "channel toward",
+            "synonym": "direct to",
+            "definition": "To guide or direct the movement of something toward a specific destination.",
+            "example": "The Sun releases charged particles that are channeled toward Earth's poles by the magnetic field."
+        },
+        {
+            "word": "alliance",
+            "synonym": "union",
+            "definition": "A formal agreement or association between groups for mutual benefit.",
+            "example": "The Haudenosaunee Confederacy is an alliance of six Native nations."
+        },
+        {
+            "word": "bound",
+            "synonym": "obligated",
+            "definition": "Legally or morally obliged to follow certain rules or agreements.",
+            "example": "The members of the Haudenosaunee Confederacy are bound by the Great Law of Peace."
+        },
+        {
+            "word": "influence theory",
+            "synonym": "impact hypothesis",
+            "definition": "The idea that one system or set of principles affects or shapes another.",
+            "example": "The influence theory holds that the Great Law of Peace influenced the US Constitution."
+        },
+        {
+            "word": "combustion",
+            "synonym": "burning",
+            "definition": "The process of burning something, especially with heat and light.",
+            "example": "Eighteenth-century scientists did not realize that fresh air (oxygen) is necessary for combustion."
+        },
+        {
+            "word": "saturate",
+            "synonym": "fill",
+            "definition": "To become completely filled with a substance.",
+            "example": "Many theorized that the air in the container had become saturated with phlogiston."
+        },
+        {
+            "word": "whimsical",
+            "synonym": "playful",
+            "definition": "Unusual in a playful or imaginative way.",
+            "example": "Chimamanda Ngozi Adichie's novel chronicles the whimsical experiences of Ifemelu and Obinze after high school."
+        },
+        {
+            "word": "perplexing",
+            "synonym": "confusing",
+            "definition": "Difficult to understand or solve.",
+            "example": "The divergent paths of the characters in Americanah create a perplexing narrative."
+        },
+        {
+            "word": "stuffed",
+            "synonym": "filled",
+            "definition": "Filled tightly or completely.",
+            "example": "The cat in Stray explores a city from the perspective of a clever, stuffed orange house cat."
+        },
+        {
+            "word": "preen",
+            "synonym": "groom",
+            "definition": "To clean, straighten, or show off, often with pride.",
+            "example": "The orange cat in Stray allows players to preen its fur and look after its appearance."
+        },
+        {
+            "word": "dazzled",
+            "synonym": "amazed",
+            "definition": "Impressed or overwhelmed by brilliance or skill.",
+            "example": "Players are dazzled by the detailed dystopian city in Stray."
+        },
+        {
+            "word": "enchanting",
+            "synonym": "captivating",
+            "definition": "Delightfully charming or fascinating.",
+            "example": "The sculpture Casa-Isla includes enchanting references to the artist’s Puerto Rican childhood."
+        },
+        {
+            "word": "chronicle",
+            "synonym": "record",
+            "definition": "To tell or record events in order.",
+            "example": "Americanah chronicles the divergent experiences of Ifemelu and Obinze after high school."
+        },
+        {
+            "word": "divergent",
+            "synonym": "different",
+            "definition": "Moving or extending in different directions.",
+            "example": "The novel highlights the divergent paths of the two main characters."
+        },
+        {
+            "word": "intermittently",
+            "synonym": "occasionally",
+            "definition": "Occurring at irregular intervals; not continuously.",
+            "example": "Koola and Viv intermittently work on video game projects alongside other interests."
+        },
+        {
+            "word": "credit",
+            "synonym": "acknowledgment",
+            "definition": "Recognition given for work or contribution.",
+            "example": "Abele wasn’t formally credited at the time for designing Duke’s campus buildings."
+        },
+        {
+            "word": "twist",
+            "synonym": "rotate",
+            "definition": "To turn or bend something into a different shape.",
+            "example": "Twisting TPU and SEBS fibers caused their surface temperature to increase."
+        },
+        {
+            "word": "torsion",
+            "synonym": "twisting",
+            "definition": "The action of twisting something.",
+            "example": "The increase in temperature was studied in relation to the fibers’ torsion."
+        },
+        {
+            "word": "extraterrestrial",
+            "synonym": "alien",
+            "definition": "Existing or originating outside Earth.",
+            "example": "Astrobiologists discuss concepts for identifying extraterrestrial life, or 'lyfe.'"
+        },
+        {
+            "word": "there",
+            "synonym": "in that place",
+            "definition": "Used to introduce a statement or refer to a place or situation.",
+            "example": "Instead, researchers should use another word: 'lyfe.' There is a distinction between life on Earth and lyfe elsewhere."
+        },
+        {
+            "word": "slot",
+            "synonym": "opening",
+            "definition": "A fixed position or allotment in a system.",
+            "example": "Almost 70% of immigration slots were reserved for immigrants from Great Britain, Ireland, and Germany."
+        },
+        {
+            "word": "reserve",
+            "synonym": "set aside",
+            "definition": "To keep something for a particular purpose.",
+            "example": "The quota system reserved slots primarily for northern European immigrants."
+        },
+        {
+            "word": "abolish",
+            "synonym": "eliminate",
+            "definition": "To officially end a system, practice, or law.",
+            "example": "The 1965 Hart-Celler Act abolished the national-origins quota system."
+        },
+        {
+            "word": "national-origin",
+            "synonym": "country-of-origin",
+            "definition": "Related to the country where someone comes from.",
+            "example": "The national-origin quota system favored immigrants from northern Europe."
+        },
+        {
+            "word": "favour from",
+            "synonym": "preference given to",
+            "definition": "To show bias or preference toward something or someone.",
+            "example": "The quota system favored immigrants from northern Europe."
+        },
+        {
+            "word": "reference",
+            "synonym": "allusion",
+            "definition": "A mention of something to provide context or explanation.",
+            "example": "Soto included references to her childhood in her sculpture Casa-Isla."
+        },
+        {
+            "word": "crisscrossing",
+            "synonym": "intersecting",
+            "definition": "Forming a pattern of lines that cross each other.",
+            "example": "The sculpture’s steel panels feature a crisscrossing pattern inspired by Puerto Rican iron gates."
+        },
+        {
+            "word": "unlabeled",
+            "synonym": "unsorted",
+            "definition": "Not marked with identifying information.",
+            "example": "Unsupervised machine learning organizes unlabeled data sets without prior classification."
+        },
+        {
+            "word": "variable",
+            "synonym": "factor",
+            "definition": "A quantity or condition that can change or vary in different situations.",
+            "example": "Scientists measure many variables such as temperature and salinity in the ocean."
+        },
+        {
+            "word": "draft",
+            "synonym": "compose",
+            "definition": "To write or prepare a preliminary version of a document.",
+            "example": "Eleanor Roosevelt helped draft the Universal Declaration of Human Rights."
+        },
+        {
+            "word": "nod",
+            "synonym": "reference",
+            "definition": "An indirect or subtle reference to something.",
+            "example": "The artist included a nod to the famous film Metropolis in her lyrics."
+        },
+        {
+            "word": "insoluble",
+            "synonym": "undissolvable",
+            "definition": "Not able to dissolve in a liquid.",
+            "example": "The soil contained an insoluble form of iron that blueberry plants could not absorb."
+        },
+        {
+            "word": "inhibit",
+            "synonym": "hinder",
+            "definition": "To slow down, prevent, or stop a process or action.",
+            "example": "The lack of available iron can inhibit blueberry growth."
+        },
+        {
+            "word": "solubilization",
+            "synonym": "dissolving",
+            "definition": "The process of making a substance soluble so that it can dissolve in a liquid.",
+            "example": "Certain grasses help with iron solubilization in alkaline soil."
+        },
+        {
+            "word": "roller skate",
+            "synonym": "skate",
+            "definition": "A boot or shoe with small wheels attached to the bottom used for moving smoothly across a surface.",
+            "example": "The camera operator wore roller skates to move smoothly around the boxing ring."
+        },
+        {
+            "word": "immersive",
+            "synonym": "engaging",
+            "definition": "Providing a feeling of deep involvement or complete attention.",
+            "example": "The filming technique created an immersive experience for viewers."
+        },
+        {
+            "word": "atop",
+            "synonym": "on top of",
+            "definition": "Situated on the top or highest point of something.",
+            "example": "The ancient path winds atop the icy mountains."
+        },
+        {
+            "word": "tunic",
+            "synonym": "garment",
+            "definition": "A loose-fitting piece of clothing that usually extends to the hips or knees.",
+            "example": "Archaeologists discovered an old wool tunic preserved in the ice."
+        },
+        {
+            "word": "pass",
+            "synonym": "mountain route",
+            "definition": "A path or route through mountains that allows people to travel from one side to another.",
+            "example": "Travelers used the mountain pass during the Middle Ages."
+        },
+        {
+            "word": "fog-shrouded",
+            "synonym": "mist-covered",
+            "definition": "Covered or surrounded by fog so that it is partly hidden.",
+            "example": "The fog-shrouded mountain appeared faint in the distance."
+        },
+        {
+            "word": "splotch",
+            "synonym": "spot",
+            "definition": "An irregular spot or patch of color.",
+            "example": "The artist used bright splotches of paint to represent natural features."
+        },
+        {
+            "word": "passage",
+            "synonym": "approval",
+            "definition": "The act of officially approving a law or measure.",
+            "example": "The passage of the law gave artists more control over their work."
+        },
+        {
+            "word": "straw",
+            "synonym": "drinking tube",
+            "definition": "A thin tube used for drinking liquids from a container.",
+            "example": "She used a straw to drink the juice from the glass."
+        },
+        {
+            "word": "screw",
+            "synonym": "fastener",
+            "definition": "A metal object with a spiral thread used to fasten things together.",
+            "example": "The inventor inserted a screw into the paper straw."
+        },
+        {
+            "word": "dental floss",
+            "synonym": "tooth floss",
+            "definition": "A thin thread used to clean between teeth.",
+            "example": "Dental floss was used to bind the straw tightly around the screw."
+        },
+        {
+            "word": "corrugation",
+            "synonym": "ridge",
+            "definition": "A series of folds or ridges that make a material flexible or stronger.",
+            "example": "The corrugations in the straw allowed it to bend easily."
+        },
+        {
+            "word": "stargazing",
+            "synonym": "astronomy watching",
+            "definition": "The activity of observing stars and other celestial objects in the night sky.",
+            "example": "Amateur astronomers enjoy stargazing at the Okie-Tex Star Party."
+        },
+        {
+            "word": "pluck",
+            "synonym": "tug",
+            "definition": "To pull and release a string or similar object to produce a sound.",
+            "example": "When a harpsichord's keys are pressed, the strings are plucked rather than struck."
+        },
+        {
+            "word": "swish",
+            "synonym": "whoosh",
+            "definition": "A soft hissing or rustling sound made by something moving quickly.",
+            "example": "The costume made a swish as the performer spun around."
+        },
+        {
+            "word": "rustle",
+            "synonym": "crinkle",
+            "definition": "A soft, muffled crackling sound, like leaves or fabric moving.",
+            "example": "The leaves rustle in the wind."
+        },
+        {
+            "word": "clang",
+            "synonym": "clank",
+            "definition": "A loud, resonant metallic sound.",
+            "example": "The metal bells clanged together during the performance."
+        },
+        {
+            "word": "clan",
+            "synonym": "tribe",
+            "definition": "A group of people united by kinship, shared ancestry, or common interests.",
+            "example": "Okonkwo is a leader of the Umuofia clan in the novel Things Fall Apart."
+        },
+        {
+            "word": "precipitation",
+            "synonym": "rainfall",
+            "definition": "Any form of water, such as rain, snow, or hail, that falls from the atmosphere to the Earth's surface.",
+            "example": "Atmospheric rivers can release moisture as precipitation, leading to heavy rain or snow."
+        },
+        {
+            "word": "antimetabole",
+            "synonym": "reversal",
+            "definition": "A rhetorical device in which words or phrases are repeated in reverse order to create emphasis.",
+            "example": "Douglass's line, 'He was just the man for such a place, and it was just the place for such a man,' is an example of antimetabole."
+        }
     ]
 }
