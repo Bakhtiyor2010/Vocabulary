@@ -2544,5 +2544,241 @@
             "definition": "A rhetorical device in which words or phrases are repeated in reverse order to create emphasis.",
             "example": "Douglass's line, 'He was just the man for such a place, and it was just the place for such a man,' is an example of antimetabole."
         }
+    ],
+    "03/07/2026": [
+        {
+            "word": "anomalous",
+            "synonym": "abnormal",
+            "definition": "Different from what is normal or expected.",
+            "example": "Scientists noticed an anomalous pattern in the climate data."
+        },
+        {
+            "word": "spike",
+            "synonym": "sudden increase",
+            "definition": "A sharp and sudden rise in something.",
+            "example": "There was a spike in carbon-14 levels in the tree rings."
+        },
+        {
+            "word": "unprecedented",
+            "synonym": "unmatched",
+            "definition": "Never done or known before.",
+            "example": "The scientists discovered an unprecedented surge in radiation."
+        },
+        {
+            "word": "pilgrim",
+            "synonym": "traveler",
+            "definition": "A person who travels to a new place for religious reasons, especially one of the English settlers who came to America in 1620.",
+            "example": "The pilgrims signed the Mayflower Compact before settling in Plymouth."
+        },
+        {
+            "word": "homage",
+            "synonym": "tribute",
+            "definition": "Public respect or honor shown to someone for their achievements or importance.",
+            "example": "The scientist named the discovery after her mentor as an homage."
+        },
+        {
+            "word": "abrasion",
+            "synonym": "scraping",
+            "definition": "Damage or wearing away caused by rubbing or friction.",
+            "example": "Tree branches can break due to abrasion when they rub against each other."
+        },
+        {
+            "word": "brush",
+            "synonym": "touch",
+            "definition": "To lightly touch something while passing by it.",
+            "example": "The branches brush against each other when the wind blows."
+        },
+        {
+            "word": "posit",
+            "synonym": "suggest",
+            "definition": "To propose or assume something as a fact or basis for argument.",
+            "example": "The researcher posits that shade detection stops branch growth."
+        },
+        {
+            "word": "mutual shade",
+            "synonym": "shared shadow",
+            "definition": "Shade that neighboring objects or trees cast on each other.",
+            "example": "The branches stop growing when they detect mutual shade from nearby trees."
+        },
+        {
+            "word": "curate",
+            "synonym": "organize",
+            "definition": "To select, organize, and manage items in a collection or exhibition.",
+            "example": "The Choctaw Nation curates the Hina Hanta archive of cultural artifacts."
+        },
+        {
+            "word": "single-ballot",
+            "synonym": "one-vote",
+            "definition": "An election system in which each voter casts one vote on a single ballot.",
+            "example": "In a single-ballot election, voters choose only one candidate."
+        },
+        {
+            "word": "majoritarian",
+            "synonym": "majority-based",
+            "definition": "Relating to a system where the candidate or option with the most votes wins.",
+            "example": "Majoritarian systems often favor large political parties."
+        },
+        {
+            "word": "single-member",
+            "synonym": "one-representative",
+            "definition": "A district that elects only one representative to a legislative body.",
+            "example": "Each single-member district elects one member to parliament."
+        },
+        {
+            "word": "polarize into",
+            "synonym": "divide into",
+            "definition": "To split into two strongly opposed or contrasting groups.",
+            "example": "The political system may polarize into two dominant parties."
+        },
+        {
+            "word": "duel",
+            "synonym": "compete",
+            "definition": "To compete directly against someone or something.",
+            "example": "Two major parties often duel for political power."
+        },
+        {
+            "word": "proportional representation",
+            "synonym": "PR system",
+            "definition": "An electoral system in which parties gain seats in proportion to the number of votes they receive.",
+            "example": "Many European countries use proportional representation in elections."
+        },
+        {
+            "word": "interlocked",
+            "synonym": "connected",
+            "definition": "Joined or linked firmly together so that the parts cannot easily separate.",
+            "example": "The ants formed a bridge with their interlocked bodies."
+        },
+        {
+            "word": "quadruped",
+            "synonym": "four-legged",
+            "definition": "An animal or machine that moves using four legs.",
+            "example": "The engineer designed quadruped robots that walk on four legs."
+        },
+        {
+            "word": "multidisciplinary",
+            "synonym": "interdisciplinary",
+            "definition": "Involving or combining several academic disciplines or artistic fields.",
+            "example": "Cecilia Vicuña is a multidisciplinary artist, working in both poetry and visual arts."
+        },
+        {
+            "word": "monopsony",
+            "synonym": "single-buyer market",
+            "definition": "A market situation in which there is only one buyer for many sellers, giving the buyer substantial control over prices.",
+            "example": "In a monopsony, the single employer can set wages lower than in a competitive labor market."
+        },
+        {
+            "word": "sloping",
+            "synonym": "inclined",
+            "definition": "Having a surface that gradually rises or falls; not flat.",
+            "example": "The volcanoes have steeply sloping sides that make them easily recognizable."
+        },
+        {
+            "word": "cinder cone",
+            "synonym": "scoria cone",
+            "definition": "A small, steeply sloped volcano built from volcanic ash, cinders, and rocks ejected during eruptions.",
+            "example": "Hverfjall in Iceland is classified as a cinder cone volcano."
+        },
+        {
+            "word": "composite",
+            "synonym": "stratovolcano",
+            "definition": "A large, steep volcano built from alternating layers of lava, ash, and rocks.",
+            "example": "Toliman in Guatemala is a composite volcano with layered eruptions."
+        },
+        {
+            "word": "strip",
+            "synonym": "narrow piece",
+            "definition": "A long, narrow piece of material cut from a larger piece.",
+            "example": "She sewed strips of blankets together to form a larger artwork."
+        },
+        {
+            "word": "stack",
+            "synonym": "pile",
+            "definition": "A neatly arranged pile of objects placed on top of each other.",
+            "example": "Watt arranged folded blankets into two large stacks before casting them in bronze."
+        },
+        {
+            "word": "cast",
+            "synonym": "mold",
+            "definition": "To shape material by pouring it into a mold until it solidifies.",
+            "example": "The artist cast the folded blankets in bronze to create durable sculptures."
+        },
+        {
+            "word": "synthesize",
+            "synonym": "produce",
+            "definition": "To combine different elements to form a coherent whole, especially chemically creating a compound.",
+            "example": "Percy Julian was the first to synthesize the alkaloid physostigmine in the lab."
+        },
+        {
+            "word": "batter",
+            "synonym": "mixture",
+            "definition": "A semi-liquid mixture of ingredients used for baking, usually made of flour, liquid, and other components.",
+            "example": "The cake batter rises as it bakes because of chemical leavening agents."
+        },
+        {
+            "word": "leavening",
+            "synonym": "raising",
+            "definition": "The process of causing dough or batter to rise, typically through the release of gas.",
+            "example": "Chemical leavening agents help in leavening the cake batter."
+        },
+        {
+            "word": "agent",
+            "synonym": "substance",
+            "definition": "A substance that produces a specific effect or change.",
+            "example": "Baking soda is a leavening agent that releases carbon dioxide."
+        },
+        {
+            "word": "overburdened",
+            "synonym": "overloaded",
+            "definition": "Having too much work, responsibility, or pressure to manage effectively.",
+            "example": "The national parks were overburdened with visitors, prompting infrastructure improvements."
+        },
+        {
+            "word": "provocative",
+            "synonym": "stimulating",
+            "definition": "Causing thought, discussion, or strong reaction; intended to provoke.",
+            "example": "Thomas Paine's provocative writings inspired revolutionary ideas in both America and France."
+        },
+        {
+            "word": "foam version",
+            "synonym": "soft replica",
+            "definition": "A softer, lighter version of an object made from foam material.",
+            "example": "The Nerf football is a foam version of a regulation football, making it safe for indoor play."
+        },
+        {
+            "word": "spate",
+            "synonym": "series",
+            "definition": "A large number of similar events or incidents occurring in a short period of time.",
+            "example": "Wilma Rudolph experienced a spate of illnesses as a child."
+        },
+        {
+            "word": "odd",
+            "synonym": "chance",
+            "definition": "The probability of a particular outcome occurring, often against difficulty.",
+            "example": "Defying all odds, she went on to win multiple Olympic gold medals."
+        },
+        {
+            "word": "dash",
+            "synonym": "sprint",
+            "definition": "A short, fast race or run, typically in track and field.",
+            "example": "Rudolph won both the 100- and 200-meter dashes at the Olympics."
+        },
+        {
+            "word": "clinch",
+            "synonym": "secure",
+            "definition": "To successfully achieve or secure something, often after effort or competition.",
+            "example": "She clinched first place for her team in the 4x100-meter relay."
+        },
+        {
+            "word": "amendment",
+            "synonym": "change",
+            "definition": "A formal change or addition proposed or made to a law, contract, or constitution.",
+            "example": "The Twenty-Second Amendment limits the number of terms a president can serve."
+        },
+        {
+            "word": "lag",
+            "synonym": "delay",
+            "definition": "To fall behind in time, progress, or development.",
+            "example": "Earth's rotation can lag slightly behind the time measured by atomic clocks."
+        }
     ]
 }
