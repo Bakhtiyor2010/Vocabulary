@@ -2780,5 +2780,187 @@
             "definition": "To fall behind in time, progress, or development.",
             "example": "Earth's rotation can lag slightly behind the time measured by atomic clocks."
         }
+    ],
+    "03/10/2026": [
+        {
+            "word": "erratic",
+            "synonym": "unpredictable",
+            "definition": "Unstable or inconsistent in behavior, movement, or pattern.",
+            "example": "Although the scientist expected the data to follow a stable trend, the erratic fluctuations in temperature continued throughout the experiment, and they ultimately forced the research team to reconsider their original hypothesis."
+        },
+        {
+            "word": "secluded",
+            "synonym": "isolated",
+            "definition": "Hidden away from others; quiet and private.",
+            "example": "Because the cabin was located in a secluded valley where few travelers ventured and where mobile signals rarely reached, the writer found it an ideal place to focus on his novel without interruption."
+        },
+        {
+            "word": "fluctuate",
+            "synonym": "vary",
+            "definition": "To rise and fall irregularly in number, value, or intensity.",
+            "example": "While the company's revenue appeared stable at first glance, a closer examination revealed that it continued to fluctuate dramatically between quarters, which concerned investors and analysts alike."
+        },
+        {
+            "word": "exalt",
+            "synonym": "praise",
+            "definition": "To hold someone or something in very high regard; to glorify.",
+            "example": "Many historians exalt the scientist not only because she made groundbreaking discoveries, but also because she remained humble despite receiving global recognition."
+        },
+        {
+            "word": "admonish",
+            "synonym": "warn",
+            "definition": "To caution or reprimand someone gently but firmly.",
+            "example": "Although the teacher rarely raised her voice, she chose to admonish the students who had ignored the instructions, and she reminded them that responsibility was essential for success."
+        },
+        {
+            "word": "abrupt",
+            "synonym": "sudden",
+            "definition": "Unexpectedly sudden or lacking smoothness or gradual transition.",
+            "example": "The meeting ended with an abrupt announcement that the company would restructure its leadership, and many employees left the room confused about what the decision meant."
+        },
+        {
+            "word": "content",
+            "synonym": "satisfied",
+            "definition": "Feeling happy or satisfied with what one has.",
+            "example": "Even though her salary was modest and her lifestyle was simple, she remained content with her work because it allowed her to help others while maintaining her independence."
+        },
+        {
+            "word": "eccentric",
+            "synonym": "quirky",
+            "definition": "Unconventional or slightly strange in behavior or appearance.",
+            "example": "The professor's eccentric habits—such as lecturing while pacing barefoot across the classroom—initially puzzled his students, but they soon realized that his methods made the lessons unforgettable."
+        },
+        {
+            "word": "mired",
+            "synonym": "stuck",
+            "definition": "Trapped or entangled in a difficult situation.",
+            "example": "The project became mired in bureaucratic delays, and although the team had prepared everything carefully, the approval process slowed their progress for months."
+        },
+        {
+            "word": "colloquial",
+            "synonym": "informal",
+            "definition": "Characteristic of casual spoken language rather than formal writing.",
+            "example": "Although the essay contained valuable insights, the professor suggested revising the colloquial expressions because academic writing typically requires a more formal tone."
+        },
+        {
+            "word": "reconcile",
+            "synonym": "resolve",
+            "definition": "To restore friendly relations or make two ideas compatible.",
+            "example": "While the two researchers initially disagreed about the interpretation of the data, they eventually managed to reconcile their views after conducting additional experiments."
+        },
+        {
+            "word": "alienate",
+            "synonym": "estrange",
+            "definition": "To cause someone to feel isolated or rejected.",
+            "example": "When the manager dismissed his colleagues' suggestions without consideration, he began to alienate the very people whose cooperation he needed."
+        },
+        {
+            "word": "distinguish",
+            "synonym": "differentiate",
+            "definition": "To recognize or show the difference between things.",
+            "example": "Although the two paintings appeared similar at first, a trained historian could easily distinguish the authentic masterpiece from the later imitation."
+        },
+        {
+            "word": "adequate",
+            "synonym": "sufficient",
+            "definition": "Enough for a particular purpose or requirement.",
+            "example": "While the initial funding seemed adequate for the research project, unexpected expenses soon arose, which forced the team to seek additional support."
+        },
+        {
+            "word": "contend",
+            "synonym": "argue",
+            "definition": "To assert something as true, often in debate.",
+            "example": "Several economists contend that technological innovation drives economic growth, yet others argue that social policy plays an equally important role."
+        },
+        {
+            "word": "skeptical",
+            "synonym": "doubtful",
+            "definition": "Not easily convinced; questioning the truth of something.",
+            "example": "Although the advertisement promised extraordinary results, the scientist remained skeptical because no reliable evidence supported those claims."
+        },
+        {
+            "word": "enfranchise",
+            "synonym": "empower",
+            "definition": "To grant the right to vote or give rights and privileges.",
+            "example": "The reform movement sought to enfranchise marginalized citizens, and its leaders argued that democracy could not function properly while large groups remained excluded."
+        },
+        {
+            "word": "sophisticated",
+            "synonym": "advanced",
+            "definition": "Highly developed, complex, or refined.",
+            "example": "The engineers developed a sophisticated algorithm that could analyze massive datasets, and the program soon became essential for scientific research."
+        },
+        {
+            "word": "radical",
+            "synonym": "extreme",
+            "definition": "Relating to fundamental or dramatic change.",
+            "example": "The author proposed a radical restructuring of the education system, and although many critics resisted the idea, some experts believed it was necessary."
+        },
+        {
+            "word": "formulate",
+            "synonym": "devise",
+            "definition": "To create or develop methodically.",
+            "example": "After analyzing the evidence carefully, the scientist began to formulate a new theory that explained the previously mysterious phenomenon."
+        },
+        {
+            "word": "attest",
+            "synonym": "confirm",
+            "definition": "To declare or confirm something as true.",
+            "example": "Several witnesses were willing to attest that the researcher had conducted the experiment ethically, even though critics had raised doubts."
+        },
+        {
+            "word": "vexing",
+            "synonym": "frustrating",
+            "definition": "Annoying or difficult to solve.",
+            "example": "The mathematician struggled with a vexing problem for months, and although progress seemed impossible at times, persistence eventually led to a solution."
+        },
+        {
+            "word": "unassuming",
+            "synonym": "modest",
+            "definition": "Not arrogant or attention-seeking; humble in appearance or behavior.",
+            "example": "Despite his remarkable achievements, the scientist remained unassuming, and he often credited his colleagues for successes that many believed were primarily his own."
+        },
+        {
+            "word": "coerce",
+            "synonym": "force",
+            "definition": "To compel someone to act through pressure or threats.",
+            "example": "Although the officials tried to coerce the journalist into revealing her sources, she refused to comply and continued defending press freedom."
+        },
+        {
+            "word": "adept",
+            "synonym": "skilled",
+            "definition": "Highly skilled or proficient at something.",
+            "example": "Because she was adept at analyzing complex algorithms, the programmer quickly solved problems that had confused the rest of the team."
+        },
+        {
+            "word": "novel-in-verse",
+            "synonym": "verse narrative",
+            "definition": "A novel written primarily in poetic verse rather than traditional prose.",
+            "example": "The author experimented with a novel-in-verse, and although the structure challenged readers at first, its rhythmic storytelling created a powerful emotional effect."
+        },
+        {
+            "word": "rodeo",
+            "synonym": "cowboy competition",
+            "definition": "A sporting event involving horseback riding and cattle-handling skills.",
+            "example": "While tourists gathered to watch the annual rodeo, experienced cowboys competed in events that tested their strength, coordination, and courage."
+        },
+        {
+            "word": "ranch",
+            "synonym": "cattle farm",
+            "definition": "A large farm used primarily for raising cattle or horses.",
+            "example": "The family managed a remote ranch where cattle grazed across vast fields, and maintaining the land required both patience and skill."
+        },
+        {
+            "word": "roping",
+            "synonym": "lassoing",
+            "definition": "The act of catching livestock using a rope or lasso.",
+            "example": "During the competition, the cowboy demonstrated impressive roping skills, and the crowd applauded when he captured the calf within seconds."
+        },
+        {
+            "word": "round up",
+            "synonym": "gather",
+            "definition": "To collect or gather animals or people together.",
+            "example": "Before the storm approached, the ranchers hurried to round up the cattle, and they worked quickly so that the animals could reach shelter in time."
+        }
     ]
 }
