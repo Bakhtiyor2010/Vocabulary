@@ -3381,12 +3381,6 @@
             "example": "Because volatile chemicals evaporate rapidly when they are exposed to air, scientists must store them carefully in sealed containers."
         },
         {
-            "word": "disintegrate",
-            "synonym": "break down / decay / crumble",
-            "definition": "to separate into small parts or decay",
-            "example": "When the fragile rock was exposed to wind and rain for many years, it gradually disintegrated into fine particles."
-        },
-        {
             "word": "linger",
             "synonym": "remain / persist / stay",
             "definition": "to stay in a place longer than expected",
@@ -3415,18 +3409,6 @@
             "synonym": "assembled / combined / composed",
             "definition": "created by combining different materials such as paper, images, or text into one artwork",
             "example": "She collaged fragments of newspaper and photographs into her painting, and the unusual combination created a striking visual effect."
-        },
-        {
-            "word": "daring",
-            "synonym": "bold / audacious / adventurous",
-            "definition": "showing courage or willingness to take artistic or creative risks",
-            "example": "Although the director's daring style shocked some critics, many viewers admired the originality of the film."
-        },
-        {
-            "word": "satyr",
-            "synonym": "faun / woodland spirit / mythical creature",
-            "definition": "a half-human, half-goat creature in ancient Greek mythology",
-            "example": "In ancient Greek plays, actors sometimes dressed as satyrs, who were mythical creatures that symbolized wild nature."
         },
         {
             "word": "variable",
@@ -3495,12 +3477,6 @@
             "example": "Through decades of neurological research, scientists have begun to gain insight into how the brain regulates breathing and coordinates it with other bodily functions."
         },
         {
-            "word": "brainstem",
-            "synonym": "brain base / lower brain / neural base",
-            "definition": "the lower part of the brain that controls basic life functions such as breathing and heartbeat",
-            "example": "Because the brainstem regulates vital processes like breathing and heart rate, even minor damage to this region can have serious consequences."
-        },
-        {
             "word": "pad",
             "synonym": "foundation / base / platform",
             "definition": "a base or starting point for further development",
@@ -3531,12 +3507,6 @@
             "example": "After months of preparation, the cyclists embarked on a long expedition that would test both their endurance and their determination."
         },
         {
-            "word": "headline",
-            "synonym": "news title / banner / lead story",
-            "definition": "the main title of a news story that attracts attention",
-            "example": "The unusual journey quickly became a national headline, and newspapers across the country reported on the cyclists' progress."
-        },
-        {
             "word": "sleet",
             "synonym": "icy rain / frozen rain / ice pellets",
             "definition": "a type of frozen rain consisting of small ice pellets",
@@ -3561,28 +3531,10 @@
             "example": "Scientists studying respiration discovered specialized neurons that control breathing, and this finding opened new avenues of neurological research."
         },
         {
-            "word": "armor",
-            "synonym": "protective gear / mail / plate armor",
-            "definition": "protective metal clothing worn in battle",
-            "example": "As warfare evolved, knights replaced chain mail armor with solid plates, which provided stronger protection during combat."
-        },
-        {
             "word": "stratified",
             "synonym": "hierarchical / layered / tiered",
             "definition": "divided into different social levels or classes",
             "example": "In the highly stratified society of medieval Europe, elaborate armor served not only as protection but also as a symbol of wealth and status."
-        },
-        {
-            "word": "headdress",
-            "synonym": "headgear / head covering / ceremonial crown",
-            "definition": "a decorative item worn on the head, often symbolic",
-            "example": "Each sculpture featured a distinctive headdress, and although scholars have proposed several theories, its exact meaning remains uncertain."
-        },
-        {
-            "word": "heartland",
-            "synonym": "core region / central region / homeland",
-            "definition": "the central or most important region of a culture or civilization",
-            "example": "Most of the sculptures were discovered within the civilization's heartland, but one remarkable example was found far beyond its central territory."
         }
     ]
 }
