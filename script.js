@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         tr.innerHTML = `
           <td><b>${index + 1}</b></td>
           <td><b><i>${word}</i></b></td>
-          <td>${synonym}</td>
+          <td>${(synonym = synonym.includes("/") ? synonym.replace(/\//g, "<br>") : synonym)}</td>
           <td>${definition}</td>
           <td>${example}</td>
         `;
