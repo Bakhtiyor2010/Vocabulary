@@ -3536,5 +3536,1147 @@
             "definition": "divided into different social levels or classes",
             "example": "In the highly stratified society of medieval Europe, elaborate armor served not only as protection but also as a symbol of wealth and status."
         }
+    ],
+    "03/19/2026": [
+        {
+            "word": "Astronomy",
+            "synonym": "astrophysics / stargazing science / celestial study",
+            "definition": "the scientific study of celestial bodies such as stars, planets, and galaxies, including their properties, movements, and interactions",
+            "example": "Although astronomy initially relied on simple observations, it has evolved into a complex science that integrates physics and mathematics to explain the structure of the universe."
+        },
+        {
+            "word": "Botany",
+            "synonym": "plant science / phytology / vegetation study",
+            "definition": "the branch of biology that focuses on the study of plants, including their structure, growth, reproduction, and classification",
+            "example": "While botany may seem limited to studying leaves and flowers, it actually encompasses genetic research and ecological interactions that influence entire ecosystems."
+        },
+        {
+            "word": "Cognitive Science",
+            "synonym": "mind science / brain study / mental processes study",
+            "definition": "the interdisciplinary study of the mind and its processes, including perception, thinking, learning, and memory",
+            "example": "Because cognitive science combines psychology, neuroscience, and computer modeling, it can explain both human thought patterns and artificial intelligence behavior."
+        },
+        {
+            "word": "Neuroscience",
+            "synonym": "neurobiology / brain science / neural study",
+            "definition": "the scientific study of the nervous system, particularly the brain, its structure, function, and disorders",
+            "example": "Neuroscience research not only maps brain activity but also informs treatments for cognitive disorders, demonstrating the field's practical impact."
+        },
+        {
+            "word": "Ecology",
+            "synonym": "environmental science / ecosystem study / biological interaction study",
+            "definition": "the study of how organisms interact with each other and with their physical environment",
+            "example": "Because ecology examines the delicate balance between species and their surroundings, even minor environmental disruptions can lead to significant ecological consequences."
+        },
+        {
+            "word": "Entomology",
+            "synonym": "insect study / insect science / arthropod research",
+            "definition": "the scientific study of insects, including their classification, behavior, and ecological role",
+            "example": "Although entomology often focuses on pest control, it also helps scientists understand pollination and ecosystem health."
+        },
+        {
+            "word": "Genetics",
+            "synonym": "heredity science / gene study / molecular inheritance",
+            "definition": "the scientific study of genes, heredity, and variation in living organisms",
+            "example": "Although genetics has enabled scientists to understand inherited diseases, it has also raised ethical concerns regarding genetic modification and cloning."
+        },
+        {
+            "word": "Geology",
+            "synonym": "earth science / rock study / geoscience",
+            "definition": "the study of the Earth's physical structure, materials, and the processes that shape it over time",
+            "example": "Geology not only explains how mountains and valleys are formed, but it also helps predict natural disasters such as earthquakes and volcanic eruptions."
+        },
+        {
+            "word": "Ornithology",
+            "synonym": "bird study / avian science / feathered species research",
+            "definition": "the scientific study of birds, including their behavior, physiology, and ecology",
+            "example": "Ornithology helps explain migratory patterns, yet the impact of climate change requires constant adaptation of traditional theories."
+        },
+        {
+            "word": "Paleontology",
+            "synonym": "fossil study / prehistoric life research / ancient biology",
+            "definition": "the study of ancient life through fossils and other preserved remains of organisms",
+            "example": "Although paleontology relies heavily on fossils, interpreting their ecological context requires interdisciplinary knowledge of geology and biology."
+        },
+        {
+            "word": "Zoology",
+            "synonym": "animal science / fauna study / animal biology",
+            "definition": "the branch of biology that focuses on the study of animals, including their behavior, physiology, and classification",
+            "example": "While zoology traditionally focused on classification, modern zoologists increasingly analyze animal behavior and genetic evolution."
+        },
+        {
+            "word": "Anthropology",
+            "synonym": "human science / cultural study / human behavior study",
+            "definition": "the study of human societies, cultures, and their development over time",
+            "example": "Anthropology integrates multiple disciplines, so researchers can analyze both biological evolution and cultural practices within the same framework."
+        },
+        {
+            "word": "Archaeology",
+            "synonym": "excavation study / ancient culture study / artifact analysis",
+            "definition": "the study of past human life through the recovery and analysis of physical remains",
+            "example": "Although archaeology relies heavily on excavation, interpreting the findings requires careful reasoning to avoid misleading conclusions."
+        },
+        {
+            "word": "Economics",
+            "synonym": "financial science / resource allocation study / economic theory",
+            "definition": "the study of how individuals and societies allocate resources, produce goods, and distribute wealth",
+            "example": "Because economics involves both mathematical models and human behavior, its predictions are often debated and revised."
+        },
+        {
+            "word": "Ethnography",
+            "synonym": "cultural observation / society study / community research",
+            "definition": "the systematic study and detailed description of individual cultures, typically through immersive observation",
+            "example": "Ethnography requires researchers to live within the culture they study, enabling insights that surveys or interviews alone cannot provide."
+        },
+        {
+            "word": "Folklore",
+            "synonym": "traditional stories / myths / cultural legends",
+            "definition": "the study of traditional beliefs, stories, and practices of a community or culture",
+            "example": "Although folklore preserves myths and legends, it also reveals underlying social values and historical context of the culture."
+        },
+        {
+            "word": "Sociology",
+            "synonym": "social science / societal study / human interaction study",
+            "definition": "the study of everyday human social behaviors and interactions at a specific time",
+            "example": "Sociology attempts to explain patterns in human behavior, yet it must constantly adapt as societies evolve over time."
+        },
+        {
+            "word": "Advantageous",
+            "synonym": "beneficial / favorable / profitable",
+            "definition": "providing a benefit or giving an advantage in a situation",
+            "example": "Although remote work can be advantageous for productivity, it may also create challenges in team collaboration."
+        },
+        {
+            "word": "Charge",
+            "synonym": "electricity / electrical potential / polarity",
+            "definition": "a physical property of matter that causes it to experience a force in an electric field; can be positive or negative",
+            "example": "While electrons carry a negative charge, protons possess a positive charge, creating fundamental electrical interactions in matter."
+        },
+        {
+            "word": "Control group",
+            "synonym": "baseline group / comparison group / reference group",
+            "definition": "in an experiment, the group in which the variable being tested is not changed, used as a standard for comparison",
+            "example": "Researchers compared the results of the experimental group with the control group to determine the effect of the new medication."
+        },
+        {
+            "word": "Empirical",
+            "synonym": "evidence-based / observational / data-driven",
+            "definition": "based on observation, experimentation, and measurable evidence rather than theory alone",
+            "example": "Although the hypothesis seemed convincing, it lacked empirical support, so the researchers conducted additional experiments."
+        },
+        {
+            "word": "Hierarchy",
+            "synonym": "ranking system / chain of command / stratification",
+            "definition": "a system in which elements are ranked according to levels of importance or authority",
+            "example": "In many organizations, hierarchy determines decision-making power, but it can also limit innovation if lower levels are ignored."
+        },
+        {
+            "word": "Isotope",
+            "synonym": "atomic variant / nuclear form / element variation",
+            "definition": "a form of an element that has the same number of protons but a different number of neutrons",
+            "example": "Although isotopes share chemical properties, their differing masses can significantly affect their stability and applications."
+        },
+        {
+            "word": "Indigenous",
+            "synonym": "native / aboriginal / original",
+            "definition": "originating or occurring naturally in a particular place",
+            "example": "Indigenous plants often thrive in local soils where introduced species struggle to survive."
+        },
+        {
+            "word": "Inhibit",
+            "synonym": "restrain / hinder / impede",
+            "definition": "to prevent or slow down a process or action",
+            "example": "While certain chemicals can stimulate growth, others inhibit cellular activity, which may be useful in medical treatments."
+        },
+        {
+            "word": "Innovative",
+            "synonym": "groundbreaking / original / inventive",
+            "definition": "introducing new ideas, methods, or products that significantly improve existing systems",
+            "example": "The company developed an innovative solution that not only reduced costs but also increased efficiency across multiple departments."
+        },
+        {
+            "word": "Metabolism",
+            "synonym": "energy conversion / biochemical process / cellular activity",
+            "definition": "the set of life-sustaining chemical reactions that convert food into energy within organisms",
+            "example": "Because metabolism varies among individuals, two people consuming the same diet may experience completely different energy levels."
+        },
+        {
+            "word": "Microbial",
+            "synonym": "microorganism-related / microscopic organism / bacteria-related",
+            "definition": "relating to microscopic organisms such as bacteria, viruses, and fungi",
+            "example": "Microbial activity in soil plays a crucial role in nutrient cycling and plant growth."
+        },
+        {
+            "word": "Pigment",
+            "synonym": "colorant / dye / chromophore",
+            "definition": "a substance that imparts color to other materials or tissues",
+            "example": "Although pigments give flowers their vibrant colors, they also help attract pollinators necessary for reproduction."
+        },
+        {
+            "word": "Predisposed",
+            "synonym": "inclined / susceptible / prone",
+            "definition": "having a tendency or susceptibility toward a particular condition or behavior",
+            "example": "Some individuals are genetically predisposed to certain diseases, which requires careful preventive measures."
+        },
+        {
+            "word": "Regenerate",
+            "synonym": "regrow / renew / restore",
+            "definition": "to grow again or restore lost or damaged tissue or parts",
+            "example": "Certain lizards can regenerate their tails if they are lost, showcasing an extraordinary biological adaptation."
+        },
+        {
+            "word": "Replicate",
+            "synonym": "duplicate / reproduce / repeat",
+            "definition": "to repeat an experiment or process and obtain the same results",
+            "example": "Scientists must replicate studies multiple times to confirm the validity of their findings."
+        },
+        {
+            "word": "Saturate",
+            "synonym": "soak / permeate / drench",
+            "definition": "to become completely soaked or filled with a substance",
+            "example": "Heavy rainfall can saturate the soil, increasing the risk of landslides in hilly regions."
+        },
+        {
+            "word": "Stimulus",
+            "synonym": "trigger / signal / inducement",
+            "definition": "something that provokes a specific response in an organism or system",
+            "example": "When exposed to a sudden stimulus, the nervous system reacts quickly, ensuring the organism can respond to potential threats."
+        },
+        {
+            "word": "Symbiosis",
+            "synonym": "mutual relationship / biological partnership / coexistence",
+            "definition": "a close interaction between two different organisms that live together, often benefiting both",
+            "example": "Although symbiosis is typically beneficial, some relationships may favor one organism more than the other."
+        },
+        {
+            "word": "Taxonomy",
+            "synonym": "classification system / categorization / biological grouping",
+            "definition": "the science of classifying organisms into structured categories based on shared characteristics",
+            "example": "Taxonomy provides a systematic way to organize species, yet classifications are frequently revised as new genetic data emerges."
+        },
+        {
+            "word": "Trait",
+            "synonym": "characteristic / feature / attribute",
+            "definition": "a distinguishing quality or characteristic of an organism or object",
+            "example": "Although eye color is a visible trait, genetic studies reveal that complex traits often involve multiple genes."
+        },
+        {
+            "word": "Velocity",
+            "synonym": "speed / rate of motion / rapidity",
+            "definition": "the speed of an object in a particular direction",
+            "example": "While speed measures how fast something moves, velocity also considers direction, which makes it more precise in physics."
+        },
+        {
+            "word": "Make a Claim",
+            "synonym": "Advance / Posit / Proffer / Speculate / Hypothesize",
+            "definition": "to state or propose an idea, argument, or explanation, often as a starting point for discussion or investigation",
+            "example": "When researchers make a claim, they must provide supporting evidence, because unsubstantiated statements can be easily challenged."
+        },
+        {
+            "word": "Support a Claim",
+            "synonym": "Bolster / Buttress / Substantiate",
+            "definition": "to provide evidence or reasoning that strengthens or confirms an argument or assertion",
+            "example": "To support their claim, the scientists presented detailed data from multiple experiments, ensuring their argument was credible."
+        },
+        {
+            "word": "Question a Claim",
+            "synonym": "Ambivalence / Skepticism / Rebut / Refute",
+            "definition": "to critically examine or challenge an argument or assertion, often to test its validity or reliability",
+            "example": "The panel questioned the claim by highlighting inconsistencies in the data, which forced the authors to revise their conclusions."
+        },
+        {
+            "word": "Think About",
+            "synonym": "Grapple with / Mull over / Ruminate about",
+            "definition": "to consider carefully or reflect deeply on a problem, idea, or decision",
+            "example": "Students must think about complex questions, grappling with multiple perspectives before reaching a reasoned judgment."
+        },
+        {
+            "word": "Coming Together",
+            "synonym": "Converge / Integrate / Intersect",
+            "definition": "to join or combine in a way that forms a unified whole or interaction",
+            "example": "Various disciplines converge in cognitive science, integrating insights from psychology, neuroscience, and computer modeling."
+        },
+        {
+            "word": "Moving Apart",
+            "synonym": "Diverge",
+            "definition": "to separate or develop in different directions, often in terms of opinions, paths, or trends",
+            "example": "While political ideologies diverge over time, dialogue can help identify common ground despite fundamental differences."
+        },
+        {
+            "word": "Draw a Conclusion",
+            "synonym": "Infer / Surmise",
+            "definition": "to form an opinion or judgment based on evidence or reasoning",
+            "example": "After analyzing the data, the researchers drew the conclusion that early intervention improves learning outcomes significantly."
+        },
+        {
+            "word": "Provide Sources",
+            "synonym": "Attribute / Cite",
+            "definition": "to acknowledge or reference the origin of information or ideas used in writing or discussion",
+            "example": "To maintain credibility, students must provide sources for all claims, citing relevant studies and historical records."
+        },
+        {
+            "word": "Large Amount",
+            "synonym": "Multitude / Plethora / Profusion",
+            "definition": "a great quantity or number of things, often more than expected",
+            "example": "The library houses a plethora of books on ancient history, providing scholars with abundant resources for research."
+        },
+        {
+            "word": "Small Amount",
+            "synonym": "Dearth / Paucity",
+            "definition": "a limited or insufficient quantity of something",
+            "example": "There is a dearth of evidence supporting that hypothesis, making it difficult for scientists to reach a firm conclusion."
+        },
+        {
+            "word": "Different, Diverse",
+            "synonym": "Disparate / Heterogeneous / Eclectic",
+            "definition": "consisting of distinct or varied elements; showing variety",
+            "example": "The conference featured an eclectic mix of speakers, whose disparate backgrounds enriched the discussions."
+        },
+        {
+            "word": "Noticeable, Striking",
+            "synonym": "Conspicuous / Distinctive / Salient",
+            "definition": "easily seen, clearly distinguishable, or significant in effect",
+            "example": "The building's distinctive architecture made it a salient landmark, immediately catching the attention of passersby."
+        },
+        {
+            "word": "Harmless",
+            "synonym": "Benign / Innocuous",
+            "definition": "not causing harm, danger, or negative effects",
+            "example": "The experiment involved a harmless chemical, ensuring that neither the participants nor the environment were at risk."
+        },
+        {
+            "word": "Inborn",
+            "synonym": "Inherent / Innate / Intrinsic",
+            "definition": "existing naturally from birth; a fundamental or essential quality",
+            "example": "Musical talent is often considered an innate ability, though practice and training are also essential for mastery."
+        },
+        {
+            "word": "Adept",
+            "synonym": "skilled / proficient / expert",
+            "definition": "highly skilled or capable in a particular task or field",
+            "example": "She became adept at coding after years of practice, which allowed her to develop complex web applications efficiently."
+        },
+        {
+            "word": "Adversary",
+            "synonym": "opponent / rival / foe",
+            "definition": "a person, group, or entity that opposes or competes with another",
+            "example": "During the debate, each candidate carefully addressed the points raised by their adversary to strengthen their own argument."
+        },
+        {
+            "word": "Align (oneself with)",
+            "synonym": "support / adopt / side with",
+            "definition": "to adopt a position or approach that is consistent with a particular person, group, or idea",
+            "example": "The politician chose to align herself with environmental activists, supporting policies that promoted sustainable energy."
+        },
+        {
+            "word": "Authentic",
+            "synonym": "genuine / real / bona fide",
+            "definition": "being true to its nature or origin; not fake or copied",
+            "example": "The museum verified that the painting was authentic, confirming it was an original work by the renowned artist."
+        },
+        {
+            "word": "Centrality",
+            "synonym": "importance / prominence / significance",
+            "definition": "the state of being central, essential, or highly important in a system or context",
+            "example": "Centrality of communication in modern business ensures that information flows efficiently across all departments."
+        },
+        {
+            "word": "Complement",
+            "synonym": "complete / enhance / supplement",
+            "definition": "to add to something in a way that improves or completes it",
+            "example": "The bright cushions complemented the neutral sofa perfectly, giving the living room a more vibrant and cohesive appearance."
+        },
+        {
+            "word": "Comprehensive",
+            "synonym": "thorough / complete / exhaustive",
+            "definition": "including all or nearly all elements; thorough and detailed",
+            "example": "The professor provided a comprehensive overview of modern physics, covering both classical and quantum theories."
+        },
+        {
+            "word": "Contingent",
+            "synonym": "dependent / conditional / subject to",
+            "definition": "dependent on certain conditions or circumstances",
+            "example": "The success of the project was contingent on receiving adequate funding, which delayed some initial plans."
+        },
+        {
+            "word": "Confer",
+            "synonym": "grant / give / bestow",
+            "definition": "to formally give or grant something, such as a title, degree, or right",
+            "example": "The university conferred an honorary degree on the scientist for her groundbreaking research in genetics."
+        },
+        {
+            "word": "Corollary",
+            "synonym": "consequence / result / outcome",
+            "definition": "a proposition or condition that logically follows from an already proven statement or principle",
+            "example": "A corollary of Newton's laws is that objects in motion remain in motion unless acted upon by an external force."
+        },
+        {
+            "word": "Contemporary",
+            "synonym": "current / modern / present-day",
+            "definition": "belonging to the same time period; modern or up-to-date",
+            "example": "Contemporary art often challenges traditional conventions, reflecting current social and political issues."
+        },
+        {
+            "word": "Cultivate",
+            "synonym": "grow / nurture / develop",
+            "definition": "to prepare and use land for crops or to foster growth or development of something",
+            "example": "Farmers cultivate wheat during the spring, while teachers cultivate critical thinking skills in students throughout the year."
+        },
+        {
+            "word": "Displace",
+            "synonym": "remove / relocate / force out",
+            "definition": "to force someone or something from its usual place or position",
+            "example": "Natural disasters can displace entire communities, requiring urgent humanitarian assistance and relocation efforts."
+        },
+        {
+            "word": "Disposition",
+            "synonym": "personality / temperament / character",
+            "definition": "a person’s usual mood, temperament, or tendency to act in a particular way",
+            "example": "Her cheerful disposition made her popular among colleagues, even during stressful project deadlines."
+        },
+        {
+            "word": "Ideology",
+            "synonym": "belief system / doctrine / philosophy",
+            "definition": "a set of ideas or beliefs that forms the basis of a social, political, or economic system",
+            "example": "The politician’s ideology focused on environmental sustainability, influencing both policy decisions and campaign strategies."
+        },
+        {
+            "word": "Impede",
+            "synonym": "hinder / obstruct / inhibit",
+            "definition": "to slow down or prevent progress or movement",
+            "example": "Heavy traffic can impede emergency response times, highlighting the need for efficient city planning."
+        },
+        {
+            "word": "Indigenous",
+            "synonym": "native / aboriginal / original",
+            "definition": "originating naturally in a particular region or country",
+            "example": "Indigenous communities often possess traditional knowledge about local ecosystems that can guide sustainable practices."
+        },
+        {
+            "word": "Inherent",
+            "synonym": "innate / intrinsic / inborn",
+            "definition": "existing as a natural or essential part of something",
+            "example": "Risk is inherent in any investment, which is why careful planning and research are crucial."
+        },
+        {
+            "word": "Judicial",
+            "synonym": "legal / court-related / lawful",
+            "definition": "related to courts, the law, or the administration of justice",
+            "example": "The judicial system ensures that all individuals receive fair treatment under the law."
+        },
+        {
+            "word": "Marginal",
+            "synonym": "insignificant / minor / peripheral",
+            "definition": "of little importance, relevance, or impact",
+            "example": "The report suggested that the change would have only a marginal effect on overall productivity."
+        },
+        {
+            "word": "Mitigate",
+            "synonym": "alleviate / reduce / lessen",
+            "definition": "to make something less severe, harmful, or painful",
+            "example": "Planting trees can mitigate the effects of urban heat islands and improve air quality."
+        },
+        {
+            "word": "Preliminary",
+            "synonym": "initial / preparatory / introductory",
+            "definition": "occurring before the main event or action; introductory",
+            "example": "The preliminary findings indicated a potential trend, which warranted further investigation in the full study."
+        },
+        {
+            "word": "Prevail",
+            "synonym": "win / triumph / dominate",
+            "definition": "to prove more powerful or superior; to succeed or be widespread",
+            "example": "Despite initial skepticism, the innovative approach eventually prevailed and became the standard method in the field."
+        },
+        {
+            "word": "Reciprocate",
+            "synonym": "return / respond / repay",
+            "definition": "to respond to an action, gesture, or behavior with a corresponding action",
+            "example": "When colleagues helped her with a project, she reciprocated by offering assistance on their assignments."
+        },
+        {
+            "word": "Rudimentary",
+            "synonym": "basic / elementary / fundamental",
+            "definition": "involving or limited to basic principles; simple or undeveloped",
+            "example": "The course provided rudimentary coding skills, which students could later expand into advanced programming techniques."
+        },
+        {
+            "word": "Successor",
+            "synonym": "heir / inheritor / replacement",
+            "definition": "a person who takes over a position, role, or office after someone else",
+            "example": "The CEO announced his successor, who would assume leadership following a comprehensive transition period."
+        },
+        {
+            "word": "Afford",
+            "synonym": "grant / provide / give",
+            "definition": "to make possible or to allow someone to have an opportunity, resource, or benefit",
+            "example": "The scholarship afforded her the chance to study abroad, which greatly enhanced her academic experience."
+        },
+        {
+            "word": "Appreciate",
+            "synonym": "recognize / value / acknowledge",
+            "definition": "to recognize the worth, significance, or value of something; also to increase in value",
+            "example": "Investors must appreciate the long-term potential of a project before committing substantial resources."
+        },
+        {
+            "word": "Arrest",
+            "synonym": "stop / halt / impede",
+            "definition": "to bring to a halt or stop movement, action, or progress",
+            "example": "The new regulations arrested the spread of misinformation, ensuring more reliable news reached the public."
+        },
+        {
+            "word": "Assume",
+            "synonym": "take on / undertake / acquire",
+            "definition": "to take responsibility for, accept, or adopt a role, position, or duty",
+            "example": "He assumed leadership of the team after the previous manager resigned unexpectedly."
+        },
+        {
+            "word": "Austerity",
+            "synonym": "frugality / thrift / economy",
+            "definition": "a policy of reducing spending, especially on non-essential or luxury items",
+            "example": "During the recession, the government implemented austerity measures to reduce the national deficit."
+        },
+        {
+            "word": "Badger",
+            "synonym": "pester / harass / nag",
+            "definition": "to repeatedly annoy or urge someone to do something",
+            "example": "Reporters badgered the politician with questions after the scandal, seeking immediate clarification."
+        },
+        {
+            "word": "Bent",
+            "synonym": "penchant / predilection / inclination",
+            "definition": "a natural talent, tendency, or liking for something",
+            "example": "He has a bent for mathematics, which made him excel in engineering competitions."
+        },
+        {
+            "word": "Capacity",
+            "synonym": "ability / capability / competence",
+            "definition": "the ability or power to perform, contain, or produce something",
+            "example": "The stadium has a capacity of 50,000 spectators, making it suitable for international events."
+        },
+        {
+            "word": "Chance",
+            "synonym": "attempt / endeavor / risk",
+            "definition": "to attempt or take a risk in doing something",
+            "example": "She took a chance on a new investment strategy, which ultimately yielded significant profits."
+        },
+        {
+            "word": "Channel",
+            "synonym": "direct / guide / funnel",
+            "definition": "to direct or focus energy, resources, or efforts toward a specific purpose",
+            "example": "He channeled his creativity into designing a unique app that revolutionized online learning."
+        },
+        {
+            "word": "Check",
+            "synonym": "restrain / control / curb",
+            "definition": "to limit, control, or reduce the effect of something",
+            "example": "Vaccinations helped check the spread of the disease throughout the community."
+        },
+        {
+            "word": "Coin",
+            "synonym": "invent / create / formulate",
+            "definition": "to invent or create a new term, phrase, or idea",
+            "example": "Shakespeare coined many words and phrases that are still in common use today."
+        },
+        {
+            "word": "Compromise",
+            "synonym": "jeopardize / endanger / weaken",
+            "definition": "to put something at risk or make it vulnerable",
+            "example": "Sharing confidential information could compromise national security, so strict protocols are enforced."
+        },
+        {
+            "word": "Constitution",
+            "synonym": "build / physique / structure",
+            "definition": "the physical or mental makeup of a person or object; also the fundamental structure",
+            "example": "The athlete's solid constitution allowed him to withstand rigorous training and competition."
+        },
+        {
+            "word": "Conviction",
+            "synonym": "certainty / determination / belief",
+            "definition": "a firmly held belief or strong sense of certainty",
+            "example": "Her conviction in the importance of environmental protection inspired her to start a nonprofit organization."
+        },
+        {
+            "word": "Couch",
+            "synonym": "hide / conceal / frame",
+            "definition": "to express, phrase, or hide something in a particular way",
+            "example": "The proposal was couched in diplomatic language to avoid offending any stakeholders."
+        },
+        {
+            "word": "Discriminating",
+            "synonym": "selective / discerning / perceptive",
+            "definition": "able to make fine distinctions; showing good judgment",
+            "example": "A discriminating reader can distinguish between well-written arguments and flawed reasoning."
+        },
+        {
+            "word": "Doctor",
+            "synonym": "tamper / alter / manipulate",
+            "definition": "to manipulate, alter, or falsify something, often deceitfully",
+            "example": "The journalist discovered that someone had doctored the images before they were published."
+        },
+        {
+            "word": "Economy",
+            "synonym": "thrift / frugality / efficiency",
+            "definition": "the careful use of resources; also, a system of production and consumption",
+            "example": "Her economical style of writing conveyed complex ideas in few words without losing clarity."
+        },
+        {
+            "word": "Embroider",
+            "synonym": "falsify / embellish / fabricate",
+            "definition": "to add details, often false or exaggerated, to a story or account",
+            "example": "He embroidered his achievements to impress the interview panel, which ultimately backfired."
+        },
+        {
+            "word": "Execute",
+            "synonym": "carry out / implement / perform",
+            "definition": "to perform, carry out, or put into effect a plan or action",
+            "example": "The team executed the new software deployment flawlessly, minimizing downtime for users."
+        },
+        {
+            "word": "Exploit",
+            "synonym": "utilize / leverage / use",
+            "definition": "to make effective use of something for a purpose",
+            "example": "The company exploited its technological advantages to gain a competitive edge in the market."
+        },
+        {
+            "word": "Facility",
+            "synonym": "ability / skill / aptitude",
+            "definition": "a natural aptitude or skill for doing something",
+            "example": "She has a facility for languages, easily learning new dialects within weeks."
+        },
+        {
+            "word": "Foil",
+            "synonym": "thwart / prevent / stop",
+            "definition": "to prevent someone from succeeding in an action or plan",
+            "example": "The security measures foiled the attempted robbery before any harm occurred."
+        },
+        {
+            "word": "Grave",
+            "synonym": "serious / solemn / weighty",
+            "definition": "extremely serious or important",
+            "example": "The situation was grave, requiring immediate intervention by both authorities and aid organizations."
+        },
+        {
+            "word": "Grill",
+            "synonym": "question / interrogate / probe",
+            "definition": "to question intensely and repeatedly",
+            "example": "The suspect was grilled for hours until the police obtained a full account of the events."
+        },
+        {
+            "word": "Hamper",
+            "synonym": "hinder / obstruct / impede",
+            "definition": "to prevent or restrict the progress of something",
+            "example": "Heavy regulations can hamper innovation by creating unnecessary obstacles for startups."
+        },
+        {
+            "word": "Harbor",
+            "synonym": "possess / hold / maintain",
+            "definition": "to keep or hold onto something, such as a belief, feeling, or idea",
+            "example": "He harbored doubts about the proposal, but chose to support it publicly for diplomatic reasons."
+        },
+        {
+            "word": "Hobble",
+            "synonym": "impede / restrict / hinder",
+            "definition": "to prevent progress or limit movement",
+            "example": "Bureaucratic red tape can hobble important social initiatives, delaying their implementation."
+        },
+        {
+            "word": "Plastic",
+            "synonym": "malleable / adaptable / flexible",
+            "definition": "capable of being shaped or changed; adaptable",
+            "example": "Brain plasticity allows individuals to learn new skills even later in life."
+        },
+        {
+            "word": "Provoke",
+            "synonym": "elicit / stimulate / incite",
+            "definition": "to cause a reaction or response, often intentionally",
+            "example": "The speech provoked a strong debate among the audience about policy reforms."
+        },
+        {
+            "word": "Realize",
+            "synonym": "achieve / accomplish / attain",
+            "definition": "to bring into effect or achieve a goal",
+            "example": "She realized her dream of becoming a published author after years of dedicated writing."
+        },
+        {
+            "word": "Reconcile",
+            "synonym": "harmonize / unite / resolve",
+            "definition": "to bring together opposing ideas or parties into agreement or harmony",
+            "example": "It took months to reconcile the conflicting reports before the final study was published."
+        },
+        {
+            "word": "Relay",
+            "synonym": "pass on / transmit / communicate",
+            "definition": "to pass information or messages from one person to another",
+            "example": "The manager relayed the project updates to the team to ensure everyone was aligned."
+        },
+        {
+            "word": "Relate",
+            "synonym": "tell / recount / narrate",
+            "definition": "to give an account of an event or experience",
+            "example": "He related the details of his expedition so vividly that the audience felt like they were there."
+        },
+        {
+            "word": "Reservations",
+            "synonym": "misgivings / doubts / concerns",
+            "definition": "feelings of doubt or hesitation about something",
+            "example": "Despite her enthusiasm, she had reservations about the proposed changes, worrying they might backfire."
+        },
+        {
+            "word": "Reserve",
+            "synonym": "hold back / postpone / retain",
+            "definition": "to delay, hold off, or keep something for future use or judgment",
+            "example": "The judge reserved final judgment until all evidence had been thoroughly examined."
+        },
+        {
+            "word": "Ruffled",
+            "synonym": "flustered / disconcerted / unsettled",
+            "definition": "disturbed, agitated, or thrown off balance",
+            "example": "He was ruffled by the unexpected questions during the interview, though he regained composure quickly."
+        },
+        {
+            "word": "Sap",
+            "synonym": "drain / weaken / deplete",
+            "definition": "to gradually weaken or diminish strength or energy",
+            "example": "Constant stress sapped her energy, leaving her exhausted by the end of the week."
+        },
+        {
+            "word": "Scrap",
+            "synonym": "eliminate / discard / remove",
+            "definition": "to discard, remove, or do away with something",
+            "example": "The company decided to scrap the outdated policy and implement a more modern approach."
+        },
+        {
+            "word": "Shelve",
+            "synonym": "postpone / discard / reject",
+            "definition": "to set aside or abandon a plan, proposal, or idea",
+            "example": "The committee shelved the proposal until further research could support its feasibility."
+        },
+        {
+            "word": "Solvent",
+            "synonym": "financially stable / capable / viable",
+            "definition": "able to meet financial obligations or pay all debts",
+            "example": "Despite economic turbulence, the company remained solvent, maintaining trust with investors."
+        },
+        {
+            "word": "Sound",
+            "synonym": "stable / reliable / valid",
+            "definition": "firm, dependable, or logically valid",
+            "example": "The argument was sound, supported by clear evidence and logical reasoning."
+        },
+        {
+            "word": "Spare",
+            "synonym": "plain / unadorned / simple",
+            "definition": "minimal, plain, or lacking unnecessary embellishment",
+            "example": "The room was spare in decoration, yet its simplicity created a calm and focused atmosphere."
+        },
+        {
+            "word": "Static",
+            "synonym": "unchanging / fixed / stable",
+            "definition": "unchanging over time; not moving or progressing",
+            "example": "The population remained static for years, despite efforts to encourage growth."
+        },
+        {
+            "word": "Sustain",
+            "synonym": "withstand / endure / maintain",
+            "definition": "to support, endure, or maintain over time",
+            "example": "The bridge was designed to sustain heavy traffic while remaining structurally safe."
+        },
+        {
+            "word": "Uniform",
+            "synonym": "consistent / unvarying / constant",
+            "definition": "remaining the same in all cases; consistent",
+            "example": "The procedures were applied uniformly across all departments to ensure fairness."
+        },
+        {
+            "word": "Unqualified",
+            "synonym": "absolute / complete / total",
+            "definition": "without restriction or limitation; complete",
+            "example": "The decision received unqualified support from the board, leaving no room for objections."
+        },
+        {
+            "word": "Upset",
+            "synonym": "interfere / disrupt / overturn",
+            "definition": "to disturb or prevent an expected outcome",
+            "example": "Unexpected rain upset the tournament schedule, forcing organizers to reschedule several matches."
+        },
+        {
+            "word": "Critic / Criticism",
+            "synonym": "reviewer / evaluator / commentator",
+            "definition": "a person who evaluates or analyzes a subject, often giving positive or negative feedback",
+            "example": "The art critic praised the painter's technique while offering constructive criticism on the composition."
+        },
+        {
+            "word": "Discern / Discerning",
+            "synonym": "perceive / distinguish / detect",
+            "definition": "to recognize, identify, or distinguish something accurately",
+            "example": "A discerning reader can easily distinguish between high-quality and poorly researched articles."
+        },
+        {
+            "word": "Ineffable",
+            "synonym": "indescribable / sublime / beyond words",
+            "definition": "too great, beautiful, or extreme to be expressed in words",
+            "example": "The beauty of the sunset was ineffable, leaving the viewers speechless and awe-struck."
+        },
+        {
+            "word": "Infallible",
+            "synonym": "unerring / flawless / perfect",
+            "definition": "incapable of making mistakes or being wrong",
+            "example": "Even the most experienced experts are not infallible, as errors can occur under unusual conditions."
+        },
+        {
+            "word": "Ingenious",
+            "synonym": "clever / brilliant / inventive",
+            "definition": "showing exceptional creativity, skill, or cleverness",
+            "example": "The engineer devised an ingenious solution to a complex problem that had baffled the team for weeks."
+        },
+        {
+            "word": "Ingenuous",
+            "synonym": "naïve / innocent / sincere",
+            "definition": "showing innocence, honesty, or simplicity; not deceitful",
+            "example": "Her ingenuous remarks revealed her genuine curiosity and lack of guile."
+        },
+        {
+            "word": "Inimitable",
+            "synonym": "unique / unparalleled / one-of-a-kind",
+            "definition": "so exceptional that it cannot be imitated",
+            "example": "The musician's inimitable style made her performances instantly recognizable and unforgettable."
+        },
+        {
+            "word": "Innate",
+            "synonym": "inborn / natural / intrinsic",
+            "definition": "existing from birth; a natural characteristic",
+            "example": "Artistic talent can be innate, though it often requires cultivation to reach its full potential."
+        },
+        {
+            "word": "Innocuous",
+            "synonym": "harmless / safe / benign",
+            "definition": "not harmful, offensive, or dangerous",
+            "example": "The experiment used innocuous chemicals, ensuring the safety of all participants."
+        },
+        {
+            "word": "Intrinsic",
+            "synonym": "inherent / innate / essential",
+            "definition": "a natural, essential, or fundamental part of something",
+            "example": "Curiosity is intrinsic to human nature, driving exploration and discovery."
+        },
+        {
+            "word": "Invaluable",
+            "synonym": "priceless / irreplaceable / extremely valuable",
+            "definition": "extremely useful or valuable; beyond estimation",
+            "example": "Her mentorship was invaluable, providing guidance that shaped the careers of countless students."
+        },
+        {
+            "word": "Unassuming",
+            "synonym": "modest / humble / simple",
+            "definition": "not drawing attention to oneself; modest in behavior or appearance",
+            "example": "Despite his achievements, he remained unassuming and preferred to let his work speak for itself."
+        },
+        {
+            "word": "Unqualified",
+            "synonym": "absolute / complete / total",
+            "definition": "without restriction or limitation; complete and total in scope or degree",
+            "example": "The recommendation received unqualified support from all board members, leaving no room for doubt or debate."
+        },
+        {
+            "word": "Eloquent",
+            "synonym": "fluent / persuasive / articulate",
+            "definition": "able to express ideas clearly and effectively in speech or writing",
+            "example": "His speech was so eloquent that even his dog stopped barking just to listen."
+        },
+        {
+            "word": "Austere",
+            "synonym": "plain / simple / unadorned",
+            "definition": "severely simple, without decoration or luxury",
+            "example": "Her living room was so austere that the only decoration was a single chair—perfect for minimalist extreme sports."
+        },
+        {
+            "word": "Dread",
+            "synonym": "fear / anticipate / apprehend",
+            "definition": "to be very afraid of something; to anticipate with fear",
+            "example": "He dreaded his mom’s reaction to the broken vase, but he blamed the wind—inside the house."
+        },
+        {
+            "word": "Inevitable",
+            "synonym": "unavoidable / certain / inescapable",
+            "definition": "certain to happen; unable to be prevented",
+            "example": "It was inevitable that he would trip while texting and walking, as everyone saw it coming—except him."
+        },
+        {
+            "word": "To Stress",
+            "synonym": "emphasize / highlight / underscore",
+            "definition": "to give importance or attention to something",
+            "example": "She stressed the importance of cleaning the room, but it still looked like a tornado had moved in."
+        },
+        {
+            "word": "Spawn",
+            "synonym": "generate / produce / create",
+            "definition": "to produce, create, or give rise to something",
+            "example": "The idea for his movie spawned after a dream where penguins took over the world with dance battles."
+        },
+        {
+            "word": "Renounce",
+            "synonym": "give up / abandon / relinquish",
+            "definition": "to formally reject, give up, or deny something",
+            "example": "He renounced his superhero cape after one too many failed attempts at flying off the couch."
+        },
+        {
+            "word": "Unprecedented",
+            "synonym": "unparalleled / exceptional / unique",
+            "definition": "never done or known before; novel",
+            "example": "His unprecedented move to start a cheese museum in his basement had the neighbors curiously excited."
+        },
+        {
+            "word": "Broach",
+            "synonym": "introduce / bring up / raise",
+            "definition": "to bring up a subject, often a difficult or sensitive one, for discussion",
+            "example": "He broached the subject of missing rent with his landlord, who thankfully had a sense of humor—about everything except rent."
+        },
+        {
+            "word": "Proxy",
+            "synonym": "substitute / representative / agent",
+            "definition": "a person authorized to act on behalf of another",
+            "example": "He sent his dog as a proxy to the principal meeting, but all they got was a bowl of snacks and a nap under the table."
+        },
+        {
+            "word": "Detrimental",
+            "synonym": "harmful / damaging / injurious",
+            "definition": "causing harm or damage",
+            "example": "Eating 10 donuts for breakfast might be detrimental to your health, but it’s great for your mood—temporarily."
+        },
+        {
+            "word": "Secular",
+            "synonym": "nonreligious / worldly / temporal",
+            "definition": "not connected with religious or spiritual matters",
+            "example": "The concert was entirely secular, entertaining all his fans without reference to religion."
+        },
+        {
+            "word": "Innovative",
+            "synonym": "creative / original / inventive",
+            "definition": "new and different in a way that is original and effective",
+            "example": "His innovative way of organizing his closet involved attaching his shirts to a ceiling fan—one quick spin, and he was dressed."
+        },
+        {
+            "word": "Tangible",
+            "synonym": "real / concrete / perceptible",
+            "definition": "capable of being touched or realized; clear and definite",
+            "example": "The excitement in the room was so tangible, you could practically high-five it."
+        },
+        {
+            "word": "Disseminate",
+            "synonym": "spread / broadcast / circulate",
+            "definition": "to spread widely, particularly information",
+            "example": "He tried to disseminate the news about the school trip, but it somehow turned into a rumor about a school-wide pizza party."
+        },
+        {
+            "word": "Delegate",
+            "synonym": "assign / entrust / allocate",
+            "definition": "to assign a task or responsibility to another person",
+            "example": "He delegated the dishwashing duty to his little brother, but somehow the dishes were still dirty, and the brother was missing."
+        },
+        {
+            "word": "Apparent",
+            "synonym": "obvious / clear / evident",
+            "definition": "clearly visible or understood; obvious",
+            "example": "It became apparent that he had no idea how to assemble the furniture when the bookshelf started resembling a chair."
+        },
+        {
+            "word": "Postulate",
+            "synonym": "suggest / propose / hypothesize",
+            "definition": "to suggest or assume the existence or truth of something as a basis for reasoning",
+            "example": "He postulated that pizza should be considered a vegetable, which earned him both laughs and several high-fives."
+        },
+        {
+            "word": "Speculate",
+            "synonym": "guess / theorize / hypothesize",
+            "definition": "to form a theory or conjecture without firm evidence",
+            "example": "He speculated that his lost sock had fallen into a black hole because where else could it have gone?"
+        },
+        {
+            "word": "Bazaar",
+            "synonym": "market / fair / emporium",
+            "definition": "a market selling a large variety of goods",
+            "example": "The bazaar had everything from handmade rugs to pet unicorn horns—for cats, of course."
+        },
+        {
+            "word": "Sporadic",
+            "synonym": "irregular / scattered / intermittent",
+            "definition": "occurring at irregular intervals; not consistent",
+            "example": "His sporadic attempts to clean his room usually started strong and ended with him watching TV in the mess."
+        },
+        {
+            "word": "Suffrage",
+            "synonym": "voting rights / franchise / ballot",
+            "definition": "the legal right to vote",
+            "example": "She celebrated when women gained suffrage by voting for the cutest puppy in the election for 'Pet of the Year.'"
+        },
+        {
+            "word": "Incredulous",
+            "synonym": "disbelieving / skeptical / doubtful",
+            "definition": "unwilling or unable to believe something",
+            "example": "He was incredulous when his cat finally learned how to fetch. 'Next up,' he said, 'playing the piano.'"
+        },
+        {
+            "word": "Idealistic",
+            "synonym": "visionary / perfectionist / optimistic",
+            "definition": "unrealistically aiming for perfection",
+            "example": "His idealistic goal of becoming a world-class chef in a week ended when he burned toast—three times in a row."
+        },
+        {
+            "word": "Conflate",
+            "synonym": "merge / combine / unite",
+            "definition": "to mix or combine into one, typically ideas or concepts",
+            "example": "He conflated his birthday party with Halloween, so everyone showed up in costumes to celebrate his 'vampire cake.'"
+        },
+        {
+            "word": "Paucity",
+            "synonym": "poverty / scarcity / dearth",
+            "definition": "a small amount; lack of something",
+            "example": "The paucity of snacks at the party led to a fierce competition over the last slice of pizza."
+        },
+        {
+            "word": "Ephemeral",
+            "synonym": "temporary / short-lived / fleeting",
+            "definition": "lasting for a very short time",
+            "example": "His enthusiasm for working out was ephemeral, disappearing after just three days."
+        },
+        {
+            "word": "Prompt",
+            "synonym": "cause / motivate / trigger",
+            "definition": "to cause someone to take action",
+            "example": "The sight of chocolate cake promptly caused him to break his diet with zero hesitation."
+        },
+        {
+            "word": "Reverence",
+            "synonym": "respect / admiration / veneration",
+            "definition": "deep respect for someone or something",
+            "example": "He showed great reverence for his grandma’s cooking, bowing before every plate of lasagna like it was a royal feast."
+        },
+        {
+            "word": "Disparity",
+            "synonym": "difference / inequality / gap",
+            "definition": "a great difference or inequality",
+            "example": "The disparity between his baking skills and his sister’s was obvious when his cookies looked like rocks and hers like art."
+        },
+        {
+            "word": "Dispassionate",
+            "synonym": "impartial / unbiased / neutral",
+            "definition": "not influenced by strong emotion; fair-minded",
+            "example": "As the judge, she remained dispassionate, even when the defendant made a very emotional argument about losing his last donut."
+        },
+        {
+            "word": "Phenomenon",
+            "synonym": "occurrence / event / anomaly",
+            "definition": "a noteworthy occurrence or situation",
+            "example": "The sudden appearance of a double rainbow after the storm was such a phenomenon that everyone stopped to take selfies with it."
+        },
+        {
+            "word": "Boast",
+            "synonym": "brag / show off / flaunt",
+            "definition": "to brag about something",
+            "example": "He boasted so much about his new car that his friends started pretending they couldn’t hear him."
+        },
+        {
+            "word": "Irksome",
+            "synonym": "annoying / irritating / bothersome",
+            "definition": "causing annoyance or irritation",
+            "example": "The irksome sound of his little brother’s tapping made it impossible to focus on homework."
+        },
+        {
+            "word": "Allude",
+            "synonym": "refer / hint / suggest",
+            "definition": "to indirectly reference something",
+            "example": "She alluded to the surprise party by 'accidentally' mentioning how much she loved cake in every conversation."
+        },
+        {
+            "word": "Omnipotence",
+            "synonym": "all-powerful / supreme / unlimited",
+            "definition": "having unlimited or great power",
+            "example": "He felt a sense of omnipotence when he finally found the TV remote, as if he could control the whole universe."
+        },
+        {
+            "word": "Provoke",
+            "synonym": "trigger / elicit / incite",
+            "definition": "to cause a reaction or emotion, often anger",
+            "example": "His joke about pineapple on pizza provoked a heated debate that threatened to divide the whole group of friends."
+        },
+        {
+            "word": "Indulge",
+            "synonym": "enjoy / treat / gratify",
+            "definition": "to allow oneself to enjoy something",
+            "example": "He decided to indulge in a whole tub of ice cream after a long day of pretending to eat salads."
+        },
+        {
+            "word": "Entrenched",
+            "synonym": "firm / established / ingrained",
+            "definition": "firmly established and unlikely to change",
+            "example": "His entrenched belief that socks and sandals were the height of fashion would not be swayed by any amount of ridicule."
+        },
+        {
+            "word": "Inherent",
+            "synonym": "intrinsic / innate / built-in",
+            "definition": "existing as a permanent or essential characteristic",
+            "example": "His inherent love of naps made him the best couch tester in the world."
+        },
+        {
+            "word": "Vernacular",
+            "synonym": "dialect / colloquial / everyday language",
+            "definition": "everyday informal language or local speech",
+            "example": "He quickly picked up the local vernacular, casually saying 'y’all' after just one day in Texas."
+        },
+        {
+            "word": "Inquisition",
+            "synonym": "interrogation / questioning / probe",
+            "definition": "intense questioning or investigation",
+            "example": "His mom’s inquisition about his missing homework felt more intense than a detective show."
+        },
+        {
+            "word": "Anecdote",
+            "synonym": "story / narrative / account",
+            "definition": "a short personal story",
+            "example": "He told an amusing anecdote about the time he accidentally walked into the wrong Zoom meeting—and stayed for an hour."
+        },
+        {
+            "word": "Malign",
+            "synonym": "evil / harmful / malevolent",
+            "definition": "having an evil or harmful nature",
+            "example": "The villain’s malign plot to steal all the world’s ice cream was met with global outrage."
+        },
+        {
+            "word": "Anomaly",
+            "synonym": "oddity / irregularity / abnormality",
+            "definition": "something that deviates from the norm",
+            "example": "His punctuality was such an anomaly that everyone checked their watches twice when he arrived on time."
+        },
+        {
+            "word": "Inhibit",
+            "synonym": "restrain / prevent / impede",
+            "definition": "to hold someone or something back; to suppress",
+            "example": "His fear of public speaking inhibited him from raising his hand in class, even when he knew all the answers."
+        },
+        {
+            "word": "Mutable",
+            "synonym": "changeable / variable / adaptable",
+            "definition": "able to change or adapt",
+            "example": "His mutable schedule meant that nobody ever knew when he’d actually show up."
+        },
+        {
+            "word": "Petty",
+            "synonym": "trivial / minor / insignificant",
+            "definition": "of little importance; overly concerned with trivial matters",
+            "example": "The argument over whose turn it was to pick a movie was so petty that even the dog rolled his eyes."
+        },
+        {
+            "word": "Avid",
+            "synonym": "passionate / enthusiastic / fervent",
+            "definition": "showing strong interest or enthusiasm for something",
+            "example": "He was such an avid collector of rare comic books that he could smell a first edition from a mile away."
+        },
+        {
+            "word": "Invoke",
+            "synonym": "call upon / refer to / appeal to",
+            "definition": "to call on or refer to something for support or justification",
+            "example": "He tried to invoke the '5-second rule' after dropping his sandwich, but it was too late—the dog already had it."
+        }
     ]
 }
