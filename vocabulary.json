@@ -4379,6 +4379,366 @@
             "example": "The recommendation received unqualified support from all board members, leaving no room for doubt or debate."
         },
         {
+            "word": "Dazzling",
+            "synonym": "brilliant / radiant / stunning",
+            "definition": "Extremely impressive, beautiful, or skillful; causing great admiration or awe.",
+            "example": "The scientist's dazzling presentation of the experiment, which combined intricate visuals and thorough explanations, left the entire audience both amazed and inspired."
+        },
+        {
+            "word": "Rigid",
+            "synonym": "inflexible / stiff / strict",
+            "definition": "Not able to be bent or changed; strictly set in rules or behavior.",
+            "example": "Despite the rigid curriculum imposed by the school, the teacher found innovative ways to engage students in critical thinking exercises."
+        },
+        {
+            "word": "Frivolous",
+            "synonym": "trivial / superficial / petty",
+            "definition": "Not having any serious purpose or value; silly or unimportant.",
+            "example": "He spent his allowance on frivolous items like glittery keychains and novelty toys, which his parents scolded him for, emphasizing the importance of saving."
+        },
+        {
+            "word": "Forerunner",
+            "synonym": "precursor / predecessor / harbinger",
+            "definition": "A person or thing that precedes the coming or development of something else.",
+            "example": "The early steam engine served as a forerunner to modern trains, illustrating how incremental innovations can revolutionize transportation over time."
+        },
+        {
+            "word": "Relic",
+            "synonym": "artifact / remnant / vestige",
+            "definition": "An object surviving from an earlier time, often historically or culturally significant.",
+            "example": "The ancient relic, though partially broken, offered historians a glimpse into the daily lives of people who lived centuries ago."
+        },
+        {
+            "word": "Heir",
+            "synonym": "successor / inheritor / beneficiary",
+            "definition": "A person legally entitled to the property or rank of another after that person's death.",
+            "example": "As the sole heir to the estate, she had both the privilege and the responsibility to manage the family assets wisely."
+        },
+        {
+            "word": "Proponent",
+            "synonym": "advocate / supporter / champion",
+            "definition": "A person who argues in favor of something; someone who promotes a cause or idea.",
+            "example": "He was a vocal proponent of renewable energy, often speaking at conferences to convince policymakers to adopt sustainable practices."
+        },
+        {
+            "word": "Partisan",
+            "synonym": "follower / adherent / supporter",
+            "definition": "A strong supporter of a party, cause, or person, often showing biased allegiance.",
+            "example": "The debate became heated as partisan opinions clashed, demonstrating how deep loyalties can sometimes overshadow rational discussion."
+        },
+        {
+            "word": "Zealot",
+            "synonym": "fanatic / extremist / enthusiast",
+            "definition": "A person who is intensely devoted to a cause, often to the point of fanaticism.",
+            "example": "The zealot campaigned tirelessly for environmental protection, sometimes alienating colleagues with his uncompromising approach."
+        },
+        {
+            "word": "Succumb",
+            "synonym": "yield / surrender / give in",
+            "definition": "To fail to resist pressure, temptation, or illness; to give way.",
+            "example": "Despite his strict diet, he eventually succumbed to the temptation of chocolate cake, regretting it afterward but also enjoying the indulgence."
+        },
+        {
+            "word": "Unprecedented",
+            "synonym": "unmatched / extraordinary / unparalleled",
+            "definition": "Never done or known before; without previous example.",
+            "example": "The team faced an unprecedented challenge when the storm flooded the entire city, yet their coordinated response prevented a total disaster."
+        },
+        {
+            "word": "Threshold (rate)",
+            "synonym": "limit / brink / point",
+            "definition": "The level, rate, or point at which something begins or changes.",
+            "example": "The experiment determined the threshold rate of chemical reaction beyond which the solution became unstable, providing crucial data for further research."
+        },
+        {
+            "word": "Scrupulous",
+            "synonym": "meticulous / conscientious / thorough",
+            "definition": "Extremely careful and precise; guided by moral or ethical principles.",
+            "example": "The scrupulous editor reviewed every sentence for factual accuracy, ensuring that no error could undermine the publication's credibility."
+        },
+        {
+            "word": "Dismiss",
+            "synonym": "reject / disregard / overlook",
+            "definition": "To refuse to consider or accept; to send away or remove from consideration.",
+            "example": "The committee decided to dismiss the proposal, arguing that it lacked sufficient evidence to support its claims."
+        },
+        {
+            "word": "Appreciation (acknowledgement)",
+            "synonym": "recognition / gratitude / admiration",
+            "definition": "The recognition and enjoyment of the good qualities of someone or something.",
+            "example": "Her sincere appreciation for the volunteers’ hard work was evident in the heartfelt speech she delivered at the ceremony."
+        },
+        {
+            "word": "Supplant",
+            "synonym": "replace / overthrow / displace",
+            "definition": "To take the place of something or someone, often through force or strategy.",
+            "example": "Digital media has largely supplanted traditional newspapers, reshaping how people consume news in the modern age."
+        },
+        {
+            "word": "Salvage",
+            "synonym": "rescue / recover / save",
+            "definition": "To save something valuable from loss or destruction.",
+            "example": "They managed to salvage several important documents from the fire, preserving critical historical records."
+        },
+        {
+            "word": "Resign",
+            "synonym": "quit / step down / relinquish",
+            "definition": "To voluntarily leave a position or office.",
+            "example": "The CEO chose to resign after years of service, believing it was time to allow new leadership to guide the company forward."
+        },
+        {
+            "word": "Pragmatist",
+            "synonym": "realist / practical thinker / problem-solver",
+            "definition": "A person who deals with things sensibly and realistically rather than theoretically.",
+            "example": "As a pragmatist, she focused on feasible solutions to the city's traffic problems rather than idealistic but impractical plans."
+        },
+        {
+            "word": "Polemicist",
+            "synonym": "controversialist / critic / debater",
+            "definition": "A person who engages in controversial debate or strong arguments, often attacking opinions.",
+            "example": "The polemicist wrote an article condemning government policy, sparking intense public debate."
+        },
+        {
+            "word": "Outspoken",
+            "synonym": "forthright / candid / direct",
+            "definition": "Expressing opinions openly and frankly, often boldly.",
+            "example": "She was outspoken about workplace inequality, refusing to shy away from difficult conversations with management."
+        },
+        {
+            "word": "Epitomize",
+            "synonym": "exemplify / represent / embody",
+            "definition": "To be a perfect example of a quality or type.",
+            "example": "The athlete’s discipline and perseverance epitomize the qualities necessary to succeed at the highest level of competition."
+        },
+        {
+            "word": "Unanimous",
+            "synonym": "united / concordant / agreed",
+            "definition": "Fully in agreement; sharing the same opinion.",
+            "example": "The board reached a unanimous decision to expand the project, showing complete alignment in their strategic goals."
+        },
+        {
+            "word": "Scorn",
+            "synonym": "derision / contempt / mockery",
+            "definition": "The feeling or expression of contempt or disdain for someone or something.",
+            "example": "He met their scorn with quiet dignity, refusing to respond to the insults that were meant to provoke him."
+        },
+        {
+            "word": "Jubilation",
+            "synonym": "exultation / joy / celebration",
+            "definition": "A feeling of great happiness or triumph.",
+            "example": "The crowd erupted in jubilation when the underdog team won the championship in a dramatic final match."
+        },
+        {
+            "word": "Discredit",
+            "synonym": "dishonor / undermine / defame",
+            "definition": "To harm the reputation of someone or something; to cause doubt about validity.",
+            "example": "The whistleblower exposed the fraudulent reports in order to discredit the corrupt practices within the organization."
+        },
+        {
+            "word": "Docile",
+            "synonym": "obedient / compliant / submissive",
+            "definition": "Easily taught, led, or managed; gentle and cooperative.",
+            "example": "The docile horse responded calmly to the trainer’s commands, making it ideal for beginner riders."
+        },
+        {
+            "word": "Precocious",
+            "synonym": "advanced / gifted / early-blooming",
+            "definition": "Having developed certain abilities or inclinations at an earlier age than usual.",
+            "example": "The precocious child amazed the teachers by solving complex math problems that were meant for older students."
+        },
+        {
+            "word": "Exert",
+            "synonym": "apply / wield / employ",
+            "definition": "To put forth effort, influence, or force in order to achieve something.",
+            "example": "She had to exert considerable influence to convince the board to adopt her innovative proposal."
+        },
+        {
+            "word": "Restrain",
+            "synonym": "hold back / control / limit",
+            "definition": "To prevent someone or something from doing something; to keep under control.",
+            "example": "The police had to restrain the protestors to prevent the situation from escalating into violence."
+        },
+        {
+            "word": "Thwart",
+            "synonym": "foil / hinder / obstruct",
+            "definition": "To prevent someone from accomplishing something; to frustrate a plan or effort.",
+            "example": "Their attempts to thwart the enemy’s advance were successful due to careful planning and coordination."
+        },
+        {
+            "word": "Basin (river)",
+            "synonym": "drainage / catchment / watershed",
+            "definition": "An area of land drained by a river and its tributaries.",
+            "example": "The river basin covers several states, providing water resources that sustain agriculture and communities."
+        },
+        {
+            "word": "Empirical precision",
+            "synonym": "exactness / accuracy / measurement",
+            "definition": "Accuracy and reliability derived from observation or experiment rather than theory.",
+            "example": "The scientist’s empirical precision in collecting data ensured that the experiment could be reliably replicated by others."
+        },
+        {
+            "word": "Confound",
+            "synonym": "perplex / astonish / baffle",
+            "definition": "To cause surprise or confusion, often by acting against expectations.",
+            "example": "The results confounded the researchers, as the data contradicted every hypothesis they had formed."
+        },
+        {
+            "word": "Empathize",
+            "synonym": "understand / relate / sympathize",
+            "definition": "To understand and share the feelings of another person.",
+            "example": "She could empathize with the students’ frustration because she had once faced similar challenges in her own education."
+        },
+        {
+            "word": "Fine-tuned",
+            "synonym": "refined / adjusted / optimized",
+            "definition": "Carefully adjusted to achieve maximum performance or effectiveness.",
+            "example": "The engineer fine-tuned the engine, ensuring that every component operated at peak efficiency under all conditions."
+        },
+        {
+            "word": "Cogitation",
+            "synonym": "thought / reflection / contemplation",
+            "definition": "The action of thinking deeply about something; careful consideration.",
+            "example": "After hours of cogitation on the ethical dilemma, he finally made a decision that balanced fairness with practicality."
+        },
+        {
+            "word": "Countenance",
+            "synonym": "expression / visage / demeanor",
+            "definition": "A person’s face or facial expression, often indicating mood or character.",
+            "example": "Her serene countenance masked the turmoil she felt inside, revealing nothing to those around her."
+        },
+        {
+            "word": "Low-browed",
+            "synonym": "broad / heavy / prominent",
+            "definition": "Having a low forehead or brow; sometimes implying a simple or less intellectual appearance.",
+            "example": "The low-browed statue seemed to exude strength rather than intellect, capturing the essence of the ancient warrior."
+        },
+        {
+            "word": "Lattice",
+            "synonym": "grid / framework / network",
+            "definition": "A structure consisting of crossed strips arranged to form a pattern of open spaces.",
+            "example": "The lattice design allowed sunlight to filter through the garden, creating intricate patterns on the pathway."
+        },
+        {
+            "word": "Straggling",
+            "synonym": "scattered / sprawling / lagging",
+            "definition": "Growing, spreading, or moving in an irregular, untidy way.",
+            "example": "The straggling vines clung to the fence, giving the garden a wild yet picturesque appearance."
+        },
+        {
+            "word": "Gooseberry",
+            "synonym": "berry / fruit / shrub",
+            "definition": "A small, round, tart fruit; also a shrub that produces such fruit.",
+            "example": "The gooseberry bushes in the backyard produced a surprising yield, which we used to make pies and preserves."
+        },
+        {
+            "word": "Crooked",
+            "synonym": "bent / twisted / deformed",
+            "definition": "Not straight; having bends or curves; often dishonest when used figuratively.",
+            "example": "The crooked path wound through the forest, making the journey longer but more scenic."
+        },
+        {
+            "word": "Fir",
+            "synonym": "conifer / pine / evergreen",
+            "definition": "A type of evergreen tree with needle-like leaves, commonly used in construction and decoration.",
+            "example": "The tall fir trees lined the avenue, providing shade and a sense of tranquility to the neighborhood."
+        },
+        {
+            "word": "Solemn",
+            "synonym": "serious / grave / formal",
+            "definition": "Formal and dignified; deeply serious in manner or expression.",
+            "example": "The judge’s solemn tone underscored the gravity of the verdict, reminding everyone of the consequences involved."
+        },
+        {
+            "word": "Intentness",
+            "synonym": "focus / concentration / determination",
+            "definition": "The state of being deeply focused or absorbed in something.",
+            "example": "Her intentness on solving the puzzle was evident as she ignored all distractions around her."
+        },
+        {
+            "word": "Abode",
+            "synonym": "residence / dwelling / home",
+            "definition": "A place where someone lives; a home.",
+            "example": "The ancient castle served as the noble family’s abode for centuries, preserving generations of history within its walls."
+        },
+        {
+            "word": "Eternity",
+            "synonym": "forever / infinity / perpetuity",
+            "definition": "Infinite or unending time; timeless existence.",
+            "example": "The poet wrote about love that could endure for eternity, transcending the limits of mortal life."
+        },
+        {
+            "word": "Ere",
+            "synonym": "before / prior to / earlier than",
+            "definition": "Archaic term meaning before in time.",
+            "example": "He finished his work ere sunset, allowing himself some leisure in the cool evening hours."
+        },
+        {
+            "word": "Fledge",
+            "synonym": "develop / mature / grow",
+            "definition": "To develop feathers necessary for flight; to grow up and become independent.",
+            "example": "The young birds fledge after several weeks, leaving the nest to explore the world on their own."
+        },
+        {
+            "word": "Wing",
+            "synonym": "appendage / flapper / limb",
+            "definition": "A part of a bird or aircraft used for flight; figuratively, a section or extension of a structure.",
+            "example": "The bird extended its wing to shield the chicks from the harsh sunlight, demonstrating instinctive care."
+        },
+        {
+            "word": "Whirling",
+            "synonym": "spinning / revolving / twirling",
+            "definition": "Rotating rapidly around an axis; moving in a circular motion.",
+            "example": "The dancers moved in a whirling motion, creating a mesmerizing spectacle of colors and rhythm."
+        },
+        {
+            "word": "Fiery course",
+            "synonym": "blazing path / rapid journey / scorching route",
+            "definition": "A fast, intense, and sometimes uncontrollable trajectory or path.",
+            "example": "The meteor followed a fiery course across the sky, leaving a trail of light visible for miles."
+        },
+        {
+            "word": "Haven",
+            "synonym": "refuge / sanctuary / shelter",
+            "definition": "A safe or peaceful place providing protection.",
+            "example": "The island served as a haven for endangered species, protected from human interference."
+        },
+        {
+            "word": "Whence",
+            "synonym": "from where / from which / origin",
+            "definition": "From what place or source; from which.",
+            "example": "The explorers traced the river to its source, curious to discover whence it flowed."
+        },
+        {
+            "word": "Grope",
+            "synonym": "search / feel / fumble",
+            "definition": "To feel about blindly or uncertainly in search of something.",
+            "example": "In the dark room, he had to grope for the light switch, anxious not to trip over the furniture."
+        },
+        {
+            "word": "Plea for",
+            "synonym": "appeal / request / entreaty",
+            "definition": "A sincere request or appeal for help or mercy.",
+            "example": "The community made a plea for assistance after the floods, urging authorities to provide urgent relief."
+        },
+        {
+            "word": "Hold down",
+            "synonym": "restrain / suppress / maintain",
+            "definition": "To keep under control; to prevent from rising or escaping.",
+            "example": "The lifeguard had to hold down the panicking swimmer until reinforcements arrived."
+        },
+        {
+            "word": "Malady",
+            "synonym": "illness / disease / disorder",
+            "definition": "A condition of poor health; any undesirable or problematic condition.",
+            "example": "The malady spread rapidly through the village, prompting the local doctor to implement strict quarantine measures and public health advisories."
+        },
+        {
+            "word": "Industrial consumerism",
+            "synonym": "mass consumption / materialism / commercialism",
+            "definition": "A social and economic system characterized by large-scale production of goods and widespread consumer demand, often emphasizing material wealth and consumption.",
+            "example": "Industrial consumerism has transformed societies, leading to urban growth and environmental strain as people increasingly prioritize the acquisition of goods over sustainability."
+        },
+        {
             "word": "Eloquent",
             "synonym": "fluent / persuasive / articulate",
             "definition": "able to express ideas clearly and effectively in speech or writing",
