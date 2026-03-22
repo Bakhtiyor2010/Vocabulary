@@ -5249,6 +5249,246 @@
             "synonym": "burst / break / tear",
             "definition": "A sudden breaking, tearing apart, or bursting of something, often due to internal pressure or external force.",
             "example": "The balloon experienced a sudden rupture when the pressure inside became too great, scattering colorful pieces across the party floor."
+        },
+        {
+            "word": "molar",
+            "synonym": "tooth / grinder / back tooth",
+            "definition": "A large, flat tooth located at the back of the jaw, used primarily for grinding and crushing food; in humans and many mammals, molars are the rearmost teeth with multiple roots and broad chewing surfaces.",
+            "example": "The paleontologist carefully examined the fossilized molar under powerful lights because its size and wear patterns could reveal exactly what kind of diet the ancient creature had followed for decades before it died."
+        },
+        {
+            "word": "archaic",
+            "synonym": "ancient / outdated / primitive",
+            "definition": "Belonging to or characteristic of a very early or ancient period; extremely old-fashioned, no longer in common use, or from a distant past era.",
+            "example": "Although the language in the ancient manuscript sounded archaic to modern readers, scholars spent years translating it because its descriptions of daily life provided rare insights into a long-forgotten civilization."
+        },
+        {
+            "word": "cast",
+            "synonym": "group of actors / ensemble / performers",
+            "definition": "All the actors or performers in a play, film, or production considered as a group; also, the complete list of characters and the people who play them.",
+            "example": "The director assembled an exceptionally talented cast for the new historical drama, which included both veteran stage actors and promising young performers who brought fresh energy to the complex roles."
+        },
+        {
+            "word": "wandering",
+            "synonym": "meandering / roaming / aimless",
+            "definition": "Moving about without a fixed course, purpose, or destination; also describing a plot or narrative that shifts unpredictably from one idea or location to another.",
+            "example": "The novelist created a wandering plot that shifted between continents and centuries, which kept readers guessing until the final chapter finally revealed how every seemingly unrelated thread connected."
+        },
+        {
+            "word": "restraint",
+            "synonym": "self-control / moderation / limitation",
+            "definition": "The quality of exercising self-control, moderation, or restriction; also, a limitation or rule that prevents something from becoming excessive.",
+            "example": "The author praised the book’s remarkable restraint because the writer avoided dramatic flourishes and instead used quiet, precise language to convey deep emotions that resonated more powerfully than any exaggeration could."
+        },
+        {
+            "word": "restive",
+            "synonym": "restless / uneasy / impatient",
+            "definition": "Unable to remain still or quiet; feeling impatient, fidgety, or dissatisfied and wanting to move or act.",
+            "example": "The restive audience began shifting in their seats and whispering during the long intermission, which made the theater manager worry that the second act might not hold their attention."
+        },
+        {
+            "word": "thrill",
+            "synonym": "excitement / rush / shiver",
+            "definition": "A sudden strong feeling of excitement, pleasure, or fear that runs through the body; also, the cause of such a sensation.",
+            "example": "A sharp thrill of pleasure ran through her when she first saw the city lights sparkling at night, which reminded her why she had moved to the bustling metropolis despite all its challenges."
+        },
+        {
+            "word": "seductive",
+            "synonym": "alluring / tempting / enticing",
+            "definition": "Attracting or tempting someone in a charming, often subtly sexual or irresistible way; powerfully appealing to the senses or desires.",
+            "example": "The seductive aroma of fresh bread and spices drifted from the bakery window, which convinced even the strict dieter to abandon his plans and step inside for just one warm pastry."
+        },
+        {
+            "word": "beckoning",
+            "synonym": "inviting / calling / luring",
+            "definition": "Making a gesture or appearing attractive in a way that invites or summons someone to come closer or follow.",
+            "example": "The warm golden light from the old library windows seemed beckoning on that cold evening, which drew the tired student inside where he spent hours lost among the silent shelves."
+        },
+        {
+            "word": "mold-made",
+            "synonym": "cast / molded / mass-produced",
+            "definition": "Produced or shaped by pouring material into a mold or form rather than being individually handcrafted, resulting in uniform copies.",
+            "example": "The museum curator explained that although the ancient vessels looked identical, they were actually mold-made, which allowed artisans to create hundreds of nearly perfect copies in a short time."
+        },
+        {
+            "word": "afflict",
+            "synonym": "torment / trouble / plague",
+            "definition": "To cause persistent pain, suffering, or distress to someone or something, often over a long period.",
+            "example": "The rare skin condition continued to afflict the villagers for generations until scientists finally identified the environmental factor responsible and developed an effective treatment."
+        },
+        {
+            "word": "hyper-realistic",
+            "synonym": "photorealistic / ultra-detailed / lifelike",
+            "definition": "Extremely realistic in style or appearance, often so precise and detailed that it resembles a photograph more than traditional art.",
+            "example": "The hyper-realistic portrait captured every pore, wrinkle, and stray hair so perfectly that viewers had to look twice to confirm it was a painting rather than an actual person standing in the gallery."
+        },
+        {
+            "word": "inadvertently",
+            "synonym": "accidentally / unintentionally / by mistake",
+            "definition": "Without intending to; by accident or oversight, often while focusing on something else.",
+            "example": "The researcher inadvertently deleted the only backup file while trying to organize the massive dataset, which forced the entire team to reconstruct months of careful work from scattered notes."
+        },
+        {
+            "word": "easel",
+            "synonym": "painting stand / artist frame / support",
+            "definition": "A wooden or metal frame designed to hold a canvas or board upright while an artist paints or draws on it.",
+            "example": "The famous painter positioned her canvas on a sturdy easel near the window so that natural light would fall across the surface exactly as she needed while she worked on the final details."
+        },
+        {
+            "word": "charter",
+            "synonym": "found / establish / authorize",
+            "definition": "To formally establish or set up an organization, bank, or company by granting official legal rights or permission.",
+            "example": "Maggie Lena Walker decided to charter the St. Luke Penny Savings Bank so that Black families in Richmond would finally have access to fair loans and savings accounts during an era of widespread discrimination."
+        },
+        {
+            "word": "waive",
+            "synonym": "give up / relinquish / forgo",
+            "definition": "To voluntarily give up or refrain from claiming a right, privilege, or requirement.",
+            "example": "The university agreed to waive the application fee for low-income students, which allowed hundreds of talented young people from rural areas to apply who otherwise could not have afforded the process."
+        },
+        {
+            "word": "concede",
+            "synonym": "admit / acknowledge / yield",
+            "definition": "To admit or agree that something is true or correct, often reluctantly; also, to give up or yield a point in an argument.",
+            "example": "After reviewing the new archaeological evidence, the professor had to concede that women may have held leadership roles in Bronze Age societies, which completely changed the way historians had interpreted the ancient burial sites."
+        },
+        {
+            "word": "control group",
+            "synonym": "comparison group / baseline group / reference group",
+            "definition": "In a scientific experiment, the group of participants who do not receive the treatment or variable being tested and are used for comparison to measure the effect on the experimental group.",
+            "example": "The psychologist ensured that the control group spent their break drinking tea and chatting casually while the experimental group wrote personal values, which allowed a clear measurement of how the writing exercise affected discussion civility."
+        },
+        {
+            "word": "civil",
+            "synonym": "polite / courteous / respectful",
+            "definition": "Polite, courteous, and considerate in behavior, especially during disagreements or discussions; avoiding rudeness.",
+            "example": "Participants in the experimental group remained remarkably civil throughout the heated debate because they had first written about their personal values, which reduced defensiveness and encouraged genuine listening."
+        },
+        {
+            "word": "integral",
+            "synonym": "essential / necessary / fundamental",
+            "definition": "Necessary and important as a part of a whole; forming an essential component without which something would be incomplete.",
+            "example": "The improvisational element became integral to Alvin Ailey’s choreography because it allowed dancers to contribute their own skills and experiences, which made each performance feel uniquely alive and personal."
+        },
+        {
+            "word": "diaspora",
+            "synonym": "dispersion / migration / scattered community",
+            "definition": "The movement or scattering of a people from their original homeland to other regions, often forming communities that maintain cultural ties; also, the community itself.",
+            "example": "The Great Migration created a vast African American diaspora across northern cities, which transformed American culture by bringing rich musical traditions, literature, and artistic expressions to new urban environments."
+        },
+        {
+            "word": "trace the step",
+            "synonym": "follow the sequence / reconstruct the process / outline the stages",
+            "definition": "To carefully follow, reconstruct, or map out each successive stage or action in a process, development, or historical sequence.",
+            "example": "Historians had to trace the step of how the Bayeux Tapestry was created panel by panel because its embroidered scenes provided one of the most detailed visual records of the Norman Conquest ever preserved."
+        },
+        {
+            "word": "deviation",
+            "synonym": "departure / variation / difference",
+            "definition": "A noticeable difference or departure from what is usual, expected, standard, or normal.",
+            "example": "The scientist immediately noticed the deviation in the data because the final measurement was far outside the expected range, which suggested either an experimental error or a completely new discovery."
+        },
+        {
+            "word": "embroider",
+            "synonym": "stitch / decorate / embellish",
+            "definition": "To decorate fabric by sewing patterns or designs with needle and thread; also, to add imaginative or exaggerated details to a story.",
+            "example": "Artisans used golden thread to embroider intricate scenes across the massive tapestry, which required years of patient work and resulted in one of the most famous historical artworks of the medieval period."
+        },
+        {
+            "word": "panel",
+            "synonym": "section / compartment / scene",
+            "definition": "A distinct section or compartment within a larger surface, especially in art or architecture; also, a rectangular division of a larger work such as a tapestry or comic strip.",
+            "example": "Each embroidered panel on the ancient tapestry told a separate part of the story, which allowed viewers to follow the entire historical narrative by walking slowly along its impressive length."
+        },
+        {
+            "word": "plausible",
+            "synonym": "believable / credible / reasonable",
+            "definition": "Seeming reasonable, probable, or believable based on the available evidence or circumstances.",
+            "example": "The detective’s explanation sounded entirely plausible until new evidence emerged that completely contradicted the timeline he had so carefully constructed during the investigation."
+        },
+        {
+            "word": "workshop",
+            "synonym": "studio / atelier / workroom",
+            "definition": "A room or place where manual work or crafts are done, especially by artists or artisans; also, a place where skilled workers produce items.",
+            "example": "The master painter trained apprentices in his crowded workshop where they learned to mix pigments, prepare canvases, and master techniques that would later define an entire artistic movement."
+        },
+        {
+            "word": "legitimate",
+            "synonym": "valid / genuine / authentic",
+            "definition": "Conforming to the law, rules, or established standards; genuine and rightful rather than false or counterfeit.",
+            "example": "The scholar proved that the ancient document was legitimate by comparing its handwriting, paper quality, and language patterns with other verified artifacts from the same historical period."
+        },
+        {
+            "word": "impenetrable",
+            "synonym": "impossible to enter / dense / incomprehensible",
+            "definition": "Impossible to pass through, understand, or penetrate; extremely dense, thick, or difficult to comprehend.",
+            "example": "The dense jungle appeared almost impenetrable until the experienced guide discovered a narrow animal trail that wound through the thick undergrowth and led directly to the hidden ruins."
+        },
+        {
+            "word": "indecipherable",
+            "synonym": "unreadable / illegible / incomprehensible",
+            "definition": "Impossible or extremely difficult to read, understand, or interpret because of poor writing, damage, or complexity.",
+            "example": "The faded inscription on the stone tablet remained indecipherable for centuries until a linguist recognized a single repeated symbol that finally unlocked the meaning of the entire ancient text."
+        },
+        {
+            "word": "decisive",
+            "synonym": "conclusive / determined / crucial",
+            "definition": "Settling an issue or showing a clear result; also, showing firm determination and quick decision-making.",
+            "example": "The final experiment produced decisive evidence that ended the long scientific debate because the results were so clear and consistent that no reasonable person could disagree."
+        },
+        {
+            "word": "devour",
+            "synonym": "consume / eat greedily / absorb",
+            "definition": "To eat something quickly and hungrily; also, to read, absorb, or take in something with great eagerness or intensity.",
+            "example": "The young reader would devour entire novels in a single afternoon, which amazed her teachers because she could remember every character and plot twist with perfect clarity."
+        },
+        {
+            "word": "competent",
+            "synonym": "capable / skilled / proficient",
+            "definition": "Having the necessary ability, knowledge, or skill to do something successfully and efficiently.",
+            "example": "The new intern proved remarkably competent by solving the complex technical problem within minutes, which earned her an immediate invitation to join the senior engineering team on the flagship project."
+        },
+        {
+            "word": "distorted",
+            "synonym": "twisted / warped / misrepresented",
+            "definition": "Pulled or twisted out of its normal shape; also, presented in a way that gives a false or inaccurate impression.",
+            "example": "The reflection in the old carnival mirror appeared strangely distorted, which made even familiar faces look elongated and unrecognizable in the most amusing ways."
+        },
+        {
+            "word": "textured",
+            "synonym": "rough / patterned / tactile",
+            "definition": "Having a distinct surface feel or appearance with visible or touchable variations in smoothness, roughness, or pattern.",
+            "example": "The artist applied thick layers of paint to create a heavily textured surface that caught the light differently from every angle and invited viewers to imagine touching the canvas."
+        },
+        {
+            "word": "brushstroke",
+            "synonym": "paint mark / stroke / technique",
+            "definition": "A single movement or mark made by a paintbrush on a surface; also, the distinctive way an artist applies paint that reveals personal style.",
+            "example": "Art experts could instantly recognize the painter’s unique brushstroke because each sweeping mark carried the same confident energy and precise pressure that appeared in all of her masterpieces."
+        },
+        {
+            "word": "bold",
+            "synonym": "daring / striking / confident",
+            "definition": "Showing courage, confidence, or a willingness to take risks; also, bright, vivid, or strongly marked in color or design.",
+            "example": "The designer chose bold colors and dramatic patterns for the new collection, which made every garment stand out dramatically on the runway and captured international attention."
+        },
+        {
+            "word": "evocative",
+            "synonym": "suggestive / stirring / reminiscent",
+            "definition": "Bringing strong images, memories, or feelings to mind; powerfully suggestive of particular emotions or experiences.",
+            "example": "The evocative melody from the old piano immediately transported the elderly woman back to her childhood summers, filling the room with memories she had not revisited in decades."
+        },
+        {
+            "word": "elaborate",
+            "synonym": "detailed / intricate / ornate",
+            "definition": "Containing many carefully arranged parts or details; complex and developed with great care and attention.",
+            "example": "The artist spent months creating an elaborate mural that covered three entire walls of the library, incorporating hundreds of tiny symbolic details that told the complete history of the town."
+        },
+        {
+            "word": "clover",
+            "synonym": "trefoil / shamrock / meadow plant",
+            "definition": "A small flowering plant with three (or sometimes four) leaves, often found in lawns and meadows and traditionally considered lucky when four-leaved.",
+            "example": "The children spent the entire afternoon searching through the field for a four-leaf clover because their grandmother had promised that finding one would bring them extraordinary good luck throughout the summer."
         }
     ]
 }
