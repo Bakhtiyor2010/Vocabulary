@@ -1841,69 +1841,69 @@
 
             app.innerHTML = `
                 <div class="header">
-                <div class="header-label">Vocabulary</div>
-                <h1>Flashcard Trainer</h1>
+                    <h1>Flashcard Trainer</h1>
                 </div>
 
                 <div class="progress-wrap">
-                <div class="progress-meta">
-                    <span>${done} of ${total} reviewed</span>
-                    <span>${total - done} remaining</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: ${pct}%"></div>
-                </div>
+                    <div class="progress-meta">
+                        <span>${done} of ${total} reviewed</span>
+                        <span>${total - done} remaining</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${pct}%"></div>
+                    </div>
                 </div>
 
                 <div class="score-row">
-                <div class="score-pill green">
-                    <span class="score-dot"></span>
-                    <span>${found.length} known</span>
-                </div>
-                <div class="score-pill red">
-                    <span class="score-dot"></span>
-                    <span>${notFound.length} learning</span>
-                </div>
+                    <div class="score-pill green">
+                        <span class="score-dot"></span>
+                        <span>${found.length} known</span>
+                    </div>
+                    <div class="score-pill red">
+                        <span class="score-dot"></span>
+                        <span>${notFound.length} learning</span>
+                    </div>
                 </div>
 
                 <div class="card-stage" id="card" tabindex="0" role="button" aria-label="Tap to reveal synonym">
-                <div class="card-inner" id="card-inner">
-                    <div class="card-face card-front">
-                    <div class="word">${item.word}</div>
-                    <div class="hint">tap to reveal</div>
+                    <div class="card-inner" id="card-inner">
+                        <div class="card-face card-front">
+                            <div class="header-label">Vocabulary</div>
+                            <div class="word">${item.word}</div>
+                            <div class="hint">tap to reveal</div>
+                        </div>
+                        <div class="card-face card-back">
+                            <div class="label">Synonym</div>
+                            <div class="body-text">${item.synonym}</div>
+                            <div class="label">Definition</div>
+                            <div class="body-text">${item.definition}</div>
+                            <div class="label">Example</div>
+                            <div class="body-text">${item.example}</div>
+                        </div>
                     </div>
-                    <div class="card-face card-back">
-                    <div class="label">Synonym</div>
-                    <div class="body-text">${item.synonym}</div>
-                    <div class="label">Definition</div>
-                    <div class="body-text">${item.definition}</div>
-                    <div class="label">Example</div>
-                    <div class="body-text">${item.example}</div>
-                    </div>
-                </div>
                 </div>
 
                 <div class="flip-hint" id="flip-hint">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
-                    <path d="M3 3v5h5"/>
-                </svg>
-                click card to flip
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                        <path d="M3 3v5h5" />
+                    </svg>
+                    click card to flip
                 </div>
 
                 <div class="actions">
-                <button class="btn btn-no" onclick="mark(false)">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 6 6 18M6 6l12 12"/>
-                    </svg>
-                    Still learning
-                </button>
-                <button class="btn btn-yes" onclick="mark(true)">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M20 6 9 17l-5-5"/>
-                    </svg>
-                    Got it
-                </button>
+                    <button class="btn btn-no" onclick="mark(false)">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 6 6 18M6 6l12 12" />
+                        </svg>
+                        Still learning
+                    </button>
+                    <button class="btn btn-yes" onclick="mark(true)">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                        Got it
+                    </button>
                 </div>
             `;
 
@@ -1947,27 +1947,27 @@
 
             app.innerHTML = `
                 <div class="results">
-                <div class="results-title">Session complete</div>
-                <div class="results-sub">You scored ${score}% — ${found.length} of ${total} words known</div>
+                    <div class="results-title">Session complete</div>
+                    <div class="results-sub">You scored ${score}% — ${found.length} of ${total} words known</div>
 
-                <div class="results-grid">
-                    <div class="result-card known">
-                    <div class="result-card-label">Known</div>
-                    <div class="result-card-count">${found.length}</div>
-                    <ul class="result-word-list">
-                        ${found.map(w => `<li>${w.word}</li>`).join('')}
-                    </ul>
+                    <div class="results-grid">
+                        <div class="result-card known">
+                            <div class="result-card-label">Known</div>
+                            <div class="result-card-count">${found.length}</div>
+                            <ul class="result-word-list">
+                                ${found.map(w => `<li>${w.word}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="result-card unknown">
+                            <div class="result-card-label">Learning</div>
+                            <div class="result-card-count">${notFound.length}</div>
+                            <ul class="result-word-list">
+                                ${notFound.map(w => `<li>${w.word}</li>`).join('')}
+                            </ul>
+                        </div>
                     </div>
-                    <div class="result-card unknown">
-                    <div class="result-card-label">Learning</div>
-                    <div class="result-card-count">${notFound.length}</div>
-                    <ul class="result-word-list">
-                        ${notFound.map(w => `<li>${w.word}</li>`).join('')}
-                    </ul>
-                    </div>
-                </div>
 
-                <button class="btn-restart" onclick="restart()">← Try again</button>
+                    <button class="btn-restart" onclick="restart()">← Try again</button>
                 </div>
             `;
         }
