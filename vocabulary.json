@@ -3947,12 +3947,6 @@
             "example": "Heavy traffic can impede emergency response times, highlighting the need for efficient city planning."
         },
         {
-            "word": "Indigenous",
-            "synonym": "native / aboriginal / original",
-            "definition": "originating naturally in a particular region or country",
-            "example": "Indigenous communities often possess traditional knowledge about local ecosystems that can guide sustainable practices."
-        },
-        {
             "word": "Inherent",
             "synonym": "innate / intrinsic / inborn",
             "definition": "existing as a natural or essential part of something",
@@ -4371,12 +4365,6 @@
             "synonym": "modest / humble / simple",
             "definition": "not drawing attention to oneself; modest in behavior or appearance",
             "example": "Despite his achievements, he remained unassuming and preferred to let his work speak for itself."
-        },
-        {
-            "word": "Unqualified",
-            "synonym": "absolute / complete / total",
-            "definition": "without restriction or limitation; complete and total in scope or degree",
-            "example": "The recommendation received unqualified support from all board members, leaving no room for doubt or debate."
         },
         {
             "word": "Dazzling",
@@ -5173,12 +5161,6 @@
             "example": "The dancer moved with such natural grace that the audience remained completely silent until the final note of the music faded away."
         },
         {
-            "word": "viburnum",
-            "synonym": "shrub / plant species / viburnum bush",
-            "definition": "A genus of flowering shrubs or small trees with attractive leaves, clusters of white or pink flowers, and often colorful berries, commonly grown in gardens.",
-            "example": "The landscaper recommended planting viburnum along the fence because its dense foliage would provide privacy while also attracting birds to the garden each autumn."
-        },
-        {
             "word": "felty",
             "synonym": "fuzzy / woolly / felt-like",
             "definition": "Having a soft, dense, fuzzy texture resembling felt cloth, often describing plant surfaces or growths.",
@@ -5189,12 +5171,6 @@
             "synonym": "evenly / consistently / all the same",
             "definition": "In a way that is even, consistent, or the same throughout an entire area or surface without variation.",
             "example": "The paint was applied uniformly across the entire wall so that no streaks or variations in color would be visible once the project was completed."
-        },
-        {
-            "word": "blade",
-            "synonym": "leaf / lamina / plant leaf",
-            "definition": "The flat, broad, usually green part of a leaf or similar plant structure that is attached to a stem and performs photosynthesis.",
-            "example": "Each blade of the grass shimmered with morning dew, creating a sparkling carpet that stretched across the entire lawn before the sun rose higher."
         },
         {
             "word": "bear on",
@@ -5249,12 +5225,6 @@
             "synonym": "burst / break / tear",
             "definition": "A sudden breaking, tearing apart, or bursting of something, often due to internal pressure or external force.",
             "example": "The balloon experienced a sudden rupture when the pressure inside became too great, scattering colorful pieces across the party floor."
-        },
-        {
-            "word": "molar",
-            "synonym": "tooth / grinder / back tooth",
-            "definition": "A large, flat tooth located at the back of the jaw, used primarily for grinding and crushing food; in humans and many mammals, molars are the rearmost teeth with multiple roots and broad chewing surfaces.",
-            "example": "The paleontologist carefully examined the fossilized molar under powerful lights because its size and wear patterns could reveal exactly what kind of diet the ancient creature had followed for decades before it died."
         },
         {
             "word": "archaic",
@@ -5329,12 +5299,6 @@
             "example": "The researcher inadvertently deleted the only backup file while trying to organize the massive dataset, which forced the entire team to reconstruct months of careful work from scattered notes."
         },
         {
-            "word": "easel",
-            "synonym": "painting stand / artist frame / support",
-            "definition": "A wooden or metal frame designed to hold a canvas or board upright while an artist paints or draws on it.",
-            "example": "The famous painter positioned her canvas on a sturdy easel near the window so that natural light would fall across the surface exactly as she needed while she worked on the final details."
-        },
-        {
             "word": "charter",
             "synonym": "found / establish / authorize",
             "definition": "To formally establish or set up an organization, bank, or company by granting official legal rights or permission.",
@@ -5407,12 +5371,6 @@
             "example": "The detective’s explanation sounded entirely plausible until new evidence emerged that completely contradicted the timeline he had so carefully constructed during the investigation."
         },
         {
-            "word": "workshop",
-            "synonym": "studio / atelier / workroom",
-            "definition": "A room or place where manual work or crafts are done, especially by artists or artisans; also, a place where skilled workers produce items.",
-            "example": "The master painter trained apprentices in his crowded workshop where they learned to mix pigments, prepare canvases, and master techniques that would later define an entire artistic movement."
-        },
-        {
             "word": "legitimate",
             "synonym": "valid / genuine / authentic",
             "definition": "Conforming to the law, rules, or established standards; genuine and rightful rather than false or counterfeit.",
@@ -5480,15 +5438,9 @@
         },
         {
             "word": "elaborate",
-            "synonym": "detailed / intricate / ornate",
-            "definition": "Containing many carefully arranged parts or details; complex and developed with great care and attention.",
-            "example": "The artist spent months creating an elaborate mural that covered three entire walls of the library, incorporating hundreds of tiny symbolic details that told the complete history of the town."
-        },
-        {
-            "word": "clover",
-            "synonym": "trefoil / shamrock / meadow plant",
-            "definition": "A small flowering plant with three (or sometimes four) leaves, often found in lawns and meadows and traditionally considered lucky when four-leaved.",
-            "example": "The children spent the entire afternoon searching through the field for a four-leaf clover because their grandmother had promised that finding one would bring them extraordinary good luck throughout the summer."
+            "synonym": "expand / clarify / develop",
+            "definition": "to explain something in greater detail by adding more information, examples, or clarification so that it becomes clearer and more complete",
+            "example": "Although he initially gave a brief answer, he later elaborated on his idea by providing detailed examples, and as a result, the audience understood his perspective much more clearly."
         }
     ]
 }
