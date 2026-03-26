@@ -33,12 +33,24 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const renderGroups = () => {
       Object.keys(allVocabulary).forEach((g) => {
+        // Original group link
         const link = document.createElement("a");
         link.href = `?group=${g}`;
         link.target = "_blank";
         link.textContent = g.toUpperCase();
-        link.style.display = "block";
-        groupsSection.appendChild(link);
+        link.style.display = "inline-block";
+        link.style.marginRight = "12px";
+
+        // Flashcard trainer link — the only addition
+        const flashLink = document.createElement("a");
+        flashLink.href = `flashcard.html?group=${encodeURIComponent(g)}`;
+        flashLink.target = "_blank";
+        flashLink.textContent = "▶ Flashcards";
+
+        const row = document.createElement("div");
+        row.appendChild(link);
+        row.appendChild(flashLink);
+        groupsSection.appendChild(row);
       });
     };
 
@@ -111,7 +123,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       input.addEventListener("input", () => {
         const value = input.value.toLowerCase();
         ul.innerHTML = "";
-        if (!value) return;
+        if (!value) {
+          groupsSection.style.display = "";
+          contentDiv.style.display = "";
+          return;
+        }
+        groupsSection.style.display = "none";
+        contentDiv.style.display = "none";
 
         const matches = allWords.filter((w) =>
           w.word.toLowerCase().includes(value),
