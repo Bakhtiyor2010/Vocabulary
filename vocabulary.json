@@ -5493,12 +5493,6 @@
             "example": "Years of solving complex puzzles had sharpened her mental acuity, and she could now spot patterns in data that others overlooked even after hours of careful analysis."
         },
         {
-            "word": "slope",
-            "synonym": "incline / tilt / slant",
-            "definition": "a surface or line that is inclined at an angle rather than being level or horizontal",
-            "example": "The road had a gentle slope that made cycling uphill feel effortless at first, yet the incline became steeper near the summit and required extra effort from even the strongest riders."
-        },
-        {
             "word": "eccentric",
             "synonym": "unconventional / quirky / odd",
             "definition": "unusual, unconventional, or quirky in behavior, style, or design in a way that is often interesting or charming",
@@ -5535,18 +5529,6 @@
             "example": "The sprawling city extended for miles in every direction with no clear center, and commuters often spent hours traveling between its distant neighborhoods every single workday."
         },
         {
-            "word": "post-apocalyptic",
-            "synonym": "dystopian / after-the-catastrophe / ruined-future",
-            "definition": "relating to an imagined world or setting that exists after a major catastrophic event has destroyed much of civilization",
-            "example": "The post-apocalyptic novel described a ruined world where survivors scavenged for resources, and readers found the dystopian story both terrifying and strangely hopeful at the same time."
-        },
-        {
-            "word": "cityscape",
-            "synonym": "urban landscape / city view / metropolis panorama",
-            "definition": "a view or depiction of a city, especially its buildings, skyline, and overall urban layout",
-            "example": "The breathtaking cityscape at sunset featured glowing skyscrapers against a pink sky, and photographers gathered along the riverbank to capture the perfect metropolis panorama."
-        },
-        {
             "word": "discretion",
             "synonym": "personal choice / free will / individual judgment",
             "definition": "the freedom to decide or act according to one’s own judgment without being directed by others",
@@ -5575,18 +5557,6 @@
             "synonym": "straight chronological sequence / sequential narrative / ordered progression",
             "definition": "a straightforward, sequential ordering of events in time from beginning to end",
             "example": "Historians prefer a linear timeline when explaining historical events because it helps readers follow the ordered progression of causes and effects without confusion."
-        },
-        {
-            "word": "spatial",
-            "synonym": "relating to space / physical layout / three-dimensional",
-            "definition": "relating to space, physical layout, or the three-dimensional arrangement of objects or areas",
-            "example": "The architect focused on spatial relationships between rooms so that natural light would flow freely throughout the building, and the final physical layout felt both open and harmonious."
-        },
-        {
-            "word": "induce",
-            "synonym": "cause / bring about / generate",
-            "definition": "to cause or bring about a particular state, feeling, or condition",
-            "example": "The warm lighting and soft music were designed to induce a feeling of relaxation in the spa, and guests reported that the atmosphere helped them forget the stress of daily life almost immediately."
         },
         {
             "word": "traverse",
@@ -5643,12 +5613,6 @@
             "example": "The ancient forest contained an enormous root network that linked hundreds of trees together, and scientists discovered that this underground system allowed the trees to share nutrients and even warn one another of danger."
         },
         {
-            "word": "decomposition",
-            "synonym": "breakdown / decay / rotting",
-            "definition": "the process by which organic matter breaks down into simpler substances",
-            "example": "The decomposition of fallen leaves in the forest returns important nutrients to the soil, and this natural breakdown process supports new plant growth every spring."
-        },
-        {
             "word": "spike",
             "synonym": "sudden increase / sharp rise / surge",
             "definition": "a sudden, sharp increase in amount, level, or intensity",
@@ -5671,12 +5635,6 @@
             "synonym": "recklessness / impulsiveness / heedlessness",
             "definition": "the quality of acting without careful thought or caution, often leading to mistakes",
             "example": "His rashness in investing all his savings in a single risky stock caused him to lose everything, and the impulsiveness taught him to seek advice before making major financial decisions in the future."
-        },
-        {
-            "word": "attachment",
-            "synonym": "emotional bond / deep affection / fondness",
-            "definition": "a strong emotional bond or deep affection for someone or something",
-            "example": "The child formed a deep attachment to the stray kitten she found, and the emotional bond grew so strong that she refused to go anywhere without her new furry companion."
         },
         {
             "word": "sentiment",
@@ -5721,12 +5679,6 @@
             "example": "The insulating material in the new winter jacket kept the wearer warm even in freezing temperatures, and the protective layer proved effective during the entire mountain expedition."
         },
         {
-            "word": "undercoat",
-            "synonym": "inner fur layer / downy layer / insulating coat",
-            "definition": "the soft, dense inner layer of fur or paint that provides insulation or a base layer",
-            "example": "The dog’s thick undercoat protected it from the harsh winter cold, and the downy layer trapped warm air close to the animal’s skin throughout the freezing months."
-        },
-        {
             "word": "coarse guard hairs",
             "synonym": "outer protective hairs / stiff outer coat / bristly guard fur",
             "definition": "the longer, coarser outer hairs of an animal’s fur that provide protection from the elements",
@@ -5755,12 +5707,6 @@
             "synonym": "era / period / age",
             "definition": "a particular period of time in history or in a person’s life",
             "example": "The discovery of electricity marked the beginning of a new epoch in human history, and the era that followed brought inventions that transformed daily life forever."
-        },
-        {
-            "word": "asphalt deposit",
-            "synonym": "tar pit / bitumen pool / natural asphalt trap",
-            "definition": "a natural accumulation of asphalt or tar that can trap and preserve fossils",
-            "example": "Scientists excavated fossils from the ancient asphalt deposit, and the natural tar pit had perfectly preserved the bones of animals that lived thousands of years ago."
         },
         {
             "word": "phyla",
@@ -5871,36 +5817,6 @@
             "example": "The contract contained some ambiguity about payment deadlines, and the vagueness caused a serious disagreement between the two companies until lawyers clarified every detail."
         },
         {
-            "word": "condensate",
-            "synonym": "excitonic state / collective matter phase / hypothetical condensate",
-            "definition": "a unique state of matter formed by collective excitations of particles",
-            "example": "Physicists finally created a stable condensate in the laboratory after decades of research, and the collective matter phase behaved in ways that had only been predicted in theoretical models."
-        },
-        {
-            "word": "semimetal",
-            "synonym": "semimetallic crystal / intermediate conductor / semimetal material",
-            "definition": "a material whose properties lie between those of metals and non-metals",
-            "example": "Researchers used a semimetal crystal in their experiment because its intermediate conductivity allowed precise control of electron behavior, and the results advanced the field of quantum materials."
-        },
-        {
-            "word": "excitation",
-            "synonym": "collective excitation / quantum excitation / material excitation",
-            "definition": "a collective or quantum state in which particles are energized or excited together",
-            "example": "The scientists observed a new type of excitation in the material when they cooled it to extremely low temperatures, and the quantum excitation revealed properties never seen before in similar substances."
-        },
-        {
-            "word": "momentum",
-            "synonym": "electron momentum / particle momentum / precise momentum",
-            "definition": "the quantity of motion of a moving particle or object",
-            "example": "The particle accelerator measured the momentum of electrons with extraordinary precision, and the precise data allowed physicists to confirm long-standing theories about subatomic behavior."
-        },
-        {
-            "word": "greatcoat",
-            "synonym": "voluminous overcoat / long coat / heavy greatcoat",
-            "definition": "a long, voluminous overcoat, usually heavy and loose-fitting",
-            "example": "The detective wore an old greatcoat that reached almost to his ankles, and the heavy wool garment protected him from the cold wind while he walked the foggy streets at night."
-        },
-        {
             "word": "parish",
             "synonym": "local church community / parish priest's flock / ecclesiastical parish",
             "definition": "a local church community or district served by a priest",
@@ -5923,12 +5839,6 @@
             "synonym": "hanging freely / baggy / flowing",
             "definition": "not tight or fitting closely, often hanging freely or baggy",
             "example": "The artist preferred to wear loose clothing while painting because the flowing fabric allowed complete freedom of movement, and the baggy sleeves never restricted her creative gestures."
-        },
-        {
-            "word": "courthouse",
-            "synonym": "court building / legal hall / judicial building",
-            "definition": "a building where courts of law are held and legal cases are heard",
-            "example": "The historic courthouse stood in the center of town for over a century, and its grand legal hall had witnessed countless important trials that shaped the community’s history."
         },
         {
             "word": "startled",
@@ -5973,46 +5883,16 @@
             "example": "The speaker shared lofty ideals about world peace, and the noble vision inspired the audience to think about how they could contribute to a better future."
         },
         {
-            "word": "empathy",
-            "synonym": "compassion / understanding / emotional connection",
-            "definition": "the ability to understand and share the feelings of others",
-            "example": "Her empathy for the struggling family prompted her to organize a fundraiser, and the emotional connection she felt helped raise enough money to cover their medical expenses."
-        },
-        {
             "word": "agitated",
             "synonym": "easily upset / restless / disturbed",
             "definition": "easily upset, restless, or disturbed",
             "example": "The agitated dog paced back and forth in the waiting room because the loud noises made him nervous, and the restless behavior continued until the veterinarian finally called his name."
         },
         {
-            "word": "valley",
-            "synonym": "lowland between hills / mountain valley / serene lowland",
-            "definition": "a low area of land between hills or mountains, often with a river flowing through it",
-            "example": "The peaceful valley stretched for miles between the towering peaks, and the serene lowland provided fertile soil that supported farms for generations."
-        },
-        {
             "word": "encode",
             "synonym": "store information / represent data / carry information",
             "definition": "to represent or store information in a particular form or code",
             "example": "Computers encode data using binary numbers so that complex information can be stored efficiently, and the digital representation allows quick retrieval whenever it is needed."
-        },
-        {
-            "word": "polarization",
-            "synonym": "valley polarization / stable polarization / electron polarization",
-            "definition": "the state in which something is divided into two opposing groups or directions",
-            "example": "Political polarization has increased in many countries because people tend to follow only news sources that confirm their existing views, and the division makes compromise more difficult."
-        },
-        {
-            "word": "monolayer",
-            "synonym": "single atomic layer / two-dimensional layer / thin material sheet",
-            "definition": "a single layer of atoms or molecules, often only one atom thick",
-            "example": "Scientists created a monolayer of graphene that was only one atom thick, and the ultra-thin material sheet exhibited remarkable strength and electrical conductivity."
-        },
-        {
-            "word": "communal",
-            "synonym": "shared / collective / group-based",
-            "definition": "shared by all members of a group or community",
-            "example": "The village maintained a communal garden where everyone contributed time and harvested vegetables together, and the shared effort strengthened friendships among all the residents."
         },
         {
             "word": "fleeting",
@@ -6037,18 +5917,6 @@
             "synonym": "rumored / reputed / said to be",
             "definition": "said or believed to be something, often based on reputation",
             "example": "The old castle was reputed to be haunted by ghosts from the fourteenth century, and many visitors claimed they heard strange noises that supported the rumored stories."
-        },
-        {
-            "word": "compile",
-            "synonym": "assemble / put together / create",
-            "definition": "to gather and assemble information or items into a single collection or document",
-            "example": "The editor worked hard to compile all the research articles into one comprehensive volume, and the completed collection became an essential reference for students and professors alike."
-        },
-        {
-            "word": "documentation",
-            "synonym": "written records / historical records / official accounts",
-            "definition": "written records or official accounts that provide evidence or information",
-            "example": "The company kept detailed documentation of every transaction so that auditors could verify the accuracy of the financial statements, and the complete written records prevented any misunderstandings."
         },
         {
             "word": "concur",
@@ -6097,12 +5965,6 @@
             "synonym": "taxonomic group / biological category / classification rank",
             "definition": "a rank in biological classification that groups closely related species together",
             "example": "Biologists placed the newly discovered flower in the same genus as several other rare orchids because the taxonomic group shared many similar physical characteristics."
-        },
-        {
-            "word": "owing to",
-            "synonym": "because of / due to / as a result of",
-            "definition": "because of or as a result of something",
-            "example": "The flight was delayed owing to heavy fog at the airport, and as a result of the weather conditions many passengers had to wait several hours before they could board their planes."
         },
         {
             "word": "void",
@@ -6165,12 +6027,6 @@
             "example": "The talented soloist performed the difficult violin concerto with perfect precision, and the featured performer received a standing ovation from the entire audience at the end of the concert."
         },
         {
-            "word": "string",
-            "synonym": "string ensemble / string orchestra / string group",
-            "definition": "a musical ensemble consisting of string instruments such as violins, violas, cellos, and double basses",
-            "example": "The string ensemble rehearsed for weeks before the big performance, and the coordinated group of musicians produced a rich, harmonious sound that filled the concert hall."
-        },
-        {
             "word": "clasp",
             "synonym": "hold tightly / grip / fold together",
             "definition": "to hold something tightly or grip it firmly",
@@ -6189,12 +6045,6 @@
             "example": "Historians contend that the ancient civilization possessed advanced engineering skills, and they maintain this claim based on the remarkable structures that still stand today."
         },
         {
-            "word": "polis",
-            "synonym": "city-state / ancient Greek city / independent Greek city",
-            "definition": "an ancient Greek city-state that functioned as an independent political community",
-            "example": "Athens was one of the most famous polis in ancient Greece because it developed the world’s first known democracy, and the independent city became a center of philosophy and art."
-        },
-        {
             "word": "consolidation",
             "synonym": "strengthening / unification / merging",
             "definition": "the process of becoming stronger, more unified, or merged",
@@ -6205,24 +6055,6 @@
             "synonym": "sacred site / holy place / protected refuge",
             "definition": "a sacred or holy place, or a protected refuge",
             "example": "The ancient temple served as a sanctuary for worshippers for centuries, and the holy place provided both spiritual peace and physical safety during times of conflict."
-        },
-        {
-            "word": "epic",
-            "synonym": "long heroic poem / grand narrative / monumental story",
-            "definition": "a long narrative poem or story about heroic deeds or adventures",
-            "example": "The epic poem told the story of a hero’s long journey home after war, and the grand narrative captivated readers with its dramatic battles and emotional depth."
-        },
-        {
-            "word": "implausible",
-            "synonym": "unlikely / not believable / improbable",
-            "definition": "not seeming reasonable, probable, or believable",
-            "example": "The detective found the suspect’s alibi completely implausible because the timeline did not match any of the evidence, and the unlikely story raised even more questions about what had really happened."
-        },
-        {
-            "word": "substantiation",
-            "synonym": "proof / evidence / supporting argument",
-            "definition": "the act of providing evidence or proof to support a claim",
-            "example": "The researcher needed strong substantiation before publishing her findings, and the solid evidence she gathered convinced the scientific community that her conclusions were correct."
         },
         {
             "word": "ground",
@@ -6249,12 +6081,6 @@
             "example": "The children’s faces showed pure delight when they opened their birthday presents, and the genuine happiness in the room made the entire celebration unforgettable for everyone present."
         },
         {
-            "word": "lit up",
-            "synonym": "brightened / glowed / shone",
-            "definition": "suddenly became bright or joyful, especially a face or eyes",
-            "example": "Her face lit up with excitement when she heard the good news, and the bright expression showed everyone how much the opportunity truly meant to her."
-        },
-        {
             "word": "momentarily",
             "synonym": "briefly / for a moment / temporarily",
             "definition": "for a very short time or only for a moment",
@@ -6265,12 +6091,6 @@
             "synonym": "captivated / spellbound / mesmerized",
             "definition": "held spellbound or completely captivated",
             "example": "The audience sat entranced by the magician’s performance, and the spellbound crowd remained silent until the final astonishing trick ended with thunderous applause."
-        },
-        {
-            "word": "substance",
-            "synonym": "meaning / content / essence",
-            "definition": "the real meaning, content, or most important part of something",
-            "example": "The speech had very little substance because it contained mostly empty promises, and the lack of real content disappointed everyone who had hoped for concrete solutions."
         },
         {
             "word": "prevailing",
@@ -6315,12 +6135,6 @@
             "example": "A single pebble created a perfect ripple that spread across the still pond, and the tiny fluctuation eventually reached the distant shore where children were playing."
         },
         {
-            "word": "quantum",
-            "synonym": "subatomic / microscopic / fundamental",
-            "definition": "relating to the smallest possible units of energy or matter",
-            "example": "Quantum physics explains the strange behavior of particles at the smallest scale, and the fundamental principles continue to challenge our everyday understanding of how the universe works."
-        },
-        {
             "word": "seething",
             "synonym": "turbulent / boiling / churning",
             "definition": "violently agitated, turbulent, or boiling with activity",
@@ -6343,12 +6157,6 @@
             "synonym": "farm building / storage shed / rustic structure",
             "definition": "a large farm building used for storing grain or housing animals",
             "example": "The red barn stood at the edge of the field and stored hay for the horses all winter, and the rustic structure became a favorite gathering place for family celebrations every autumn."
-        },
-        {
-            "word": "diadem",
-            "synonym": "crown / regal headdress / royal ornament",
-            "definition": "a crown or ornamental headband worn as a symbol of royalty or honor",
-            "example": "The queen placed the sparkling diadem on her head before the coronation ceremony, and the regal headdress symbolized her new role as leader of the nation."
         },
         {
             "word": "flash organization",
@@ -6453,18 +6261,6 @@
             "example": "The leaves started to whirl in the air as the autumn wind picked up speed, and the rapid spinning created beautiful golden patterns against the blue sky."
         },
         {
-            "word": "upbent",
-            "synonym": "bent upward / arched up / curved skyward",
-            "definition": "bent or curved upward",
-            "example": "The strong wind left the tree branches upbent and twisted in unusual shapes, and the arched limbs created dramatic silhouettes against the evening sky."
-        },
-        {
-            "word": "underside",
-            "synonym": "lower surface / bottom side / hidden face",
-            "definition": "the lower or hidden surface of something",
-            "example": "When the wind turned the leaves over, their silvery underside caught the sunlight and created a shimmering effect that brightened the entire forest canopy."
-        },
-        {
             "word": "faction",
             "synonym": "group / category / division",
             "definition": "one of two or more opposing or contrasting groups within a larger group",
@@ -6487,12 +6283,6 @@
             "synonym": "friendly / pleasant / good-natured",
             "definition": "having a friendly, pleasant, and good-natured personality",
             "example": "The amiable shopkeeper greeted every customer with a warm smile and helpful advice, and her pleasant personality made the small store a favorite place for people in the neighborhood."
-        },
-        {
-            "word": "gentility",
-            "synonym": "refinement / politeness / social elegance",
-            "definition": "refined and polite behavior, especially in social situations",
-            "example": "She conducted herself with perfect gentility at the formal dinner, and her refinement and politeness impressed everyone who met her that evening."
         },
         {
             "word": "indirectness",
@@ -6535,12 +6325,6 @@
             "synonym": "emotional / tender / nostalgic",
             "definition": "showing excessive or romantic emotion, especially about the past or personal feelings",
             "example": "She became quite sentimental whenever she looked through old family photographs, and the tender memories brought tears to her eyes as she recalled happy childhood moments she had not thought about for many years."
-        },
-        {
-            "word": "knotweed",
-            "synonym": "invasive weed / Japanese knotweed / persistent plant",
-            "definition": "a highly invasive plant species that is extremely difficult to remove because it can regrow from tiny root fragments even after many years",
-            "example": "Gardeners dread discovering knotweed on their property because the invasive weed spreads rapidly underground and resists normal control methods, forcing them to hire specialists who can safely eliminate the persistent plant without leaving any fragments behind."
         },
         {
             "word": "intractable",
