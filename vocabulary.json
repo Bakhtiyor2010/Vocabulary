@@ -6386,5 +6386,247 @@
             "definition": "the act of trading goods or services directly without using money",
             "example": "In many traditional markets around the world, people still practice bartering by exchanging fresh produce for handmade crafts, and this direct trading system builds strong relationships between buyers and sellers who value fairness over cash transactions."
         }
+    ],
+    "03/28/2026": [
+        {
+            "word": "aloft",
+            "synonym": "airborne / suspended / elevated",
+            "definition": "in a raised position in the air, especially remaining there for a noticeable period of time rather than just moving upward briefly",
+            "example": "Although the wind grew increasingly unstable, the aircraft remained aloft long enough to complete its survey, and it transmitted critical data before landing."
+        },
+        {
+            "word": "memoir",
+            "synonym": "autobiography / personal account / life story",
+            "definition": "a nonfiction narrative in which a person recounts specific meaningful experiences from their life, often focusing on a particular period rather than covering everything chronologically",
+            "example": "While many authors attempt to document their entire lives, her memoir focused on her years abroad, and it revealed how those experiences reshaped her identity."
+        },
+        {
+            "word": "to be nothing like",
+            "synonym": "completely different from / unlike / not at all similar to",
+            "definition": "to have no meaningful similarity in appearance, nature, or behavior compared to something else",
+            "example": "The reality of managing a startup was nothing like the simplified version he had imagined, because it required constant decision-making, and it involved risks he had not anticipated."
+        },
+        {
+            "word": "ecstatic",
+            "synonym": "overjoyed / elated / thrilled",
+            "definition": "feeling extremely happy to an intense degree, often to the point that the emotion is difficult to control or hide",
+            "example": "She was ecstatic when she secured the scholarship, and although she tried to remain calm, her excitement quickly became obvious to everyone around her."
+        },
+        {
+            "word": "rule out",
+            "synonym": "exclude / eliminate / dismiss",
+            "definition": "to remove a possibility from consideration after determining that it is unlikely, impossible, or irrelevant",
+            "example": "The investigators ruled out human error after reviewing the data carefully, but they continued examining technical faults that might have caused the failure."
+        },
+        {
+            "word": "glisten",
+            "synonym": "shine / sparkle / gleam",
+            "definition": "to reflect light softly, often because a surface is wet, smooth, or slightly reflective",
+            "example": "As the rain stopped and sunlight emerged, the leaves began to glisten, and they created a vivid contrast against the darkened forest floor."
+        },
+        {
+            "word": "loop",
+            "synonym": "circuit / circle / repetition",
+            "definition": "a closed curve or path that returns to its starting point, or a sequence that repeats continuously",
+            "example": "The runners followed a loop that circled the park, so they passed the same landmarks repeatedly, and they tracked their progress more easily."
+        },
+        {
+            "word": "stroller",
+            "synonym": "pushchair / pram / baby carriage",
+            "definition": "a wheeled chair designed for transporting a baby or young child, typically pushed by an adult",
+            "example": "While navigating the busy street, the parents carefully pushed the stroller, and they adjusted their pace to avoid the rushing crowd."
+        },
+        {
+            "word": "resurface",
+            "synonym": "reappear / come back / return",
+            "definition": "to appear again after being hidden, forgotten, or inactive for a period of time",
+            "example": "Although the issue had been resolved years earlier, tensions began to resurface during the meeting, and they disrupted the discussion."
+        },
+        {
+            "word": "deposit",
+            "synonym": "sediment / accumulation / layer",
+            "definition": "a layer or accumulation of material that has been gradually laid down over time by natural or physical processes",
+            "example": "The river left a thick deposit of sediment after flooding, and it significantly altered the surrounding landscape over time."
+        },
+        {
+            "word": "designate",
+            "synonym": "name / label / assign",
+            "definition": "to officially assign a role, title, or status to someone or something",
+            "example": "The organization designated the area as protected land after conducting extensive research, and it enforced strict regulations to preserve it."
+        },
+        {
+            "word": "ledge",
+            "synonym": "shelf / projection / edge",
+            "definition": "a narrow horizontal surface that projects from a vertical structure such as a wall or cliff",
+            "example": "Although the climber reached a narrow ledge, he paused briefly to regain balance, and he carefully planned his next move."
+        },
+        {
+            "word": "vantage",
+            "synonym": "advantageous position / viewpoint / observation point",
+            "definition": "a position that provides a strategic advantage or a clear and wide view of something",
+            "example": "From their elevated vantage point, the observers could see the entire valley, and they documented changes that were invisible from below."
+        },
+        {
+            "word": "adorn",
+            "synonym": "decorate / embellish / beautify",
+            "definition": "to enhance the appearance of something by adding decorative elements",
+            "example": "The hall was adorned with intricate designs, and although the patterns were subtle, they added a sense of elegance to the space."
+        },
+        {
+            "word": "workbench",
+            "synonym": "work table / workshop bench / labor station",
+            "definition": "a strong, flat surface used for manual tasks, especially in construction, repair, or crafting",
+            "example": "The carpenter organized his tools on the workbench, and he arranged them carefully so that he could work efficiently."
+        },
+        {
+            "word": "anomaly",
+            "synonym": "irregularity / deviation / abnormality",
+            "definition": "something that deviates from what is expected, normal, or typical in a given context",
+            "example": "The data revealed an anomaly that researchers could not immediately explain, so they conducted further tests to verify their findings."
+        },
+        {
+            "word": "scrub",
+            "synonym": "clean / scour / wash vigorously",
+            "definition": "to clean a surface by rubbing it forcefully, usually with a brush or rough material",
+            "example": "She scrubbed the surface thoroughly, and although the stains were stubborn, they gradually began to fade."
+        },
+        {
+            "word": "non-ambush",
+            "synonym": "open hunter / active predator / pursuit predator",
+            "definition": "describing a predator that actively chases or tracks its prey instead of relying on surprise attacks",
+            "example": "Because it is a non-ambush predator, the animal relies on speed and endurance, and it pursues its prey over long distances."
+        },
+        {
+            "word": "runway",
+            "synonym": "fashion show platform / catwalk / modeling stage",
+            "definition": "a long, narrow platform where models walk to display clothing during fashion shows",
+            "example": "The designer presented her collection on the runway, and although the designs were unconventional, they attracted significant attention."
+        },
+        {
+            "word": "sap",
+            "synonym": "tree fluid / plant juice / sugary liquid",
+            "definition": "the liquid that circulates through a plant, carrying nutrients and water to sustain growth",
+            "example": "Farmers collect sap from trees during certain seasons, and they process it carefully to produce syrup."
+        },
+        {
+            "word": "lead a drive to",
+            "synonym": "initiate a campaign / spearhead an effort / organize a movement",
+            "definition": "to take primary responsibility for organizing and directing a collective effort toward a goal",
+            "example": "She decided to lead a drive to improve working conditions, and she coordinated efforts that brought attention to the issue."
+        },
+        {
+            "word": "walkout",
+            "synonym": "strike / labor protest / work stoppage",
+            "definition": "a collective action in which workers leave their workplace to protest conditions or demand change",
+            "example": "The employees organized a walkout to demand fair wages, and although management resisted at first, negotiations eventually began."
+        },
+        {
+            "word": "cochair",
+            "synonym": "joint leader / co-leader / shared chairperson",
+            "definition": "a person who shares leadership responsibilities equally with another individual",
+            "example": "She served as cochair of the committee, and she worked closely with her counterpart to coordinate major decisions."
+        },
+        {
+            "word": "rally",
+            "synonym": "gather / protest meeting / demonstration",
+            "definition": "a large public gathering held to show support for a cause or to express collective opinion",
+            "example": "Thousands attended the rally to support the initiative, and although the weather was poor, participation remained strong."
+        },
+        {
+            "word": "permeate",
+            "synonym": "spread through / diffuse / penetrate",
+            "definition": "to spread gradually throughout something so that it affects every part of it",
+            "example": "A sense of urgency began to permeate the organization, and it influenced every decision that followed."
+        },
+        {
+            "word": "exhaustively",
+            "synonym": "thoroughly / completely / in great detail",
+            "definition": "in a manner that covers every possible detail or aspect without leaving anything out",
+            "example": "The researcher examined the data exhaustively, and although the process was time-consuming, it ensured accurate conclusions."
+        },
+        {
+            "word": "jot down",
+            "synonym": "write quickly / note briefly / scribble",
+            "definition": "to write something quickly in a brief and informal way, often to remember it later",
+            "example": "He jotted down key ideas during the lecture, and although his notes were brief, they helped him review the material later."
+        },
+        {
+            "word": "affront",
+            "synonym": "insult / offense / disrespect",
+            "definition": "an action or remark that causes deliberate offense or shows a lack of respect",
+            "example": "He viewed the criticism as a personal affront, and although it was intended as constructive feedback, he reacted defensively."
+        },
+        {
+            "word": "march",
+            "synonym": "musical composition / procession piece / military tune",
+            "definition": "a musical piece with a steady, strong rhythm designed to accompany walking or movement in a formal procession",
+            "example": "The band performed a march during the ceremony, and its rhythm guided the participants as they moved in formation."
+        },
+        {
+            "word": "climactic",
+            "synonym": "culminating / peak / high point",
+            "definition": "relating to the most intense, important, or exciting moment in a sequence of events",
+            "example": "The film built toward a climactic scene, and although the tension had been rising gradually, the final moment was the most impactful."
+        },
+        {
+            "word": "gazebo",
+            "synonym": "pavilion / garden shelter / open-air structure",
+            "definition": "a small, open-sided structure in a garden or park used for relaxation or gatherings",
+            "example": "They gathered in the gazebo during the event, and although it was simple, it provided shelter and a clear view of the surroundings."
+        },
+        {
+            "word": "matrix",
+            "synonym": "mold / template / framework",
+            "definition": "a structure or form used as a basis for creating or organizing something, especially multiple copies or patterns",
+            "example": "The artist used a matrix to produce consistent prints, and although each copy was similar, slight variations remained."
+        },
+        {
+            "word": "dignity",
+            "synonym": "self-respect / honor / worthiness",
+            "definition": "the quality of being worthy of respect, often shown through composed and honorable behavior",
+            "example": "She handled the situation with dignity, and although the circumstances were difficult, she maintained her composure."
+        },
+        {
+            "word": "bolster",
+            "synonym": "support / strengthen / reinforce",
+            "definition": "to make something stronger or more effective by providing support or encouragement",
+            "example": "The new evidence bolstered the argument, and it convinced many who had previously been skeptical."
+        },
+        {
+            "word": "closet",
+            "synonym": "wardrobe / storage cupboard / small room",
+            "definition": "a small enclosed space used for storing clothes or other household items",
+            "example": "They organized the closet to create more space, and although it was small, it became more functional."
+        },
+        {
+            "word": "pantry",
+            "synonym": "food cupboard / storeroom / larder",
+            "definition": "a storage area used specifically for keeping food and kitchen supplies",
+            "example": "She stocked the pantry carefully, and although supplies were limited, she managed them efficiently."
+        },
+        {
+            "word": "crooked",
+            "synonym": "bent / uneven / twisted",
+            "definition": "not straight or properly aligned, often appearing bent or irregular",
+            "example": "The crooked fence leaned to one side, and although it still stood, it required repair."
+        },
+        {
+            "word": "porch",
+            "synonym": "veranda / deck / entrance platform",
+            "definition": "a covered area at the entrance of a building, often used for sitting or relaxing",
+            "example": "They sat on the porch during the evening, and although the space was simple, it offered comfort."
+        },
+        {
+            "word": "grand",
+            "synonym": "magnificent / impressive / splendid",
+            "definition": "large, impressive, or visually striking in appearance or scale",
+            "example": "The building appeared grand from a distance, and although it was old, it retained its elegance."
+        },
+        {
+            "word": "sturdy",
+            "synonym": "strong / solid / robust",
+            "definition": "built in a way that is strong and able to withstand pressure or wear over time",
+            "example": "The structure was sturdy enough to endure harsh conditions, and although it was not modern, it proved reliable."
+        }
     ]
 }
