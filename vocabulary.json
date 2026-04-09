@@ -6628,5 +6628,1789 @@
             "definition": "built in a way that is strong and able to withstand pressure or wear over time",
             "example": "The structure was sturdy enough to endure harsh conditions, and although it was not modern, it proved reliable."
         }
+    ],
+    "04/10/2026": [
+        {
+            "word": "admire",
+            "synonym": "respect / esteem / appreciate",
+            "definition": "to regard someone or something with great respect, approval, or warm liking because of their qualities, achievements, or character",
+            "example": "Although many people doubted him, she continued to admire his determination."
+        },
+        {
+            "word": "condone",
+            "synonym": "forgive / excuse / overlook",
+            "definition": "to accept or allow behavior that is wrong or bad without criticizing or punishing it",
+            "example": "The manager refused to condone dishonesty in the workplace."
+        },
+        {
+            "word": "erratic",
+            "synonym": "unpredictable / inconsistent / irregular",
+            "definition": "changing suddenly and without any clear or regular pattern",
+            "example": "The erratic weather patterns forced farmers to install advanced irrigation systems."
+        },
+        {
+            "word": "secluded",
+            "synonym": "isolated / hidden / remote",
+            "definition": "located in a quiet, private, and distant place that is far away from crowds and hard to reach",
+            "example": "She moved to a secluded mountain cabin to write her novel in peace."
+        },
+        {
+            "word": "fluctuate",
+            "synonym": "vary / oscillate / waver",
+            "definition": "to rise and fall irregularly or change frequently up and down",
+            "example": "Stock prices tend to fluctuate wildly during times of economic uncertainty."
+        },
+        {
+            "word": "exalt",
+            "synonym": "praise / glorify / worship",
+            "definition": "to praise someone or something very highly",
+            "example": "The fans continued to exalt their favorite singer even after she retired."
+        },
+        {
+            "word": "admonish",
+            "synonym": "warn / scold / reprimand",
+            "definition": "to gently but seriously warn or scold someone about their behavior",
+            "example": "The teacher had to admonish the student several times for arriving late."
+        },
+        {
+            "word": "abrupt",
+            "synonym": "sudden / unexpected / sharp",
+            "definition": "happening very suddenly and without any warning",
+            "example": "The meeting came to an abrupt end when the CEO received an emergency call."
+        },
+        {
+            "word": "content",
+            "synonym": "satisfied / pleased / fulfilled",
+            "definition": "feeling happy and satisfied with what you already have",
+            "example": "He felt content with his simple life and loving family."
+        },
+        {
+            "word": "eccentric",
+            "synonym": "strange / odd / unconventional",
+            "definition": "unusual or different from what most people consider normal",
+            "example": "The eccentric inventor created strange machines that later revolutionized the industry."
+        },
+        {
+            "word": "mired",
+            "synonym": "stuck / trapped / bogged down",
+            "definition": "deeply stuck in a difficult or complicated situation",
+            "example": "The company became mired in legal disputes after the scandal."
+        },
+        {
+            "word": "colloquial",
+            "synonym": "informal / conversational / everyday",
+            "definition": "casual everyday language used in normal conversation",
+            "example": "She preferred using colloquial expressions when chatting with friends."
+        },
+        {
+            "word": "reconcile",
+            "synonym": "resolve / harmonize / reunite",
+            "definition": "to settle a disagreement or bring conflicting things together peacefully",
+            "example": "The couple finally managed to reconcile their differences."
+        },
+        {
+            "word": "alienate",
+            "synonym": "isolate / estrange / distance",
+            "definition": "to make someone feel isolated or separated from a group",
+            "example": "His rude comments managed to alienate almost every relative."
+        },
+        {
+            "word": "distinguish",
+            "synonym": "differentiate / recognize / tell apart",
+            "definition": "to notice or clearly see the difference between similar things",
+            "example": "It is sometimes difficult for beginners to distinguish between similar-sounding words."
+        },
+        {
+            "word": "adequate",
+            "synonym": "sufficient / enough / satisfactory",
+            "definition": "good enough or sufficient for a specific purpose",
+            "example": "The hotel room was adequate for their short stay."
+        },
+        {
+            "word": "contend",
+            "synonym": "deal with / claim / argue",
+            "definition": "to struggle with a difficult situation or state something strongly as your opinion",
+            "example": "Many experts contend that climate change is the most serious challenge facing humanity."
+        },
+        {
+            "word": "skeptical",
+            "synonym": "doubtful / suspicious / questioning",
+            "definition": "having doubts and not easily believing something without strong evidence",
+            "example": "She remained skeptical about the new diet plan."
+        },
+        {
+            "word": "enfranchise",
+            "synonym": "empower / grant voting rights",
+            "definition": "to give someone the legal right to vote or greater freedom and power",
+            "example": "The new law aimed to enfranchise millions of previously excluded citizens."
+        },
+        {
+            "word": "sophisticated",
+            "synonym": "refined / complex / worldly",
+            "definition": "having advanced knowledge, experience, or technical complexity",
+            "example": "The sophisticated software system dramatically improved efficiency."
+        },
+        {
+            "word": "radical",
+            "synonym": "extreme / fundamental / revolutionary",
+            "definition": "thorough and involving fundamental or extreme changes",
+            "example": "The government introduced radical reforms to the education system."
+        },
+        {
+            "word": "formulate",
+            "synonym": "create / devise / develop",
+            "definition": "to carefully create or develop an idea, theory, or plan",
+            "example": "The research team worked for months to formulate a new theory."
+        },
+        {
+            "word": "attest",
+            "synonym": "confirm / verify / certify",
+            "definition": "to state or prove that something is true, often with evidence",
+            "example": "Several witnesses were ready to attest to the defendant's innocence."
+        },
+        {
+            "word": "vexing",
+            "synonym": "annoying / irritating / frustrating",
+            "definition": "causing annoyance, irritation, or frustration",
+            "example": "The vexing technical issues forced the team to work overtime."
+        },
+        {
+            "word": "unassuming",
+            "synonym": "humble / modest / low-key",
+            "definition": "modest and not trying to appear important or superior",
+            "example": "Despite his achievements, he remained unassuming."
+        },
+        {
+            "word": "coerce",
+            "synonym": "force / pressure / compel",
+            "definition": "to pressure or force someone into doing something they do not want to do",
+            "example": "The manager tried to coerce employees into working extra hours."
+        },
+        {
+            "word": "adept",
+            "synonym": "skilled / proficient / expert",
+            "definition": "very skilled at doing something through practice and experience",
+            "example": "She became adept at negotiating complex business deals."
+        },
+        {
+            "word": "eloquent",
+            "synonym": "fluent / persuasive / articulate",
+            "definition": "able to speak or write in a fluent, clear, and persuasive way",
+            "example": "The eloquent speaker captivated the entire audience."
+        },
+        {
+            "word": "austere",
+            "synonym": "plain / simple / severe",
+            "definition": "plain and without luxury or extra comforts",
+            "example": "The monks lived an austere lifestyle with simple meals."
+        },
+        {
+            "word": "dread",
+            "synonym": "fear / be afraid of",
+            "definition": "to feel great fear or anxiety about something that might happen",
+            "example": "Many students dread final exams."
+        },
+        {
+            "word": "inevitable",
+            "synonym": "unavoidable / certain / inescapable",
+            "definition": "impossible to avoid or prevent",
+            "example": "Bankruptcy seemed inevitable for the struggling company."
+        },
+        {
+            "word": "stress",
+            "synonym": "emphasize / highlight",
+            "definition": "to place special importance on something",
+            "example": "The professor continued to stress the importance of critical thinking."
+        },
+        {
+            "word": "spawn",
+            "synonym": "produce / generate / create",
+            "definition": "to produce or give rise to something, often in large numbers",
+            "example": "The successful movie spawned several sequels."
+        },
+        {
+            "word": "renounce",
+            "synonym": "give up / reject / abandon",
+            "definition": "to formally give up or reject a belief, right, or claim",
+            "example": "He decided to renounce his citizenship."
+        },
+        {
+            "word": "unprecedented",
+            "synonym": "unparalleled / never before / historic",
+            "definition": "never having happened before in history",
+            "example": "The country experienced unprecedented economic growth."
+        },
+        {
+            "word": "broach",
+            "synonym": "raise / introduce / mention",
+            "definition": "to bring up a difficult or sensitive topic",
+            "example": "It took her several weeks to finally broach the topic of salary."
+        },
+        {
+            "word": "proxy",
+            "synonym": "substitute / representative / agent",
+            "definition": "a person who acts or votes on behalf of another",
+            "example": "She sent her lawyer as a proxy to the meeting."
+        },
+        {
+            "word": "detrimental",
+            "synonym": "harmful / damaging / negative",
+            "definition": "causing harm or negative effects",
+            "example": "Excessive screen time can be detrimental to children's development."
+        },
+        {
+            "word": "secular",
+            "synonym": "non-religious / worldly / civil",
+            "definition": "not connected with religion",
+            "example": "The school maintained a secular environment."
+        },
+        {
+            "word": "innovative",
+            "synonym": "new / creative / original",
+            "definition": "introducing new and creative ideas or methods",
+            "example": "The innovative startup developed a popular mobile app."
+        },
+        {
+            "word": "tangible",
+            "synonym": "real / concrete / touchable",
+            "definition": "real and able to be physically touched or clearly measured",
+            "example": "The company finally delivered tangible results."
+        },
+        {
+            "word": "disseminate",
+            "synonym": "spread / distribute / circulate",
+            "definition": "to spread information or ideas widely",
+            "example": "Social media makes it easier to disseminate important news."
+        },
+        {
+            "word": "delegate",
+            "synonym": "assign / entrust / hand over",
+            "definition": "to assign a task or responsibility to another person",
+            "example": "The manager learned to delegate important tasks to her team."
+        },
+        {
+            "word": "apparent",
+            "synonym": "obvious / clear / evident",
+            "definition": "clearly visible or easy to notice and understand",
+            "example": "It soon became apparent that the new policy was not working."
+        },
+        {
+            "word": "postulate",
+            "synonym": "propose / suggest / assume",
+            "definition": "to suggest an idea or theory as a starting point",
+            "example": "Scientists postulate that dark matter exists."
+        },
+        {
+            "word": "speculate",
+            "synonym": "guess / theorize / conjecture",
+            "definition": "to form a guess or opinion without firm evidence",
+            "example": "Analysts continue to speculate about the CEO's resignation."
+        },
+        {
+            "word": "bazaar",
+            "synonym": "market / marketplace",
+            "definition": "a large outdoor market where goods are sold",
+            "example": "Every weekend the square turns into a lively bazaar."
+        },
+        {
+            "word": "sporadic",
+            "synonym": "scattered / irregular / occasional",
+            "definition": "happening at irregular or unpredictable times",
+            "example": "Sporadic outbreaks continued to appear in remote villages."
+        },
+        {
+            "word": "suffrage",
+            "synonym": "voting rights / right to vote",
+            "definition": "the legal right to vote in elections",
+            "example": "The struggle for women's suffrage changed the political landscape."
+        },
+        {
+            "word": "incredulous",
+            "synonym": "disbelieving / skeptical / doubtful",
+            "definition": "unable or unwilling to believe something",
+            "example": "She looked incredulous when he told her he had won the lottery."
+        },
+        {
+            "word": "idealistic",
+            "synonym": "utopian / optimistic / visionary",
+            "definition": "believing in perfect or very high ideals, often unrealistically",
+            "example": "The young politician's idealistic vision inspired many supporters."
+        },
+        {
+            "word": "conflate",
+            "synonym": "mix / combine / confuse",
+            "definition": "to mistakenly mix two different ideas or facts",
+            "example": "It is important not to conflate correlation with causation."
+        },
+        {
+            "word": "paucity",
+            "synonym": "scarcity / shortage / lack",
+            "definition": "a very small amount or lack of something",
+            "example": "There is a paucity of qualified teachers in rural areas."
+        },
+        {
+            "word": "ephemeral",
+            "synonym": "temporary / short-lived / fleeting",
+            "definition": "lasting for only a very short time",
+            "example": "The ephemeral beauty of cherry blossoms attracts many tourists."
+        },
+        {
+            "word": "prompt",
+            "synonym": "cause / stimulate / incite",
+            "definition": "to cause or encourage something to happen",
+            "example": "The accident prompted the government to introduce stricter regulations."
+        },
+        {
+            "word": "reverence",
+            "synonym": "respect / admiration / awe",
+            "definition": "deep respect or admiration for someone or something",
+            "example": "The students showed great reverence for their professor."
+        },
+        {
+            "word": "disparity",
+            "synonym": "difference / gap / inequality",
+            "definition": "a large or noticeable difference or gap",
+            "example": "The disparity in income between rich and poor is a major issue."
+        },
+        {
+            "word": "dispassionate",
+            "synonym": "impartial / objective / unbiased",
+            "definition": "not influenced by personal emotions; calm and fair",
+            "example": "A good judge must remain dispassionate."
+        },
+        {
+            "word": "phenomenon",
+            "synonym": "occurrence / event / happening",
+            "definition": "a remarkable or unusual fact or event",
+            "example": "The rare astronomical phenomenon drew scientists from around the world."
+        },
+        {
+            "word": "boast",
+            "synonym": "brag / show off",
+            "definition": "to talk proudly about one's own achievements",
+            "example": "He never liked to boast about his success."
+        },
+        {
+            "word": "irksome",
+            "synonym": "irritating / annoying / bothersome",
+            "definition": "causing irritation or mild frustration",
+            "example": "The irksome habit of interrupting others annoyed his friends."
+        },
+        {
+            "word": "allude",
+            "synonym": "refer / hint / suggest",
+            "definition": "to mention or refer to something indirectly",
+            "example": "In his speech, the president alluded to recent economic challenges."
+        },
+        {
+            "word": "omnipotence",
+            "synonym": "unlimited power / supreme authority",
+            "definition": "having unlimited or infinite power",
+            "example": "Many ancient myths describe gods with omnipotence."
+        },
+        {
+            "word": "provoke",
+            "synonym": "trigger / incite / stir up",
+            "definition": "to cause a strong reaction or emotion",
+            "example": "The article provoked strong reactions from readers."
+        },
+        {
+            "word": "indulge",
+            "synonym": "enjoy / pamper / treat oneself",
+            "definition": "to allow oneself to enjoy a pleasure, often excessively",
+            "example": "After a hard week, she liked to indulge in a relaxing bath."
+        },
+        {
+            "word": "entrenched",
+            "synonym": "established / deep-rooted / fixed",
+            "definition": "firmly established and difficult to change",
+            "example": "The entrenched traditions made change difficult."
+        },
+        {
+            "word": "inherent",
+            "synonym": "built-in / natural / intrinsic",
+            "definition": "existing naturally as a basic part of something",
+            "example": "Risk is inherent in every investment decision."
+        },
+        {
+            "word": "vernacular",
+            "synonym": "everyday language / local dialect",
+            "definition": "the everyday informal language spoken by ordinary people",
+            "example": "The poet wrote in the vernacular so ordinary people could understand."
+        },
+        {
+            "word": "inquisition",
+            "synonym": "interrogation / questioning / investigation",
+            "definition": "a long and thorough questioning or investigation",
+            "example": "The lawyer subjected the witness to a long inquisition."
+        },
+        {
+            "word": "anecdote",
+            "synonym": "short story / personal tale",
+            "definition": "a short interesting story about a real event",
+            "example": "The professor shared an amusing anecdote from his student days."
+        },
+        {
+            "word": "malign",
+            "synonym": "evil / harmful / malicious",
+            "definition": "having a strong desire to harm others",
+            "example": "The malign influence of corruption weakened the institutions."
+        },
+        {
+            "word": "anomaly",
+            "synonym": "oddity / irregularity / exception",
+            "definition": "something unusual or different from what is normal",
+            "example": "The sudden temperature drop was considered an anomaly."
+        },
+        {
+            "word": "inhibit",
+            "synonym": "hold back / suppress / prevent",
+            "definition": "to hold back or prevent someone or something from acting freely",
+            "example": "Shyness often inhibits people from speaking up."
+        },
+        {
+            "word": "mutable",
+            "synonym": "changeable / variable / adaptable",
+            "definition": "able or likely to change often",
+            "example": "Human opinions are mutable."
+        },
+        {
+            "word": "petty",
+            "synonym": "trivial / minor / small-minded",
+            "definition": "of little importance or showing a small-minded attitude",
+            "example": "Their petty arguments damaged their relationship."
+        },
+        {
+            "word": "avid",
+            "synonym": "passionate / enthusiastic / keen",
+            "definition": "very enthusiastic or passionate about something",
+            "example": "He is an avid reader."
+        },
+        {
+            "word": "invoke",
+            "synonym": "call upon / refer to / cite",
+            "definition": "to call upon or refer to something for support",
+            "example": "Lawyers often invoke previous court decisions."
+        },
+        {
+            "word": "imprudent",
+            "synonym": "foolish / reckless / unwise",
+            "definition": "not wise or careful; showing poor judgment",
+            "example": "It would be imprudent to invest all savings in one risky venture."
+        },
+        {
+            "word": "tenacity",
+            "synonym": "persistence / determination / perseverance",
+            "definition": "the quality of being very determined and unwilling to give up",
+            "example": "Her tenacity led her to develop a successful startup."
+        },
+        {
+            "word": "venerable",
+            "synonym": "respected / honored / esteemed",
+            "definition": "deserving great respect because of age, wisdom, or character",
+            "example": "The venerable old scholar was invited to speak at the celebration."
+        },
+        {
+            "word": "authoritarian",
+            "synonym": "dictatorial / strict / oppressive",
+            "definition": "demanding strict obedience and not allowing opposition",
+            "example": "The authoritarian regime did not tolerate criticism."
+        },
+        {
+            "word": "quarrel",
+            "synonym": "argument / dispute / disagreement",
+            "definition": "an angry argument or disagreement",
+            "example": "A minor quarrel escalated into a long feud."
+        },
+        {
+            "word": "yield",
+            "synonym": "produce / generate / surrender",
+            "definition": "to produce a result or to give up something",
+            "example": "The new techniques are expected to yield higher crop production."
+        },
+        {
+            "word": "ambivalent",
+            "synonym": "mixed feelings / uncertain / conflicted",
+            "definition": "having mixed or conflicting feelings",
+            "example": "She felt ambivalent about the job offer."
+        },
+        {
+            "word": "endeavor",
+            "synonym": "attempt / strive / try hard",
+            "definition": "to try hard to achieve something difficult",
+            "example": "Scientists continue to endeavor to find a cure."
+        },
+        {
+            "word": "insurrection",
+            "synonym": "rebellion / uprising / revolt",
+            "definition": "a violent attempt to overthrow authority",
+            "example": "The failed insurrection led to many arrests."
+        },
+        {
+            "word": "contemplate",
+            "synonym": "think about / ponder / consider deeply",
+            "definition": "to think about something carefully for a long time",
+            "example": "He liked to contemplate the meaning of life."
+        },
+        {
+            "word": "compel",
+            "synonym": "force / oblige / require",
+            "definition": "to force or strongly require someone to do something",
+            "example": "The new law will compel companies to report emissions."
+        },
+        {
+            "word": "feasible",
+            "synonym": "possible / practical / workable",
+            "definition": "possible to do with the available resources",
+            "example": "The engineers determined that the bridge was feasible."
+        },
+        {
+            "word": "conjecture",
+            "synonym": "guess / speculation / theory",
+            "definition": "an opinion or guess without enough proof",
+            "example": "All theories about the disappearance remain pure conjecture."
+        },
+        {
+            "word": "arbitrary",
+            "synonym": "random / capricious / impulsive",
+            "definition": "based on random choice rather than reason or rules",
+            "example": "The arbitrary decision created confusion."
+        },
+        {
+            "word": "reinforce",
+            "synonym": "strengthen / support / bolster",
+            "definition": "to make something stronger by adding support",
+            "example": "Positive feedback helped reinforce the company's decision."
+        },
+        {
+            "word": "temper",
+            "synonym": "moderate / balance / counteract",
+            "definition": "to make something less extreme by adding an opposing quality",
+            "example": "Her calm personality helped temper the heated arguments."
+        },
+        {
+            "word": "decree",
+            "synonym": "order / command / edict",
+            "definition": "an official order or law issued by authority",
+            "example": "The king issued a decree that all citizens must pay higher taxes."
+        },
+        {
+            "word": "brevity",
+            "synonym": "conciseness / shortness",
+            "definition": "the quality of being short and clear with few words",
+            "example": "The brevity of his speech surprised everyone."
+        },
+        {
+            "word": "equivocal",
+            "synonym": "ambiguous / unclear / vague",
+            "definition": "unclear or open to more than one interpretation",
+            "example": "The politician's equivocal response left everyone unsure."
+        },
+        {
+            "word": "stronghold",
+            "synonym": "fortress / bastion / citadel",
+            "definition": "a strongly defended place or position",
+            "example": "The ancient castle served as the last stronghold."
+        },
+        {
+            "word": "conceive",
+            "synonym": "create / devise / imagine",
+            "definition": "to form or create a plan or idea in the mind",
+            "example": "It took years for the architect to conceive the revolutionary design."
+        },
+        {
+            "word": "vanity",
+            "synonym": "pride / conceit / self-importance",
+            "definition": "excessive pride in one's own appearance or achievements",
+            "example": "His vanity made him seek compliments constantly."
+        },
+        {
+            "word": "sluggish",
+            "synonym": "slow / lethargic / inactive",
+            "definition": "moving or reacting slowly; lacking energy",
+            "example": "The economy remained sluggish due to supply chain problems."
+        },
+        {
+            "word": "intuition",
+            "synonym": "instinct / gut feeling",
+            "definition": "the ability to understand something instinctively without conscious reasoning",
+            "example": "Her strong intuition helped her make correct decisions."
+        },
+        {
+            "word": "inexorable",
+            "synonym": "unstoppable / relentless / inevitable",
+            "definition": "impossible to stop or prevent",
+            "example": "The inexorable march of technological progress continues."
+        },
+        {
+            "word": "prolific",
+            "synonym": "productive / abundant / fruitful",
+            "definition": "producing a large number of works or results",
+            "example": "She remained prolific and designed over thirty innovative gadgets."
+        },
+        {
+            "word": "discourse",
+            "synonym": "discussion / conversation / exchange",
+            "definition": "a formal discussion or exchange of ideas",
+            "example": "Experts engaged in a lively discourse about sustainable materials."
+        },
+        {
+            "word": "unadorn",
+            "synonym": "plain / simple / undecorated",
+            "definition": "not decorated or adorned with extra details",
+            "example": "The minimalist designer preferred unadorn furniture."
+        },
+        {
+            "word": "paragon",
+            "synonym": "model / ideal / perfect example",
+            "definition": "a perfect example or model of something",
+            "example": "She quickly became the paragon of technical precision."
+        },
+        {
+            "word": "well-defined",
+            "synonym": "clear / specific / distinct",
+            "definition": "clearly described or having clear boundaries",
+            "example": "The trail had well-defined markers every fifty meters."
+        },
+        {
+            "word": "delicately",
+            "synonym": "finely / sensitively / carefully",
+            "definition": "in a careful and sensitive way",
+            "example": "The chef handled the fragile sculpture delicately."
+        },
+        {
+            "word": "retreat",
+            "synonym": "hideaway / sanctuary / secluded place",
+            "definition": "a quiet private place where someone goes to be alone",
+            "example": "The diplomat escaped to a mountain retreat."
+        },
+        {
+            "word": "mobile surface",
+            "synonym": "moving surface / shifting surface",
+            "definition": "the changing or moving top layer of something",
+            "example": "The mobile surface of the lake began to churn violently."
+        },
+        {
+            "word": "mingle",
+            "synonym": "mix / blend / merge",
+            "definition": "to combine or join together so it is hard to separate",
+            "example": "Conversations began to mingle with the soft jazz music."
+        },
+        {
+            "word": "monotony",
+            "synonym": "boredom / sameness / dullness",
+            "definition": "a feeling of boredom from doing the same thing without change",
+            "example": "The factory worker endured the daily monotony."
+        },
+        {
+            "word": "melancholy",
+            "synonym": "sad / gloomy / sorrowful",
+            "definition": "a feeling of gentle sadness",
+            "example": "A subtle melancholy settled over the old poet."
+        },
+        {
+            "word": "sigh",
+            "synonym": "exhale / moan / whisper",
+            "definition": "a long soft sound like breathing out sadly",
+            "example": "The conductor let out a deep sigh of relief."
+        },
+        {
+            "word": "sonorous",
+            "synonym": "resonant / deep-sounding / rich",
+            "definition": "having a deep, full, and rich sound",
+            "example": "The professor’s sonorous voice echoed through the hall."
+        },
+        {
+            "word": "accompaniment",
+            "synonym": "background music / support / addition",
+            "definition": "sounds or music that go along with the main part",
+            "example": "The solo received a perfect accompaniment from the orchestra."
+        },
+        {
+            "word": "mournful",
+            "synonym": "sad / sorrowful / grieving",
+            "definition": "full of sorrow or sounding very sad",
+            "example": "Their mournful expressions showed how deeply they felt the loss."
+        },
+        {
+            "word": "give rein to",
+            "synonym": "allow freely / let loose / release",
+            "definition": "to allow feelings or thoughts to be expressed freely",
+            "example": "She decided to give rein to her wildest ideas."
+        },
+        {
+            "word": "post",
+            "synonym": "position / duty / role",
+            "definition": "a responsible position or duty",
+            "example": "The teacher never neglected her post as a mentor."
+        },
+        {
+            "word": "calamity",
+            "synonym": "disaster / misfortune / tragedy",
+            "definition": "a serious disaster or misfortune affecting many people",
+            "example": "The library fire was viewed as a terrible calamity."
+        },
+        {
+            "word": "preoccupy",
+            "synonym": "absorb / fill the mind / dominate",
+            "definition": "to fill someone's mind completely",
+            "example": "The final exams began to preoccupy the student."
+        },
+        {
+            "word": "uncensored",
+            "synonym": "unrestricted / complete / open",
+            "definition": "not changed or edited to hide parts; fully open",
+            "example": "The journalist published an uncensored interview."
+        },
+        {
+            "word": "franchise",
+            "synonym": "series / brand / collection",
+            "definition": "a large collection of related books, films, or shows",
+            "example": "The popular science-fiction franchise expanded into games."
+        },
+        {
+            "word": "aspire",
+            "synonym": "aim / seek / strive",
+            "definition": "to try hard to achieve something important",
+            "example": "She continued to aspire to perform on the world’s biggest stages."
+        },
+        {
+            "word": "cohesive",
+            "synonym": "united / connected / whole",
+            "definition": "sticking together well to form one complete piece",
+            "example": "The team produced a cohesive report."
+        },
+        {
+            "word": "purr",
+            "synonym": "soft rumble / gentle hum",
+            "definition": "a soft, low, vibrating sound made by cats when happy",
+            "example": "The kitten would begin to purr loudly."
+        },
+        {
+            "word": "feline",
+            "synonym": "cat-like / of cats",
+            "definition": "relating to cats or the cat family",
+            "example": "The photographer specialized in images of feline predators."
+        },
+        {
+            "word": "rumble",
+            "synonym": "vibrate / roll / hum",
+            "definition": "to make a low, continuous vibrating sound",
+            "example": "The distant thunderstorm began to rumble."
+        },
+        {
+            "word": "meta-analysis",
+            "synonym": "overall review / combined study",
+            "definition": "a study that combines results of many smaller studies",
+            "example": "The scientists conducted a thorough meta-analysis."
+        },
+        {
+            "word": "finite",
+            "synonym": "limited / not endless / bounded",
+            "definition": "having a clear limit or not being infinite",
+            "example": "Human attention is finite."
+        },
+        {
+            "word": "mediated",
+            "synonym": "processed / handled / delivered",
+            "definition": "carried or explained through something else",
+            "example": "The conflict was mediated through diplomatic talks."
+        },
+        {
+            "word": "foremost",
+            "synonym": "main / primary / first",
+            "definition": "the most important or first in order",
+            "example": "Safety remained the foremost concern."
+        },
+        {
+            "word": "salient",
+            "synonym": "noticeable / important / standing out",
+            "definition": "very noticeable or important",
+            "example": "The most salient feature was its long battery life."
+        },
+        {
+            "word": "corroborate",
+            "synonym": "support / confirm / back up",
+            "definition": "to give evidence that supports or confirms something",
+            "example": "New images corroborated the explorer’s theory."
+        },
+        {
+            "word": "splendid",
+            "synonym": "beautiful / magnificent / wonderful",
+            "definition": "very impressive or beautiful to look at",
+            "example": "The hikers enjoyed a splendid view of the valley."
+        },
+        {
+            "word": "crook",
+            "synonym": "curved stick / walking stick",
+            "definition": "a long curved stick used by shepherds",
+            "example": "The elderly farmer still carried his old crook."
+        },
+        {
+            "word": "shed",
+            "synonym": "cast / spread / pour",
+            "definition": "to send out or spread light or color",
+            "example": "The sunset began to shed its warm light across the ruins."
+        },
+        {
+            "word": "alternate",
+            "synonym": "switch / change / go back and forth",
+            "definition": "to move or happen by turns between two things",
+            "example": "The novelist decided to alternate between perspectives."
+        },
+        {
+            "word": "discount",
+            "synonym": "ignore / disregard / undervalue",
+            "definition": "to decide something is not important and pay less attention to it",
+            "example": "Many investors tried to discount her warnings."
+        },
+        {
+            "word": "downy",
+            "synonym": "fluffy / soft / insulating",
+            "definition": "soft and fluffy like fine feathers",
+            "example": "The baby eagle’s downy feathers looked incredibly soft."
+        },
+        {
+            "word": "undulate",
+            "synonym": "wave / roll / rise and fall",
+            "definition": "to move or appear in a smooth wavy pattern",
+            "example": "The wheat fields seemed to undulate in the breeze."
+        },
+        {
+            "word": "have wound about",
+            "synonym": "twisted around / curved repeatedly",
+            "definition": "to have twisted or turned in curves many times",
+            "example": "The mountain road had wound about so many sharp turns."
+        },
+        {
+            "word": "motor control",
+            "synonym": "movement coordination / body control",
+            "definition": "the ability of the brain to control body movements",
+            "example": "The gymnast worked to improve her motor control."
+        },
+        {
+            "word": "burgeon",
+            "synonym": "grow rapidly / expand",
+            "definition": "to grow or develop quickly and strongly",
+            "example": "Interest in foreign languages began to burgeon."
+        },
+        {
+            "word": "conducive",
+            "synonym": "helpful / favorable / suitable",
+            "definition": "making something likely to happen or helping it develop well",
+            "example": "The quiet environment proved highly conducive to concentration."
+        },
+        {
+            "word": "date",
+            "synonym": "assign time / determine era",
+            "definition": "to decide when something happened in history",
+            "example": "Historians debate when the artifact was created."
+        },
+        {
+            "word": "inconceivable",
+            "synonym": "unthinkable / impossible / hard to believe",
+            "definition": "very difficult or impossible to imagine or believe",
+            "example": "It seemed inconceivable that their daughter had won first place."
+        },
+        {
+            "word": "privilege",
+            "synonym": "favor / prefer / give special importance",
+            "definition": "to treat one thing as more important than another",
+            "example": "Some critics tried to privilege style over substance."
+        },
+        {
+            "word": "justification",
+            "synonym": "good reason / explanation / proof",
+            "definition": "a good reason or explanation that shows why something is acceptable",
+            "example": "The manager demanded a clear justification for the budget increase."
+        },
+        {
+            "word": "rug",
+            "synonym": "woven mat / carpet",
+            "definition": "a thick piece of woven fabric used as floor covering",
+            "example": "The colorful rug transformed the living room."
+        },
+        {
+            "word": "plausibility",
+            "synonym": "believability / reasonableness / likelihood",
+            "definition": "how likely or believable something seems",
+            "example": "The theory had high plausibility according to calculations."
+        },
+        {
+            "word": "compellingly",
+            "synonym": "convincingly / powerfully / strongly",
+            "definition": "in a very convincing or forceful way",
+            "example": "The lawyer argued so compellingly that the jury changed their minds."
+        },
+        {
+            "word": "receipt",
+            "synonym": "money received / income",
+            "definition": "the money or payments that a person or country receives",
+            "example": "The organizers were delighted by the huge receipt of donations."
+        },
+        {
+            "word": "counterintuitive",
+            "synonym": "unexpected / surprising",
+            "definition": "opposite of what one would normally expect",
+            "example": "It seemed counterintuitive that adding more employees slowed the project."
+        },
+        {
+            "word": "boom-bust",
+            "synonym": "up-and-down / cycle of highs and lows",
+            "definition": "a pattern of sudden growth followed by a sharp drop",
+            "example": "The economy suffered from the classic boom-bust cycle."
+        },
+        {
+            "word": "destabilize",
+            "synonym": "upset / weaken / make unsteady",
+            "definition": "to make something less stable",
+            "example": "Political rumors began to destabilize the stock market."
+        },
+        {
+            "word": "averse",
+            "synonym": "against / unwilling / opposed",
+            "definition": "strongly unwilling or opposed to something",
+            "example": "The investor was averse to high-risk stocks."
+        },
+        {
+            "word": "impassioned",
+            "synonym": "passionate / emotional / fervent",
+            "definition": "full of strong feeling or emotion",
+            "example": "The activist delivered an impassioned speech."
+        },
+        {
+            "word": "call",
+            "synonym": "appeal / cry / summons",
+            "definition": "a strong public request or appeal for action",
+            "example": "The organizer issued a heartfelt call for volunteers."
+        },
+        {
+            "word": "footnote",
+            "synonym": "note / explanation / added comment",
+            "definition": "an extra note added at the bottom of a page",
+            "example": "The historian added an important footnote."
+        },
+        {
+            "word": "affectionate",
+            "synonym": "loving / warm / caring",
+            "definition": "showing love and kindness",
+            "example": "The dog greeted everyone with affectionate tail wags."
+        },
+        {
+            "word": "purebred",
+            "synonym": "pedigree / thoroughbred",
+            "definition": "an animal whose parents are both of the same recognized breed",
+            "example": "The purebred horse won first prize."
+        },
+        {
+            "word": "eloquently",
+            "synonym": "expressively / beautifully / powerfully",
+            "definition": "in a clear, beautiful, and emotionally moving way",
+            "example": "The student spoke so eloquently about her dreams."
+        },
+        {
+            "word": "plot",
+            "synonym": "map / chart / arrange",
+            "definition": "to draw or mark out a line on a graph or map",
+            "example": "The analyst decided to plot the temperature changes."
+        },
+        {
+            "word": "dash",
+            "synonym": "rush / hurry / race",
+            "definition": "to move very quickly and suddenly",
+            "example": "The athlete dashed across the finish line."
+        },
+        {
+            "word": "day in and day out",
+            "synonym": "every single day / constantly",
+            "definition": "every day without stopping",
+            "example": "The nurse worked day in and day out during the pandemic."
+        },
+        {
+            "word": "dupe",
+            "synonym": "trick / fool / deceive",
+            "definition": "to trick or fool someone",
+            "example": "The magician tried to dupe the audience."
+        },
+        {
+            "word": "aversion",
+            "synonym": "dislike / hatred / strong opposition",
+            "definition": "a strong feeling of dislike",
+            "example": "The boy developed a strong aversion to broccoli."
+        },
+        {
+            "word": "pronounced",
+            "synonym": "strong / clear / noticeable",
+            "definition": "very clear, strong, or easy to notice",
+            "example": "The political divide became much more pronounced."
+        },
+        {
+            "word": "obscurity",
+            "synonym": "unknown status / lack of fame",
+            "definition": "the state of not being well known",
+            "example": "The artist rose from obscurity to fame."
+        },
+        {
+            "word": "dwindling",
+            "synonym": "shrinking / decreasing / getting smaller",
+            "definition": "becoming steadily smaller",
+            "example": "With the dwindling supply of water, farmers had to adapt."
+        },
+        {
+            "word": "logjam",
+            "synonym": "pile of logs / blockage",
+            "definition": "a pile of logs that blocks water flow",
+            "example": "The storm created a dangerous logjam in the river."
+        },
+        {
+            "word": "thou",
+            "synonym": "you (old form)",
+            "definition": "an old-fashioned word meaning 'you'",
+            "example": "The knight said 'thou art my heart’s only desire.'"
+        },
+        {
+            "word": "stroke",
+            "synonym": "movement / sweep / single action",
+            "definition": "a single smooth movement",
+            "example": "With one elegant stroke of the brush, the artist brought the scene to life."
+        },
+        {
+            "word": "mighty",
+            "synonym": "powerful / strong / great",
+            "definition": "very strong or powerful",
+            "example": "The mighty river carved a deep canyon."
+        },
+        {
+            "word": "mirth",
+            "synonym": "joy / laughter / happiness",
+            "definition": "happiness and laughter",
+            "example": "The children’s mirth filled the playground."
+        },
+        {
+            "word": "hast",
+            "synonym": "have (old form)",
+            "definition": "an old-fashioned way of saying 'you have'",
+            "example": "Thou hast traveled far."
+        },
+        {
+            "word": "cradle",
+            "synonym": "from birth / since early life",
+            "definition": "from the very beginning of life",
+            "example": "She had loved music from the cradle."
+        },
+        {
+            "word": "e'en",
+            "synonym": "even (old form)",
+            "definition": "an old shortened way of saying 'even'",
+            "example": "E’en the smallest flower could hold secrets."
+        },
+        {
+            "word": "brook",
+            "synonym": "small stream / creek",
+            "definition": "a small natural stream of water",
+            "example": "The clear brook bubbled through the forest."
+        },
+        {
+            "word": "elaborately",
+            "synonym": "with great detail / carefully",
+            "definition": "done with much careful detail",
+            "example": "The jeweler worked elaborately on the ring."
+        },
+        {
+            "word": "thy",
+            "synonym": "your (old form)",
+            "definition": "an old-fashioned word meaning 'your'",
+            "example": "I pledge my sword to protect thy honor."
+        },
+        {
+            "word": "ideological",
+            "synonym": "belief-based / political",
+            "definition": "based on strong ideas or beliefs about society or politics",
+            "example": "The debate quickly turned ideological."
+        },
+        {
+            "word": "explicitly",
+            "synonym": "clearly / openly / directly",
+            "definition": "stated in a very clear and open way",
+            "example": "The policy stated explicitly that phones were not allowed."
+        },
+        {
+            "word": "array",
+            "synonym": "collection / variety / range",
+            "definition": "a large and varied group or collection",
+            "example": "The museum displayed an impressive array of artifacts."
+        },
+        {
+            "word": "seep",
+            "synonym": "leak / ooze / flow slowly",
+            "definition": "to flow or pass through slowly in small amounts",
+            "example": "Rainwater began to seep through the walls."
+        },
+        {
+            "word": "fissure",
+            "synonym": "crack / split / gap",
+            "definition": "a long narrow crack or split",
+            "example": "A deep fissure appeared in the glacier."
+        },
+        {
+            "word": "pocket",
+            "synonym": "pool / trapped area / hollow",
+            "definition": "a small enclosed space or collection of something",
+            "example": "They discovered a hidden pocket of fresh water."
+        },
+        {
+            "word": "swath",
+            "synonym": "wide strip / broad band / large area",
+            "definition": "a long wide strip or large area of something",
+            "example": "The satellite captured a vast swath of rainforest."
+        },
+        {
+            "word": "at times",
+            "synonym": "sometimes / occasionally",
+            "definition": "sometimes or on certain occasions but not always",
+            "example": "The gas is at times invisible to normal telescopes."
+        },
+        {
+            "word": "memoir",
+            "synonym": "personal account / life story",
+            "definition": "a book that tells the story of the author's own life experiences",
+            "example": "The memoir combined personal stories and family recipes."
+        },
+        {
+            "word": "humble",
+            "synonym": "modest / lowly / unpretentious",
+            "definition": "not thinking too highly of oneself; modest",
+            "example": "The scientist always spoke in a humble way."
+        },
+        {
+            "word": "absurd",
+            "synonym": "ridiculous / silly / nonsensical",
+            "definition": "completely unreasonable or silly",
+            "example": "The situation became so absurd that everyone laughed."
+        },
+        {
+            "word": "slovenly",
+            "synonym": "messy / untidy / careless",
+            "definition": "untidy or careless in appearance or habits",
+            "example": "His apartment looked slovenly before he started the new job."
+        },
+        {
+            "word": "profess",
+            "synonym": "claim / declare / state openly",
+            "definition": "to openly claim or declare something",
+            "example": "The author liked to profess ignorance about technology."
+        },
+        {
+            "word": "intimidate",
+            "synonym": "frighten / scare / discourage",
+            "definition": "to make someone feel afraid or less confident",
+            "example": "The champion tried not to intimidate his young opponent."
+        },
+        {
+            "word": "humility",
+            "synonym": "modesty / humbleness",
+            "definition": "the quality of being modest and not arrogant",
+            "example": "His humility impressed everyone at the ceremony."
+        },
+        {
+            "word": "weary",
+            "synonym": "tired / exhausted / fatigued",
+            "definition": "feeling very tired from work or travel",
+            "example": "The weary traveler was ready to rest."
+        },
+        {
+            "word": "toil",
+            "synonym": "hard work / labor",
+            "definition": "hard continuous physical or mental work",
+            "example": "The farmers continued their daily toil."
+        },
+        {
+            "word": "repose",
+            "synonym": "rest / peace / relaxation",
+            "definition": "a state of rest or peace after hard work",
+            "example": "The old sailor found repose by the fireplace."
+        },
+        {
+            "word": "abide",
+            "synonym": "live / remain / stay",
+            "definition": "to live or remain in a place or state",
+            "example": "Her heart continued to abide in her childhood village."
+        },
+        {
+            "word": "zealous",
+            "synonym": "eager / passionate / fervent",
+            "definition": "showing great energy and enthusiasm",
+            "example": "The volunteers worked with zealous dedication."
+        },
+        {
+            "word": "pilgrimage",
+            "synonym": "journey / quest / sacred trip",
+            "definition": "a long journey for a special reason",
+            "example": "The family made a pilgrimage to their grandparents' house."
+        },
+        {
+            "word": "thee",
+            "synonym": "you (old form)",
+            "definition": "an old-fashioned poetic word meaning 'you'",
+            "example": "I will follow thee to the ends of the earth."
+        },
+        {
+            "word": "droop",
+            "synonym": "hang down / sag / wilt",
+            "definition": "to hang or bend downward because of tiredness",
+            "example": "Her eyelids began to droop after staying awake all night."
+        },
+        {
+            "word": "to speak of",
+            "synonym": "worth mentioning / significant",
+            "definition": "used to say something is hardly worth mentioning",
+            "example": "The apartment had almost no storage space to speak of."
+        },
+        {
+            "word": "trove",
+            "synonym": "collection / treasure / hoard",
+            "definition": "a valuable collection or store of something",
+            "example": "The attic contained a trove of family letters."
+        },
+        {
+            "word": "kiln",
+            "synonym": "oven / furnace",
+            "definition": "a high-temperature oven used for firing clay",
+            "example": "The artist loaded the bowls into the kiln."
+        },
+        {
+            "word": "pinpoint",
+            "synonym": "identify exactly / locate precisely",
+            "definition": "to find or identify something with great accuracy",
+            "example": "The scientists pinpointed the exact mountain region."
+        },
+        {
+            "word": "presume",
+            "synonym": "assume / suppose / believe",
+            "definition": "to suppose something is true without definite proof",
+            "example": "Most people presume successful inventors are geniuses."
+        },
+        {
+            "word": "account for",
+            "synonym": "explain / be responsible for",
+            "definition": "to explain the reason for something",
+            "example": "The study tried to account for performance differences."
+        },
+        {
+            "word": "inertia",
+            "synonym": "resistance to change / sluggishness",
+            "definition": "the tendency to remain unchanged",
+            "example": "The company's inertia prevented quick adoption of new technology."
+        },
+        {
+            "word": "bear up",
+            "synonym": "endure / withstand / manage",
+            "definition": "to endure a difficult situation bravely",
+            "example": "The team managed to bear up and fought back."
+        },
+        {
+            "word": "joyous",
+            "synonym": "happy / cheerful / delightful",
+            "definition": "full of great happiness and joy",
+            "example": "The joyous celebration filled the stadium."
+        },
+        {
+            "word": "peculiarly",
+            "synonym": "strangely / oddly / unusually",
+            "definition": "in a strange or unusual way",
+            "example": "The painting looked peculiarly familiar."
+        },
+        {
+            "word": "unrestrained",
+            "synonym": "free / uncontrolled / wild",
+            "definition": "not held back; completely free",
+            "example": "The children's unrestrained laughter echoed through the park."
+        },
+        {
+            "word": "budding",
+            "synonym": "developing / emerging / promising",
+            "definition": "beginning to develop or showing early success",
+            "example": "The budding scientist spent afternoons in the lab."
+        },
+        {
+            "word": "salvage",
+            "synonym": "rescue / recover / save",
+            "definition": "to save or rescue something from damage or loss",
+            "example": "The divers worked to salvage the cargo."
+        },
+        {
+            "word": "illuminate",
+            "synonym": "light up / explain / clarify",
+            "definition": "to light something up or make it clearer",
+            "example": "The research will illuminate mysteries about galaxies."
+        },
+        {
+            "word": "putatively",
+            "synonym": "supposedly / reportedly",
+            "definition": "generally believed but not yet proven",
+            "example": "The putatively haunted house attracted visitors."
+        },
+        {
+            "word": "aggregate",
+            "synonym": "total / combined / collection",
+            "definition": "the total amount when all parts are added together",
+            "example": "They calculated the aggregate score."
+        },
+        {
+            "word": "deploy",
+            "synonym": "use / position / send out",
+            "definition": "to use or position something for a purpose",
+            "example": "The team decided to deploy drones."
+        },
+        {
+            "word": "pedigree",
+            "synonym": "lineage / ancestry",
+            "definition": "the record of family background and ancestors",
+            "example": "The dog's impressive pedigree explained its elegant movement."
+        },
+        {
+            "word": "fledged",
+            "synonym": "fully developed / mature / grown",
+            "definition": "fully grown and ready to fly or be independent",
+            "example": "The young eagles finally became fully fledged."
+        },
+        {
+            "word": "paradigm",
+            "synonym": "model / example / pattern",
+            "definition": "a typical example or model for others",
+            "example": "The new method became a paradigm for schools."
+        },
+        {
+            "word": "wobble",
+            "synonym": "shake / sway / tremble",
+            "definition": "to move unsteadily from side to side",
+            "example": "The old table began to wobble."
+        },
+        {
+            "word": "shimmer",
+            "synonym": "glitter / sparkle / gleam",
+            "definition": "to shine with a soft unsteady light",
+            "example": "The lake water would shimmer under the moon."
+        },
+        {
+            "word": "dissonance",
+            "synonym": "discord / clash / disharmony",
+            "definition": "a lack of agreement or harmony",
+            "example": "The musical dissonance created a tense atmosphere."
+        },
+        {
+            "word": "raft",
+            "synonym": "group / collection / large number",
+            "definition": "a large number or collection of something",
+            "example": "The scientists collected a whole raft of new data."
+        },
+        {
+            "word": "scrapbook",
+            "synonym": "photo album / memory book",
+            "definition": "a book for pasting photos and mementos",
+            "example": "She created a beautiful scrapbook of the vacation."
+        },
+        {
+            "word": "meticulously",
+            "synonym": "carefully / precisely / thoroughly",
+            "definition": "done with great care and attention to detail",
+            "example": "The jeweler worked meticulously on the ring."
+        },
+        {
+            "word": "intimate",
+            "synonym": "personal / close / private",
+            "definition": "very personal or private",
+            "example": "The author shared intimate details about her childhood."
+        },
+        {
+            "word": "invigorating",
+            "synonym": "energizing / refreshing / stimulating",
+            "definition": "making someone feel strong and full of energy",
+            "example": "The morning swim was invigorating."
+        },
+        {
+            "word": "rejuvenating",
+            "synonym": "revitalizing / refreshing / restoring",
+            "definition": "making someone feel younger or full of new energy",
+            "example": "The weekend at the spa proved rejuvenating."
+        },
+        {
+            "word": "huddle",
+            "synonym": "quick gathering / brief conference",
+            "definition": "a quick close gathering to talk privately",
+            "example": "The team formed a quick huddle before the presentation."
+        },
+        {
+            "word": "agitation",
+            "synonym": "nervousness / inner turmoil",
+            "definition": "a state of nervous excitement or restlessness",
+            "example": "Her visible agitation revealed itself through twisting her jacket."
+        },
+        {
+            "word": "restlessly",
+            "synonym": "uneasily / fidgety",
+            "definition": "in a nervous or uneasy way",
+            "example": "The father paced restlessly in the waiting room."
+        },
+        {
+            "word": "clasp",
+            "synonym": "grip / hold tightly",
+            "definition": "to hold something firmly, often with both hands",
+            "example": "She would clasp the old photograph to her chest."
+        },
+        {
+            "word": "wring",
+            "synonym": "twist anxiously / squeeze nervously",
+            "definition": "to twist or squeeze one's hands together because of nervousness",
+            "example": "The applicant began to wring her hands."
+        },
+        {
+            "word": "tremble",
+            "synonym": "shake / quiver / shiver slightly",
+            "definition": "to shake slightly because of nervousness or fear",
+            "example": "His voice started to tremble during the speech."
+        },
+        {
+            "word": "drowning",
+            "synonym": "desperate / sinking / overwhelmed",
+            "definition": "feeling desperately in need of help",
+            "example": "She felt like a drowning swimmer reaching for her calculator."
+        },
+        {
+            "word": "rough-textured",
+            "synonym": "gritty / coarse / not smooth",
+            "definition": "having a rough or coarse quality",
+            "example": "Her voice was rough-textured but full of honest emotion."
+        },
+        {
+            "word": "implacably",
+            "synonym": "unyieldingly / relentlessly",
+            "definition": "in a way that cannot be softened or changed",
+            "example": "Her determination remained implacably strong."
+        },
+        {
+            "word": "egocentric",
+            "synonym": "self-focused / centered on oneself",
+            "definition": "extremely focused on one's own self or inner power",
+            "example": "The actress’s egocentric presence made everyone feel she sang directly to them."
+        },
+        {
+            "word": "a sense of the self",
+            "synonym": "strong self-awareness / deep inner identity",
+            "definition": "a very deep and strong feeling of who you are",
+            "example": "The dancer had such a powerful sense of the self."
+        },
+        {
+            "word": "mightily",
+            "synonym": "powerfully / strongly / greatly",
+            "definition": "in a very strong or impressive way",
+            "example": "The oak tree stood mightily against the storm."
+        },
+        {
+            "word": "shrug",
+            "synonym": "small shoulder lift / casual gesture",
+            "definition": "a small lifting of the shoulders to show uncertainty",
+            "example": "The teenager gave a quick shrug."
+        },
+        {
+            "word": "desperately",
+            "synonym": "intensely / with great longing",
+            "definition": "with very strong or urgent feeling",
+            "example": "He desperately wanted to see her again."
+        },
+        {
+            "word": "mutter",
+            "synonym": "mumble / grumble quietly",
+            "definition": "to speak in a low unclear voice",
+            "example": "He would mutter complaints while stuck in traffic."
+        },
+        {
+            "word": "resentment",
+            "synonym": "bitter feeling / hidden anger / grudge",
+            "definition": "a feeling of anger because someone else is succeeding",
+            "example": "A quiet resentment grew inside him."
+        },
+        {
+            "word": "keep hand in",
+            "synonym": "stay involved lightly / keep practicing",
+            "definition": "to continue doing something at a basic level",
+            "example": "She continued to keep her hand in by coaching children."
+        },
+        {
+            "word": "up on the stand",
+            "synonym": "on stage / performing",
+            "definition": "standing and performing on a raised platform",
+            "example": "Once she stepped up on the stand, her nervousness disappeared."
+        },
+        {
+            "word": "egg",
+            "synonym": "encourage / urge on",
+            "definition": "to encourage someone to do more in a playful way",
+            "example": "Her friends would egg her on to try the roller coaster."
+        },
+        {
+            "word": "bounce",
+            "synonym": "move energetically / play lively",
+            "definition": "to move or play in a lively energetic way",
+            "example": "The band began to bounce through an upbeat melody."
+        },
+        {
+            "word": "cupidity",
+            "synonym": "greed / strong desire",
+            "definition": "strong greed especially for money",
+            "example": "The story warned against cupidity."
+        },
+        {
+            "word": "treachery",
+            "synonym": "betrayal / deceit / disloyalty",
+            "definition": "the act of betraying someone who trusts you",
+            "example": "The novel explored the theme of treachery."
+        },
+        {
+            "word": "triumphant",
+            "synonym": "victorious / proud / successful",
+            "definition": "feeling or showing great success and happiness",
+            "example": "The athlete crossed the line with a triumphant smile."
+        },
+        {
+            "word": "frown",
+            "synonym": "worried look / slight scowl",
+            "definition": "a small worried or questioning look",
+            "example": "She gave a small frown when she saw the score."
+        },
+        {
+            "word": "in range",
+            "synonym": "within limits / having enough range",
+            "definition": "having enough ability or range to reach something",
+            "example": "Her voice was not in range for the highest notes."
+        },
+        {
+            "word": "envy",
+            "synonym": "jealousy / resentment of success",
+            "definition": "a feeling of jealousy when someone else succeeds",
+            "example": "A quiet envy grew inside her."
+        },
+        {
+            "word": "harbor",
+            "synonym": "hold secretly / keep hidden",
+            "definition": "to keep a feeling secretly inside for a long time",
+            "example": "He tried not to harbor hard feelings."
+        },
+        {
+            "word": "underscore",
+            "synonym": "emphasize / highlight / stress",
+            "definition": "to emphasize or make something stand out",
+            "example": "The coach would always underscore the importance of teamwork."
+        },
+        {
+            "word": "rapport",
+            "synonym": "close connection / good relationship",
+            "definition": "a close friendly and understanding relationship",
+            "example": "The teacher developed a warm rapport with her students."
+        },
+        {
+            "word": "out of regard",
+            "synonym": "out of respect / because of fondness",
+            "definition": "because of respect or consideration for someone",
+            "example": "The neighbors helped out of regard for the elderly couple."
+        },
+        {
+            "word": "restrain",
+            "synonym": "hold back / control / limit",
+            "definition": "to hold back or control feelings or actions",
+            "example": "She had to restrain her excitement."
+        },
+        {
+            "word": "retrieve",
+            "synonym": "get back / recover / fetch",
+            "definition": "to get something back or recover it",
+            "example": "The lifeguard dove to retrieve the lost toy."
+        },
+        {
+            "word": "revive",
+            "synonym": "bring back / renew / restore energy",
+            "definition": "to bring back to strength or activity",
+            "example": "A short nap helped revive her energy."
+        },
+        {
+            "word": "objective",
+            "synonym": "measurable / factual / evidence-based",
+            "definition": "based on facts that can be measured clearly",
+            "example": "The scientists collected objective data from scans."
+        },
+        {
+            "word": "tension-type",
+            "synonym": "stress-related / tightening / pressure",
+            "definition": "a common kind of headache that feels like tightness",
+            "example": "She often developed a tension-type headache after long hours."
+        },
+        {
+            "word": "migraine",
+            "synonym": "severe headache / throbbing attack",
+            "definition": "a very painful headache that often affects one side",
+            "example": "Whenever a migraine began, she had to lie down in darkness."
+        },
+        {
+            "word": "inflammation",
+            "synonym": "swelling / irritation",
+            "definition": "the body’s reaction that causes swelling or soreness",
+            "example": "Inflammation in her neck muscles made the headaches worse."
+        },
+        {
+            "word": "dull",
+            "synonym": "aching / heavy / not sharp",
+            "definition": "a steady heavy kind of pain",
+            "example": "The dull ache across her forehead lasted for hours."
+        },
+        {
+            "word": "throbbing",
+            "synonym": "pulsing / pounding / beating",
+            "definition": "a strong rhythmic pulsing pain",
+            "example": "The throbbing pain grew intense."
+        },
+        {
+            "word": "nausea",
+            "synonym": "sick feeling / queasiness",
+            "definition": "an unpleasant feeling that one might vomit",
+            "example": "The nausea forced her to leave the dinner early."
+        },
+        {
+            "word": "biomarker",
+            "synonym": "measurable sign / biological indicator",
+            "definition": "a measurable sign in the body that shows a condition",
+            "example": "The MRI biomarker helped confirm inflammation."
+        },
+        {
+            "word": "resonance",
+            "synonym": "magnetic resonance / MRI imaging",
+            "definition": "short for magnetic resonance imaging (MRI)",
+            "example": "The resonance scan showed exactly where the inflammation was."
+        },
+        {
+            "word": "prospective",
+            "synonym": "forward-looking / future-oriented",
+            "definition": "a study that follows participants forward in time",
+            "example": "The prospective study tracked volunteers for months."
+        },
+        {
+            "word": "episode",
+            "synonym": "attack / occurrence / bout",
+            "definition": "a single event or period when symptoms appear",
+            "example": "She recorded every migraine episode in her diary."
+        },
+        {
+            "word": "control",
+            "synonym": "healthy comparison group",
+            "definition": "the healthy group in a study for comparison",
+            "example": "The healthy controls showed lower values."
+        },
+        {
+            "word": "bilateral",
+            "synonym": "both sides / two-sided",
+            "definition": "affecting both the left and right sides",
+            "example": "The bilateral pain made it difficult to turn her head."
+        },
+        {
+            "word": "segment",
+            "synonym": "divide / separate into parts",
+            "definition": "to carefully separate a specific area",
+            "example": "The radiologist had to segment each muscle."
+        },
+        {
+            "word": "palpation",
+            "synonym": "manual touch / physical examination",
+            "definition": "examining by pressing with the fingers",
+            "example": "During palpation, the doctor pressed along the neck."
+        },
+        {
+            "word": "body mass index",
+            "synonym": "BMI / weight-to-height ratio",
+            "definition": "a number calculated from height and weight",
+            "example": "Researchers adjusted for body mass index."
+        },
+        {
+            "word": "surrogate",
+            "synonym": "stand-in / indicator / substitute",
+            "definition": "something that represents or stands in for another thing",
+            "example": "T2 values acted as a reliable surrogate for inflammation."
+        },
+        {
+            "word": "subjectively",
+            "synonym": "by personal feeling / based on opinion",
+            "definition": "based on personal feelings rather than measurable facts",
+            "example": "Patients reported pain subjectively."
+        },
+        {
+            "word": "stratify",
+            "synonym": "group / classify / separate into levels",
+            "definition": "to divide into different groups based on characteristics",
+            "example": "The method will help doctors stratify patients."
+        },
+        {
+            "word": "simultaneous",
+            "synonym": "at the same time / together",
+            "definition": "happening at the same moment",
+            "example": "The therapy offers simultaneous relief."
+        },
+        {
+            "word": "non-invasive",
+            "synonym": "without surgery / gentle",
+            "definition": "a method that does not require cutting the body",
+            "example": "Non-invasive treatments could help millions."
+        },
+        {
+            "word": "bold",
+            "synonym": "daring / courageous / innovative",
+            "definition": "showing courage and willingness to take risks",
+            "example": "The architect presented bold new concepts."
+        },
+        {
+            "word": "spectrum",
+            "synonym": "range / variety / spread",
+            "definition": "a wide range of different possibilities",
+            "example": "They reviewed the entire spectrum of color options."
+        },
+        {
+            "word": "move beyond",
+            "synonym": "go past / exceed / surpass",
+            "definition": "to go further than previous limits or usual thinking",
+            "example": "The students were able to move beyond their initial ideas."
+        },
+        {
+            "word": "out-of-pocket",
+            "synonym": "personal expense / direct payment",
+            "definition": "money that people must pay themselves",
+            "example": "The rising out-of-pocket costs forced her to cut back."
+        },
+        {
+            "word": "cohort",
+            "synonym": "age group / generation segment",
+            "definition": "a specific group of people born in the same time period",
+            "example": "Researchers compared health data across birth cohorts."
+        },
+        {
+            "word": "stagnation",
+            "synonym": "lack of growth / standstill",
+            "definition": "a situation where something stops improving",
+            "example": "Wage stagnation has left many feeling trapped."
+        },
+        {
+            "word": "vulnerability",
+            "synonym": "weakness / exposure to harm",
+            "definition": "the state of being easily hurt or affected by difficulties",
+            "example": "Greater financial vulnerability increased depression risk."
+        },
+        {
+            "word": "attainment",
+            "synonym": "achievement / level reached",
+            "definition": "the level of education or success that has been reached",
+            "example": "Educational attainment has continued to rise."
+        },
+        {
+            "word": "buffer",
+            "synonym": "protect / cushion / shield",
+            "definition": "something that reduces the negative impact of stress",
+            "example": "Strong policies act as a buffer against midlife stress."
+        }
     ]
 }
