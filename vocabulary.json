@@ -8852,5 +8852,157 @@
             "definition": "A television or radio program that presents the news.",
             "example": "The students who eventually wind up on a newscast serve all of us well by being trained scientists appearing on television daily and delivering accurate weather information to millions of viewers."
         }
+    ],
+    "04/15/2026": [
+        {
+            "word": "engender",
+            "synonym": "cause / generate / produce",
+            "definition": "to make something happen or to create a feeling, situation, or condition",
+            "example": "His constant criticism engendered resentment among his teammates, and as a result, the team’s performance declined significantly."
+        },
+        {
+            "word": "temperament",
+            "synonym": "nature / disposition / character",
+            "definition": "the natural way a person thinks, feels, and behaves",
+            "example": "Although she had a calm temperament, she became visibly upset when the situation escalated beyond her control."
+        },
+        {
+            "word": "upheaval",
+            "synonym": "turmoil / disruption / chaos",
+            "definition": "a sudden and often violent change that causes confusion or disorder",
+            "example": "The political upheaval, which spread rapidly across the region, forced many families to leave their homes and seek safety elsewhere."
+        },
+        {
+            "word": "embrace",
+            "synonym": "accept / adopt / welcome",
+            "definition": "to accept or support something willingly and positively",
+            "example": "She decided to embrace the challenges of studying abroad, even though it meant leaving her family behind and adapting to a new culture."
+        },
+        {
+            "word": "substantiate",
+            "synonym": "prove / support / confirm",
+            "definition": "to provide evidence that shows something is true",
+            "example": "The scientist was able to substantiate his theory with strong experimental data, which convinced even his harshest critics."
+        },
+        {
+            "word": "superficial",
+            "synonym": "shallow / surface-level / trivial",
+            "definition": "concerned only with what is obvious or on the surface, not deep or meaningful",
+            "example": "Although his apology sounded sincere, it was merely superficial, and it failed to address the real issue that had caused the conflict."
+        },
+        {
+            "word": "sovereignty",
+            "synonym": "authority / independence / autonomy",
+            "definition": "the full power of a state or ruler to govern without outside control",
+            "example": "The nation fought hard to protect its sovereignty, even when powerful countries attempted to interfere in its internal affairs."
+        },
+        {
+            "word": "lavish",
+            "synonym": "luxurious / extravagant / opulent",
+            "definition": "very rich, expensive, and impressive",
+            "example": "They hosted a lavish wedding ceremony, which included exotic dishes and grand decorations that amazed all the guests."
+        },
+        {
+            "word": "crux",
+            "synonym": "core / essence / key point",
+            "definition": "the most important or central part of something",
+            "example": "The crux of the argument lies in whether the policy will actually benefit the people or merely serve political interests."
+        },
+        {
+            "word": "indifference",
+            "synonym": "apathy / unconcern / disinterest",
+            "definition": "lack of interest, care, or concern about something",
+            "example": "His indifference toward the project frustrated his colleagues, who were working tirelessly to meet the deadline."
+        },
+        {
+            "word": "tact",
+            "synonym": "diplomacy / sensitivity / discretion",
+            "definition": "the ability to deal with people carefully and without offending them",
+            "example": "She handled the sensitive situation with great tact, ensuring that no one felt embarrassed or insulted."
+        },
+        {
+            "word": "abundant",
+            "synonym": "plentiful / ample / copious",
+            "definition": "existing in large amounts; more than enough",
+            "example": "The region is abundant in natural resources, which has attracted many international investors over the years."
+        },
+        {
+            "word": "viable",
+            "synonym": "feasible / workable / practical",
+            "definition": "able to work successfully or be achieved",
+            "example": "Although the idea seemed ambitious at first, it proved to be viable after careful planning and execution."
+        },
+        {
+            "word": "scorn",
+            "synonym": "contempt / disdain / mockery",
+            "definition": "a strong feeling that someone or something is worthless or deserves no respect",
+            "example": "He looked at the proposal with scorn, as he believed it lacked both originality and practicality."
+        },
+        {
+            "word": "transgress",
+            "synonym": "violate / disobey / break",
+            "definition": "to go beyond a limit or break a rule or law",
+            "example": "If you transgress the rules repeatedly, you will face serious consequences, no matter how minor the violation may seem."
+        },
+        {
+            "word": "analogy",
+            "synonym": "comparison / parallel / similarity",
+            "definition": "a comparison between two things to explain or clarify something",
+            "example": "He used an analogy to explain the complex concept, comparing the human brain to a computer system that processes information."
+        },
+        {
+            "word": "objection",
+            "synonym": "protest / opposition / disagreement",
+            "definition": "a reason or expression of disagreement or disapproval",
+            "example": "Although she had no strong objection to the plan, she raised a few concerns that needed to be addressed before proceeding."
+        },
+        {
+            "word": "construe",
+            "synonym": "interpret / understand / perceive",
+            "definition": "to understand or explain something in a particular way",
+            "example": "His silence could be construed as agreement, even though he actually had serious doubts about the proposal."
+        },
+        {
+            "word": "procure",
+            "synonym": "obtain / acquire / secure",
+            "definition": "to get something, especially with effort",
+            "example": "She managed to procure rare materials for her research, even though they were difficult to find in the local market."
+        },
+        {
+            "word": "evoke",
+            "synonym": "bring out / arouse / trigger",
+            "definition": "to cause a feeling, memory, or image to come into the mind",
+            "example": "The old photograph evoked memories of his childhood, which he had not thought about for many years."
+        },
+        {
+            "word": "depiction",
+            "synonym": "portrayal / representation / illustration",
+            "definition": "the act of showing or describing something in a picture or words",
+            "example": "The movie’s depiction of historical events was both accurate and emotionally powerful, which impressed the audience deeply."
+        },
+        {
+            "word": "burden",
+            "synonym": "load / responsibility / hardship",
+            "definition": "something difficult or heavy that you have to deal with or carry",
+            "example": "Although he tried to hide it, the financial burden weighed heavily on him, and it affected both his work and personal life."
+        },
+        {
+            "word": "recollection",
+            "synonym": "memory / remembrance / recall",
+            "definition": "the ability to remember something or a specific memory",
+            "example": "Her recollection of the event was slightly different from his, which led to a long and confusing discussion."
+        },
+        {
+            "word": "tumult",
+            "synonym": "chaos / disorder / uproar",
+            "definition": "a state of confusion, noise, or disorder",
+            "example": "Amid the tumult of the crowded marketplace, he struggled to hear his friend’s voice and find his way through the crowd."
+        },
+        {
+            "word": "concede",
+            "synonym": "admit / acknowledge / accept",
+            "definition": "to admit that something is true, especially after denying it before",
+            "example": "After reviewing the evidence, he had to concede that his initial argument was flawed, even though he had defended it strongly."
+        }
     ]
 }
