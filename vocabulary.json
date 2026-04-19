@@ -11414,5 +11414,559 @@
             "definition": "very deep in meaning, emotion, or thought",
             "example": "Her speech had a profound impact on everyone in the room."
         }
+    ],
+    "04/20/2026": [
+        {
+            "word": "wave",
+            "synonym": "surge / influx / outbreak",
+            "definition": "a sudden increase or rise in something, especially a large number of events happening at the same time",
+            "example": "When a new wave of infections spread across the country, hospitals became overwhelmed, and public health officials struggled to contain the rapid surge."
+        },
+        {
+            "word": "keep (somebody) up",
+            "synonym": "disturb / prevent from sleeping / trouble",
+            "definition": "to stop someone from sleeping or resting, often because of worry, noise, or strong thoughts",
+            "example": "The fear of a second health crisis kept him up at night, as he repeatedly considered how unprepared systems might be for long-term consequences."
+        },
+        {
+            "word": "acute",
+            "synonym": "severe / intense / critical",
+            "definition": "very serious or strong, often referring to a condition or situation that happens suddenly and requires immediate attention",
+            "example": "Although the acute phase of the illness demanded urgent care, researchers were equally concerned about the long-term effects that could follow."
+        },
+        {
+            "word": "contested",
+            "synonym": "disputed / debated / challenged",
+            "definition": "not generally accepted because people disagree about its truth, validity, or importance",
+            "example": "The condition remained contested within the medical community, as some experts questioned its causes while others argued for greater recognition and research."
+        },
+        {
+            "word": "subset",
+            "synonym": "subgroup / segment / portion",
+            "definition": "a smaller group that is part of a larger group",
+            "example": "While many patients recovered quickly, a subset of individuals continued to experience persistent symptoms, which complicated efforts to understand the disease."
+        },
+        {
+            "word": "crisis",
+            "synonym": "emergency / catastrophe / turning point",
+            "definition": "a very serious and difficult situation that requires immediate action or decision",
+            "example": "Although the government initially underestimated the problem, the situation quickly escalated into a national crisis, which forced leaders to implement strict measures while managing public fear."
+        },
+        {
+            "word": "cohort",
+            "synonym": "group / group of individuals / population segment",
+            "definition": "a group of people who share a common characteristic or experience within a defined period",
+            "example": "A cohort of patients who had been infected at the same time started reporting similar long-term symptoms, which drew the attention of medical experts."
+        },
+        {
+            "word": "sure enough",
+            "synonym": "as expected / indeed / just as predicted",
+            "definition": "used to show that something happened exactly as expected or predicted",
+            "example": "Sure enough, the early warnings proved accurate, and a growing number of patients continued to experience symptoms long after the initial illness had passed."
+        },
+        {
+            "word": "band (together)",
+            "synonym": "unite / join forces / come together",
+            "definition": "to come together as a group in order to achieve a common goal or support each other",
+            "example": "Patients banded together to demand recognition of their condition, organizing campaigns and sharing evidence to influence public opinion."
+        },
+        {
+            "word": "plight",
+            "synonym": "difficult situation / hardship / distress",
+            "definition": "a serious, difficult, or unfortunate situation that someone is in",
+            "example": "Despite growing awareness, many officials initially overlooked their plight, which left sufferers struggling to receive proper care and validation."
+        },
+        {
+            "word": "clamor",
+            "synonym": "outcry / uproar / loud demand",
+            "definition": "a strong and loud expression of public demand or protest by many people",
+            "example": "The clamor from patients and advocacy groups grew so intense that medical institutions were compelled to acknowledge the condition and accelerate research efforts."
+        },
+        {
+            "word": "spring up",
+            "synonym": "emerge / arise / appear suddenly",
+            "definition": "to begin or appear quickly and unexpectedly",
+            "example": "Specialized clinics began to spring up across major cities, as healthcare systems rushed to address the growing number of long-term cases."
+        },
+        {
+            "word": "chunk",
+            "synonym": "portion / significant part / sizable share",
+            "definition": "a large or noticeable part of something",
+            "example": "As research priorities shifted, a substantial chunk of the laboratory’s resources was redirected toward studying long COVID, which altered the focus of ongoing projects."
+        },
+        {
+            "word": "postacute",
+            "synonym": "after the acute phase / recovery-stage / following initial illness",
+            "definition": "relating to the period after the most severe or immediate stage of an illness has passed",
+            "example": "During the postacute phase of the disease, many patients continued to experience lingering symptoms, which complicated diagnosis and long-term treatment strategies."
+        },
+        {
+            "word": "debilitating",
+            "synonym": "weakening / incapacitating / exhausting",
+            "definition": "causing serious weakness or loss of strength, making it difficult to function normally",
+            "example": "Although not always immediately life-threatening, the debilitating symptoms left many patients unable to work or maintain their usual routines, which created lasting personal and economic challenges."
+        },
+        {
+            "word": "rampant",
+            "synonym": "uncontrolled / widespread / unchecked",
+            "definition": "spreading quickly and uncontrollably, often in a way that is harmful or difficult to stop",
+            "example": "Researchers proposed that rampant inflammation in the body might explain why symptoms continued long after the initial infection had cleared."
+        },
+        {
+            "word": "inflammation",
+            "synonym": "swelling / irritation / immune response",
+            "definition": "a biological reaction in which the body’s tissues become irritated, swollen, or painful due to infection or injury",
+            "example": "The study suggested that persistent inflammation in multiple organs could be responsible for the long-term fatigue reported by patients."
+        },
+        {
+            "word": "auto-immune",
+            "synonym": "self-attacking immune / immune misdirected / self-reactive",
+            "definition": "relating to a condition in which the immune system mistakenly attacks the body’s own healthy cells",
+            "example": "Some scientists hypothesize that an auto-immune response may be triggered after infection, leading the body to damage its own tissues over time."
+        },
+        {
+            "word": "persist",
+            "synonym": "continue / endure / remain",
+            "definition": "to continue to exist or occur over a long period, especially despite attempts to stop it",
+            "example": "Even after the acute illness resolved, symptoms appeared to persist in a subset of patients, raising questions about long-term viral effects."
+        },
+        {
+            "word": "staggering",
+            "synonym": "astonishing / overwhelming / immense",
+            "definition": "extremely large or surprising in amount, degree, or impact",
+            "example": "The research revealed a staggering number of individuals experiencing long-term complications, which strained healthcare systems significantly."
+        },
+        {
+            "word": "array",
+            "synonym": "variety / range / collection",
+            "definition": "a wide and diverse set of different things",
+            "example": "Patients reported a wide array of symptoms, which made diagnosis difficult and complicated efforts to develop a unified treatment approach."
+        },
+        {
+            "word": "racing heart",
+            "synonym": "rapid heartbeat / palpitations / accelerated pulse",
+            "definition": "a condition in which the heart beats unusually fast, often due to stress, illness, or physical dysfunction",
+            "example": "Many patients described episodes of a racing heart even while resting, which raised concerns about potential cardiovascular involvement."
+        },
+        {
+            "word": "advent",
+            "synonym": "arrival / emergence / onset",
+            "definition": "the beginning or introduction of something important or new",
+            "example": "Since the advent of germ theory, medicine has increasingly focused on identifying microscopic causes of disease rather than relying on vague explanations."
+        },
+        {
+            "word": "stigmatizing",
+            "synonym": "shaming / discrediting / labeling negatively",
+            "definition": "treating something or someone as socially unacceptable or inferior, often leading to shame or discrimination",
+            "example": "Historically, medicine has sometimes been stigmatizing toward poorly understood conditions, which left patients feeling ignored or blamed for their symptoms."
+        },
+        {
+            "word": "resolve",
+            "synonym": "heal / clear up / disappear",
+            "definition": "to come to an end or be completely fixed, especially referring to a medical condition improving or going away",
+            "example": "Clinicians prefer conditions that resolve quickly, because they can clearly observe improvement after treatment and adjust care accordingly."
+        },
+        {
+            "word": "malingerer",
+            "synonym": "faker / symptom exaggerator / feigner",
+            "definition": "a person who pretends to be ill or exaggerates symptoms in order to avoid responsibility or gain sympathy",
+            "example": "Some patients were unfairly labeled as malingerers, even though later research showed their symptoms were linked to a real and complex medical condition."
+        },
+        {
+            "word": "bandwidth",
+            "synonym": "capacity / availability / mental space",
+            "definition": "the amount of time, energy, or resources someone has available to handle tasks or responsibilities",
+            "example": "Although many clinicians wanted to support long COVID patients, they simply lacked the bandwidth to spend extended time on each complex case."
+        },
+        {
+            "word": "intake",
+            "synonym": "assessment / admission / evaluation",
+            "definition": "the initial process of gathering information from a patient or client before treatment or further action",
+            "example": "During the intake session, doctors collected detailed histories from patients to better understand the progression of their symptoms."
+        },
+        {
+            "word": "silo-based",
+            "synonym": "fragmented / compartmentalized / isolated",
+            "definition": "organized in separate, disconnected units that do not share information or coordinate effectively",
+            "example": "The silo-based healthcare system often prevents doctors from collaborating efficiently, which can slow down diagnosis and treatment of complex conditions."
+        },
+        {
+            "word": "infusion",
+            "synonym": "injection / injection of resources / introduction",
+            "definition": "the act of introducing something (such as money, energy, or ideas) into a system in order to improve it",
+            "example": "Despite an infusion of funding into research programs, systemic changes in how patients were involved in decision-making remained limited."
+        },
+        {
+            "word": "go beyond",
+            "synonym": "extend beyond / surpass / exceed",
+            "definition": "to reach further than a particular limit or scope, often affecting more areas than originally expected",
+            "example": "The implications of this research go beyond long COVID, influencing how scientists understand a range of immune-related conditions."
+        },
+        {
+            "word": "illuminate",
+            "synonym": "clarify / explain / shed light on",
+            "definition": "to make something clearer or easier to understand, especially a complex idea or problem",
+            "example": "Studying long COVID may illuminate previously hidden mechanisms behind chronic immune disorders."
+        },
+        {
+            "word": "dysfunction",
+            "synonym": "malfunction / impairment / abnormal operation",
+            "definition": "a situation in which a part of a system or body does not work normally",
+            "example": "Researchers suspect that immune dysfunction may be responsible for the persistent and wide-ranging symptoms reported by patients."
+        },
+        {
+            "word": "pathogenesis",
+            "synonym": "disease development / disease origin / disease progression",
+            "definition": "the process by which a disease develops and progresses in the body",
+            "example": "Understanding the pathogenesis of long COVID may help researchers identify why certain patients develop chronic symptoms while others recover fully."
+        },
+        {
+            "word": "parallel",
+            "synonym": "similar / comparable / corresponding",
+            "definition": "showing similarity or happening in a similar way to something else",
+            "example": "Scientists are exploring whether long COVID shares parallel biological mechanisms with other post-infectious syndromes."
+        },
+        {
+            "word": "mechanism",
+            "synonym": "process / system / pathway",
+            "definition": "the way in which something works or the process that causes a particular result",
+            "example": "Identifying the biological mechanism behind persistent symptoms could lead to more targeted and effective treatments."
+        },
+        {
+            "word": "hold a key to",
+            "synonym": "provide insight into / be crucial for / unlock understanding of",
+            "definition": "to be very important in helping to understand or solve something",
+            "example": "Researchers believe that studying postinfectious immune responses may hold a key to understanding a wide range of chronic diseases."
+        },
+        {
+            "word": "postinfection",
+            "synonym": "after infection / following infection / post-viral",
+            "definition": "referring to the period or condition that occurs after a person has been infected by a pathogen",
+            "example": "Postinfection complications can sometimes persist long after the initial illness has resolved, affecting multiple systems in the body."
+        },
+        {
+            "word": "brain fog",
+            "synonym": "cognitive impairment / mental cloudiness / disorientation",
+            "definition": "A state of mental confusion or lack of clarity that makes it difficult to focus, remember things, or process information efficiently.",
+            "example": "Although the patient’s physical strength had gradually returned, she continued to struggle with persistent brain fog, which frequently disrupted her ability to articulate complex ideas during high-stakes business meetings."
+        },
+        {
+            "word": "put something to somebody",
+            "synonym": "propose / submit / present",
+            "definition": "To suggest an idea, explanation, or question to someone so that they can consider it or give their opinion on it.",
+            "example": "During the medical conference, the lead researcher decided to put his radical hypothesis to the board of directors, hoping that they would recognize the necessity of funding for unconventional chronic illness studies."
+        },
+        {
+            "word": "readily",
+            "synonym": "effortlessly / promptly / easily",
+            "definition": "In a way that is quick, immediate, and without difficulty or hesitation.",
+            "example": "Because the underlying mechanisms of the syndrome cannot be readily observed through standard blood tests, many clinicians mistakenly conclude that the patient's debilitating symptoms are merely psychological in nature."
+        },
+        {
+            "word": "decision-making",
+            "synonym": "arbitration / resolution / determination",
+            "definition": "The cognitive process of reaching a conclusion or choosing a particular course of action after considering various alternatives.",
+            "example": "Advocates argue that healthcare reform will only be successful if patients are actively integrated into the decision-making process, ensuring that clinical protocols reflect the actual lived experiences of those with long-term disabilities."
+        },
+        {
+            "word": "tick-borne",
+            "synonym": "parasite-transmitted / acarine-vectored / tick-spread",
+            "definition": "Used to describe a disease or infection that is transmitted to humans or animals specifically through the bite of an infected tick.",
+            "example": "As global temperatures continue to rise and habitats shift, the prevalence of tick-borne illnesses has increased significantly, prompting a secondary crisis for rural healthcare systems that are already stretched thin."
+        },
+        {
+            "word": "eject",
+            "synonym": "dislodge / expel / banish",
+            "definition": "To force or push something out of its place in a sudden or involuntary way.",
+            "example": "The novice news anchor was so nervous during the live broadcast that he feared the sheer force of his pronunciation might accidentally eject his microphone from its clip, potentially ruining the entire segment."
+        },
+        {
+            "word": "denture",
+            "synonym": "false teeth / dental plate / prosthetic teeth",
+            "definition": "A removable frame holding one or more artificial teeth, used to replace natural teeth that are missing.",
+            "example": "While the comedian joked that a weather forecaster only needs to maintain their denture while speaking, the reality of television production involves a complex level of technical skill and mental endurance that most viewers never see."
+        },
+        {
+            "word": "get across",
+            "synonym": "convey / communicate / transmit",
+            "definition": "To successfully communicate an idea or message so that it is clearly understood by other people.",
+            "example": "Although the technical data regarding the storm was incredibly dense, the forecaster managed to get his primary message across by using simple metaphors that the general public could easily grasp during the emergency broadcast."
+        },
+        {
+            "word": "try hand",
+            "synonym": "attempt / endeavor / venture",
+            "definition": "To attempt to do something for the first time, typically to see if one has an aptitude or interest in a particular activity.",
+            "example": "After years of studying atmospheric science in a traditional classroom setting, the student decided to try his hand at live broadcasting, though he quickly realized that gesturing at a green screen was far more deceptive than it appeared on camera."
+        },
+        {
+            "word": "ratty",
+            "synonym": "shabby / tattered / dilapidated",
+            "definition": "Describing something that is in very poor condition due to being old, worn out, or neglected.",
+            "example": "The students typically arrived at the morning lecture in ratty sweatshirts and worn-out sneakers, appearing more like exhausted academics than future television personalities."
+        },
+        {
+            "word": "natty",
+            "synonym": "dapper / stylish / spruce",
+            "definition": "Describing a person or an article of clothing that is smart, fashionable, and tidy in appearance.",
+            "example": "Once the red light on the camera illuminated, the once-casual students transformed into natty professionals, their sharp blazers and polished shoes conveying an air of authority to the viewers."
+        },
+        {
+            "word": "don",
+            "synonym": "clothe / invest / slip on",
+            "definition": "To put on an item of clothing or a particular look.",
+            "example": "Before entering the studio to record the evening forecast, the presenter had to don a tailored suit that would contrast properly against the chroma key green screen used for the weather graphics."
+        },
+        {
+            "word": "strut",
+            "synonym": "parade / swagger / prance",
+            "definition": "To walk with a proud, arrogant, or confident gait, often intended to impress others.",
+            "example": "The seasoned weather reporter would frequently strut across the set during the transition to the seven-day forecast, using his confident body language to maintain the audience's engagement during the commercial break."
+        },
+        {
+            "word": "stuff",
+            "synonym": "capabilities / expertise / talent",
+            "definition": "A person's fundamental skills, abilities, or the specific qualities required to perform a task successfully.",
+            "example": "When the internship at the major network finally opened up, the young graduate knew he had to show the producers his best stuff by delivering a flawless performance without the assistance of a teleprompter."
+        },
+        {
+            "word": "reassert",
+            "synonym": "reinstate / reaffirm / resume",
+            "definition": "To strengthen or establish something again that had temporarily lost its influence or presence.",
+            "example": "After the brief local commercial break ended, the national network moved to reassert its control over the broadcast, ensuring that every affiliate station returned to the synchronized programming schedule."
+        },
+        {
+            "word": "dominion",
+            "synonym": "supremacy / authority / sovereignty",
+            "definition": "The power or right of governing and controlling; supreme authority over a particular area or process.",
+            "example": "In the world of live television, the master clock holds absolute dominion over the presenters, as even a one-second delay can disrupt the intricate timing of satellite feeds across the country."
+        },
+        {
+            "word": "cut off",
+            "synonym": "interrupt / terminate / sever",
+            "definition": "To stop or interrupt someone abruptly while they are speaking or performing, often by ending a transmission or connection.",
+            "example": "Because the student failed to monitor the countdown clock, the automated system began to cut off her final sentence mid-word, leaving the audience confused as the program transitioned to a loud insurance advertisement."
+        },
+        {
+            "word": "flail",
+            "synonym": "thrash / brandish / wave",
+            "definition": "To move one's arms or legs around in a wild, uncontrolled, or vigorous manner, often while searching for balance or direction.",
+            "example": "Without a physical map to guide him, the intern began to flail his arms awkwardly in front of the blue screen, hoping his finger would eventually land somewhere near the coastline on the digital monitor."
+        },
+        {
+            "word": "surplus",
+            "synonym": "excess / glut / remainder",
+            "definition": "An amount or quantity that is greater than what is needed or used; a positive balance remaining after all requirements are met.",
+            "example": "The university was delighted to find a budget surplus at the end of the semester, allowing the meteorology department to invest in high-definition monitors and updated satellite tracking software."
+        },
+        {
+            "word": "horseplay",
+            "synonym": "buffoonery / antics / roughhousing",
+            "definition": "Noisy, energetic, or rough play, often involving practical jokes or physical activity that is not serious.",
+            "example": "While the red light was off, the studio crew engaged in a bit of horseplay, tossing blue-colored objects across the set to see if they would disappear into the digital background on the control room screens."
+        },
+        {
+            "word": "insensitive",
+            "synonym": "unresponsive / impervious / indifferent",
+            "definition": "In a technical context, showing no reaction or response to a specific stimulus, such as a particular color or signal.",
+            "example": "Because the chromakey software is designed to be insensitive to specific shades of blue, anything painted in that exact hue becomes invisible, allowing the weather map to be projected seamlessly over the wall."
+        },
+        {
+            "word": "flinch",
+            "synonym": "recoil / wince / shudder",
+            "definition": "To make a sudden, small movement as a reflexive reaction to fear, pain, or surprise.",
+            "example": "The seasoned professional didn't even flinch when a stagehand accidentally dropped a heavy light fixture, maintaining his composed demeanor and continuing the live forecast without a single stutter."
+        },
+        {
+            "word": "battle",
+            "synonym": "struggle / conflict / endeavor",
+            "definition": "A sustained fight or a difficult task that requires a great deal of effort and perseverance to overcome.",
+            "example": "Mastering the technical aspects of meteorology is only half the requirement; the real battle begins when you must maintain a charismatic presence while simultaneously tracking complex data on a digital screen."
+        },
+        {
+            "word": "dodgeball",
+            "synonym": "elimination game / team sport / gymnasium game",
+            "definition": "A game in which players on two teams try to throw large balls at each other while avoiding being hit themselves.",
+            "example": "The author jokingly compares the chaotic experience of working in a television studio to a game of invisible dodgeball, where one must dodge technical errors and timing issues with athletic agility."
+        },
+        {
+            "word": "delivery",
+            "synonym": "presentation / articulation / enunciation",
+            "definition": "The manner or style in which someone speaks or performs in front of an audience, focusing on tone, pace, and clarity.",
+            "example": "Even if the weather data is perfectly accurate, a poor delivery can cause the audience to lose interest, which is why students spend months refining their vocal inflection and body language."
+        },
+        {
+            "word": "upbeat",
+            "synonym": "optimistic / cheerful / ebullient",
+            "definition": "Having a positive, lively, and encouraging attitude or atmosphere.",
+            "example": "Television producers often demand an upbeat persona from their anchors, as viewers prefer to receive their morning news from someone who appears energetic and ready to face the day."
+        },
+        {
+            "word": "phony",
+            "synonym": "artificial / fraudulent / insincere",
+            "definition": "Not genuine or real; intended to deceive or appear more impressive than it actually is.",
+            "example": "New students often struggle with the requirement to maintain a wide smile, fearing that such an exaggerated expression will appear phony to the viewers at home."
+        },
+        {
+            "word": "plaster",
+            "synonym": "affix / smear / overlay",
+            "definition": "To cover a surface heavily or to fix something firmly and noticeably onto something else.",
+            "example": "The director told the nervous student to plaster a look of confidence on his face, regardless of how many mistakes he might be making with the regional temperature readings."
+        },
+        {
+            "word": "eulogy",
+            "synonym": "tribute / panegyric / citation",
+            "definition": "A formal speech or piece of writing that praises someone or something highly, typically someone who has just died.",
+            "example": "If a presenter speaks with too much solemnity, they risk sounding as if they are delivering a eulogy rather than a standard update on the upcoming weekend's sunshine."
+        },
+        {
+            "word": "abide",
+            "synonym": "comply / adhere / observe",
+            "definition": "To accept or act in accordance with a rule, decision, or recommendation.",
+            "example": "If you wish to succeed in the competitive world of broadcasting, you must learn to abide by the strict timing protocols mandated by the network producers."
+        },
+        {
+            "word": "wind up",
+            "synonym": "eventuate / finish / culminate",
+            "definition": "To arrive in or reach a particular place, situation, or condition, often unexpectedly or as the result of a long series of events.",
+            "example": "Many students enter the program intending to work for the government, but after discovering their talent for public speaking, they often wind up as lead anchors for major metropolitan news stations."
+        },
+        {
+            "word": "threshold",
+            "synonym": "limit / boundary / starting point",
+            "definition": "The minimum level or intensity at which a particular phenomenon begins to occur or can no longer be sustained.",
+            "example": "The scientists focused on identifying the specific geographic threshold where an island becomes too small to support a permanent population of vertebrate species."
+        },
+        {
+            "word": "order of magnitude",
+            "synonym": "tenfold / scale / degree",
+            "definition": "A measurement used to describe differences in quantity or size, where each 'order' represents a factor of ten.",
+            "example": "The initial data revealed that the number of lizards present on the larger islands was an order of magnitude higher than the populations found on the smaller, isolated cays."
+        },
+        {
+            "word": "surmise",
+            "synonym": "conjecture / infer / hypothesize",
+            "definition": "To suppose that something is true without having evidence to confirm it definitively.",
+            "example": "Prior to the 1970s survey, researchers could only surmise which islands contained resident vertebrates based on incomplete maps and anecdotal reports."
+        },
+        {
+            "word": "course",
+            "synonym": "progression / duration / trajectory",
+            "definition": "The process or passage of time during which an action or event takes place.",
+            "example": "In the course of their extensive island-hopping expedition, the team encountered hundreds of previously unstudied ecosystems that challenged existing ecological theories."
+        },
+        {
+            "word": "omnipresent",
+            "synonym": "ubiquitous / pervasive / universal",
+            "definition": "Widely or constantly encountered; common or widespread in a particular place at a particular time.",
+            "example": "On the no-lizard islands, the omnipresent spider webs were so thick that they covered nearly every branch, creating a surreal and cluttered landscape."
+        },
+        {
+            "word": "webbing",
+            "synonym": "network / mesh / filigree",
+            "definition": "A complex structure of fine threads spun by spiders to catch prey or house their young.",
+            "example": "The dense webbing stretched across the vegetation was so elaborate that it significantly altered the physical appearance of the small Bahamian cays."
+        },
+        {
+            "word": "proverbial",
+            "synonym": "legendary / stereotypical / well-known",
+            "definition": "Referring to something that is widely known or commonly spoken of, often used to describe a classic example of a concept.",
+            "example": "The islands without lizards resembled the proverbial dusty attic, filled with layers of silk and teeming with undisturbed arachnid life."
+        },
+        {
+            "word": "attic",
+            "synonym": "loft / garret / crawl space",
+            "definition": "A space or room just below the roof of a house, often used for storing old or forgotten items.",
+            "example": "Comparing the spider-dense islands to an old attic evokes an image of a place where nature has been left to proliferate without any outside interference."
+        },
+        {
+            "word": "stopover",
+            "synonym": "layover / stay / visit",
+            "definition": "A break in a journey, typically for rest or to change direction before proceeding to a final destination.",
+            "example": "Staniel Cay served as a crucial stopover for the researchers, providing a base of operations from which they could launch smaller excursions to the surrounding islets."
+        },
+        {
+            "word": "attain",
+            "synonym": "achieve / reach / acquire",
+            "definition": "To succeed in reaching a particular goal, level, or physical height.",
+            "example": "The number of spider species found on each island was closely correlated with the maximum height that the local vegetation could attain."
+        },
+        {
+            "word": "intertidal",
+            "synonym": "littoral / shoreline / coastal",
+            "definition": "Relating to the area of a seashore that is covered by water at high tide and exposed to the air at low tide.",
+            "example": "While previous famous studies focused on the intertidal zone of rocky coasts, this new research examined the predator-prey dynamics of terrestrial island environments."
+        },
+        {
+            "word": "presage",
+            "synonym": "foreshadow / portend / augur",
+            "definition": "To be a sign or warning that a typically unwelcome or important future event is about to happen.",
+            "example": "The initial findings regarding spider diversity began to presage a shift in how ecologists view the relationship between predators and species richness in closed systems."
+        },
+        {
+            "word": "arthropod",
+            "synonym": "invertebrate / creature / insect-relative",
+            "definition": "An invertebrate animal having an exoskeleton, a segmented body, and paired jointed appendages, such as insects and spiders.",
+            "example": "The removal of lizards led to a dramatic surge in the population of every terrestrial arthropod being monitored within the experimental plots."
+        },
+        {
+            "word": "suffice",
+            "synonym": "satisfy / answer / serve",
+            "definition": "To be enough or adequate for a particular purpose or to meet a specific requirement.",
+            "example": "Simple observations did not suffice to prove the 'lizard effect,' so the team designed a controlled experiment to rule out other environmental variables."
+        },
+        {
+            "word": "stake out",
+            "synonym": "delimit / mark / cordon",
+            "definition": "To mark the boundaries of an area, often using stakes, to claim it or reserve it for a specific study.",
+            "example": "To begin their experimental phase, the scientists had to stake out nine identical plots on the mainland to ensure their data collection was consistent and precise."
+        },
+        {
+            "word": "plot",
+            "synonym": "parcel / tract / sector",
+            "definition": "A small, measured area of ground used for a specific purpose, such as an experiment or gardening.",
+            "example": "Each experimental plot was carefully monitored over an 18-month period to track changes in spider density and insect biomass."
+        },
+        {
+            "word": "unenclosed",
+            "synonym": "open / exposed / unfenced",
+            "definition": "Not surrounded or closed in by a fence, wall, or other barrier.",
+            "example": "The researchers used unenclosed areas as a 'cage control' to compare the natural behavior of lizards with those kept within the wood-framed structures."
+        },
+        {
+            "word": "wood-framed",
+            "synonym": "timber-structured / wooden-bordered / framed",
+            "definition": "Constructed with a supporting structure made primarily of wood.",
+            "example": "The experimental enclosures were wood-framed and lined with special cloth to prevent the subjects from escaping the designated study area."
+        },
+        {
+            "word": "top",
+            "synonym": "cap / crown / cover",
+            "definition": "To provide something with a top part or to be positioned at the highest point of a structure.",
+            "example": "The fences were topped with smooth plastic strips that were specifically designed to impede the lizards' ability to climb over the barriers."
+        },
+        {
+            "word": "locomotion",
+            "synonym": "movement / mobility / progression",
+            "definition": "The ability to move from one place to another, often referring to the physical mechanics of an animal's travel.",
+            "example": "By using slippery plastic on the fences, the team successfully hindered the natural locomotion of the lizards, keeping them either inside or outside the enclosures."
+        },
+        {
+            "word": "in and out",
+            "synonym": "entry and exit / bidirectional / through",
+            "definition": "Moving through a space into its interior and then back to the exterior; movement across a boundary in both directions.",
+            "example": "The primary goal of the barrier was to prevent the constant movement in and out of the plots, allowing the scientists to isolate the effect of the lizards on the spiders."
+        },
+        {
+            "word": "biomass",
+            "synonym": "organic matter / total weight / biological mass",
+            "definition": "The total mass or weight of living organisms in a given area or volume.",
+            "example": "When the lizards were removed, the researchers observed a significant increase in the total biomass of insects caught in their traps."
+        },
+        {
+            "word": "overlap",
+            "synonym": "intersect / coincide / converge",
+            "definition": "To cover part of the same area of interest or to share common characteristics or requirements.",
+            "example": "Because lizards and spiders often hunt the same size of prey, their ecological niches overlap significantly, leading to intense competition for food resources."
+        }
     ]
 }
