@@ -12493,6 +12493,66 @@
             "synonym": "instability / fluctuation / transition",
             "definition": "A state of continuous change, movement, or uncertainty.",
             "example": "Because the global economy is currently in a state of flux, many investors are choosing to keep their capital in gold rather than risking it on the highly volatile stock market."
+        },
+        {
+            "word": "ail",
+            "synonym": "afflict / trouble / distress",
+            "definition": "To cause physical or mental pain, or to be the source of a chronic health problem.",
+            "example": "While modern medicine has conquered many infectious diseases, researchers are still struggling to identify the specific genetic factors that ail patients with rare autoimmune disorders."
+        },
+        {
+            "word": "garden-variety",
+            "synonym": "commonplace / mundane / ordinary",
+            "definition": "Describing something that is standard or typical, lacking any special or unusual features.",
+            "example": "The detective initially dismissed the case as a garden-variety burglary, but he soon discovered a series of sophisticated clues that suggested a much more professional operation."
+        },
+        {
+            "word": "clogged",
+            "synonym": "obstructed / congested / occluded",
+            "definition": "Blocked or filled with an accumulation of material so that movement or flow is difficult.",
+            "example": "The city's aging infrastructure struggled to cope with the record rainfall, resulting in clogged drainage pipes that sent torrents of water into the subterranean subway stations."
+        },
+        {
+            "word": "rebrand",
+            "synonym": "relabel / reposition / rename",
+            "definition": "To change the way a person, organization, or concept is perceived by giving it a new name or identity.",
+            "example": "After the public relations disaster, the corporation attempted to rebrand its environmental image by launching a multi-million dollar campaign focused on renewable energy initiatives."
+        },
+        {
+            "word": "reframe",
+            "synonym": "recontextualize / reinterpret / recast",
+            "definition": "To look at or present a problem or concept in a new or different way to change how it is understood.",
+            "example": "The psychologist encouraged her client to reframe his childhood failures as essential learning experiences, which allowed him to develop a more resilient and optimistic outlook on his future career."
+        },
+        {
+            "word": "baffle",
+            "synonym": "perplex / confound / mystify",
+            "definition": "To totally bewilder or confuse someone because a situation is impossible to understand or solve.",
+            "example": "The sudden disappearance of the colony's honeybee population continued to baffle scientists, even after they had conducted extensive soil tests and analyzed local weather patterns for several months."
+        },
+        {
+            "word": "blockage",
+            "synonym": "impediment / barrier / stop",
+            "definition": "An obstruction which makes movement or flow through a passage difficult or impossible.",
+            "example": "Surgeons worked quickly to remove the arterial blockage, for they knew that every passing minute without oxygenated blood was causing irreversible damage to the patient's vital organs."
+        },
+        {
+            "word": "obstructive",
+            "synonym": "hindering / restrictive / blocking",
+            "definition": "Causing a delay or stopping a flow, movement, or progress by being in the way.",
+            "example": "The patient was diagnosed with an obstructive sleep disorder, a condition where the soft tissue in the throat collapses during rest and prevents a steady stream of air from reaching the lungs."
+        },
+        {
+            "word": "oversee",
+            "synonym": "supervise / administer / manage",
+            "definition": "To watch over and direct a job, project, or group of people to ensure everything is done correctly.",
+            "example": "As the lead architect, she was hired to oversee the entire construction process, ensuring that the contractors adhered to the strict safety regulations and stayed within the allocated budget."
+        },
+        {
+            "word": "demystify",
+            "synonym": "elucidate / clarify / debunk",
+            "definition": "To make a difficult or esoteric subject clearer and easier to understand for everyone.",
+            "example": "The professor wrote a popular science book intended to demystify quantum mechanics, using simple analogies that helped laypeople grasp the complex behavior of subatomic particles."
         }
     ]
 }
