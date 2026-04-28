@@ -12554,5 +12554,139 @@
             "definition": "To make a difficult or esoteric subject clearer and easier to understand for everyone.",
             "example": "The professor wrote a popular science book intended to demystify quantum mechanics, using simple analogies that helped laypeople grasp the complex behavior of subatomic particles."
         }
+    ],
+    "04/28/2026": [
+        {
+            "word": "dogmatic",
+            "synonym": "authoritarian / rigid / doctrinaire",
+            "definition": "insisting that beliefs are unquestionably true and not open to discussion",
+            "example": "His dogmatic editorial stance limited creative expression, even though he claimed to support diverse viewpoints."
+        },
+        {
+            "word": "unpretentious",
+            "synonym": "modest / simple / humble",
+            "definition": "not trying to impress others; showing a natural and simple manner",
+            "example": "Although the venue appeared unpretentious, it attracted scholars who valued substance over appearance."
+        },
+        {
+            "word": "receptive to",
+            "synonym": "open to / responsive to / amenable to",
+            "definition": "willing to consider or accept new ideas or suggestions",
+            "example": "Drivers already frustrated by high fees were not receptive to proposals that would further increase their financial burden."
+        },
+        {
+            "word": "apprised of",
+            "synonym": "informed of / notified of / made aware of",
+            "definition": "given information about something",
+            "example": "Residents were apprised of the policy change well in advance, but many still opposed its implementation."
+        },
+        {
+            "word": "incensed by",
+            "synonym": "angered by / outraged by / infuriated by",
+            "definition": "made extremely angry by something",
+            "example": "Commuters were incensed by the sudden toll increase, and they demanded immediate reconsideration from authorities."
+        },
+        {
+            "word": "cited in",
+            "synonym": "referenced in / mentioned in / quoted in",
+            "definition": "included as an example or reference in a text or speech",
+            "example": "The study was frequently cited in economic reports, although its conclusions were later questioned."
+        },
+        {
+            "word": "surmise",
+            "synonym": "infer / conjecture / speculate",
+            "definition": "to form a conclusion based on limited evidence",
+            "example": "Researchers surmised that larger households were more efficient, but detailed data analysis later disproved this idea."
+        },
+        {
+            "word": "contrive",
+            "synonym": "devise / engineer / fabricate",
+            "definition": "to create or plan something, often in a forced or artificial way",
+            "example": "The author contrived an explanation that seemed logical at first, but it collapsed under closer scrutiny."
+        },
+        {
+            "word": "supplemental to",
+            "synonym": "additional to / extra to / complementary to",
+            "definition": "added to something else to complete or enhance it",
+            "example": "These costs are supplemental to the main expenses, which means they increase the overall burden."
+        },
+        {
+            "word": "predictive of",
+            "synonym": "indicative of / suggestive of / signaling",
+            "definition": "serving as a sign or indicator of a future outcome",
+            "example": "Early test scores are often predictive of later academic success, although they are not always reliable."
+        },
+        {
+            "word": "independent of",
+            "synonym": "unrelated to / separate from / unaffected by",
+            "definition": "not influenced or controlled by something else",
+            "example": "Administrative costs are largely independent of donation size, which shapes fundraising strategies."
+        },
+        {
+            "word": "subsumed in",
+            "synonym": "included in / absorbed into / incorporated into",
+            "definition": "treated as part of a larger whole",
+            "example": "Minor expenses were subsumed in the overall budget, making them difficult to analyze separately."
+        },
+        {
+            "word": "waive",
+            "synonym": "relinquish / forgo / abandon",
+            "definition": "to voluntarily give up a right or claim",
+            "example": "The organization agreed to waive the fee, although it typically enforces strict payment policies."
+        },
+        {
+            "word": "concede",
+            "synonym": "acknowledge / admit / yield",
+            "definition": "to accept that something is true after initially resisting it",
+            "example": "After reviewing the evidence, critics had to concede that their earlier assumptions were incorrect."
+        },
+        {
+            "word": "refute",
+            "synonym": "disprove / rebut / contradict",
+            "definition": "to prove that something is false or incorrect",
+            "example": "The new findings refute the long-held belief that leadership roles were exclusively held by men."
+        },
+        {
+            "word": "circumvent",
+            "synonym": "bypass / evade / sidestep",
+            "definition": "to avoid or get around something, especially a rule or obstacle",
+            "example": "Some companies attempt to circumvent regulations, although doing so often leads to legal consequences."
+        },
+        {
+            "word": "corroborate",
+            "synonym": "confirm / substantiate / validate",
+            "definition": "to support a claim with evidence",
+            "example": "The clinical trial results did not corroborate the observations made by practitioners in everyday settings."
+        },
+        {
+            "word": "disseminate",
+            "synonym": "spread / distribute / circulate",
+            "definition": "to share information widely",
+            "example": "Researchers disseminate their findings through journals so that others can evaluate and build upon their work."
+        },
+        {
+            "word": "optimize",
+            "synonym": "maximize / refine / enhance",
+            "definition": "to make something as effective or efficient as possible",
+            "example": "Many businesses fail to optimize their marketing strategies, even when simple improvements could significantly increase revenue."
+        },
+        {
+            "word": "adorn",
+            "synonym": "decorate / embellish / ornament",
+            "definition": "to add something to make it more attractive",
+            "example": "The restaurant chose to adorn its interior with elegant designs, although this did little to improve customer retention."
+        },
+        {
+            "word": "endorse",
+            "synonym": "support / approve / back",
+            "definition": "to publicly support or recommend something",
+            "example": "Several experts chose to endorse the new policy, which increased its credibility among the public."
+        },
+        {
+            "word": "counteract",
+            "synonym": "offset / neutralize / counterbalance",
+            "definition": "to reduce or prevent the effect of something",
+            "example": "The company introduced new incentives to counteract declining customer engagement, but the results were mixed."
+        }
     ]
 }
