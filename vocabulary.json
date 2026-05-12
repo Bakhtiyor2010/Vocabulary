@@ -12823,7 +12823,7 @@
             "example": "Members recognized one another through a specific handshake that subtly confirmed their affiliation without revealing it to outsiders."
         }
     ],
-    "05/05/2025": [
+    "05/05/2026": [
         {
             "word": "refinements of",
             "synonym": "improvements to / enhancements of / modifications of",
@@ -13069,6 +13069,858 @@
             "synonym": "cross / overlap / meet",
             "definition": "to cross paths or share a common point or area",
             "example": "The two disciplines intersect in the study of human behavior, where psychology and neuroscience overlap."
+        }
+    ],
+    "05/07/2026": [
+        {
+            "word": "complementary",
+            "synonym": "matching / harmonizing / compatible",
+            "definition": "Combining well with something else in a way that improves or completes it.",
+            "example": "Although the two researchers had very different personalities, their complementary skills allowed the project to progress efficiently and produce groundbreaking results."
+        },
+        {
+            "word": "unknown",
+            "synonym": "unidentified / unfamiliar / undiscovered",
+            "definition": "Not recognized, understood, or previously known by people.",
+            "example": "Because the manuscript came from an unknown author whose identity could not be verified, historians debated whether the document was authentic or fabricated."
+        },
+        {
+            "word": "disparate",
+            "synonym": "distinct / unrelated / contrasting",
+            "definition": "Fundamentally different from each other and difficult to connect or compare.",
+            "example": "The committee struggled to combine the disparate viewpoints of economists, environmental scientists, and political leaders into a single coherent policy."
+        },
+        {
+            "word": "interchangeable",
+            "synonym": "equivalent / replaceable / substitutable",
+            "definition": "Able to be exchanged or used in place of one another without causing important differences.",
+            "example": "While the two software libraries appear interchangeable at first glance, one becomes significantly less efficient when handling large-scale applications."
+        },
+        {
+            "word": "quarrel about",
+            "synonym": "argue over / dispute / clash over",
+            "definition": "To have an angry disagreement or conflict about a particular subject or issue.",
+            "example": "Although the business partners initially shared the same vision, they eventually began to quarrel about financial priorities, which weakened the stability of the company."
+        },
+        {
+            "word": "paucity of",
+            "synonym": "scarcity of / shortage of / insufficiency of",
+            "definition": "A very small amount of something that is needed or expected.",
+            "example": "Because of the paucity of reliable evidence, the investigators could not confidently determine who was responsible for the incident."
+        },
+        {
+            "word": "profusion of",
+            "synonym": "abundance of / multitude of / overflow of",
+            "definition": "A very large quantity or rich supply of something.",
+            "example": "The museum displayed a profusion of ancient artifacts, and visitors spent hours examining the remarkably detailed collection."
+        },
+        {
+            "word": "verisimilitude in",
+            "synonym": "realism in / authenticity in / credibility in",
+            "definition": "The quality of appearing true, realistic, or believable within something.",
+            "example": "Critics praised the novelist for the extraordinary verisimilitude in her dialogue, because the characters spoke with the complexity and inconsistency of real people."
+        },
+        {
+            "word": "overreacts",
+            "synonym": "exaggerates / overresponds / blows things out of proportion",
+            "definition": "Responds to a situation with more emotion, intensity, or seriousness than the situation reasonably requires.",
+            "example": "Whenever minor technical issues occur during meetings, the manager overreacts and criticizes the entire team, even though the problems are usually resolved within minutes."
+        },
+        {
+            "word": "reciprocates",
+            "synonym": "returns / responds in kind / requites",
+            "definition": "Gives, feels, or does the same thing in return for what someone else has given, felt, or done.",
+            "example": "After receiving consistent encouragement from her mentor, the student reciprocates by helping younger classmates who are struggling academically."
+        },
+        {
+            "word": "retaliates",
+            "synonym": "strikes back / takes revenge / counterattacks",
+            "definition": "Responds to a harmful action with another harmful action intended as revenge or punishment.",
+            "example": "Instead of addressing the criticism professionally, the executive retaliates by excluding his coworkers from important decisions, which damages trust within the department."
+        },
+        {
+            "word": "deviates",
+            "synonym": "diverges / strays / departs",
+            "definition": "Moves away from an expected course, standard, or pattern.",
+            "example": "Although the scientist generally follows established research methods, she occasionally deviates from convention in order to test unconventional hypotheses."
+        },
+        {
+            "word": "enhance",
+            "synonym": "improve / strengthen / elevate",
+            "definition": "To increase the quality, value, effectiveness, or attractiveness of something.",
+            "example": "The university introduced advanced laboratory equipment to enhance the students’ research experience and encourage more innovative scientific projects."
+        },
+        {
+            "word": "hinder",
+            "synonym": "obstruct / impede / hamper",
+            "definition": "To create difficulties that slow down or prevent progress or success.",
+            "example": "Although the startup had a promising business model, limited funding continued to hinder its ability to expand into international markets."
+        },
+        {
+            "word": "misrepresent",
+            "synonym": "distort / falsify / misstate",
+            "definition": "To present information inaccurately or in a misleading way.",
+            "example": "Several critics argued that the documentary misrepresent historical events by omitting evidence that contradicts its central argument."
+        },
+        {
+            "word": "aggravate",
+            "synonym": "worsen / intensify / exacerbate",
+            "definition": "To make a problem, situation, or condition more severe or serious.",
+            "example": "If the government ignores the growing economic instability, rising unemployment may further aggravate public dissatisfaction across the country."
+        },
+        {
+            "word": "indulge",
+            "synonym": "gratify / pamper / satisfy",
+            "definition": "To allow oneself or someone else to enjoy something desired, especially excessively or without restraint.",
+            "example": "After months of intense preparation for the competition, the athlete decided to indulge in a short vacation, even though the next training season was approaching rapidly."
+        },
+        {
+            "word": "despise",
+            "synonym": "loathe / detest / abhor",
+            "definition": "To strongly dislike or feel deep hatred or contempt for someone or something.",
+            "example": "Many citizens despise corrupt officials because their selfish decisions undermine public trust and weaken important institutions."
+        },
+        {
+            "word": "moderate",
+            "synonym": "restrain / regulate / temper",
+            "definition": "To make something less extreme, intense, or severe.",
+            "example": "The organization introduced stricter guidelines to moderate harmful discussions that were disrupting productive debate among members."
+        },
+        {
+            "word": "criticize",
+            "synonym": "condemn / censure / fault",
+            "definition": "To express disapproval of someone or something by pointing out mistakes or weaknesses.",
+            "example": "Although the professor frequently criticize weak arguments in class, she also provides detailed feedback that helps students improve their analytical writing."
+        },
+        {
+            "word": "virtuous",
+            "synonym": "moral / honorable / righteous",
+            "definition": "Having high moral standards and behaving in an ethical or principled way.",
+            "example": "The community admired the judge for her virtuous leadership, because she consistently made fair decisions despite political pressure from influential groups."
+        },
+        {
+            "word": "negating",
+            "synonym": "invalidating / contradicting / canceling",
+            "definition": "Rejecting, denying, or making something ineffective or untrue.",
+            "example": "By presenting new archaeological evidence, the researcher is effectively negating the long-accepted theory that the civilization developed in isolation."
+        },
+        {
+            "word": "prefiguring",
+            "synonym": "foreshadowing / anticipating / heralding",
+            "definition": "Indicating or suggesting something that will happen or appear later.",
+            "example": "Many critics believe the artist’s early sketches were prefiguring the abstract style that later defined his most influential work."
+        },
+        {
+            "word": "entrenching",
+            "synonym": "establishing / reinforcing / solidifying",
+            "definition": "Making an idea, system, or attitude firmly fixed and difficult to change.",
+            "example": "The repeated spread of misinformation is entrenching public distrust, which makes constructive political discussion increasingly difficult."
+        },
+        {
+            "word": "substantiating",
+            "synonym": "confirming / verifying / supporting",
+            "definition": "Providing evidence that proves something is true or valid.",
+            "example": "The scientist spent several years substantiating her hypothesis with carefully documented experiments and independently reviewed data."
+        },
+        {
+            "word": "multifaceted",
+            "synonym": "complex / diverse / multidimensional",
+            "definition": "Having many different aspects, features, or qualities.",
+            "example": "The historian presented a multifaceted analysis of the revolution, examining not only political causes but also economic tensions and cultural transformations."
+        },
+        {
+            "word": "realistic",
+            "synonym": "practical / believable / sensible",
+            "definition": "Based on reality and showing a clear understanding of what is possible or true.",
+            "example": "Although the entrepreneur was ambitious, she created a realistic business plan that carefully considered financial risks and market competition."
+        },
+        {
+            "word": "rousing",
+            "synonym": "inspiring / stirring / exhilarating",
+            "definition": "Causing strong excitement, enthusiasm, or emotional energy.",
+            "example": "The coach delivered a rousing speech before the championship match, and the players entered the field with renewed confidence and determination."
+        },
+        {
+            "word": "subtle",
+            "synonym": "delicate / nuanced / understated",
+            "definition": "Not obvious or direct, requiring careful attention to notice or understand.",
+            "example": "The novelist used subtle changes in dialogue to reveal the growing tension between the characters without openly describing their conflict."
+        },
+        {
+            "word": "susceptible to",
+            "synonym": "vulnerable to / prone to / exposed to",
+            "definition": "Likely to be affected, influenced, or harmed by something.",
+            "example": "Because young plants are highly susceptible to sudden temperature changes, farmers often protect them inside controlled environments during early growth stages."
+        },
+        {
+            "word": "contingent on",
+            "synonym": "dependent on / conditional on / determined by",
+            "definition": "Existing or happening only if something else happens first.",
+            "example": "The company’s expansion into international markets is contingent on securing additional investment from several major financial institutions."
+        },
+        {
+            "word": "saturated with",
+            "synonym": "filled with / flooded with / packed with",
+            "definition": "Containing an extremely large amount of something, often to the point of excess.",
+            "example": "Modern consumers are saturated with advertisements throughout the day, so companies must create more original campaigns to attract attention."
+        },
+        {
+            "word": "depleted of",
+            "synonym": "drained of / exhausted of / stripped of",
+            "definition": "Having lost most or all of a valuable resource, quality, or supply.",
+            "example": "After years of excessive mining operations, the region became depleted of natural resources that had once supported its economy."
+        },
+        {
+            "word": "suitable",
+            "synonym": "appropriate / fitting / compatible",
+            "definition": "Right or acceptable for a particular purpose, situation, or person.",
+            "example": "After reviewing dozens of applications, the committee finally selected a suitable candidate whose experience aligned closely with the organization’s long-term goals."
+        },
+        {
+            "word": "determined",
+            "synonym": "resolute / persistent / unwavering",
+            "definition": "Showing strong commitment and refusing to give up despite difficulties.",
+            "example": "Although the training process was physically exhausting, the determined athlete continued practicing every day in preparation for the international competition."
+        },
+        {
+            "word": "arbitrary",
+            "synonym": "random / subjective / capricious",
+            "definition": "Based on personal choice or chance rather than clear logic, rules, or fairness.",
+            "example": "Many employees were frustrated because the manager appeared to make arbitrary decisions without explaining the reasoning behind them."
+        },
+        {
+            "word": "unpredictable",
+            "synonym": "uncertain / erratic / unforeseeable",
+            "definition": "Impossible or very difficult to anticipate accurately in advance.",
+            "example": "Because the region’s weather patterns are highly unpredictable, travelers are advised to prepare for sudden changes in temperature and rainfall."
+        },
+        {
+            "word": "meaningless",
+            "synonym": "pointless / insignificant / futile",
+            "definition": "Having no clear purpose, value, or significance.",
+            "example": "After hours of debate without any concrete outcome, the discussion began to feel meaningless, as no practical decisions were being reached."
+        },
+        {
+            "word": "dynamic",
+            "synonym": "energetic / active / evolving",
+            "definition": "Characterized by constant change, activity, or progress.",
+            "example": "The startup operates in a dynamic environment where new technologies emerge rapidly, forcing the team to adapt their strategies frequently."
+        },
+        {
+            "word": "benign",
+            "synonym": "harmless / gentle / non-threatening",
+            "definition": "Not harmful or dangerous; unlikely to cause damage or serious problems.",
+            "example": "Although the scan revealed a tumor, doctors confirmed that it was benign and would not pose a serious health risk to the patient."
+        },
+        {
+            "word": "shattered",
+            "synonym": "broken / crushed / devastated",
+            "definition": "Broken into many pieces or severely damaged, often physically or emotionally.",
+            "example": "After receiving the unexpected rejection, she felt emotionally shattered and needed time to recover her confidence."
+        },
+        {
+            "word": "muddied",
+            "synonym": "obscured / confused / blurred",
+            "definition": "Made unclear or difficult to understand, often by adding confusion or irrelevant details.",
+            "example": "The politician’s vague explanation only muddied the situation further, leaving journalists and the public unsure about the true cause of the policy change."
+        },
+        {
+            "word": "questioned",
+            "synonym": "challenged / doubted / interrogated",
+            "definition": "Expressed doubt about something or asked for clarification or justification.",
+            "example": "The researcher questioned the validity of the earlier experiment, arguing that the sample size was too small to support reliable conclusions."
+        },
+        {
+            "word": "usurped",
+            "synonym": "seized / overthrown / taken over",
+            "definition": "Taken control or authority illegally or by force from someone who originally had it.",
+            "example": "During the internal conflict, a rival faction usurped leadership of the organization, forcing the founding members out of decision-making positions."
+        },
+        {
+            "word": "articulated",
+            "synonym": "expressed / conveyed / stated",
+            "definition": "Clearly and effectively expressed an idea or thought in words.",
+            "example": "The engineer articulated a complex technical problem in simple terms, allowing non-specialists to understand the implications of the system failure."
+        }
+    ],
+    "05/09/2026": [
+        {
+            "word": "synchronization",
+            "synonym": "coordination / alignment / concurrence",
+            "definition": "the process of making multiple things happen, operate, or progress at the same time and in harmony",
+            "example": "Although the international teams worked across different time zones, their careful synchronization allowed the software release to proceed without major technical failures."
+        },
+        {
+            "word": "hibernation",
+            "synonym": "dormancy / inactivity / torpor",
+            "definition": "a prolonged state of reduced activity or inactivity, especially during a period of unfavorable conditions",
+            "example": "After months of hibernation during the economic crisis, the small company finally resumed operations when consumer demand began to recover."
+        },
+        {
+            "word": "prediction",
+            "synonym": "forecast / projection / anticipation",
+            "definition": "a statement or estimate about what is likely to happen in the future based on evidence or reasoning",
+            "example": "Because the scientist’s prediction was supported by years of climate data, government officials treated the report with unusual seriousness."
+        },
+        {
+            "word": "moderation",
+            "synonym": "restraint / balance / temperance",
+            "definition": "the quality of avoiding excess and maintaining reasonable limits in behavior, actions, or opinions",
+            "example": "While many investors reacted emotionally to the sudden market decline, her moderation enabled her to make careful financial decisions instead of impulsive ones."
+        },
+        {
+            "word": "coincidence",
+            "synonym": "fluke / chance occurrence / happenstance",
+            "definition": "a situation in which two or more events happen together unexpectedly without an obvious connection",
+            "example": "Although they had not spoken for years, a remarkable coincidence brought the former classmates together on the same flight to Tokyo."
+        },
+        {
+            "word": "reprieve",
+            "synonym": "relief / postponement / respite",
+            "definition": "a temporary delay, escape, or break from something unpleasant or difficult",
+            "example": "After weeks of exhausting examinations and project deadlines, the students welcomed the holiday weekend as a much-needed reprieve from academic pressure."
+        },
+        {
+            "word": "incident",
+            "synonym": "event / occurrence / episode",
+            "definition": "an event or situation, especially one that is unusual, important, or disruptive",
+            "example": "Because the security incident exposed weaknesses in the company’s system, the management team immediately ordered a complete investigation."
+        },
+        {
+            "word": "oddity",
+            "synonym": "curiosity / peculiarity / anomaly",
+            "definition": "something strange, unusual, or different from what is normal or expected",
+            "example": "The ancient machine, which operated without any visible power source, was regarded as an oddity by both historians and engineers."
+        },
+        {
+            "word": "heterogeneity",
+            "synonym": "diversity / variety / mixture",
+            "definition": "the quality of consisting of many different kinds, parts, or elements",
+            "example": "The cultural heterogeneity of the city enriched classroom discussions because students brought widely different perspectives and experiences."
+        },
+        {
+            "word": "ubiquity",
+            "synonym": "pervasiveness / omnipresence / prevalence",
+            "definition": "the state of being present or found everywhere",
+            "example": "Because of the ubiquity of smartphones in modern society, many businesses now design their services primarily for mobile users."
+        },
+        {
+            "word": "expediency",
+            "synonym": "practicality / convenience / advantage",
+            "definition": "the quality of being useful or beneficial for achieving a particular purpose quickly or efficiently",
+            "example": "Although the policy raised ethical concerns, several officials defended it on the grounds of economic expediency during the financial crisis."
+        },
+        {
+            "word": "fecundity",
+            "synonym": "fertility / productivity / fruitfulness",
+            "definition": "the ability to produce many results, ideas, or offspring in large quantities",
+            "example": "The writer’s remarkable fecundity allowed her to publish several influential novels within a single decade while maintaining exceptional quality."
+        },
+        {
+            "word": "protracted",
+            "synonym": "extended / prolonged / drawn-out",
+            "definition": "lasting much longer than expected or intended",
+            "example": "Because of the protracted negotiations between the two companies, the final agreement was not signed until several months after the original deadline."
+        },
+        {
+            "word": "superseded",
+            "synonym": "replaced / displaced / outdated",
+            "definition": "replaced by something newer, more effective, or more advanced",
+            "example": "Although the software was once considered revolutionary, it was eventually superseded by faster and more secure technologies."
+        },
+        {
+            "word": "curtailed",
+            "synonym": "reduced / restricted / limited",
+            "definition": "cut short or reduced in extent, duration, or activity",
+            "example": "Due to severe budget shortages, the organization curtailed several research programs that had previously received long-term funding."
+        },
+        {
+            "word": "obviated",
+            "synonym": "eliminated / prevented / avoided",
+            "definition": "made something unnecessary or removed the need for it",
+            "example": "The introduction of automated testing obviated the need for repeated manual inspections during the development process."
+        },
+        {
+            "word": "defunct",
+            "synonym": "inactive / discontinued / obsolete",
+            "definition": "no longer existing, operating, or functioning",
+            "example": "The researchers uncovered valuable records from a defunct publishing company that had disappeared decades earlier during the economic downturn."
+        },
+        {
+            "word": "arcane",
+            "synonym": "obscure / esoteric / cryptic",
+            "definition": "difficult to understand because it is known or understood by only a small group of people",
+            "example": "Because the professor relied heavily on arcane legal terminology, many students struggled to follow the lecture despite careful preparation."
+        },
+        {
+            "word": "ubiquitous",
+            "synonym": "widespread / omnipresent / pervasive",
+            "definition": "present or found everywhere",
+            "example": "As internet access became increasingly ubiquitous across rural regions, educational opportunities expanded for thousands of students."
+        },
+        {
+            "word": "extraneous",
+            "synonym": "irrelevant / unnecessary / superfluous",
+            "definition": "not related to the main subject or not needed",
+            "example": "To strengthen the scientific report, the editor removed several extraneous details that distracted readers from the central argument."
+        },
+        {
+            "word": "insensible to",
+            "synonym": "unaware of / indifferent to / unaffected by",
+            "definition": "not noticing, feeling, or responding to something",
+            "example": "Despite repeated warnings from environmental scientists, several corporations remained insensible to the long-term consequences of industrial pollution."
+        },
+        {
+            "word": "manifest in",
+            "synonym": "expressed in / revealed in / demonstrated in",
+            "definition": "shown or made clear through something",
+            "example": "The athlete’s determination was manifest in her disciplined training routine, which she maintained even during difficult circumstances."
+        },
+        {
+            "word": "scrutinized by",
+            "synonym": "examined by / inspected by / analyzed by",
+            "definition": "carefully and critically observed or studied by someone",
+            "example": "Because the financial records were scrutinized by independent investigators, several accounting irregularities were eventually discovered."
+        },
+        {
+            "word": "complicated by",
+            "synonym": "hindered by / intensified by / worsened by",
+            "definition": "made more difficult or confusing because of something additional",
+            "example": "The rescue operation was complicated by severe weather conditions, which prevented helicopters from reaching the remote mountain village."
+        },
+        {
+            "word": "interjected",
+            "synonym": "interrupted / inserted / remarked",
+            "definition": "said something suddenly in the middle of another conversation or discussion",
+            "example": "While the committee members debated the proposal intensely, the senior advisor interjected with a practical solution that shifted the direction of the meeting."
+        },
+        {
+            "word": "committed",
+            "synonym": "dedicated / devoted / pledged",
+            "definition": "fully devoted or firmly determined to support, complete, or achieve something",
+            "example": "Because the research team remained committed to the project despite repeated setbacks, they eventually produced groundbreaking results."
+        },
+        {
+            "word": "illustrated",
+            "synonym": "demonstrated / exemplified / depicted",
+            "definition": "explained or made something clear by using examples, details, or images",
+            "example": "The professor illustrated the economic principle with several historical examples, so even the most complex concepts became easier to understand."
+        },
+        {
+            "word": "prescribed",
+            "synonym": "authorized / recommended / directed",
+            "definition": "officially advised or ordered as a rule, treatment, or course of action",
+            "example": "After reviewing the patient’s condition carefully, the specialist prescribed a treatment plan that required both medication and lifestyle changes."
+        },
+        {
+            "word": "authoritative",
+            "synonym": "reliable / commanding / definitive",
+            "definition": "having recognized expertise, accuracy, or the power to influence others confidently",
+            "example": "Because the historian relied on extensive archival evidence, her book became an authoritative source on the political conflicts of the era."
+        },
+        {
+            "word": "opaque",
+            "synonym": "unclear / obscure / ambiguous",
+            "definition": "difficult to understand or explain clearly",
+            "example": "Although the company claimed to support transparency, its opaque financial policies made investors increasingly suspicious of its operations."
+        },
+        {
+            "word": "empirical",
+            "synonym": "observational / experimental / evidence-based",
+            "definition": "based on direct observation, experience, or scientific testing rather than theory alone",
+            "example": "The scientist rejected unsupported assumptions and instead relied on empirical data collected through years of controlled experiments."
+        },
+        {
+            "word": "facile",
+            "synonym": "superficial / simplistic / effortless",
+            "definition": "appearing neat or clever but lacking real depth, careful thought, or difficulty",
+            "example": "The critic dismissed the article as a facile interpretation because it ignored the historical complexity of the issue."
+        },
+        {
+            "word": "discernible",
+            "synonym": "noticeable / perceptible / detectable",
+            "definition": "able to be seen, recognized, or understood clearly",
+            "example": "Despite the noise of the crowd, there was a discernible shift in tone when the speaker addressed the controversial issue directly."
+        },
+        {
+            "word": "straightforward",
+            "synonym": "simple / direct / uncomplicated",
+            "definition": "easy to understand or deal with because it is clear and not complicated",
+            "example": "The instructions were straightforward enough that even beginners could assemble the device without additional guidance."
+        },
+        {
+            "word": "inconclusive",
+            "synonym": "uncertain / unresolved / ambiguous",
+            "definition": "not leading to a clear result, decision, or answer",
+            "example": "Although the experiment produced valuable data, the results remained inconclusive, requiring further testing before any final claim could be made."
+        },
+        {
+            "word": "unbiased",
+            "synonym": "impartial / neutral / fair",
+            "definition": "not influenced by personal opinions, feelings, or prejudice",
+            "example": "To ensure credibility, the investigation was conducted by an unbiased committee that had no financial or political interest in the outcome."
+        },
+        {
+            "word": "deliberation",
+            "synonym": "consideration / reflection / contemplation",
+            "definition": "careful and extended thinking about something before making a decision",
+            "example": "After hours of deliberation over the policy changes, the board finally reached a decision that balanced both cost and efficiency."
+        },
+        {
+            "word": "vigilance",
+            "synonym": "alertness / watchfulness / attentiveness",
+            "definition": "the quality of staying carefully aware of possible danger or problems",
+            "example": "Constant vigilance was required from the security team, especially during large public events where risks could increase unexpectedly."
+        },
+        {
+            "word": "interest",
+            "synonym": "curiosity / concern / attention",
+            "definition": "a feeling of wanting to learn more about something or being engaged in it",
+            "example": "Her interest in artificial intelligence grew rapidly after she attended a conference that showcased real-world applications of machine learning."
+        },
+        {
+            "word": "consensus",
+            "synonym": "agreement / accord / unanimity",
+            "definition": "a general agreement reached by a group of people",
+            "example": "Although the discussion was intense and opinions varied widely, the committee eventually reached a consensus on the new educational policy."
+        },
+        {
+            "word": "restrained",
+            "synonym": "controlled / moderate / subdued",
+            "definition": "kept within limits; showing self-control or avoiding excess",
+            "example": "Although the situation was highly emotional, she gave a restrained response that kept the discussion calm and productive."
+        },
+        {
+            "word": "inventive",
+            "synonym": "creative / imaginative / innovative",
+            "definition": "able to think of new, original, or clever ideas",
+            "example": "The engineer proved highly inventive, designing a low-cost device that solved a problem many experts had considered unsolvable."
+        },
+        {
+            "word": "inexplicable",
+            "synonym": "unexplainable / baffling / incomprehensible",
+            "definition": "impossible to explain or understand",
+            "example": "The sudden disappearance of data from the system was inexplicable, even after a full technical investigation."
+        },
+        {
+            "word": "mystifying",
+            "synonym": "confusing / puzzling / bewildering",
+            "definition": "causing confusion because it is difficult to understand or explain",
+            "example": "The scientist found the results mystifying, since they contradicted every established theory in the field."
+        },
+        {
+            "word": "outmoded",
+            "synonym": "obsolete / outdated / old-fashioned",
+            "definition": "no longer useful, fashionable, or effective because it has been replaced by newer ideas or methods",
+            "example": "The company abandoned its outmoded management system and adopted a more efficient digital workflow to improve productivity."
+        },
+        {
+            "word": "informal",
+            "synonym": "casual / relaxed / unofficial",
+            "definition": "not formal or official in style, behavior, or structure",
+            "example": "During the informal meeting, employees freely shared suggestions without the pressure of strict corporate procedures."
+        },
+        {
+            "word": "interconnected",
+            "synonym": "interrelated / linked / interdependent",
+            "definition": "connected with each other so that each part affects or relates to the others",
+            "example": "Modern economies are deeply interconnected, meaning that financial changes in one country can quickly influence markets worldwide."
+        },
+        {
+            "word": "optional",
+            "synonym": "voluntary / discretionary / nonmandatory",
+            "definition": "not required; something that can be chosen but is not necessary",
+            "example": "Although attendance at the workshop was optional, most students participated because they recognized its value for their exam preparation."
+        },
+        {
+            "word": "replicate",
+            "synonym": "duplicate / reproduce / copy",
+            "definition": "to make an exact or very similar copy of something, especially in a scientific or technical context",
+            "example": "The researchers were unable to replicate the original experiment’s results, which raised doubts about the reliability of the initial findings."
+        },
+        {
+            "word": "critique",
+            "synonym": "evaluate / analyze / review",
+            "definition": "a detailed assessment or examination of something, often pointing out its strengths and weaknesses",
+            "example": "In her essay, she offered a sharp critique of the policy, arguing that it failed to address the underlying social inequalities it claimed to solve."
+        },
+        {
+            "word": "import",
+            "synonym": "bring in / introduce / incorporate",
+            "definition": "to bring something from one place or system into another, especially from another country or field",
+            "example": "The company decided to import advanced manufacturing techniques from abroad in order to improve efficiency and reduce production costs."
+        },
+        {
+            "word": "suppress",
+            "synonym": "restrain / inhibit / suppress",
+            "definition": "to stop or hold back something from being expressed, revealed, or developed",
+            "example": "The government attempted to suppress the spread of misinformation online, but the content continued to circulate widely through social media networks."
+        }
+    ],
+    "05/12/2026": [
+        {
+            "word": "hypothesis",
+            "synonym": "assumption / proposition / theory",
+            "definition": "An idea or explanation that is suggested as possibly true and is tested through evidence or research.",
+            "example": "Although the scientist’s hypothesis initially seemed improbable, the experimental data gradually supported her conclusion, and the research team eventually published the findings in a leading journal."
+        },
+        {
+            "word": "affinity",
+            "synonym": "attraction / inclination / rapport",
+            "definition": "A natural liking for, understanding of, or connection with someone or something.",
+            "example": "Because he had a strong affinity for mathematics and analytical reasoning, he adapted quickly to the demanding computer science curriculum at the university."
+        },
+        {
+            "word": "anomaly",
+            "synonym": "irregularity / deviation / inconsistency",
+            "definition": "Something that is unusual or different from what is normal, expected, or typical.",
+            "example": "The engineer noticed an anomaly in the system’s performance data, but since the error appeared only once, the team delayed a full investigation until additional evidence emerged."
+        },
+        {
+            "word": "corroboration",
+            "synonym": "confirmation / verification / validation",
+            "definition": "Evidence or information that supports and strengthens a statement, theory, or belief.",
+            "example": "The journalist refused to publish the report until she obtained corroboration from several independent witnesses, because the accusations were serious and potentially damaging."
+        },
+        {
+            "word": "secretive",
+            "synonym": "reserved / guarded / discreet",
+            "definition": "Tending to hide thoughts, feelings, or information from other people.",
+            "example": "Although the executive appeared cooperative during meetings, he remained remarkably secretive about the company’s long-term strategy, which caused investors to become increasingly suspicious."
+        },
+        {
+            "word": "efficient",
+            "synonym": "productive / effective / streamlined",
+            "definition": "Working well and accomplishing tasks without wasting time, energy, or resources.",
+            "example": "Because the new software created a more efficient workflow, the design team completed complex projects faster while maintaining a high level of accuracy."
+        },
+        {
+            "word": "outgoing",
+            "synonym": "sociable / extroverted / friendly",
+            "definition": "Comfortable interacting with people and eager to communicate in a lively, confident way.",
+            "example": "Even though she had transferred to the school only a few weeks earlier, her outgoing personality helped her form strong friendships and adapt quickly to the unfamiliar environment."
+        },
+        {
+            "word": "unsympathetic",
+            "synonym": "indifferent / insensitive / uncompassionate",
+            "definition": "Showing little understanding, concern, or care for another person’s difficulties or emotions.",
+            "example": "The manager’s unsympathetic response to the employee’s personal crisis damaged morale, because many workers believed that he valued productivity more than human well-being."
+        },
+        {
+            "word": "decisive",
+            "synonym": "determined / resolute / conclusive",
+            "definition": "Able to make clear and confident decisions quickly, or having the power to settle an issue completely.",
+            "example": "Because the commander took decisive action during the crisis, the rescue operation succeeded before the storm intensified and endangered the entire crew."
+        },
+        {
+            "word": "lacking",
+            "synonym": "deficient / inadequate / insufficient",
+            "definition": "Not having enough of something that is needed, expected, or important.",
+            "example": "Although the proposal contained ambitious ideas, it was ultimately rejected because it was lacking practical evidence and a realistic financial plan."
+        },
+        {
+            "word": "variable",
+            "synonym": "changeable / inconsistent / fluctuating",
+            "definition": "Likely to change or differ over time, in different situations, or among different people.",
+            "example": "Since weather conditions in the region are highly variable throughout the year, farmers must constantly adjust their planting schedules to avoid major crop losses."
+        },
+        {
+            "word": "dormant",
+            "synonym": "inactive / latent / idle",
+            "definition": "Not active or growing at the present time, although capable of becoming active later.",
+            "example": "The volcano had remained dormant for centuries, but scientists continued monitoring the area carefully because minor underground tremors had recently increased."
+        },
+        {
+            "word": "skeptical",
+            "synonym": "doubtful / suspicious / unconvinced",
+            "definition": "Questioning whether something is true, accurate, or reliable instead of accepting it immediately.",
+            "example": "Although the advertisement promised extraordinary results within days, the professor remained skeptical because the company had provided no scientific evidence to support its claims."
+        },
+        {
+            "word": "observant",
+            "synonym": "perceptive / attentive / watchful",
+            "definition": "Quick to notice details, changes, or important information in people or situations.",
+            "example": "Because the detective was highly observant, she recognized subtle inconsistencies in the witness’s story that most people in the room had completely overlooked."
+        },
+        {
+            "word": "critical",
+            "synonym": "analytical / disapproving / evaluative",
+            "definition": "Carefully judging or examining something, often by identifying weaknesses, mistakes, or important details.",
+            "example": "The editor offered critical feedback on the manuscript, and although the comments were demanding, they significantly improved the quality of the final publication."
+        },
+        {
+            "word": "confident",
+            "synonym": "self-assured / assured / certain",
+            "definition": "Feeling sure about one’s abilities, decisions, or chances of success.",
+            "example": "After months of disciplined preparation and repeated practice under pressure, the athlete felt confident enough to compete against far more experienced opponents."
+        },
+        {
+            "word": "involuntarily",
+            "synonym": "unconsciously / automatically / instinctively",
+            "definition": "In a way that happens without deliberate choice, control, or intention.",
+            "example": "When the loud explosion echoed through the crowded station, several passengers involuntarily stepped backward before they fully understood what had happened."
+        },
+        {
+            "word": "beneficially",
+            "synonym": "advantageously / helpfully / profitably",
+            "definition": "In a way that produces positive, useful, or favorable results.",
+            "example": "Because the two companies collaborated beneficially on the research project, they developed a technology that significantly reduced production costs and environmental waste."
+        },
+        {
+            "word": "strenuously",
+            "synonym": "vigorously / forcefully / intensely",
+            "definition": "In a way that involves great effort, energy, or determination.",
+            "example": "The attorney strenuously argued against the proposed regulation, insisting that the policy would unfairly restrict small businesses throughout the region."
+        },
+        {
+            "word": "smoothly",
+            "synonym": "seamlessly / effortlessly / efficiently",
+            "definition": "In a way that happens without problems, interruptions, or difficulty.",
+            "example": "Because the organizers had prepared thoroughly for every possible complication, the international conference proceeded smoothly despite the large number of attendees."
+        },
+        {
+            "word": "traced",
+            "synonym": "tracked / followed / identified",
+            "definition": "Found the origin, development, or movement of something by carefully examining evidence or details.",
+            "example": "After months of investigation, cybersecurity experts traced the data breach to a compromised server that had been neglected during a routine system update."
+        },
+        {
+            "word": "surrendered",
+            "synonym": "yielded / capitulated / relinquished",
+            "definition": "Gave up control, resistance, or possession of something, usually after pressure or defeat.",
+            "example": "Although the army had defended the fortress for several weeks, the exhausted soldiers eventually surrendered when their supplies and communication lines were completely cut off."
+        },
+        {
+            "word": "announced",
+            "synonym": "declared / proclaimed / revealed",
+            "definition": "Made information publicly known in a clear and formal way.",
+            "example": "The university president announced a major scholarship initiative that would support talented students from economically disadvantaged communities."
+        },
+        {
+            "word": "offered",
+            "synonym": "presented / proposed / provided",
+            "definition": "Gave, suggested, or made something available for someone to accept or use.",
+            "example": "During the negotiations, the company offered additional financial support in exchange for a longer-term partnership agreement with the regional suppliers."
+        },
+        {
+            "word": "exploiting",
+            "synonym": "manipulating / utilizing / taking advantage of",
+            "definition": "Using a person, resource, or situation unfairly or selfishly in order to gain benefit.",
+            "example": "The corporation was accused of exploiting temporary workers because it demanded excessive overtime while refusing to provide stable contracts or adequate benefits."
+        },
+        {
+            "word": "monetizing",
+            "synonym": "commercializing / profiting from / capitalizing on",
+            "definition": "Turning something into a source of income or financial profit.",
+            "example": "After gaining millions of users, the startup began monetizing its platform through targeted advertising and premium subscription services."
+        },
+        {
+            "word": "appraising",
+            "synonym": "evaluating / assessing / estimating",
+            "definition": "Carefully judging the quality, value, or condition of something.",
+            "example": "Before purchasing the historic property, the investor hired several experts for appraising the building’s structural condition and long-term market potential."
+        },
+        {
+            "word": "engendering",
+            "synonym": "causing / generating / fostering",
+            "definition": "Producing or creating a particular feeling, condition, or result.",
+            "example": "The leader’s transparent communication style was effective in engendering trust among employees, even during periods of financial uncertainty and organizational change."
+        },
+        {
+            "word": "epitomize",
+            "synonym": "represent / embody / exemplify",
+            "definition": "To perfectly show or be a typical example of a quality, idea, or type.",
+            "example": "Her disciplined work ethic and consistent academic excellence came to epitomize the values that the institution sought to encourage among its students."
+        },
+        {
+            "word": "marginalize",
+            "synonym": "exclude / sideline / disregard",
+            "definition": "To treat a person or group as less important and prevent them from having influence or equal participation.",
+            "example": "Critics argued that the proposed policy would marginalize rural communities because it concentrated economic resources almost entirely in major urban centers."
+        },
+        {
+            "word": "extol",
+            "synonym": "praise / glorify / commend",
+            "definition": "To speak about someone or something with great admiration and approval.",
+            "example": "During the ceremony, the professor extolled the researcher’s dedication and intellectual curiosity, which had inspired many younger scientists in the department."
+        },
+        {
+            "word": "substantiate",
+            "synonym": "verify / confirm / support",
+            "definition": "To provide evidence or facts that prove something is true or valid.",
+            "example": "Although the witness made several serious accusations, the court required additional documents and testimony to substantiate the claims before reaching a final decision."
+        },
+        {
+            "word": "engulfs",
+            "synonym": "surrounds / overwhelms / consumes",
+            "definition": "Completely covers, surrounds, or takes control of something.",
+            "example": "As the wildfire spread rapidly through the dry forest, dense smoke engulfed nearby villages and forced thousands of residents to evacuate immediately."
+        },
+        {
+            "word": "encourages",
+            "synonym": "motivates / inspires / promotes",
+            "definition": "Gives support, confidence, or hope to someone, making an action or behavior more likely.",
+            "example": "The mentor consistently encourages independent thinking, because she believes students develop stronger problem-solving skills when they analyze challenges on their own."
+        },
+        {
+            "word": "comprises",
+            "synonym": "consists of / includes / contains",
+            "definition": "Is made up of particular parts, elements, or members.",
+            "example": "The research committee comprises experts from multiple scientific disciplines, which allows the organization to evaluate complex issues from several perspectives."
+        },
+        {
+            "word": "provokes",
+            "synonym": "triggers / incites / stimulates",
+            "definition": "Causes a reaction, feeling, or response, often a strong one.",
+            "example": "The documentary provokes intense public debate because it challenges widely accepted assumptions about environmental and economic policy."
+        },
+        {
+            "word": "demarcated from",
+            "synonym": "separated from / distinguished from / delimited from",
+            "definition": "Clearly divided or marked off so that one thing is distinct from another.",
+            "example": "In modern linguistics, spoken language is carefully demarcated from written language, since each follows different structural rules and patterns of use."
+        },
+        {
+            "word": "reconstituted as",
+            "synonym": "reformed into / restructured as / reassembled as",
+            "definition": "Changed or reorganized into a new form, identity, or structure.",
+            "example": "After the political reforms, the advisory council was reconstituted as an independent regulatory body with broader oversight powers and stricter accountability mechanisms."
+        },
+        {
+            "word": "conflated with",
+            "synonym": "confused with / merged with / blended with",
+            "definition": "Incorrectly treated as the same thing as something else, often by mixing their meanings or identities.",
+            "example": "Many beginners mistakenly conflated statistical correlation with causation, leading them to draw unsupported conclusions from observational data."
+        },
+        {
+            "word": "derived from",
+            "synonym": "originated from / obtained from / extracted from",
+            "definition": "Coming from a particular source or being developed based on something else.",
+            "example": "Much of modern programming terminology is derived from earlier mathematical concepts, which were adapted to describe computational processes more precisely."
+        },
+        {
+            "word": "pragmatic",
+            "synonym": "practical / realistic / utilitarian",
+            "definition": "Focused on what works in real situations rather than on theories or ideals.",
+            "example": "Although the proposal was not ideal in theory, the committee adopted a pragmatic approach, prioritizing immediate solutions that could stabilize the economy quickly."
+        },
+        {
+            "word": "controversial",
+            "synonym": "debated / disputed / contentious",
+            "definition": "Causing disagreement or public argument because people have strong opposing opinions about it.",
+            "example": "The new policy became controversial almost immediately, as critics argued it would limit personal freedoms while supporters claimed it was necessary for public safety."
+        },
+        {
+            "word": "extensive",
+            "synonym": "comprehensive / wide-ranging / thorough",
+            "definition": "Covering a large area, amount, or range of information or activity.",
+            "example": "The researcher conducted an extensive review of previous studies, ensuring that no significant findings were overlooked before drawing final conclusions."
+        },
+        {
+            "word": "universal",
+            "synonym": "global / widespread / common",
+            "definition": "Existing or true everywhere or for all people, without exceptions.",
+            "example": "The need for effective communication is universal, as every society relies on clear expression to share knowledge and maintain social cooperation."
         }
     ]
 }
