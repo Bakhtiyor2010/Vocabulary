@@ -50,10 +50,16 @@
                     <option value="All">All Categories</option>
                 </select>
             </div>
-            <button id="startStudyBtn"
-                class="w-full md:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-blue-500/30 text-base sm:text-lg mt-2 md:mt-6">
-                Start Session
-            </button>
+            <div class="flex flex-col md:flex-row gap-2 md:gap-4 w-full md:w-auto mt-2 md:mt-6">
+                <button id="deleteSessionBtn"
+                    class="w-full md:w-auto bg-red-600/80 hover:bg-red-500 text-white font-bold py-3.5 px-6 sm:px-8 rounded-xl transition-all shadow-lg shadow-red-500/30 text-base sm:text-lg">
+                    Reset Progress
+                </button>
+                <button id="startStudyBtn"
+                    class="w-full md:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-blue-500/30 text-base sm:text-lg">
+                    Start Session
+                </button>
+            </div>
         </div>
 
         <!-- Stats Grid: Pulling directly from localStorage per Category -->

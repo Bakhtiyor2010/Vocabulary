@@ -357,10 +357,40 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 300);
     },
 
+    resetSessionProgress() {
+      const selectedCat = UI.inputs.categorySelect.value;
+      const catDisplay =
+        selectedCat === "All" ? "All Categories" : `"${selectedCat}"`;
+
+      if (
+        !confirm(
+          `Are you sure you want to reset all spaced repetition progress for ${catDisplay}? This cannot be undone.`,
+        )
+      ) {
+        return;
+      }
+
+      State.allCards.forEach((card) => {
+        if (selectedCat === "All" || card.category === selectedCat) {
+          localStorage.removeItem(card.key);
+        }
+      });
+
+      // Reload and re-render
+      this.processRawData();
+      UI.renderDashboard();
+    },
+
     setupEventListeners() {
       document.getElementById("startStudyBtn").addEventListener("click", () => {
         this.startStudy();
       });
+
+      document
+        .getElementById("deleteSessionBtn")
+        .addEventListener("click", () => {
+          this.resetSessionProgress();
+        });
 
       UI.inputs.categorySelect.addEventListener("change", () => {
         State.appState.lastActiveCategory = UI.inputs.categorySelect.value;
