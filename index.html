@@ -1,28 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
-    <title>Vocabulary</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flashcard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0f172a',
+                        darkCard: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div id="search-box"></div>
-    <div id="results"></div>
-    <div id="groups"></div>
-    <div id="content"></div>
+<body
+    class="bg-darkBg text-gray-100 font-[Inter] min-h-screen flex flex-col items-center p-3 sm:p-6 overflow-x-hidden w-full">
 
-    <div id="modal">
-        <div>
-            <span id="modal-close">x</span>
-            <p id="modal-word"></p>
-            <p><b>Synonym:</b> <span id="modal-synonym"></span></p>
-            <p><b>Definition:</b> <span id="modal-definition"></span></p>
-            <p><b>Example:</b> <span id="modal-example"></span></p>
+    <!-- Dashboard -->
+    <div id="dashboard"
+        class="w-full max-w-5xl flex flex-col gap-6 transition-opacity duration-300 mt-2 sm:mt-4 px-1 sm:px-0">
+
+        <!-- Header -->
+        <div class="text-center mb-2">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 sm:mb-3 text-white tracking-tight px-2">
+                Vocabulary Mastery
+            </h1>
+            <p class="text-slate-400 text-sm sm:text-base md:text-lg">Strict SM-2 Spaced Repetition Engine</p>
+        </div>
+
+        <!-- Deck Selection & Start -->
+        <div
+            class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 flex flex-col md:flex-row items-center gap-4 sm:gap-6 justify-between mt-2">
+            <div class="flex-1 w-full">
+                <label for="categorySelect"
+                    class="block text-xs sm:text-sm font-semibold text-slate-400 mb-2 uppercase tracking-wide text-center md:text-left">Strict
+                    Category Filter</label>
+                <select id="categorySelect"
+                    class="w-full bg-slate-800 border border-slate-600 rounded-xl py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base">
+                    <option value="All">All Categories</option>
+                </select>
+            </div>
+            <button id="startStudyBtn"
+                class="w-full md:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-blue-500/30 text-base sm:text-lg mt-2 md:mt-6">
+                Start Session
+            </button>
+        </div>
+
+        <!-- Stats Grid: Pulling directly from localStorage per Category -->
+        <h3
+            class="text-base sm:text-lg font-bold mt-2 text-white flex items-center justify-center md:justify-start gap-2">
+            <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                </path>
+            </svg>
+            Live Learning Analytics
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 w-full">
+            <div
+                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
+                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-400" id="statTotalCards">0</div>
+                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Total
+                    Cards</div>
+            </div>
+            <div
+                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
+                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-emerald-400" id="statDueToday">0</div>
+                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Due Today
+                </div>
+            </div>
+            <div
+                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
+                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-rose-400" id="statLearningQueue">0</div>
+                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Learning
+                    Queue</div>
+            </div>
+            <div
+                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
+                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-400" id="statMastered">0</div>
+                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Mastered
+                    Cards</div>
+            </div>
+            <div
+                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center col-span-2 md:col-span-1 lg:col-span-1">
+                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-amber-400" id="statAvgEasiness">2.50</div>
+                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Avg
+                    Easiness Factor</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Study Section -->
+    <div id="studyContainer"
+        class="w-full max-w-4xl hidden flex-col items-center gap-4 sm:gap-6 mt-2 sm:mt-6 md:mt-10 px-2 sm:px-0">
+        <div class="w-full flex justify-between items-center text-slate-400 mb-1 sm:mb-2 px-1">
+            <button id="backToDashBtn"
+                class="hover:text-white transition-colors flex items-center gap-1 sm:gap-2 font-medium bg-slate-800 py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm">
+                &larr; <span class="hidden sm:inline">Suspend Session</span><span class="sm:hidden">Suspend</span>
+            </button>
+            <div id="cardsRemaining"
+                class="font-bold bg-rose-900/40 border border-rose-800/50 text-rose-300 py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm">
+                Queue: 0</div>
+        </div>
+
+        <!-- Flashcard -->
+        <div class="flashcard-container w-full h-[26rem] sm:h-[20rem] lg:h-[34rem] perspective-1000">
+            <div id="flashcard"
+                class="flashcard w-full h-full relative preserve-3d transition-transform duration-500 cursor-pointer">
+                <!-- Front -->
+                <div
+                    class="absolute w-full h-full backface-hidden bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 text-center border border-slate-700">
+                    <h2 id="cardWord"
+                        class="text-4xl sm:text-5xl md:text-7xl font-bold mb-8 sm:mb-10 text-white tracking-tight break-words max-w-full px-2">
+                    </h2>
+                    <button id="showAnswerBtn"
+                        class="text-slate-300 hover:text-white border-2 border-slate-600 hover:border-slate-400 rounded-xl py-3 px-6 sm:px-10 font-medium transition-colors text-sm sm:text-base md:text-lg w-[80%] sm:w-auto">
+                        Show Answer (Space)
+                    </button>
+                </div>
+                <!-- Back -->
+                <div
+                    class="absolute w-full h-full backface-hidden bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center border border-slate-700 rotate-y-180 overflow-y-auto">
+                    <h2 id="cardWordBack"
+                        class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-white border-b border-slate-700 pb-3 sm:pb-4 w-full break-words">
+                    </h2>
+                    <div class="flex flex-col gap-4 sm:gap-6 text-left w-full max-w-2xl px-2 sm:px-0">
+                        <div>
+                            <span
+                                class="text-blue-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Definition</span>
+                            <p id="cardDef" class="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed"></p>
+                        </div>
+                        <div>
+                            <span
+                                class="text-purple-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Synonym</span>
+                            <p id="cardSyn" class="text-slate-300 font-medium text-sm sm:text-base md:text-lg"></p>
+                        </div>
+                        <div>
+                            <span
+                                class="text-emerald-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Example</span>
+                            <p id="cardEx"
+                                class="text-slate-400 italic text-sm sm:text-base md:text-lg border-l-2 border-emerald-500/30 pl-3 sm:pl-4 py-1">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rating Buttons (Hidden initially) -->
+        <div id="ratingButtons"
+            class="w-full grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-3 mt-2 sm:mt-4 opacity-0 pointer-events-none transition-opacity duration-300 px-1 sm:px-0">
+            <button
+                class="rate-btn bg-red-950/60 hover:bg-red-900 border border-red-800 text-red-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="0">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">0</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Blackout</span>
+            </button>
+            <button
+                class="rate-btn bg-orange-950/60 hover:bg-orange-900 border border-orange-800 text-orange-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="1">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">1</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Familiar</span>
+            </button>
+            <button
+                class="rate-btn bg-yellow-950/60 hover:bg-yellow-900 border border-yellow-800 text-yellow-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="2">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">2</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Hard</span>
+            </button>
+            <button
+                class="rate-btn bg-sky-900/60 hover:bg-sky-800 border border-sky-700 text-sky-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="3">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">3</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Good</span>
+            </button>
+            <button
+                class="rate-btn bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-700 text-emerald-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="4">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">4</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Easy</span>
+            </button>
+            <button
+                class="rate-btn bg-blue-900/60 hover:bg-blue-800 border border-blue-700 text-blue-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                data-score="5">
+                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">5</span>
+                <span
+                    class="text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold opacity-80 group-hover:opacity-100">Perfect</span>
+            </button>
         </div>
     </div>
+
+    <!-- Caught Up / Session Complete Screen -->
+    <div id="caughtUpScreen"
+        class="hidden flex-col items-center justify-center text-center gap-4 sm:gap-6 max-w-xl w-full mt-6 sm:mt-10 px-4 sm:px-0">
+        <div class="text-5xl sm:text-7xl mb-1 sm:mb-2 animate-bounce">🎉</div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight" id="caughtUpMessage">All caught
+            up for this category!</h2>
+
+        <p class="text-slate-300 text-base sm:text-lg mt-2">Next review scheduled for: <span id="nextReviewDateDisplay"
+                class="font-bold text-emerald-400"></span></p>
+
+        <!-- Action Buttons -->
+        <div class="w-full mt-4 sm:mt-8">
+            <button id="btnBackToDash"
+                class="w-full bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-bold py-3 sm:py-4 px-4 rounded-xl transition-all text-sm sm:text-base">
+                Return to Dashboard
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

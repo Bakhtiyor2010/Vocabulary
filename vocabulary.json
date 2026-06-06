@@ -13922,5 +13922,481 @@
             "definition": "Existing or true everywhere or for all people, without exceptions.",
             "example": "The need for effective communication is universal, as every society relies on clear expression to share knowledge and maintain social cooperation."
         }
+    ],
+    "05/26/2026": [
+        {
+            "word": "accompany",
+            "synonym": "escort / attend / companion",
+            "definition": "To go somewhere with someone as a companion or guard.",
+            "example": "Although the diplomat preferred to travel alone, a seasoned security detail had to accompany him through the volatile region to ensure his safety."
+        },
+        {
+            "word": "have the air of",
+            "synonym": "exude the appearance of / project the aura of / look to be",
+            "definition": "To give off a specific impression, look, or mannerism to those around you.",
+            "example": "Even though he grew up in a modest household, Jonathan always had the air of an aristocratic scholar whenever he spoke at academic conferences."
+        },
+        {
+            "word": "disdainfully",
+            "synonym": "scornfully / contemptuously / haughtily",
+            "definition": "Doing something in a way that shows strong dislike or a feeling that someone or something is inferior.",
+            "example": "The seasoned art critic looked disdainfully at the amateur painting, and she immediately walked away without offering a single word of encouragement."
+        },
+        {
+            "word": "upstart",
+            "synonym": "parvenu / social climber / opportunist",
+            "definition": "A person who has suddenly risen to wealth or power but lacks the proper manners or respect from established society.",
+            "example": "The traditional aristocracy viewed the tech billionaire as an unrefined upstart who was merely trying to buy his way into their exclusive social circles."
+        },
+        {
+            "word": "provincial",
+            "synonym": "unsophisticated / narrow-minded / rustic",
+            "definition": "Having manners, viewpoints, or habits considered narrow, simple, or lacking the sophistication of big cities.",
+            "example": "Having lived in a small, isolated village her entire life, her provincial outlook made it difficult for her to adapt to the fast-paced, diverse lifestyle of the metropolis."
+        },
+        {
+            "word": "mule-race",
+            "synonym": "stubborn competition / chaotic scramble / sluggish contest",
+            "definition": "A chaotic, undignified, or fiercely stubborn competition where participants act foolishly to finish ahead of one another.",
+            "example": "The year-end holiday shopping rush quickly degenerated into a frantic mule-race as desperate customers shoved past each other to grab the final discounted items."
+        },
+        {
+            "word": "sensible",
+            "synonym": "rational / prudent / judicious",
+            "definition": "Showing good judgment, wisdom, or common sense in practical matters.",
+            "example": "While his peers invested rashly in volatile stocks, Marcus made the sensible decision to deposit his savings into a secure, long-term index fund."
+        },
+        {
+            "word": "ascend",
+            "synonym": "mount / climb / scale",
+            "definition": "To move, climb, or go upward toward a higher position or platform.",
+            "example": "As the crowd watched in absolute silence, the condemned prisoner began to ascend the wooden gallows with an unnerving sense of calm."
+        },
+        {
+            "word": "scaffold",
+            "synonym": "gallows / execution platform / staging",
+            "definition": "An elevated wooden platform used historically for the public execution of criminals.",
+            "example": "Before the king was led to the scaffold for his public execution, he turned to the crowd and delivered a powerful final speech that echoed through the square."
+        },
+        {
+            "word": "contemptuous",
+            "synonym": "disdainful / scornful / insolent",
+            "definition": "Showing deep hatred, disapproval, or a total lack of respect for someone or something.",
+            "example": "The elite chef cast a contemptuous glance at the fast-food wrapper on the counter, making no effort to hide his absolute disgust."
+        },
+        {
+            "word": "dynamic",
+            "synonym": "forces / interaction / interplay",
+            "definition": "The forces, relationships, or patterns of behavior that control how a group of people interact with one another.",
+            "example": "When a new manager was abruptly hired, the underlying social dynamic of the office shifted from a cooperative environment to a highly competitive one."
+        },
+        {
+            "word": "safe guess",
+            "synonym": "reasonable estimate / educated assumption / reliable prediction",
+            "definition": "An estimate or assumption that is highly likely to be correct because it is based on sensible evidence or observation.",
+            "example": "Looking at the long lines wrapping around the block, it was a safe guess that the new restaurant's opening night was an absolute commercial success."
+        },
+        {
+            "word": "place someone somewhere in",
+            "synonym": "estimate someone to be / categorize someone within / rank someone among",
+            "definition": "To estimate that someone belongs to a specific age range, category, group, or status.",
+            "example": "Although her silver hair suggested she was much older, the doctor's energetic stride would place her somewhere in her early fifties."
+        },
+        {
+            "word": "ground",
+            "synonym": "range / territory / area",
+            "definition": "An area, category, or range of values, ages, or ideas that is open to discussion or estimation.",
+            "example": "The negotiation stumbled into debatable ground when the two companies tried to agree on the exact financial valuation of the new software application."
+        },
+        {
+            "word": "erect",
+            "synonym": "upright / straight / vertical",
+            "definition": "Sitting or standing in a perfectly straight, upright position rather than slouching.",
+            "example": "The military officer sat perfectly erect during the long ceremony, displaying an innate discipline that he had developed over decades of active service."
+        },
+        {
+            "word": "clerical",
+            "synonym": "office-like / businesslike / administrative",
+            "definition": "Relating to a serious, formal, and organized workplace or professional office environment.",
+            "example": "While the management considered adding bright decorations to the lobby, they ultimately decided to maintain a strict clerical appearance to impress corporate clients."
+        },
+        {
+            "word": "marred",
+            "synonym": "spoiled / diminished / blemish-damaged",
+            "definition": "Having the perfect quality, appearance, or mood of something reduced or damaged.",
+            "example": "The serene atmosphere of the formal graduation ceremony was temporarily marred when a loud, disruptive car alarm began blaring directly outside the auditorium windows."
+        },
+        {
+            "word": "ample",
+            "synonym": "abundant / plentiful / extensive",
+            "definition": "More than enough space, time, or consideration given to a specific task or choice.",
+            "example": "The architect spent months drafting the floor plans, ensuring that the final blueprints provided ample room for both a large conference hall and a spacious employee lounge."
+        },
+        {
+            "word": "embossed",
+            "synonym": "raised-pattern / textured / stamped",
+            "definition": "Decorated with a design or texture that stands out physically above the flat surface.",
+            "example": "She ran her fingers gently across the antique book cover, admiring the beautifully embossed gold patterns that gave the old volume such a premium feel."
+        },
+        {
+            "word": "sombre",
+            "synonym": "gloomy / dark-hued / solemn",
+            "definition": "Dark, dull, or serious in color and mood, creating a very heavy or quiet feeling.",
+            "example": "The historic courtroom was decorated with heavy oak paneling and sombre portraits of past judges, which immediately made the incoming visitors speak in hushed whispers."
+        },
+        {
+            "word": "drape",
+            "synonym": "hang loosely / arrange / suspend",
+            "definition": "To hang cloth, curtains, or clothing loosely over something in a deliberate way.",
+            "example": "To prevent the intense afternoon heat from fading the delicate furniture, the housekeeper would always drape thick velvet curtains over the massive bay windows."
+        },
+        {
+            "word": "personage",
+            "synonym": "historical figure / individual / character",
+            "definition": "A person who is famous, important, or noteworthy, especially someone from history or literature.",
+            "example": "The grand museum featured a wax statue of every major historical personage who played a crucial role in signing the country's peace treaty."
+        },
+        {
+            "word": "fireside",
+            "synonym": "traditional / informal / folklore",
+            "definition": "Relating to informal stories, legends, or conversations that people traditionally share out loud at home around a fireplace.",
+            "example": "Long before printing presses were invented, ancient communities preserved their cultural heritage through fireside tales passed down from grandmothers to children."
+        },
+        {
+            "word": "analogous",
+            "synonym": "comparable / parallel / equivalent",
+            "definition": "Similar or shared in a way that lets you make a clear comparison to help explain an idea.",
+            "example": "The principal explained that running a school framework is highly analogous to managing a massive corporation because both systems require clear hierarchies and strict budget constraints."
+        },
+        {
+            "word": "destitute",
+            "synonym": "devoid / lacking / empty",
+            "definition": "Completely lacking, empty, or totally stripped of a specific quality, feature, or asset.",
+            "example": "The critic noted that while the new sci-fi movie featured breathtaking special effects, its weak storyline was completely destitute of any genuine human emotion."
+        },
+        {
+            "word": "viaduct",
+            "synonym": "elevated bridge / overpass / arched roadway",
+            "definition": "A long, bridge-like structure, typically supported by a series of arches, used to carry a road or railroad track across a valley or river.",
+            "example": "As the train steamed out of the city station, it traveled across a massive stone viaduct that offered passengers a panoramic view of the river below."
+        },
+        {
+            "word": "apprehension",
+            "synonym": "anxiety / dread / uneasiness",
+            "definition": "A feeling of anxiety, worry, or fear that something bad or unpleasant is about to happen.",
+            "example": "Standing at the edge of the high diving platform, the young swimmer felt a wave of apprehension before finally taking the plunge into the deep pool."
+        },
+        {
+            "word": "tranquility",
+            "synonym": "peacefulness / serenity / calmness",
+            "definition": "A state of complete peace, quiet, and freedom from stress or disturbance.",
+            "example": "We woke up at dawn to enjoy the absolute tranquility of the mountain lake before the crowds of noisy tourists arrived for the weekend."
+        },
+        {
+            "word": "parallel",
+            "synonym": "similarity / correspondence / connection",
+            "definition": "A clear point of similarity or comparison between two different things that develop or change at the same time.",
+            "example": "The history teacher pointed out a striking parallel between the decline of the ancient empire and the economic struggles faced by the modern nation."
+        },
+        {
+            "word": "invariably",
+            "synonym": "constantly / always / unfailingly",
+            "definition": "Always happening in the same way without changing.",
+            "example": "No matter how chaotic his morning schedule was, Arthur invariably stopped at the neighborhood cafe to buy a hot espresso before boarding his train."
+        },
+        {
+            "word": "roll",
+            "synonym": "bun / bread / pastry",
+            "definition": "A small, individual-sized piece of baked bread that is typically round or oblong.",
+            "example": "The baker sliced open a freshly baked roll, spread a generous layer of sweet butter inside, and handed it over to the hungry customer."
+        },
+        {
+            "word": "culprit",
+            "synonym": "offender / wrongdoer / criminal",
+            "definition": "A person who is responsible for a crime, mistake, or piece of misbehavior.",
+            "example": "When the teacher discovered that the classroom window was completely shattered, she immediately demanded that the culprit step forward and apologize."
+        },
+        {
+            "word": "uneasy",
+            "synonym": "anxious / apprehensive / restless",
+            "definition": "Feeling worried, uncomfortable, or nervous about a situation because you feel something might go wrong.",
+            "example": "As the dark storm clouds began to gather quickly over the ocean, the captain felt an uneasy sensation and decided to steer the yacht back to the harbor."
+        },
+        {
+            "word": "rebuke",
+            "synonym": "reprimand / scolding / admonishment",
+            "definition": "A sharp, formal expression of strong disapproval or criticism because of someone's actions.",
+            "example": "After arriving an hour late to the critical strategy session, the junior consultant had to face a harsh rebuke from the regional director."
+        },
+        {
+            "word": "dismay",
+            "synonym": "distress / disappointment / alarm",
+            "definition": "A strong feeling of unhappiness, shock, or disappointment caused by something unexpected and unpleasant.",
+            "example": "To the absolute dismay of the local residents, the city council voted to demolish the historic community park to build a multi-story parking garage."
+        },
+        {
+            "word": "monotonous",
+            "synonym": "tedious / repetitive / humdrum",
+            "definition": "Dull, tedious, and completely lacking in variety; repeating the exact same routine until it becomes boring.",
+            "example": "Working on the factory assembly line felt incredibly monotonous because he spent eight hours a day doing nothing but tightening identical screws on metal panels."
+        },
+        {
+            "word": "unwaveringly",
+            "synonym": "steadfastly / resolutely / consistently",
+            "definition": "Moving or acting in a firm, steady, and certain way that never changes, hesitates, or shakes.",
+            "example": "Throughout the intense, three-hour interrogation, the witness looked the prosecutor directly in the eye and unwaveringly maintained her original story."
+        },
+        {
+            "word": "ill-balanced",
+            "synonym": "uneven / clumsy / poorly weighted",
+            "definition": "Not properly weighted, distributed, or balanced, making something difficult to handle or control effectively.",
+            "example": "Because the old carpenter was using an ill-balanced hammer, his swings were incredibly clumsy and he kept bending the nails into the wood."
+        },
+        {
+            "word": "hew out",
+            "synonym": "carve / shape / fashion",
+            "definition": "To roughly cut, shape, or carve an idea or object out of raw material through hard work or forceful effort.",
+            "example": "Through hours of intense debate, the young committee managed to hew out a rough draft of the new student council constitution."
+        },
+        {
+            "word": "awry",
+            "synonym": "wrong / amiss / askew",
+            "definition": "Away from the planned, expected, or correct course; turning out poorly or incorrectly.",
+            "example": "Our travel plans went completely awry when a heavy blizzard grounded all flights out of the international airport for forty-eight hours."
+        },
+        {
+            "word": "rectify",
+            "synonym": "correct / remedy / fix",
+            "definition": "To correct something that is wrong, inaccurate, or mistaken; to make things right.",
+            "example": "As soon as the accountant noticed the data error in the financial spreadsheet, she worked late into the night to rectify the mistake."
+        },
+        {
+            "word": "coherent",
+            "synonym": "logical / clear / organized",
+            "definition": "Clear, logical, and easy to understand because all the parts or ideas connect together perfectly.",
+            "example": "Although he was incredibly nervous during the job interview, Lucas managed to deliver a coherent explanation of his past technical achievements."
+        },
+        {
+            "word": "entangled",
+            "synonym": "caught up / trapped / involved",
+            "definition": "Deeply involved or caught up in a complicated, confusing, or difficult situation that is hard to escape.",
+            "example": "The two retail companies became heavily entangled in a bitter, multi-year legal battle over who originally invented the software algorithm."
+        },
+        {
+            "word": "delight",
+            "synonym": "take pleasure / rejoice / revel",
+            "definition": "To feel or show great joy, happiness, or deep satisfaction in doing a specific activity.",
+            "example": "The mischievous little boy seemed to delight in splashing through deep mud puddles right after his parents had dressed him in clean clothes."
+        },
+        {
+            "word": "detest",
+            "synonym": "loathe / hate / despise",
+            "definition": "To dislike someone or something intensely; to feel strong hatred or disgust toward something.",
+            "example": "Though she loved working on creative graphic design tasks, she would absolute detest filling out the tedious weekly progress reports."
+        },
+        {
+            "word": "vacate",
+            "synonym": "empty / leave / evacuate",
+            "definition": "To leave a room, building, or seat so that it becomes available for someone else to use.",
+            "example": "The hotel management requested that all guests vacate their rooms by eleven o'clock in the morning so that the housekeeping staff could prepare for incoming arrivals."
+        },
+        {
+            "word": "moulded",
+            "synonym": "shaped / sculpted / formed",
+            "definition": "Shaped or formed perfectly to look like a specific object or style.",
+            "example": "The ancient statues featured faces that seemed expertly moulded from marble, capturing every fine detail of the emperor's expression."
+        },
+        {
+            "word": "bust",
+            "synonym": "sculpture / head-and-shoulders statue / effigy",
+            "definition": "A sculpture or statue that shows only a person's head, shoulders, and chest.",
+            "example": "The grand library displayed a marble bust of Julius Caesar directly next to the collection of historical Roman texts."
+        },
+        {
+            "word": "bulge",
+            "synonym": "swell / protrude / stick out",
+            "definition": "To stick out or swell upward in a round shape because something is completely full or packed underneath.",
+            "example": "His leather briefcase was so packed with thick legal documents that the sides began to bulge unnaturally at the seams."
+        },
+        {
+            "word": "impertinent",
+            "synonym": "rude / insolent / disrespectful",
+            "definition": "Disrespectful, rude, or showing a total lack of proper manners, especially by asking personal or intrusive questions.",
+            "example": "The corporate executive considered it highly impertinent when the junior intern publicly questioned her financial decisions during the annual meeting."
+        },
+        {
+            "word": "inquire",
+            "synonym": "investigate / ask / look into",
+            "definition": "To ask for more information or try to find out the facts about a specific matter.",
+            "example": "The detective arrived at the scene early in the morning to inquire about what the neighbors had witnessed the previous night."
+        },
+        {
+            "word": "cast light on",
+            "synonym": "reveal / clarify / illuminate",
+            "definition": "To provide extra information or explanations that make a confusing situation much easier to understand.",
+            "example": "The newly discovered historical journals finally cast light on why the legendary general suddenly ordered his troops to retreat from the battlefield."
+        },
+        {
+            "word": "enigma",
+            "synonym": "mystery / puzzle / riddle",
+            "definition": "A person, thing, or situation that is mysterious, confusing, and very difficult to understand.",
+            "example": "Why the famous author decided to stop writing books at the peak of his career remains a complete enigma to his millions of fans worldwide."
+        },
+        {
+            "word": "gravitas",
+            "synonym": "dignity / seriousness / presence",
+            "definition": "A serious, dignified, and highly respected manner or seriousness of look that makes people treat you with deep respect.",
+            "example": "The seasoned news anchor spoke with such immense gravitas that the entire nation listened in absolute silence as he delivered the critical announcement."
+        },
+        {
+            "word": "on the fly",
+            "synonym": "spontaneously / extemporaneously / off the cuff",
+            "definition": "Doing something quickly and without preparation while you are already busy moving or acting.",
+            "example": "Because the main projector broke right as the presentation began, the teacher had to adjust her entire lesson plan on the fly."
+        },
+        {
+            "word": "threshold",
+            "synonym": "doorway / entrance / boundary",
+            "definition": "The piece of wood or stone at the bottom of a doorway that you step over when entering a room or building.",
+            "example": "As she took a deep breath and stepped over the threshold of her new office, she knew her career was about to change forever."
+        },
+        {
+            "word": "hollowly",
+            "synonym": "echoingly / emptily / resonantly",
+            "definition": "Making a deep, empty, echoing sound because a space is unfilled or vacant.",
+            "example": "With all the furniture and carpets loaded onto the moving truck, his footsteps echoed hollowly throughout the empty house."
+        },
+        {
+            "word": "omen",
+            "synonym": "sign / portent / harbinger",
+            "definition": "An event or sign that is believed to indicate or predict whether the future will be good or bad.",
+            "example": "The business partners viewed the sudden storm on opening day as a bad omen for the future success of their new restaurant."
+        },
+        {
+            "word": "indefatigably",
+            "synonym": "tirelessly / unflaggingly / persistently",
+            "definition": "Working with persistent, never-ending energy and determination without ever growing tired or giving up.",
+            "example": "Despite facing constant rejection from major publishers, the young novelist worked indefatigably for years until her manuscript was finally accepted."
+        },
+        {
+            "word": "raw",
+            "synonym": "unrefined / uncultivated / coarse",
+            "definition": "Lacking experience, sophisticated manners, or cultural education; crude and unpolished in behavior.",
+            "example": "The prestigious academy specialized in taking raw, unpolished musicians from rural towns and turning them into sophisticated classical performers."
+        },
+        {
+            "word": "dawdle",
+            "synonym": "procrastinate / loiter / waste time",
+            "definition": "To move, act, or practice slowly and lazily, wasting time instead of focusing on a task.",
+            "example": "Instead of practicing her scales diligently before the recital, the young pianist would dawdle by staring out the window and adjusting her sheet music over and over again."
+        },
+        {
+            "word": "daydream",
+            "synonym": "fantasize / muse / lose oneself in thought",
+            "definition": "To spend time thinking about pleasant, unrelated things or imaginary scenes instead of paying attention to your current surroundings.",
+            "example": "During the long, tedious geometry lecture, Arthur began to daydream about scoring the winning goal in the upcoming championship soccer match."
+        },
+        {
+            "word": "wince",
+            "synonym": "flinch / grimace / shudder",
+            "definition": "To make a sudden, brief facial expression of pain, embarrassment, or strong dislike.",
+            "example": "The artistic director could not help but wince when the lead singer missed the most critical high note during the opening scene of the opera."
+        },
+        {
+            "word": "inexplicably",
+            "synonym": "mysteriously / unaccountably / incomprehensibly",
+            "definition": "Happening in a strange way that is completely impossible to explain or understand.",
+            "example": "Though the weather forecast predicted a completely clear sky, the outdoor garden party was inexplicably interrupted by a sudden downpour of hail."
+        },
+        {
+            "word": "uncharacteristic",
+            "synonym": "atypical / unusual / out of character",
+            "definition": "Not typical of a specific person's usual behavior, habits, or personality traits.",
+            "example": "Known for his exceptionally calm and patient demeanor, the manager's sudden angry outburst during the afternoon meeting was highly uncharacteristic."
+        },
+        {
+            "word": "occasion",
+            "synonym": "cause / prompt / bring about",
+            "definition": "To cause something to happen, or to provide a specific reason for an event or reaction.",
+            "example": "The unexpected discovery of a major security flaw in the system will likely occasion an immediate emergency meeting of the engineering team."
+        },
+        {
+            "word": "resumption",
+            "synonym": "continuation / restart / renewal",
+            "definition": "The act of starting something again after a temporary pause, delay, or interruption.",
+            "example": "Following a brief twenty-minute delay to allow the heavy storm to pass, the referee finally ordered the resumption of the championship match."
+        },
+        {
+            "word": "circumscribed",
+            "synonym": "restricted / bounded / confined",
+            "definition": "Limited carefully within strict boundaries so that activity or freedom is kept small.",
+            "example": "Because the budget was highly circumscribed by the new financial policy, the design team could not afford to purchase any premium software licenses."
+        },
+        {
+            "word": "multifaceted",
+            "synonym": "varied / versatile / nuanced",
+            "definition": "Having many different parts, features, or elements to look at or consider.",
+            "example": "The diplomatic crisis was an incredibly multifaceted issue that required deep knowledge of international trade laws, local history, and cultural traditions."
+        },
+        {
+            "word": "undiscerning",
+            "synonym": "uncritical / unselective / unperceptive",
+            "definition": "Lacking good judgment or the ability to notice fine differences in quality, value, or truth.",
+            "example": "An undiscerning reader might believe every sensational headline on social media without ever checking the facts to see if the source is authentic."
+        },
+        {
+            "word": "exuberant",
+            "synonym": "enthusiastic / high-spirited / vivacious",
+            "definition": "Filled with or expressing high energy, excitement, absolute joy, and vigorous enthusiasm.",
+            "example": "The stadium erupted into an exuberant celebration when the underdog team scored a magnificent goal in the final seconds of the tournament."
+        },
+        {
+            "word": "analogical",
+            "synonym": "comparable / parallel / proportional",
+            "definition": "Based on a systematic comparison between two different things to show their similarities.",
+            "example": "The scientist used an analogical argument to explain the complex atomic structure, comparing the electrons orbiting a nucleus to planets revolving around the sun."
+        },
+        {
+            "word": "counterfactual",
+            "synonym": "hypothetical / contrary-to-fact / conditional",
+            "definition": "Expressing what could or would have happened under different circumstances, rather than what actually happened.",
+            "example": "Historians often indulge in counterfactual thinking, debating how global politics might look today if the fateful treaty had never been signed."
+        },
+        {
+            "word": "retrospective",
+            "synonym": "backward-looking / reflective / ex post facto",
+            "definition": "Looking back on, reviewing, or dealing with past events or situations.",
+            "example": "Upon senior graduation, the headmaster delivered a moving retrospective address that highlighted the students' growth over the past four years."
+        },
+        {
+            "word": "ambivalent",
+            "synonym": "equivocal / conflicted / irresolute",
+            "definition": "Having mixed, uncertain, or conflicting feelings or thoughts about a person, object, or idea.",
+            "example": "Despite the attractive salary increase, Julia remained deeply ambivalent about accepting the job offer because it required moving far away from her family."
+        },
+        {
+            "word": "constraint",
+            "synonym": "restriction / limitation / inhibition",
+            "definition": "A limitation or restriction that controls, limits, or prevents what you can do.",
+            "example": "Because severe budget constraints prevented the production team from ordering premium materials, they had to redesign the prototype using recycled components."
+        },
+        {
+            "word": "modesty",
+            "synonym": "humility / meekness / unpretentiousness",
+            "definition": "The quality of not talking too much about your own abilities, wealth, or achievements.",
+            "example": "Despite winning the prestigious international chess championship, the young grandmaster spoke with incredible modesty and spent his interview praising his opponent's tactical skill."
+        },
+        {
+            "word": "composure",
+            "synonym": "equanimity / self-possession / serenity",
+            "definition": "The state of being calm, steady, and in control of your emotions, even in a difficult or stressful situation.",
+            "example": "Although the aggressive prosecutor questioned her integrity for nearly an hour, the witness maintained her composure and answered every query in a quiet, steady voice."
+        },
+        {
+            "word": "misgiving",
+            "synonym": "apprehension / qualm / trepidation",
+            "definition": "A feeling of doubt, worry, or fear concerning a future event or the outcome of a decision.",
+            "example": "Even though the corporate merger looked highly profitable on paper, the senior board members still harbored deep misgivings about partnering with a volatile startup."
+        }
     ]
 }
