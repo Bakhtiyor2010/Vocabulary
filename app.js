@@ -68,6 +68,17 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     inputs: {
       categorySelect: document.getElementById("categorySelect"),
+      globalSearchInput: document.getElementById("globalSearchInput"),
+    },
+    search: {
+      results: document.getElementById("searchResults"),
+      modal: document.getElementById("searchModal"),
+      closeModal: document.getElementById("closeSearchModal"),
+      modalWord: document.getElementById("modalWord"),
+      modalDef: document.getElementById("modalDef"),
+      modalSyn: document.getElementById("modalSyn"),
+      modalEx: document.getElementById("modalEx"),
+      modalCat: document.getElementById("modalCat"),
     },
     card: {
       container: document.getElementById("flashcard"),
@@ -381,6 +392,17 @@ document.addEventListener("DOMContentLoaded", () => {
       UI.renderDashboard();
     },
 
+    openSearchModal(card) {
+      UI.search.modalWord.textContent = card.word;
+      UI.search.modalDef.textContent = card.definition;
+      UI.search.modalSyn.textContent = card.synonym || "N/A";
+      UI.search.modalEx.textContent = card.example || "N/A";
+      UI.search.modalCat.textContent = card.category;
+
+      UI.search.modal.classList.remove("hidden");
+      UI.search.modal.classList.add("flex");
+    },
+
     setupEventListeners() {
       document.getElementById("startStudyBtn").addEventListener("click", () => {
         this.startStudy();
@@ -396,6 +418,71 @@ document.addEventListener("DOMContentLoaded", () => {
         State.appState.lastActiveCategory = UI.inputs.categorySelect.value;
         State.saveAppState();
         UI.renderDashboard();
+      });
+
+      // Global Search Autocomplete
+      UI.inputs.globalSearchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        if (!query) {
+          UI.search.results.classList.add("hidden");
+          UI.search.results.innerHTML = "";
+          return;
+        }
+
+        const matches = State.allCards
+          .filter(
+            (c) =>
+              c.word.toLowerCase().includes(query) ||
+              c.definition.toLowerCase().includes(query),
+          )
+          .slice(0, 10); // Limit to top 10
+
+        if (matches.length > 0) {
+          UI.search.results.innerHTML = matches
+            .map(
+              (c) => `
+            <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item" data-key="${c.key}">
+              <div class="font-bold text-white">${c.word}</div>
+              <div class="text-xs text-slate-400 line-clamp-1">${c.definition}</div>
+            </div>
+          `,
+            )
+            .join("");
+          UI.search.results.classList.remove("hidden");
+        } else {
+          UI.search.results.innerHTML = `<div class="px-4 py-3 text-slate-400 text-sm">No words found.</div>`;
+          UI.search.results.classList.remove("hidden");
+        }
+      });
+
+      // Hide search results on outside click
+      document.addEventListener("click", (e) => {
+        if (
+          !UI.inputs.globalSearchInput.contains(e.target) &&
+          !UI.search.results.contains(e.target)
+        ) {
+          UI.search.results.classList.add("hidden");
+        }
+      });
+
+      // Search Item Click
+      UI.search.results.addEventListener("click", (e) => {
+        const item = e.target.closest(".search-item");
+        if (item) {
+          const key = item.getAttribute("data-key");
+          const card = State.allCards.find((c) => c.key === key);
+          if (card) {
+            this.openSearchModal(card);
+            UI.inputs.globalSearchInput.value = "";
+            UI.search.results.classList.add("hidden");
+          }
+        }
+      });
+
+      // Close Search Modal
+      UI.search.closeModal.addEventListener("click", () => {
+        UI.search.modal.classList.add("hidden");
+        UI.search.modal.classList.remove("flex");
       });
 
       const suspendSession = () => {
@@ -434,7 +521,7 @@ document.addEventListener("DOMContentLoaded", () => {
           e.preventDefault();
           if (!State.isFlipped) UI.flipCard();
         } else if (State.isFlipped) {
-          const keyToScore = { 0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5 };
+          const keyToScore = { 1: 4, 2: 2, 3: 1 }; // 1=Easy, 2=Medium, 3=Hard
           if (keyToScore[e.key] !== undefined) {
             e.preventDefault();
             this.handleRating(keyToScore[e.key]);
