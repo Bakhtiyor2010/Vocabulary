@@ -430,22 +430,18 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const matches = State.allCards
-          .filter(
-            (c) =>
-              c.word.toLowerCase().includes(query) ||
-              c.definition.toLowerCase().includes(query),
-          )
-          .slice(0, 10); // Limit to top 10
+          .filter((c) => c.word.toLowerCase().includes(query))
+          .slice(0, 10);
 
         if (matches.length > 0) {
           UI.search.results.innerHTML = matches
             .map(
               (c) => `
-            <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item" data-key="${c.key}">
-              <div class="font-bold text-white">${c.word}</div>
-              <div class="text-xs text-slate-400 line-clamp-1">${c.definition}</div>
-            </div>
-          `,
+    <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item" data-key="${c.key}">
+      <div class="font-bold text-white">${c.word}</div>
+      <div class="text-xs text-slate-400 line-clamp-1">${c.definition}</div>
+    </div>
+  `,
             )
             .join("");
           UI.search.results.classList.remove("hidden");
@@ -454,7 +450,6 @@ document.addEventListener("DOMContentLoaded", () => {
           UI.search.results.classList.remove("hidden");
         }
       });
-
       // Hide search results on outside click
       document.addEventListener("click", (e) => {
         if (
