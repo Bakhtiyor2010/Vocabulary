@@ -19,7 +19,7 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -61,10 +61,10 @@
             <div class="flex-1 w-full">
                 <label for="categorySelect"
                     class="block text-xs sm:text-sm font-semibold text-slate-400 mb-2 uppercase tracking-wide text-center md:text-left">Strict
-                    Category Filter</label>
+                    Set Filter</label>
                 <select id="categorySelect"
                     class="w-full bg-slate-800 border border-slate-600 rounded-xl py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base">
-                    <option value="All">All Categories</option>
+                    <option value="All">All Sets</option>
                 </select>
             </div>
             <div class="flex flex-col md:flex-row gap-2 md:gap-4 w-full md:w-auto mt-2 md:mt-6">
@@ -75,6 +75,10 @@
                 <button id="startStudyBtn"
                     class="w-full md:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-blue-500/30 text-base sm:text-lg">
                     Start Session
+                </button>
+                <button id="startQuizBtn"
+                    class="w-full md:w-auto bg-purple-600 hover:bg-purple-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-purple-500/30 text-base sm:text-lg">
+                    Start Quiz
                 </button>
             </div>
         </div>
@@ -122,6 +126,19 @@
             </div>
         </div>
 
+        <!-- Latest Quiz Results Section -->
+        <div id="quizResultsSection" class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 mt-2 hidden flex-col gap-4 w-full">
+            <h3 class="text-base sm:text-lg font-bold text-white flex items-center justify-center md:justify-start gap-2">
+                <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                </svg>
+                Latest Quiz Performance
+            </h3>
+            <div id="quizResultsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Injected quiz results -->
+            </div>
+        </div>
+
     </div>
 
     <!-- Search Modal -->
@@ -150,9 +167,71 @@
                     </p>
                 </div>
                 <div>
-                    <span class="text-amber-400 font-bold text-xs uppercase tracking-widest block mb-1">Category</span>
+                    <span class="text-amber-400 font-bold text-xs uppercase tracking-widest block mb-1">Set</span>
                     <p id="modalCat" class="text-slate-300 font-medium text-base"></p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        <div id="quizModalContainer" class="bg-darkCard w-full max-w-2xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            <!-- Close / Suspend Button in top right -->
+            <button id="closeQuizModal" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <!-- Quiz Header -->
+            <div class="flex flex-col gap-2">
+                <h2 id="quizTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary Quiz</h2>
+                <!-- Progress Bar -->
+                <div class="w-full bg-slate-800 rounded-full h-2.5 mt-2">
+                    <div id="quizProgressBar" class="bg-blue-500 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+                </div>
+                <div class="flex justify-between items-center text-xs text-slate-400 mt-1">
+                    <span id="quizProgressText">Question 0 of 0</span>
+                    <span id="quizScoreText">Score: 0/0</span>
+                </div>
+            </div>
+
+            <!-- Question Area -->
+            <div class="text-center py-4">
+                <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-2">Identify the Definition for</span>
+                <h3 id="quizWord" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight break-words px-2">Word</h3>
+            </div>
+
+            <!-- Options Grid -->
+            <div id="quizOptions" class="flex flex-col gap-3 w-full">
+                <!-- Option buttons will be injected here dynamically -->
+            </div>
+
+            <!-- Word Details (Visible after answering) -->
+            <div id="quizWordDetails" class="hidden bg-slate-800/40 border border-slate-700/50 p-5 rounded-2xl flex flex-col gap-3.5 text-left transition-all duration-300">
+                <div>
+                    <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
+                    <p id="quizWordDef" class="text-slate-200 text-sm sm:text-base leading-relaxed"></p>
+                </div>
+                <div id="quizWordSynContainer">
+                    <span class="text-purple-400 font-bold text-xs uppercase tracking-widest block mb-1">Synonyms</span>
+                    <p id="quizWordSyn" class="text-slate-300 font-medium text-xs sm:text-sm"></p>
+                </div>
+                <div id="quizWordExContainer">
+                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example Sentence</span>
+                    <p id="quizWordEx" class="text-slate-400 italic text-xs sm:text-sm border-l-2 border-emerald-500/30 pl-3 py-0.5"></p>
+                </div>
+            </div>
+
+            <!-- Footer / Action Area -->
+            <div id="quizFooter" class="flex flex-col sm:flex-row gap-3 items-center justify-between mt-2 pt-4 border-t border-slate-700/50">
+                <button id="suspendQuizBtn" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-700 text-sm">
+                    Suspend Quiz
+                </button>
+                <button id="nextQuizBtn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-blue-500/20 text-sm hidden">
+                    Next Question &rarr;
+                </button>
             </div>
         </div>
     </div>
@@ -240,7 +319,7 @@
         class="hidden flex-col items-center justify-center text-center gap-4 sm:gap-6 max-w-xl w-full mt-6 sm:mt-10 px-4 sm:px-0">
         <div class="text-5xl sm:text-7xl mb-1 sm:mb-2 animate-bounce">🎉</div>
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight" id="caughtUpMessage">All caught
-            up for this category!</h2>
+            up for this set!</h2>
 
         <p class="text-slate-300 text-base sm:text-lg mt-2">Next review scheduled for: <span id="nextReviewDateDisplay"
                 class="font-bold text-emerald-400"></span></p>
@@ -254,7 +333,7 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 
 </html>
