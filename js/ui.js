@@ -50,6 +50,19 @@ export const UI = {
     nextBtn: document.getElementById("nextQuizBtn"),
     footer: document.getElementById("quizFooter"),
   },
+  quizDetails: {
+    modal: document.getElementById("quizDetailsModal"),
+    closeModal: document.getElementById("closeQuizDetailsModal"),
+    closeBtn: document.getElementById("closeDetailsBtn"),
+    title: document.getElementById("quizDetailsTitle"),
+    date: document.getElementById("quizDetailsDate"),
+    score: document.getElementById("quizDetailsScore"),
+    correctCount: document.getElementById("correctCount"),
+    correctList: document.getElementById("correctList"),
+    incorrectCount: document.getElementById("incorrectCount"),
+    incorrectList: document.getElementById("incorrectList"),
+    practiceBtn: document.getElementById("practiceFromHistoryBtn"),
+  },
 
   showView(viewName) {
     Object.values(this.views).forEach((v) => {
@@ -183,12 +196,7 @@ export const UI = {
     const section = document.getElementById("quizResultsSection");
     if (!container || !section) return;
 
-    let results = [];
-    try {
-      results = JSON.parse(localStorage.getItem("vocab_srs_quiz_results") || "[]");
-    } catch (e) {
-      console.error("Failed to parse quiz results", e);
-    }
+    const results = State.getQuizHistory();
 
     if (results.length === 0) {
       section.classList.add("hidden");
@@ -210,9 +218,8 @@ export const UI = {
       if (res.percentage >= 80) scoreColor = "text-emerald-400";
       else if (res.percentage >= 50) scoreColor = "text-amber-400";
 
-      // Note: Removed truncate and max-w-[150px] classes so category/quiz name displays fully
       return `
-        <div class="bg-slate-800/60 border border-slate-700 p-4 rounded-xl flex flex-col gap-2">
+        <div class="quiz-history-item bg-slate-800/60 border border-slate-700 hover:border-slate-500 cursor-pointer p-4 rounded-xl flex flex-col gap-2 transition-all" data-id="${res.id}">
           <div class="flex justify-between items-start gap-4">
             <span class="font-bold text-white text-sm sm:text-base break-words" title="${res.category}">${res.category === "All" ? "All Sets" : res.category}</span>
             <span class="text-xs text-slate-400 font-medium shrink-0">${dateStr}</span>
@@ -227,5 +234,46 @@ export const UI = {
         </div>
       `;
     }).join("");
+  },
+
+  openQuizDetailsModal(attemptId) {
+    const results = State.getQuizHistory();
+    const attempt = results.find(r => r.id === attemptId);
+    if (!attempt) return;
+
+    this.quizDetails.title.textContent = attempt.category === "All" ? "Quiz Results: All Sets" : `Quiz Results: ${attempt.category}`;
+    this.quizDetails.date.textContent = new Date(attempt.date).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    this.quizDetails.score.textContent = `Score: ${attempt.score}/${attempt.total} (${attempt.percentage}%)`;
+
+    this.quizDetails.correctCount.textContent = attempt.correctWords?.length || 0;
+    this.quizDetails.incorrectCount.textContent = attempt.incorrectWords?.length || 0;
+
+    const renderWordList = (words) => {
+      if (!words || words.length === 0) return `<div class="text-slate-400 text-sm">None</div>`;
+      return words.map(w => `
+        <div class="bg-slate-900/50 p-2 rounded-lg mb-2">
+          <span class="font-bold text-slate-200 block text-sm">${w.word}</span>
+          <span class="text-slate-400 text-xs">${w.definition}</span>
+        </div>
+      `).join("");
+    };
+
+    this.quizDetails.correctList.innerHTML = renderWordList(attempt.correctWords);
+    this.quizDetails.incorrectList.innerHTML = renderWordList(attempt.incorrectWords);
+
+    if (attempt.incorrectWords && attempt.incorrectWords.length > 0) {
+      this.quizDetails.practiceBtn.classList.remove("hidden");
+      this.quizDetails.practiceBtn.dataset.attemptId = attemptId;
+    } else {
+      this.quizDetails.practiceBtn.classList.add("hidden");
+    }
+
+    this.quizDetails.modal.classList.remove("hidden");
+    this.quizDetails.modal.classList.add("flex");
+  },
+
+  closeQuizDetailsModal() {
+    this.quizDetails.modal.classList.add("hidden");
+    this.quizDetails.modal.classList.remove("flex");
   }
 };

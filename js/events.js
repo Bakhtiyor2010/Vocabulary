@@ -95,11 +95,7 @@ export function setupEventListeners() {
     QuizLogic.suspendQuiz();
   });
 
-  UI.quiz.modal.addEventListener("click", (e) => {
-    if (e.target === UI.quiz.modal) {
-      QuizLogic.suspendQuiz();
-    }
-  });
+  // Removed outside click listener for UI.quiz.modal so it doesn't close until suspended
 
   UI.quiz.suspendBtn.addEventListener("click", () => {
     QuizLogic.suspendQuiz();
@@ -138,11 +134,59 @@ export function setupEventListeners() {
       e.preventDefault();
       if (!State.isFlipped) UI.flipCard();
     } else if (State.isFlipped) {
-      const keyToScore = { 1: 4, 2: 2, 3: 1 }; // 1=Easy, 2=Medium, 3=Hard
-      if (keyToScore[e.key] !== undefined) {
+      const key = e.key.toLowerCase();
+      const keyToScore = { y: 4, n: 1 }; // Y=Yes(4), N=No(1)
+      if (keyToScore[key] !== undefined) {
         e.preventDefault();
-        StudyLogic.handleRating(keyToScore[e.key]);
+        StudyLogic.handleRating(keyToScore[key]);
       }
     }
   });
+
+  // Quiz History Clicks
+  const quizResultsContainer = document.getElementById("quizResultsContainer");
+  if (quizResultsContainer) {
+    quizResultsContainer.addEventListener("click", (e) => {
+      const item = e.target.closest(".quiz-history-item");
+      if (item) {
+        const attemptId = item.dataset.id;
+        UI.openQuizDetailsModal(attemptId);
+      }
+    });
+  }
+
+  if (UI.quizDetails) {
+    UI.quizDetails.closeModal.addEventListener("click", () => UI.closeQuizDetailsModal());
+    UI.quizDetails.closeBtn.addEventListener("click", () => UI.closeQuizDetailsModal());
+    UI.quizDetails.modal.addEventListener("click", (e) => {
+      if (e.target === UI.quizDetails.modal) {
+        UI.closeQuizDetailsModal();
+      }
+    });
+
+    UI.quizDetails.practiceBtn.addEventListener("click", (e) => {
+      const attemptId = e.target.dataset.attemptId;
+      const results = State.getQuizHistory();
+      const attempt = results.find(r => r.id === attemptId);
+      if (attempt && attempt.incorrectWords) {
+        UI.closeQuizDetailsModal();
+        import("./state.js").then(({ QuizState }) => {
+          const cardsToPractice = attempt.incorrectWords.map(iw => State.allCards.find(c => c.word === iw.word)).filter(Boolean);
+          if (cardsToPractice.length > 0) {
+            QuizLogic.restoreQuizFooter();
+            QuizState.queue = cardsToPractice.sort(() => Math.random() - 0.5);
+            QuizState.currentIndex = 0;
+            QuizState.score = 0;
+            QuizState.incorrectCards = [];
+            QuizState.activeSet = attempt.category;
+            QuizLogic.saveQuizProgress();
+            QuizLogic.openQuizModal();
+            QuizLogic.loadQuizQuestion();
+          } else {
+            alert("Could not load words for practice.");
+          }
+        });
+      }
+    });
+  }
 }

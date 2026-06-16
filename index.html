@@ -127,10 +127,14 @@
         </div>
 
         <!-- Latest Quiz Results Section -->
-        <div id="quizResultsSection" class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 mt-2 hidden flex-col gap-4 w-full">
-            <h3 class="text-base sm:text-lg font-bold text-white flex items-center justify-center md:justify-start gap-2">
+        <div id="quizResultsSection"
+            class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 mt-2 hidden flex-col gap-4 w-full">
+            <h3
+                class="text-base sm:text-lg font-bold text-white flex items-center justify-center md:justify-start gap-2">
                 <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
+                    </path>
                 </svg>
                 Latest Quiz Performance
             </h3>
@@ -175,21 +179,27 @@
     </div>
 
     <!-- Quiz Modal -->
-    <div id="quizModal" class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
-        <div id="quizModalContainer" class="bg-darkCard w-full max-w-2xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+    <div id="quizModal"
+        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        <div id="quizModalContainer"
+            class="bg-darkCard w-full max-w-2xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
             <!-- Close / Suspend Button in top right -->
-            <button id="closeQuizModal" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+            <button id="closeQuizModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
                 </svg>
             </button>
 
             <!-- Quiz Header -->
             <div class="flex flex-col gap-2">
-                <h2 id="quizTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary Quiz</h2>
+                <h2 id="quizTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary Quiz
+                </h2>
                 <!-- Progress Bar -->
                 <div class="w-full bg-slate-800 rounded-full h-2.5 mt-2">
-                    <div id="quizProgressBar" class="bg-blue-500 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    <div id="quizProgressBar" class="bg-blue-500 h-2.5 rounded-full transition-all duration-300"
+                        style="width: 0%"></div>
                 </div>
                 <div class="flex justify-between items-center text-xs text-slate-400 mt-1">
                     <span id="quizProgressText">Question 0 of 0</span>
@@ -199,8 +209,11 @@
 
             <!-- Question Area -->
             <div class="text-center py-4">
-                <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-2">Identify the Definition for</span>
-                <h3 id="quizWord" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight break-words px-2">Word</h3>
+                <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-2">Identify the
+                    Definition for</span>
+                <h3 id="quizWord"
+                    class="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight break-words px-2">Word
+                </h3>
             </div>
 
             <!-- Options Grid -->
@@ -209,7 +222,8 @@
             </div>
 
             <!-- Word Details (Visible after answering) -->
-            <div id="quizWordDetails" class="hidden bg-slate-800/40 border border-slate-700/50 p-5 rounded-2xl flex flex-col gap-3.5 text-left transition-all duration-300">
+            <div id="quizWordDetails"
+                class="hidden bg-slate-800/40 border border-slate-700/50 p-5 rounded-2xl flex flex-col gap-3.5 text-left transition-all duration-300">
                 <div>
                     <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
                     <p id="quizWordDef" class="text-slate-200 text-sm sm:text-base leading-relaxed"></p>
@@ -219,17 +233,23 @@
                     <p id="quizWordSyn" class="text-slate-300 font-medium text-xs sm:text-sm"></p>
                 </div>
                 <div id="quizWordExContainer">
-                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example Sentence</span>
-                    <p id="quizWordEx" class="text-slate-400 italic text-xs sm:text-sm border-l-2 border-emerald-500/30 pl-3 py-0.5"></p>
+                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example
+                        Sentence</span>
+                    <p id="quizWordEx"
+                        class="text-slate-400 italic text-xs sm:text-sm border-l-2 border-emerald-500/30 pl-3 py-0.5">
+                    </p>
                 </div>
             </div>
 
             <!-- Footer / Action Area -->
-            <div id="quizFooter" class="flex flex-col sm:flex-row gap-3 items-center justify-between mt-2 pt-4 border-t border-slate-700/50">
-                <button id="suspendQuizBtn" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-700 text-sm">
+            <div id="quizFooter"
+                class="flex flex-col sm:flex-row gap-3 items-center justify-between mt-2 pt-4 border-t border-slate-700/50">
+                <button id="suspendQuizBtn"
+                    class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-700 text-sm">
                     Suspend Quiz
                 </button>
-                <button id="nextQuizBtn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-blue-500/20 text-sm hidden">
+                <button id="nextQuizBtn"
+                    class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-blue-500/20 text-sm hidden">
                     Next Question &rarr;
                 </button>
             </div>
@@ -295,21 +315,16 @@
 
         <!-- Rating Buttons (Hidden initially) -->
         <div id="ratingButtons"
-            class="w-full grid grid-cols-3 gap-2 sm:gap-3 mt-2 sm:mt-4 opacity-0 pointer-events-none transition-opacity duration-300 px-1 sm:px-0">
+            class="w-full grid grid-cols-2 gap-2 sm:gap-4 mt-2 sm:mt-4 opacity-0 pointer-events-none transition-opacity duration-300 px-1 sm:px-0">
             <button
-                class="rate-btn bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-700 text-emerald-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
-                data-score="4">
-                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">Easy</span>
-            </button>
-            <button
-                class="rate-btn bg-yellow-950/60 hover:bg-yellow-900 border border-yellow-800 text-yellow-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
-                data-score="2">
-                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">Medium</span>
-            </button>
-            <button
-                class="rate-btn bg-red-950/60 hover:bg-red-900 border border-red-800 text-red-300 py-3 sm:py-4 rounded-xl flex flex-col items-center group transition-all"
+                class="rate-btn bg-red-950/60 hover:bg-red-900 border border-red-800 text-red-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all"
                 data-score="1">
-                <span class="font-bold text-lg sm:text-xl md:text-2xl mb-0.5 sm:mb-1">Hard</span>
+                <span class="font-bold text-xl sm:text-2xl md:text-3xl mb-0.5 sm:mb-1">No (N)</span>
+            </button>
+            <button
+                class="rate-btn bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-700 text-emerald-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all"
+                data-score="4">
+                <span class="font-bold text-xl sm:text-2xl md:text-3xl mb-0.5 sm:mb-1">Yes (Y)</span>
             </button>
         </div>
     </div>
@@ -330,6 +345,59 @@
                 class="w-full bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-bold py-3 sm:py-4 px-4 rounded-xl transition-all text-sm sm:text-base">
                 Return to Dashboard
             </button>
+        </div>
+    </div>
+
+    <!-- Quiz Details Modal -->
+    <div id="quizDetailsModal"
+        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        <div
+            class="bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            <button id="closeQuizDetailsModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="flex flex-col gap-2">
+                <h2 id="quizDetailsTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Quiz
+                    Results Breakdown</h2>
+                <div class="flex justify-between items-center text-sm text-slate-400 mt-1">
+                    <span id="quizDetailsDate"></span>
+                    <span id="quizDetailsScore" class="font-bold text-white"></span>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <div>
+                    <h3 class="text-emerald-400 font-bold uppercase tracking-widest text-xs mb-2">Correct Answers (<span
+                            id="correctCount">0</span>)</h3>
+                    <div id="correctList"
+                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-emerald-900/30 rounded-xl p-3 bg-emerald-950/10">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-rose-400 font-bold uppercase tracking-widest text-xs mb-2">Incorrect Answers (<span
+                            id="incorrectCount">0</span>)</h3>
+                    <div id="incorrectList"
+                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-rose-900/30 rounded-xl p-3 bg-rose-950/10">
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col sm:flex-row gap-3 items-center justify-end mt-2 pt-4 border-t border-slate-700/50">
+                <button id="practiceFromHistoryBtn"
+                    class="w-full sm:w-auto bg-amber-600 hover:bg-amber-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-amber-500/20 text-sm hidden">
+                    Practice Incorrect Words
+                </button>
+                <button id="closeDetailsBtn"
+                    class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-700 text-sm">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
 

@@ -75,6 +75,21 @@ export const State = {
 
   clearSuspendedSession(category) {
     localStorage.removeItem(`vocab_srs_suspended_session_${category}`);
+  },
+
+  getQuizHistory() {
+    try {
+      return JSON.parse(localStorage.getItem("vocab_srs_quiz_results") || "[]");
+    } catch (e) {
+      console.error("Failed to parse quiz history", e);
+      return [];
+    }
+  },
+
+  saveQuizAttempt(attemptData) {
+    const history = this.getQuizHistory();
+    history.unshift(attemptData);
+    localStorage.setItem("vocab_srs_quiz_results", JSON.stringify(history.slice(0, 20)));
   }
 };
 

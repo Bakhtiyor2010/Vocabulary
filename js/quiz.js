@@ -24,7 +24,12 @@ export const QuizLogic = {
     }
 
     // 3. Shuffle distractor pool and pick 3 distinct definitions
-    const shuffledDistractors = [...distractorPool].sort(() => Math.random() - 0.5);
+    const shuffledDistractors = [...distractorPool];
+    for (let i = shuffledDistractors.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledDistractors[i], shuffledDistractors[j]] = [shuffledDistractors[j], shuffledDistractors[i]];
+    }
+
     const distractorDefs = [];
     for (const c of shuffledDistractors) {
       if (c.definition !== correctDef && !distractorDefs.includes(c.definition)) {
@@ -35,7 +40,11 @@ export const QuizLogic = {
 
     // Fallback if we couldn't find 3 distinct distractors from filtered pool
     if (distractorDefs.length < 3) {
-      const backupDistractors = [...candidatePool].sort(() => Math.random() - 0.5);
+      const backupDistractors = [...candidatePool];
+      for (let i = backupDistractors.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [backupDistractors[i], backupDistractors[j]] = [backupDistractors[j], backupDistractors[i]];
+      }
       for (const c of backupDistractors) {
         if (c.definition !== correctDef && !distractorDefs.includes(c.definition)) {
           distractorDefs.push(c.definition);
@@ -48,7 +57,10 @@ export const QuizLogic = {
     const options = [correctDef, ...distractorDefs];
     // Shuffling options
     const shuffledOptions = options.map((opt, index) => ({ opt, originalIndex: index }));
-    shuffledOptions.sort(() => Math.random() - 0.5);
+    for (let i = shuffledOptions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+    }
 
     const finalOptions = shuffledOptions.map(item => item.opt);
     const correctOptionIndex = shuffledOptions.findIndex(item => item.originalIndex === 0);
@@ -78,6 +90,14 @@ export const QuizLogic = {
         QuizState.incorrectCards = (parsed.incorrectKeys || []).map(word => State.allCards.find(c => c.word === word)).filter(Boolean);
 
         if (QuizState.queue.length > 0 && QuizState.currentIndex < QuizState.queue.length) {
+          // Shuffle the remaining questions
+          const remaining = QuizState.queue.slice(QuizState.currentIndex);
+          for (let i = remaining.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+          }
+          QuizState.queue = [...QuizState.queue.slice(0, QuizState.currentIndex), ...remaining];
+
           this.openQuizModal();
           this.loadQuizQuestion();
           return;
@@ -99,7 +119,11 @@ export const QuizLogic = {
     }
 
     // Randomize question queue
-    const queue = [...setCards].sort(() => Math.random() - 0.5);
+    const queue = [...setCards];
+    for (let i = queue.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [queue[i], queue[j]] = [queue[j], queue[i]];
+    }
 
     QuizState.activeSet = selectedSet;
     QuizState.queue = queue;
@@ -274,19 +298,19 @@ export const QuizLogic = {
     if (details) details.classList.add("hidden");
 
     // Save result to dashboard log
-    try {
-      const quizResults = JSON.parse(localStorage.getItem("vocab_srs_quiz_results") || "[]");
-      quizResults.unshift({
-        category: QuizState.activeSet,
-        score: QuizState.score,
-        total: QuizState.queue.length,
-        percentage: percentage,
-        date: Date.now()
-      });
-      localStorage.setItem("vocab_srs_quiz_results", JSON.stringify(quizResults.slice(0, 10)));
-    } catch (e) {
-      console.error("Failed to save quiz results", e);
-    }
+    const now = Date.now();
+    const correctCardsList = QuizState.queue.filter(c => !QuizState.incorrectCards.some(ic => ic.word === c.word));
+    const attemptData = {
+      id: now.toString(),
+      category: QuizState.activeSet,
+      score: QuizState.score,
+      total: QuizState.queue.length,
+      percentage: percentage,
+      date: now,
+      correctWords: correctCardsList.map(c => ({ word: c.word, definition: c.definition })),
+      incorrectWords: QuizState.incorrectCards.map(c => ({ word: c.word, definition: c.definition }))
+    };
+    State.saveQuizAttempt(attemptData);
 
     const footerDiv = UI.quiz.footer;
     let footerHtml = "";
@@ -347,7 +371,11 @@ export const QuizLogic = {
   startPracticeIncorrect() {
     if (!QuizState.incorrectCards || QuizState.incorrectCards.length === 0) return;
     const incorrectList = [...QuizState.incorrectCards];
-    QuizState.queue = incorrectList.sort(() => Math.random() - 0.5);
+    for (let i = incorrectList.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [incorrectList[i], incorrectList[j]] = [incorrectList[j], incorrectList[i]];
+    }
+    QuizState.queue = incorrectList;
     QuizState.currentIndex = 0;
     QuizState.score = 0;
     QuizState.incorrectCards = [];

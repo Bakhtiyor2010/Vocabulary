@@ -16,9 +16,15 @@ export const StudyLogic = {
         .filter(Boolean);
 
       if (loadedQueue.length > 0) {
+        // Randomize the resumed queue
+        for (let i = loadedQueue.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [loadedQueue[i], loadedQueue[j]] = [loadedQueue[j], loadedQueue[i]];
+        }
         State.dueCardsQueue = loadedQueue;
-        const current = State.allCards.find(c => c.key === suspended.currentKey);
-        State.currentCard = (current && State.dueCardsQueue.includes(current)) ? current : State.dueCardsQueue[0];
+        
+        // Pick the first card from the randomized queue
+        State.currentCard = State.dueCardsQueue[0];
         
         UI.showView("study");
         UI.renderCard();
@@ -37,7 +43,10 @@ export const StudyLogic = {
     });
 
     // Randomize session start
-    State.dueCardsQueue.sort(() => Math.random() - 0.5);
+    for (let i = State.dueCardsQueue.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [State.dueCardsQueue[i], State.dueCardsQueue[j]] = [State.dueCardsQueue[j], State.dueCardsQueue[i]];
+    }
 
     if (State.dueCardsQueue.length > 0) {
       State.currentCard = State.dueCardsQueue[0];
