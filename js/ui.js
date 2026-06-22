@@ -16,9 +16,11 @@ export const UI = {
   inputs: {
     categorySelect: document.getElementById("categorySelect"),
     globalSearchInput: document.getElementById("globalSearchInput"),
+    searchCategorySelect: document.getElementById("searchCategorySelect"),
   },
   search: {
     results: document.getElementById("searchResults"),
+    loader: document.getElementById("searchLoader"),
     modal: document.getElementById("searchModal"),
     closeModal: document.getElementById("closeSearchModal"),
     modalWord: document.getElementById("modalWord"),

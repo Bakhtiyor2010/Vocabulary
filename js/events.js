@@ -20,34 +20,96 @@ export function setupEventListeners() {
   });
 
   // Global Search Autocomplete
+  let searchTimeout;
   UI.inputs.globalSearchInput.addEventListener("input", (e) => {
     const query = e.target.value.toLowerCase().trim();
+    const searchCat = UI.inputs.searchCategorySelect.value;
+
+    clearTimeout(searchTimeout);
+
     if (!query) {
       UI.search.results.classList.add("hidden");
+      UI.search.loader.classList.add("hidden");
       UI.search.results.innerHTML = "";
       return;
     }
 
-    const matches = State.allCards
-      .filter((c) => c.word.toLowerCase().includes(query))
-      .slice(0, 10);
+    UI.search.loader.classList.remove("hidden");
+    UI.search.results.classList.add("hidden");
 
-    if (matches.length > 0) {
-      UI.search.results.innerHTML = matches
-        .map(
-          (c) => `
-            <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item" data-key="${c.key}">
-              <div class="font-bold text-white">${c.word}</div>
-              <div class="text-xs text-slate-400 line-clamp-1">${c.definition}</div>
-            </div>
-          `
-        )
-        .join("");
-      UI.search.results.classList.remove("hidden");
-    } else {
-      UI.search.results.innerHTML = `<div class="px-4 py-3 text-slate-400 text-sm">No words found.</div>`;
-      UI.search.results.classList.remove("hidden");
-    }
+    searchTimeout = setTimeout(() => {
+      const matches = State.allCards
+        .filter((c) => {
+          if (searchCat === "word") return c.word.toLowerCase().includes(query);
+          if (searchCat === "definition") return c.definition.toLowerCase().includes(query);
+          if (searchCat === "synonym") return c.synonym.toLowerCase().includes(query);
+          if (searchCat === "example") return c.example.toLowerCase().includes(query);
+          if (searchCat === "all") {
+            return c.word.toLowerCase().includes(query) ||
+              c.definition.toLowerCase().includes(query) ||
+              c.synonym.toLowerCase().includes(query) ||
+              c.example.toLowerCase().includes(query);
+          }
+          return false;
+        })
+        .slice(0, 10);
+
+      UI.search.loader.classList.add("hidden");
+
+      if (matches.length > 0) {
+        UI.search.results.innerHTML = matches
+          .map((c) => {
+            let matchedProperty = "";
+            let matchedValue = "";
+
+            if (searchCat === "all") {
+              if (c.word.toLowerCase().includes(query)) {
+                matchedProperty = "Word";
+                matchedValue = c.word;
+              } else if (c.definition.toLowerCase().includes(query)) {
+                matchedProperty = "Definition";
+                matchedValue = c.definition;
+              } else if (c.synonym.toLowerCase().includes(query)) {
+                matchedProperty = "Synonym";
+                matchedValue = c.synonym;
+              } else if (c.example.toLowerCase().includes(query)) {
+                matchedProperty = "Example";
+                matchedValue = c.example;
+              }
+            } else {
+              matchedProperty = searchCat.charAt(0).toUpperCase() + searchCat.slice(1);
+              matchedValue = c[searchCat];
+            }
+
+            const isWordMatchOnly = searchCat === "word" || (searchCat === "all" && matchedProperty === "Word");
+
+            return `
+              <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item flex flex-col gap-1 overflow-hidden" data-key="${c.key}">
+                <div class="font-bold text-white text-base truncate">${c.word}</div>
+                ${!isWordMatchOnly
+                ? (() => {
+                    let colorClass = "text-blue-400";
+                    if (matchedProperty === "Synonym") colorClass = "text-purple-400";
+                    else if (matchedProperty === "Example") colorClass = "text-emerald-400";
+                    return `<div class="text-[10px] sm:text-xs ${colorClass} font-bold uppercase tracking-wider truncate">${matchedProperty}: <span class="text-slate-300 font-normal normal-case">${matchedValue}</span></div>`;
+                  })()
+                : `<div class="text-xs text-slate-400 truncate">${c.definition}</div>`
+              }
+              </div>
+            `;
+          })
+          .join("");
+        UI.search.results.classList.remove("hidden");
+      } else {
+        UI.search.results.innerHTML = `<div class="px-4 py-3 text-slate-400 text-sm">No words found.</div>`;
+        UI.search.results.classList.remove("hidden");
+      }
+    }, 300);
+  });
+
+  UI.inputs.searchCategorySelect.addEventListener("change", () => {
+    const event = new Event('input');
+    UI.inputs.globalSearchInput.dispatchEvent(event);
   });
 
   // Hide search results on outside click
