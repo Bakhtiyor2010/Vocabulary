@@ -36,7 +36,7 @@
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
             </path>
         </svg>
-        <h2 class="text-white text-xl font-bold tracking-widest uppercase">Loading Data...</h2>
+        <h2 class="text-white text-xl font-bold tracking-widest uppercase">Loading...</h2>
     </div>
 
     <!-- Dashboard -->
@@ -44,30 +44,32 @@
         class="w-full max-w-5xl flex flex-col gap-6 transition-opacity duration-300 mt-2 sm:mt-4 px-1 sm:px-0">
 
         <!-- Header -->
-        <div class="text-center mb-2">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 sm:mb-3 text-white tracking-tight px-2">
+        <div class="text-center mb-4 sm:mb-6">
+            <h1
+                class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-5 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 tracking-tight px-2 drop-shadow-sm">
                 Vocabulary Mastery
             </h1>
             <!-- Global Search Input -->
-            <div class="relative max-w-xl mx-auto z-40 flex items-center gap-2">
+            <div
+                class="relative max-w-xl mx-auto z-40 flex flex-col min-[700px]:flex-row min-[700px]:items-center gap-3 px-2 sm:px-0">
                 <select id="searchCategorySelect"
-                    class="bg-slate-800 border border-slate-600 rounded-xl py-3 px-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-lg text-sm sm:text-base w-1/3 shrink-0 cursor-pointer">
+                    class="bg-slate-800/80 backdrop-blur-md border border-slate-600/50 rounded-xl py-3.5 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500/50 transition-all shadow-lg text-sm sm:text-base w-full min-[700px]:w-1/3 min-[700px]:shrink-0 cursor-pointer">
                     <option value="word" selected>Word</option>
                     <option value="definition">Definition</option>
                     <option value="synonym">Synonym</option>
                     <option value="example">Example</option>
                     <option value="all">All</option>
                 </select>
-                <div class="relative flex-1 w-full">
-                    <input type="text" id="globalSearchInput" placeholder="Search..."
-                        class="w-full bg-slate-800 border border-slate-600 rounded-xl py-3 pl-10 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-lg text-sm sm:text-base">
-                    <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-4" fill="none" stroke="currentColor"
-                        viewBox="0 0 24 24">
+                <div class="relative flex-1 w-full group">
+                    <input type="text" id="globalSearchInput" placeholder="Search vocabulary..."
+                        class="w-full bg-slate-800/80 backdrop-blur-md border border-slate-600/50 rounded-xl py-3.5 pl-12 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500/50 transition-all shadow-lg text-sm sm:text-base placeholder-slate-400">
+                    <svg class="w-5 h-5 text-slate-400 absolute left-4 top-4 group-focus-within:text-blue-400 transition-colors"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
                     <!-- Loader -->
-                    <div id="searchLoader" class="absolute right-3.5 top-3.5 hidden">
+                    <div id="searchLoader" class="absolute right-4 top-4 hidden">
                         <svg class="animate-spin h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24">
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
@@ -80,7 +82,7 @@
 
                     <!-- Autocomplete Dropdown -->
                     <div id="searchResults"
-                        class="absolute w-full mt-2 bg-slate-800 border border-slate-600 rounded-xl shadow-xl overflow-hidden hidden max-h-60 overflow-y-auto z-50 text-left">
+                        class="absolute w-full mt-2 bg-slate-800/95 backdrop-blur-xl border border-slate-600/50 rounded-xl shadow-2xl overflow-hidden hidden max-h-60 overflow-y-auto z-50 text-left divide-y divide-slate-700/50">
                         <!-- Results injected here -->
                     </div>
                 </div>
@@ -89,28 +91,32 @@
 
         <!-- Deck Selection & Start -->
         <div
-            class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 flex flex-col md:flex-row items-center gap-4 sm:gap-6 justify-between mt-2">
+            class="bg-darkCard/80 backdrop-blur-lg p-5 sm:p-8 rounded-3xl shadow-xl border border-slate-700/50 flex flex-col md:flex-row items-center gap-5 sm:gap-8 justify-between mt-2 hover:border-slate-600/50 transition-colors">
             <div class="flex-1 w-full">
                 <label for="categorySelect"
-                    class="block text-xs sm:text-sm font-semibold text-slate-400 mb-2 uppercase tracking-wide text-center md:text-left">Strict
-                    Set Filter</label>
+                    class="block text-xs sm:text-sm font-bold text-slate-400 mb-2.5 uppercase tracking-wider text-center md:text-left">Select
+                    Set / Deck</label>
                 <select id="categorySelect"
-                    class="w-full bg-slate-800 border border-slate-600 rounded-xl py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base">
+                    class="w-full bg-slate-900/50 border border-slate-600/50 rounded-xl py-3.5 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base hover:bg-slate-800/80">
                     <option value="All">All Sets</option>
                 </select>
             </div>
-            <div class="flex flex-col md:flex-row gap-2 md:gap-4 w-full md:w-auto mt-2 md:mt-6">
+            <div class="flex flex-col md:flex-row gap-3 md:gap-4 w-full md:w-auto mt-2 md:mt-7">
                 <button id="deleteSessionBtn"
-                    class="w-full md:w-auto bg-red-600/80 hover:bg-red-500 text-white font-bold py-3.5 px-6 sm:px-8 rounded-xl transition-all shadow-lg shadow-red-500/30 text-base sm:text-lg">
-                    Reset Progress
+                    class="w-full md:w-auto bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-500 hover:to-red-500 text-white font-bold py-3.5 px-6 sm:px-8 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-red-500/25 text-base sm:text-lg border border-red-500/20">
+                    Reset
                 </button>
                 <button id="startStudyBtn"
-                    class="w-full md:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-blue-500/30 text-base sm:text-lg">
-                    Start Session
+                    class="w-full md:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/25 text-base sm:text-lg border border-blue-500/20">
+                    Session
                 </button>
                 <button id="startQuizBtn"
-                    class="w-full md:w-auto bg-purple-600 hover:bg-purple-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all shadow-lg shadow-purple-500/30 text-base sm:text-lg">
-                    Start Quiz
+                    class="w-full md:w-auto bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-500 hover:to-fuchsia-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-purple-500/25 text-base sm:text-lg border border-purple-500/20">
+                    Quiz
+                </button>
+                <button id="showTableBtn"
+                    class="w-full md:w-auto bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold py-3.5 px-8 sm:px-10 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-emerald-500/25 text-base sm:text-lg border border-emerald-500/20">
+                    Table
                 </button>
             </div>
         </div>
@@ -125,36 +131,41 @@
             </svg>
             Live Learning Analytics
         </h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 w-full">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 w-full">
             <div
-                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
-                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-400" id="statTotalCards">0</div>
-                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Total
+                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-cyan-400 drop-shadow-sm"
+                    id="statTotalCards">0</div>
+                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Total
                     Cards</div>
             </div>
             <div
-                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
-                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-emerald-400" id="statDueToday">0</div>
-                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Due Today
+                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-teal-400 drop-shadow-sm"
+                    id="statDueToday">0</div>
+                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Due Today
                 </div>
             </div>
             <div
-                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
-                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-rose-400" id="statLearningQueue">0</div>
-                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Learning
+                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-pink-400 drop-shadow-sm"
+                    id="statLearningQueue">0</div>
+                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Learning
                     Queue</div>
             </div>
             <div
-                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center">
-                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-400" id="statMastered">0</div>
-                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Mastered
+                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-fuchsia-400 drop-shadow-sm"
+                    id="statMastered">0</div>
+                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Mastered
                     Cards</div>
             </div>
             <div
-                class="bg-darkCard p-4 rounded-2xl shadow-lg border border-slate-700 text-center flex flex-col justify-center col-span-2 md:col-span-1 lg:col-span-1">
-                <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-amber-400" id="statAvgEasiness">2.50</div>
-                <div class="text-[10px] sm:text-xs font-semibold text-slate-400 mt-2 uppercase tracking-wide">Avg
-                    Easiness Factor</div>
+                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center col-span-2 md:col-span-1 lg:col-span-1 transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-orange-400 drop-shadow-sm"
+                    id="statAvgEasiness">2.50</div>
+                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Avg
+                    Easiness</div>
             </div>
         </div>
 
@@ -429,6 +440,25 @@
                     class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-700 text-sm">
                     Close
                 </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table Modal -->
+    <div id="tableModal"
+        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        <div
+            class="bg-darkCard w-full max-w-5xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            <button id="closeTableModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <h2 id="tableModalTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary
+                Table</h2>
+            <div id="tableModalContent" class="w-full overflow-y-auto max-h-[70vh]">
             </div>
         </div>
     </div>

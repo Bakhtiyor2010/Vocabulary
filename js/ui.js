@@ -65,6 +65,13 @@ export const UI = {
     incorrectList: document.getElementById("incorrectList"),
     practiceBtn: document.getElementById("practiceFromHistoryBtn"),
   },
+  table: {
+    modal: document.getElementById("tableModal"),
+    closeModal: document.getElementById("closeTableModal"),
+    title: document.getElementById("tableModalTitle"),
+    content: document.getElementById("tableModalContent"),
+    btn: document.getElementById("showTableBtn"),
+  },
 
   showView(viewName) {
     Object.values(this.views).forEach((v) => {
@@ -277,5 +284,66 @@ export const UI = {
   closeQuizDetailsModal() {
     this.quizDetails.modal.classList.add("hidden");
     this.quizDetails.modal.classList.remove("flex");
+  },
+
+  openTableModal() {
+    const selectedCat = this.inputs.categorySelect.value;
+    const cards = State.allCards.filter(c => selectedCat === "All" || c.category === selectedCat);
+    
+    this.table.title.textContent = selectedCat === "All" ? "Vocabulary: All Sets" : `Vocabulary: ${selectedCat}`;
+    
+    if (cards.length === 0) {
+      this.table.content.innerHTML = `<p class="text-slate-400">No vocabulary found in this category.</p>`;
+    } else {
+      let contentHtml = `
+        <div class="hidden min-[800px]:block">
+          <table class="w-full text-left text-sm text-slate-300">
+            <thead class="text-xs text-slate-400 uppercase bg-slate-800 sticky top-0 z-10 shadow-sm">
+              <tr>
+                <th class="px-4 py-3 border-b border-slate-700">#</th>
+                <th class="px-4 py-3 border-b border-slate-700">Word</th>
+                <th class="px-4 py-3 border-b border-slate-700">Definition</th>
+                <th class="px-4 py-3 border-b border-slate-700">Synonym</th>
+                <th class="px-4 py-3 border-b border-slate-700">Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${cards.map((c, index) => `
+                <tr class="border-b border-slate-700/50 hover:bg-slate-800/30">
+                  <td class="px-4 py-3">${index + 1}</td>
+                  <td class="px-4 py-3 font-medium text-white">${c.word}</td>
+                  <td class="px-4 py-3">${c.definition}</td>
+                  <td class="px-4 py-3">${c.synonym}</td>
+                  <td class="px-4 py-3 italic">${c.example}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+        <div class="min-[800px]:hidden block">
+          <ol class="list-decimal list-inside space-y-4 text-sm text-slate-300">
+            ${cards.map((c) => `
+              <li class="bg-slate-800/30 p-3 rounded-lg border border-slate-700/50">
+                <span class="font-bold text-white text-base ml-1">${c.word}</span>
+                <div class="mt-2 flex flex-col gap-1 pl-5">
+                  <p><span class="text-blue-400 font-bold uppercase text-[10px] tracking-widest">Definition:</span> ${c.definition}</p>
+                  <p><span class="text-purple-400 font-bold uppercase text-[10px] tracking-widest">Synonym:</span> ${c.synonym}</p>
+                  <p><span class="text-emerald-400 font-bold uppercase text-[10px] tracking-widest">Example:</span> <span class="italic">${c.example}</span></p>
+                </div>
+              </li>
+            `).join("")}
+          </ol>
+        </div>
+      `;
+      this.table.content.innerHTML = contentHtml;
+    }
+
+    this.table.modal.classList.remove("hidden");
+    this.table.modal.classList.add("flex");
+  },
+
+  closeTableModal() {
+    this.table.modal.classList.add("hidden");
+    this.table.modal.classList.remove("flex");
   }
 };

@@ -251,4 +251,17 @@ export function setupEventListeners() {
       }
     });
   }
+
+  // Table Modal Clicks
+  if (UI.table.btn) {
+    UI.table.btn.addEventListener("click", () => {
+      UI.openTableModal();
+    });
+  }
+
+  if (UI.table.closeModal) {
+    UI.table.closeModal.addEventListener("click", () => {
+      UI.closeTableModal();
+    });
+  }
 }
