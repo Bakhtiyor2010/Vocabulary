@@ -72,6 +72,11 @@ export const UI = {
     content: document.getElementById("tableModalContent"),
     btn: document.getElementById("showTableBtn"),
   },
+  about: {
+    modal: document.getElementById("aboutModal"),
+    closeModal: document.getElementById("closeAboutModal"),
+    btn: document.getElementById("showAboutBtn"),
+  },
 
   showView(viewName) {
     Object.values(this.views).forEach((v) => {
@@ -157,19 +162,14 @@ export const UI = {
     State.isFlipped = true;
     this.card.container.classList.add("is-flipped");
     setTimeout(() => {
-      this.card.ratingBtns.classList.remove(
-        "opacity-0",
-        "pointer-events-none"
-      );
+      this.card.ratingBtns.classList.remove("opacity-0", "pointer-events-none");
     }, 150);
   },
 
   renderCaughtUp() {
     const selectedCat = this.inputs.categorySelect.value;
     const catDisplay =
-      selectedCat === "All"
-        ? "All Sets"
-        : `the set "${selectedCat}"`;
+      selectedCat === "All" ? "All Sets" : `the set "${selectedCat}"`;
     document.getElementById("caughtUpMessage").textContent =
       `All caught up for ${catDisplay}!`;
 
@@ -216,18 +216,19 @@ export const UI = {
     section.classList.remove("hidden");
     section.classList.add("flex");
 
-    container.innerHTML = results.map(res => {
-      const dateStr = new Date(res.date).toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit"
-      });
-      let scoreColor = "text-rose-400";
-      if (res.percentage >= 80) scoreColor = "text-emerald-400";
-      else if (res.percentage >= 50) scoreColor = "text-amber-400";
+    container.innerHTML = results
+      .map((res) => {
+        const dateStr = new Date(res.date).toLocaleString("en-US", {
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+        });
+        let scoreColor = "text-rose-400";
+        if (res.percentage >= 80) scoreColor = "text-emerald-400";
+        else if (res.percentage >= 50) scoreColor = "text-amber-400";
 
-      return `
+        return `
         <div class="quiz-history-item bg-slate-800/60 border border-slate-700 hover:border-slate-500 cursor-pointer p-4 rounded-xl flex flex-col gap-2 transition-all" data-id="${res.id}">
           <div class="flex justify-between items-start gap-4">
             <span class="font-bold text-white text-sm sm:text-base break-words" title="${res.category}">${res.category === "All" ? "All Sets" : res.category}</span>
@@ -238,37 +239,55 @@ export const UI = {
             <span class="text-lg font-bold ${scoreColor}">${res.percentage}%</span>
           </div>
           <div class="w-full bg-slate-700 h-1.5 rounded-full mt-1">
-            <div class="h-1.5 rounded-full ${res.percentage >= 80 ? 'bg-emerald-500' : res.percentage >= 50 ? 'bg-amber-500' : 'bg-rose-500'}" style="width: ${res.percentage}%"></div>
+            <div class="h-1.5 rounded-full ${res.percentage >= 80 ? "bg-emerald-500" : res.percentage >= 50 ? "bg-amber-500" : "bg-rose-500"}" style="width: ${res.percentage}%"></div>
           </div>
         </div>
       `;
-    }).join("");
+      })
+      .join("");
   },
 
   openQuizDetailsModal(attemptId) {
     const results = State.getQuizHistory();
-    const attempt = results.find(r => r.id === attemptId);
+    const attempt = results.find((r) => r.id === attemptId);
     if (!attempt) return;
 
-    this.quizDetails.title.textContent = attempt.category === "All" ? "Quiz Results: All Sets" : `Quiz Results: ${attempt.category}`;
-    this.quizDetails.date.textContent = new Date(attempt.date).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    this.quizDetails.title.textContent =
+      attempt.category === "All"
+        ? "Quiz Results: All Sets"
+        : `Quiz Results: ${attempt.category}`;
+    this.quizDetails.date.textContent = new Date(attempt.date).toLocaleString(
+      "en-US",
+      { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" },
+    );
     this.quizDetails.score.textContent = `Score: ${attempt.score}/${attempt.total} (${attempt.percentage}%)`;
 
-    this.quizDetails.correctCount.textContent = attempt.correctWords?.length || 0;
-    this.quizDetails.incorrectCount.textContent = attempt.incorrectWords?.length || 0;
+    this.quizDetails.correctCount.textContent =
+      attempt.correctWords?.length || 0;
+    this.quizDetails.incorrectCount.textContent =
+      attempt.incorrectWords?.length || 0;
 
     const renderWordList = (words) => {
-      if (!words || words.length === 0) return `<div class="text-slate-400 text-sm">None</div>`;
-      return words.map(w => `
+      if (!words || words.length === 0)
+        return `<div class="text-slate-400 text-sm">None</div>`;
+      return words
+        .map(
+          (w) => `
         <div class="bg-slate-900/50 p-2 rounded-lg mb-2">
           <span class="font-bold text-slate-200 block text-sm">${w.word}</span>
           <span class="text-slate-400 text-xs">${w.definition}</span>
         </div>
-      `).join("");
+      `,
+        )
+        .join("");
     };
 
-    this.quizDetails.correctList.innerHTML = renderWordList(attempt.correctWords);
-    this.quizDetails.incorrectList.innerHTML = renderWordList(attempt.incorrectWords);
+    this.quizDetails.correctList.innerHTML = renderWordList(
+      attempt.correctWords,
+    );
+    this.quizDetails.incorrectList.innerHTML = renderWordList(
+      attempt.incorrectWords,
+    );
 
     if (attempt.incorrectWords && attempt.incorrectWords.length > 0) {
       this.quizDetails.practiceBtn.classList.remove("hidden");
@@ -288,10 +307,15 @@ export const UI = {
 
   openTableModal() {
     const selectedCat = this.inputs.categorySelect.value;
-    const cards = State.allCards.filter(c => selectedCat === "All" || c.category === selectedCat);
-    
-    this.table.title.textContent = selectedCat === "All" ? "Vocabulary: All Sets" : `Vocabulary: ${selectedCat}`;
-    
+    const cards = State.allCards.filter(
+      (c) => selectedCat === "All" || c.category === selectedCat,
+    );
+
+    this.table.title.textContent =
+      selectedCat === "All"
+        ? "Vocabulary: All Sets"
+        : `Vocabulary: ${selectedCat}`;
+
     if (cards.length === 0) {
       this.table.content.innerHTML = `<p class="text-slate-400">No vocabulary found in this category.</p>`;
     } else {
@@ -308,7 +332,9 @@ export const UI = {
               </tr>
             </thead>
             <tbody>
-              ${cards.map((c, index) => `
+              ${cards
+                .map(
+                  (c, index) => `
                 <tr class="border-b border-slate-700/50 hover:bg-slate-800/30">
                   <td class="px-4 py-3">${index + 1}</td>
                   <td class="px-4 py-3 font-medium text-white">${c.word}</td>
@@ -316,13 +342,17 @@ export const UI = {
                   <td class="px-4 py-3">${c.synonym}</td>
                   <td class="px-4 py-3 italic">${c.example}</td>
                 </tr>
-              `).join("")}
+              `,
+                )
+                .join("")}
             </tbody>
           </table>
         </div>
         <div class="min-[800px]:hidden block">
           <ol class="list-decimal list-inside space-y-4 text-sm text-slate-300">
-            ${cards.map((c) => `
+            ${cards
+              .map(
+                (c) => `
               <li class="bg-slate-800/30 p-3 rounded-lg border border-slate-700/50">
                 <span class="font-bold text-white text-base ml-1">${c.word}</span>
                 <div class="mt-2 flex flex-col gap-1 pl-5">
@@ -331,7 +361,9 @@ export const UI = {
                   <p><span class="text-emerald-400 font-bold uppercase text-[10px] tracking-widest">Example:</span> <span class="italic">${c.example}</span></p>
                 </div>
               </li>
-            `).join("")}
+            `,
+              )
+              .join("")}
           </ol>
         </div>
       `;
@@ -345,5 +377,15 @@ export const UI = {
   closeTableModal() {
     this.table.modal.classList.add("hidden");
     this.table.modal.classList.remove("flex");
-  }
+  },
+
+  openAboutModal() {
+    this.about.modal.classList.remove("hidden");
+    this.about.modal.classList.add("flex");
+  },
+
+  closeAboutModal() {
+    this.about.modal.classList.add("hidden");
+    this.about.modal.classList.remove("flex");
+  },
 };

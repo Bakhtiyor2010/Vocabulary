@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Flashcard</title>
+    <title>SAT Vocabulary Mastery</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -47,7 +47,7 @@
         <div class="text-center mb-4 sm:mb-6">
             <h1
                 class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-5 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 tracking-tight px-2 drop-shadow-sm">
-                Vocabulary Mastery
+                SAT Vocabulary Mastery
             </h1>
             <!-- Global Search Input -->
             <div
@@ -86,6 +86,13 @@
                         <!-- Results injected here -->
                     </div>
                 </div>
+                <button id="showAboutBtn" title="About SAT System"
+                    class="min-[700px]:shrink-0 bg-slate-800/80 backdrop-blur-md border border-slate-600/50 hover:border-slate-400 hover:bg-slate-700/80 text-white p-3.5 rounded-xl transition-all shadow-lg flex items-center justify-center">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </button>
             </div>
         </div>
 
@@ -459,6 +466,45 @@
             <h2 id="tableModalTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary
                 Table</h2>
             <div id="tableModalContent" class="w-full overflow-y-auto max-h-[70vh]">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Modal -->
+    <div id="aboutModal"
+        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        <div
+            class="bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            <button id="closeAboutModal"
+                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight pr-8">About SAT Vocabulary Mastery</h2>
+            <div class="text-slate-300 space-y-4 text-sm sm:text-base leading-relaxed">
+                <p><strong>SAT Vocabulary Mastery</strong> is a comprehensive, spaced-repetition learning platform
+                    specifically optimized for the Reading and Writing sections of the digital SAT.</p>
+                <p>The system focuses on high-frequency Tier 2 vocabulary words that are highly likely to appear in
+                    'Words in Context' questions on the exam.</p>
+                <h3 class="text-lg font-bold text-white mt-4">Core Methodologies:</h3>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li><strong class="text-blue-400">Spaced Repetition Algorithm (SRS):</strong> Adapts to your
+                        learning curve. Difficult words are reviewed more frequently to ensure long-term retention
+                        before your test date.</li>
+                    <li><strong class="text-purple-400">Contextual Learning:</strong> Every SAT word is provided with
+                        detailed definitions, exact synonyms, and realistic sentence examples reflecting the style of
+                        SAT passages.</li>
+                    <li><strong class="text-emerald-400">Performance Analytics:</strong> Track your Mastered Cards and
+                        Average Easiness metric to gauge your readiness for the real exam.</li>
+                    <li><strong class="text-amber-400">Global Search:</strong> Instantly look up words while taking
+                        practice tests or reviewing mistakes.</li>
+                    <li><strong class="text-rose-400">Targeted SAT Decks:</strong> Organize words by frequency or
+                        difficulty to structure your SAT prep.</li>
+                </ul>
+                <p class="mt-4 text-slate-400 text-xs">Maximize your SAT verbal score through consistent,
+                    scientifically-backed vocabulary training.</p>
             </div>
         </div>
     </div>

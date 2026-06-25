@@ -41,14 +41,19 @@ export function setupEventListeners() {
       const matches = State.allCards
         .filter((c) => {
           if (searchCat === "word") return c.word.toLowerCase().includes(query);
-          if (searchCat === "definition") return c.definition.toLowerCase().includes(query);
-          if (searchCat === "synonym") return c.synonym.toLowerCase().includes(query);
-          if (searchCat === "example") return c.example.toLowerCase().includes(query);
+          if (searchCat === "definition")
+            return c.definition.toLowerCase().includes(query);
+          if (searchCat === "synonym")
+            return c.synonym.toLowerCase().includes(query);
+          if (searchCat === "example")
+            return c.example.toLowerCase().includes(query);
           if (searchCat === "all") {
-            return c.word.toLowerCase().includes(query) ||
+            return (
+              c.word.toLowerCase().includes(query) ||
               c.definition.toLowerCase().includes(query) ||
               c.synonym.toLowerCase().includes(query) ||
-              c.example.toLowerCase().includes(query);
+              c.example.toLowerCase().includes(query)
+            );
           }
           return false;
         })
@@ -77,24 +82,30 @@ export function setupEventListeners() {
                 matchedValue = c.example;
               }
             } else {
-              matchedProperty = searchCat.charAt(0).toUpperCase() + searchCat.slice(1);
+              matchedProperty =
+                searchCat.charAt(0).toUpperCase() + searchCat.slice(1);
               matchedValue = c[searchCat];
             }
 
-            const isWordMatchOnly = searchCat === "word" || (searchCat === "all" && matchedProperty === "Word");
+            const isWordMatchOnly =
+              searchCat === "word" ||
+              (searchCat === "all" && matchedProperty === "Word");
 
             return `
               <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item flex flex-col gap-1 overflow-hidden" data-key="${c.key}">
                 <div class="font-bold text-white text-base truncate">${c.word}</div>
-                ${!isWordMatchOnly
-                ? (() => {
-                    let colorClass = "text-blue-400";
-                    if (matchedProperty === "Synonym") colorClass = "text-purple-400";
-                    else if (matchedProperty === "Example") colorClass = "text-emerald-400";
-                    return `<div class="text-[10px] sm:text-xs ${colorClass} font-bold uppercase tracking-wider truncate">${matchedProperty}: <span class="text-slate-300 font-normal normal-case">${matchedValue}</span></div>`;
-                  })()
-                : `<div class="text-xs text-slate-400 truncate">${c.definition}</div>`
-              }
+                ${
+                  !isWordMatchOnly
+                    ? (() => {
+                        let colorClass = "text-blue-400";
+                        if (matchedProperty === "Synonym")
+                          colorClass = "text-purple-400";
+                        else if (matchedProperty === "Example")
+                          colorClass = "text-emerald-400";
+                        return `<div class="text-[10px] sm:text-xs ${colorClass} font-bold uppercase tracking-wider truncate">${matchedProperty}: <span class="text-slate-300 font-normal normal-case">${matchedValue}</span></div>`;
+                      })()
+                    : `<div class="text-xs text-slate-400 truncate">${c.definition}</div>`
+                }
               </div>
             `;
           })
@@ -108,7 +119,7 @@ export function setupEventListeners() {
   });
 
   UI.inputs.searchCategorySelect.addEventListener("change", () => {
-    const event = new Event('input');
+    const event = new Event("input");
     UI.inputs.globalSearchInput.dispatchEvent(event);
   });
 
@@ -173,10 +184,16 @@ export function setupEventListeners() {
     UI.showView("dashboard");
   };
 
-  document.getElementById("backToDashBtn").addEventListener("click", suspendSession);
-  document.getElementById("btnBackToDash").addEventListener("click", suspendSession);
+  document
+    .getElementById("backToDashBtn")
+    .addEventListener("click", suspendSession);
+  document
+    .getElementById("btnBackToDash")
+    .addEventListener("click", suspendSession);
 
-  document.getElementById("flashcard").addEventListener("click", () => UI.flipCard());
+  document
+    .getElementById("flashcard")
+    .addEventListener("click", () => UI.flipCard());
   document.getElementById("showAnswerBtn").addEventListener("click", (e) => {
     e.stopPropagation();
     UI.flipCard();
@@ -218,8 +235,12 @@ export function setupEventListeners() {
   }
 
   if (UI.quizDetails) {
-    UI.quizDetails.closeModal.addEventListener("click", () => UI.closeQuizDetailsModal());
-    UI.quizDetails.closeBtn.addEventListener("click", () => UI.closeQuizDetailsModal());
+    UI.quizDetails.closeModal.addEventListener("click", () =>
+      UI.closeQuizDetailsModal(),
+    );
+    UI.quizDetails.closeBtn.addEventListener("click", () =>
+      UI.closeQuizDetailsModal(),
+    );
     UI.quizDetails.modal.addEventListener("click", (e) => {
       if (e.target === UI.quizDetails.modal) {
         UI.closeQuizDetailsModal();
@@ -229,11 +250,13 @@ export function setupEventListeners() {
     UI.quizDetails.practiceBtn.addEventListener("click", (e) => {
       const attemptId = e.target.dataset.attemptId;
       const results = State.getQuizHistory();
-      const attempt = results.find(r => r.id === attemptId);
+      const attempt = results.find((r) => r.id === attemptId);
       if (attempt && attempt.incorrectWords) {
         UI.closeQuizDetailsModal();
         import("./state.js").then(({ QuizState }) => {
-          const cardsToPractice = attempt.incorrectWords.map(iw => State.allCards.find(c => c.word === iw.word)).filter(Boolean);
+          const cardsToPractice = attempt.incorrectWords
+            .map((iw) => State.allCards.find((c) => c.word === iw.word))
+            .filter(Boolean);
           if (cardsToPractice.length > 0) {
             QuizLogic.restoreQuizFooter();
             QuizState.queue = cardsToPractice.sort(() => Math.random() - 0.5);
@@ -262,6 +285,19 @@ export function setupEventListeners() {
   if (UI.table.closeModal) {
     UI.table.closeModal.addEventListener("click", () => {
       UI.closeTableModal();
+    });
+  }
+
+  // About Modal Clicks
+  if (UI.about.btn) {
+    UI.about.btn.addEventListener("click", () => {
+      UI.openAboutModal();
+    });
+  }
+
+  if (UI.about.closeModal) {
+    UI.about.closeModal.addEventListener("click", () => {
+      UI.closeAboutModal();
     });
   }
 }
