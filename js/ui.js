@@ -64,6 +64,7 @@ export const UI = {
     incorrectCount: document.getElementById("incorrectCount"),
     incorrectList: document.getElementById("incorrectList"),
     practiceBtn: document.getElementById("practiceFromHistoryBtn"),
+    attemptSelect: document.getElementById("quizAttemptSelect"),
   },
   table: {
     modal: document.getElementById("tableModal"),
@@ -216,7 +217,28 @@ export const UI = {
     section.classList.remove("hidden");
     section.classList.add("flex");
 
-    container.innerHTML = results
+    // Group attempts by category (set)
+    const categoryAttempts = {};
+    results.forEach((res) => {
+      if (!categoryAttempts[res.category]) {
+        categoryAttempts[res.category] = [];
+      }
+      categoryAttempts[res.category].push(res);
+    });
+
+    // Extract the oldest attempt (first attempt chronologically) for each category
+    const firstAttempts = [];
+    Object.keys(categoryAttempts).forEach((category) => {
+      const list = categoryAttempts[category];
+      // Since results is newest first, the oldest is the last element
+      const oldestAttempt = list[list.length - 1];
+      firstAttempts.push(oldestAttempt);
+    });
+
+    // Sort the first attempts descending by date to show the latest-started set quizzes first
+    firstAttempts.sort((a, b) => b.date - a.date);
+
+    container.innerHTML = firstAttempts
       .map((res) => {
         const dateStr = new Date(res.date).toLocaleString("en-US", {
           month: "short",
@@ -248,6 +270,39 @@ export const UI = {
   },
 
   openQuizDetailsModal(attemptId) {
+    const results = State.getQuizHistory();
+    const attempt = results.find((r) => r.id === attemptId);
+    if (!attempt) return;
+
+    // Get all attempts for this category and sort chronologically ascending
+    const categoryAttempts = results
+      .filter((r) => r.category === attempt.category)
+      .sort((a, b) => a.date - b.date);
+
+    // Populate attempt dropdown
+    this.quizDetails.attemptSelect.innerHTML = categoryAttempts
+      .map((att, index) => {
+        const dateStr = new Date(att.date).toLocaleString("en-US", {
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+        });
+        return `<option value="${att.id}">Attempt ${index + 1} (${dateStr}) - ${att.score}/${att.total} (${att.percentage}%)</option>`;
+      })
+      .join("");
+
+    // Select the currently clicked attempt
+    this.quizDetails.attemptSelect.value = attemptId;
+
+    // Load details for the selected attempt
+    this.updateQuizDetailsContent(attemptId);
+
+    this.quizDetails.modal.classList.remove("hidden");
+    this.quizDetails.modal.classList.add("flex");
+  },
+
+  updateQuizDetailsContent(attemptId) {
     const results = State.getQuizHistory();
     const attempt = results.find((r) => r.id === attemptId);
     if (!attempt) return;
@@ -295,9 +350,6 @@ export const UI = {
     } else {
       this.quizDetails.practiceBtn.classList.add("hidden");
     }
-
-    this.quizDetails.modal.classList.remove("hidden");
-    this.quizDetails.modal.classList.add("flex");
   },
 
   closeQuizDetailsModal() {

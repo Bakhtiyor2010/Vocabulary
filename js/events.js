@@ -247,6 +247,12 @@ export function setupEventListeners() {
       }
     });
 
+    if (UI.quizDetails.attemptSelect) {
+      UI.quizDetails.attemptSelect.addEventListener("change", (e) => {
+        UI.updateQuizDetailsContent(e.target.value);
+      });
+    }
+
     UI.quizDetails.practiceBtn.addEventListener("click", (e) => {
       const attemptId = e.target.dataset.attemptId;
       const results = State.getQuizHistory();
