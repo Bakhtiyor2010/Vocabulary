@@ -9790,5 +9790,331 @@
             "definition": "Able to be checked or proven true",
             "example": "All claims in the scientific paper needed to be verifiable through experimental data and peer-reviewed sources before publication."
         }
+    ],
+    "Archaic English Word Set": [
+        {
+            "word": "Thee",
+            "synonym": "you / yourself / oneself",
+            "definition": "An old-fashioned, informal objective pronoun used to address a single person as the object of a verb or preposition.",
+            "example": "Though the stormy seas may threaten to tear our ship apart, I shall remain by thee until we safely reach the distant harbor."
+        },
+        {
+            "word": "Thou",
+            "synonym": "you / yourself / sir",
+            "definition": "An old-fashioned, informal subjective pronoun used as the subject of a sentence when addressing a single person.",
+            "example": "If thou designest to master the intricacies of computer systems, thou must study binary logic and memory allocation with absolute dedication."
+        },
+        {
+            "word": "Thy",
+            "synonym": "your / personal / individual",
+            "definition": "An old-fashioned possessive adjective meaning 'your,' used before a word starting with a consonant sound.",
+            "example": "If you wish to succeed in the upcoming chess tournament, you must refine thy technique and devote hours to deliberate tactical practice."
+        },
+        {
+            "word": "Thine",
+            "synonym": "yours / personal / private",
+            "definition": "An old-fashioned possessive pronoun meaning 'yours,' or used as 'your' before a word starting with a vowel sound.",
+            "example": "The ultimate choice in this critical academic matter remains thine to make, yet you must consider how it will impact your trajectory."
+        },
+        {
+            "word": "Art",
+            "synonym": "are / exist / live",
+            "definition": "The old-fashioned second-person singular form of the verb 'are,' used exclusively with the pronoun 'thou.'",
+            "example": "Thou art the most qualified candidate for this frontend engineering position, which is why the panel selected you without hesitation."
+        },
+        {
+            "word": "Dost",
+            "synonym": "do / perform / execute",
+            "definition": "The old-fashioned second-person singular form of the verb 'do,' used when speaking to someone with the pronoun 'thou.'",
+            "example": "If thou dost intend to optimize the database configuration tonight, you should establish a clear schema and avoid logical fallacies."
+        },
+        {
+            "word": "Hath",
+            "synonym": "has / possesses / owns",
+            "definition": "The old-fashioned third-person singular form of the verb 'has,' used with singular nouns or pronouns.",
+            "example": "The ancient fortress hath stood against countless fierce winter storms, yet its stone foundations remain remarkably intact today."
+        },
+        {
+            "word": "Shall",
+            "synonym": "will / intend / must",
+            "definition": "An auxiliary verb used to express future action, a firm intention, or an inevitable obligation.",
+            "example": "We shall initiate the automation scripts as soon as the cloud server is calibrated, ensuring that our data collection remains precise."
+        },
+        {
+            "word": "'Tis",
+            "synonym": "it is / currently / presently",
+            "definition": "A shortened, poetic contraction of the phrase 'it is,' used to maintain rhythm or meter.",
+            "example": "'Tis a remarkable achievement to master multiple programming frameworks simultaneously, though it requires immense cognitive focus."
+        },
+        {
+            "word": "'Twas",
+            "synonym": "it was / previously / historically",
+            "definition": "A shortened, poetic contraction of the phrase 'it was,' referring to an event or state in the past.",
+            "example": "'Twas an exceptionally cold winter evening when the technological breakthrough occurred, altering the course of our startup project forever."
+        },
+        {
+            "word": "'Twill",
+            "synonym": "it will / future / ahead",
+            "definition": "A shortened, poetic contraction of the phrase 'it will,' indicating a future occurrence.",
+            "example": "If we implement these data compression algorithms immediately, 'twill significantly reduce the network latency during peak hours."
+        },
+        {
+            "word": "Ne'er",
+            "synonym": "never / rarely / seldom",
+            "definition": "A shortened, poetic contraction of the word 'never,' expressing absolute negation over time.",
+            "example": "The principal developer promised that he would ne'er compromise his ethical standards, even if he were offered an immense fortune."
+        },
+        {
+            "word": "E'en",
+            "synonym": "even / completely / precisely",
+            "definition": "A shortened, poetic contraction of the word 'even,' frequently used for emphasis or to introduce a surprising fact.",
+            "example": "The dedicated astronomer continued her observations through the night, e'en when dense fog threatened to obscure the telescope lens."
+        },
+        {
+            "word": "O'er",
+            "synonym": "over / above / across",
+            "definition": "A shortened, poetic contraction of the word 'over,' denoting position above or movement across a surface.",
+            "example": "A dense blanket of silver vapor rolled o'er the rolling valley, concealing the vibrant landscape beneath a shroud of mystery."
+        },
+        {
+            "word": "'Til",
+            "synonym": "until / before / up to",
+            "definition": "A contraction of the word 'until,' meaning up to the specific point in time that an event occurs.",
+            "example": "The research team refused to abandon the rigorous physics simulation 'til they gathered enough metrics to confirm their hypothesis."
+        },
+        {
+            "word": "'Mongst",
+            "synonym": "amongst / amid / between",
+            "definition": "A shortened, poetic contraction of the word 'amongst,' meaning surrounded by or included in a specific group.",
+            "example": "The rare mathematical manuscript was discovered 'mongst a pile of discarded textbooks, surprising the historians who had searched for it."
+        },
+        {
+            "word": "'Twixt",
+            "synonym": "between / betwixt / intermediate",
+            "definition": "A shortened, poetic contraction of the word 'betwixt,' meaning in the physical or abstract space separating two objects.",
+            "example": "The diplomatic bridge stood 'twixt the two sovereign territories, serving as the sole vector where bilateral treaties could be negotiated."
+        },
+        {
+            "word": "Oft",
+            "synonym": "often / frequently / repeatedly",
+            "definition": "An old-fashioned or literary word meaning frequently, habitually, or on numerous occasions.",
+            "example": "Amateur novelists oft experience severe writer's block when they attempt to synthesize complex multi-generational sagas without outlines."
+        },
+        {
+            "word": "Ere",
+            "synonym": "before / prior to / previous to",
+            "definition": "An old-fashioned or poetic preposition or conjunction meaning before a specific time, event, or action.",
+            "example": "The recon team retreated silently into the shadows ere the morning sun could illuminate their coordinate coordinates to the enemy."
+        },
+        {
+            "word": "Erewhile",
+            "synonym": "formerly / previously / earlier",
+            "definition": "An old-fashioned adverb meaning some time ago, in past times, or prior to the current moment.",
+            "example": "The grand estate, erewhile a symbol of immense aristocratic prestige and affluence, now stands completely abandoned and covered in ivy."
+        },
+        {
+            "word": "Whilom",
+            "synonym": "formerly / once / erstwhile",
+            "definition": "An old-fashioned adjective or adverb meaning former, or having occurred at a previous, unspecified historical juncture.",
+            "example": "The whilom partners convened at an international summit to discuss their competing software applications, despite having severed ties."
+        },
+        {
+            "word": "Anon",
+            "synonym": "soon / shortly / presently",
+            "definition": "An old-fashioned adverb meaning in a short time, soon, or directly after the present moment.",
+            "example": "The clinical specialist stated that she would return anon with the diagnostic laboratory panels, urging the anxious family to rest."
+        },
+        {
+            "word": "Henceforth",
+            "synonym": "forward / hereafter / subsequently",
+            "definition": "An adverb meaning from this specific point in time onward or starting from now into the future.",
+            "example": "The security council announced that all financial ledgers must henceforth be stored on a decentralized network to mitigate fraudulent access."
+        },
+        {
+            "word": "Eftsoons",
+            "synonym": "afterward / soon / immediately",
+            "definition": "An old-fashioned adverb meaning soon afterward, shortly following, or a second time.",
+            "example": "The thunder echoed violently across the darkened canyon, and eftsoons a torrential downpour began to submerge the low-lying roads."
+        },
+        {
+            "word": "Yore",
+            "synonym": "history / past / antiquity",
+            "definition": "A noun referring to a time long past, usually invoked in traditional, legendary, or nostalgic storytelling.",
+            "example": "In days of yore, courageous explorers would navigate uncharted waters using only the celestial patterns to guide their wooden vessels."
+        },
+        {
+            "word": "Morn",
+            "synonym": "morning / dawn / daybreak",
+            "definition": "A poetic or literary noun representing the early part of the day, specifically from dawn until noon.",
+            "example": "Every crisp autumn morn, the dedicated farmer inspects the automated irrigation systems before the heat evaporates the moisture."
+        },
+        {
+            "word": "Yon",
+            "synonym": "distant / over there / yonder",
+            "definition": "An old-fashioned adjective used to point out a physical object that is visible but located at a distance.",
+            "example": "If you look past the jagged perimeter wall, you can observe yon transmission tower transmitting signals to the remote facility."
+        },
+        {
+            "word": "Yond",
+            "synonym": "distant / remote / far",
+            "definition": "An old-fashioned adverb or adjective meaning over there, pointing toward something located in the distance.",
+            "example": "The nomadic merchants directed their transport vehicles toward yond trading post, hoping to liquidate their cargo before dusk."
+        },
+        {
+            "word": "Hither",
+            "synonym": "here / toward / nearby",
+            "definition": "An adverb meaning to or toward this specific location where the speaker or narrator is currently situated.",
+            "example": "The operations manager summoned his senior database engineers hither so they could inspect the server failure layout interactively."
+        },
+        {
+            "word": "Thence",
+            "synonym": "therefrom / consequently / thereafter",
+            "definition": "An adverb meaning from that specific place, source, or logical deduction mentioned previously.",
+            "example": "The engineering team migrated the server infrastructure to an optimized data center and thence derived a thirty percent speed increase."
+        },
+        {
+            "word": "Whence",
+            "synonym": "wherefrom / from where / origin",
+            "definition": "An adverb meaning from what place, source, origin, or cause something developed or moved.",
+            "example": "The mysterious computational anomaly was traced back to the legacy script whence it originated, solving a weeks-long debugger issue."
+        },
+        {
+            "word": "Whither",
+            "synonym": "where / to where / wherever",
+            "definition": "An adverb meaning to what place, abstract position, or specific geographic direction.",
+            "example": "The research satellite traveled deep into the outer exosphere, leaving astronomers to calculate whither its trajectory would lead."
+        },
+        {
+            "word": "Anigh",
+            "synonym": "near / close / nearby",
+            "definition": "An old-fashioned preposition or adverb meaning close in physical proximity, time, or spatial relationship.",
+            "example": "The travelers accelerated their pace as the sheltering village drew anigh, desperate to avoid the impending electrical storm."
+        },
+        {
+            "word": "Nigh",
+            "synonym": "near / close / approaching",
+            "definition": "An adverb or adjective meaning close in space, time, or progression, frequently used to indicate a deadline drawing closer.",
+            "example": "As the final submission deadline for the international hackathon drew nigh, the software team worked relentlessly to clear runtime errors."
+        },
+        {
+            "word": "Haps",
+            "synonym": "occurrences / events / incidents",
+            "definition": "An old-fashioned plural noun meaning unexpected occurrences, chance happenings, or fortune's events.",
+            "example": "The unpredictable haps of political history demonstrate that even the most robust structural institutions can dissolve via random crises."
+        },
+        {
+            "word": "Haply",
+            "synonym": "perhaps / by chance / accidentally",
+            "definition": "An adverb meaning by accident, fortune, or chance, rather than through intentional planning or deliberate design.",
+            "example": "If you systematically audit the open-source repository, you may haply uncover an obsolete dependency that causes memory leakage."
+        },
+        {
+            "word": "Fain",
+            "synonym": "gladly / willingly / eagerly",
+            "definition": "An adjective or adverb meaning pleased, content, or gladly willing to perform an action given the specific circumstances.",
+            "example": "The exhausted marathon runner would fain have collapsed onto the grass, but he resolved to cross the definitive boundary marker."
+        },
+        {
+            "word": "Mirth",
+            "synonym": "joy / amusement / laughter",
+            "definition": "A noun representing high spirits, amusement, gladness, or laughter, particularly when shared during a celebration.",
+            "example": "The tech firm's anniversary banquet hall echoed with music and genuine mirth, providing a welcome respite from stressful quarters."
+        },
+        {
+            "word": "Alas",
+            "synonym": "unfortunately / regrettably / sadly",
+            "definition": "An exclamation used to articulate profound sorrow, regret, compassion, or disappointment over an unfortunate situation.",
+            "example": "We attempted to recover the corrupted database directories using specialized software, but alas, the sector damage was permanent."
+        },
+        {
+            "word": "Woe",
+            "synonym": "sorrow / distress / misery",
+            "definition": "A noun signifying deep sorrow, intense distress, misfortune, or overwhelming trouble that affects an individual or group.",
+            "example": "The abrupt failure of the national banking platform brought profound financial woe to small business operations across the country."
+        },
+        {
+            "word": "Betwixt",
+            "synonym": "between / amid / intermediate",
+            "definition": "An old-fashioned preposition indicating a position, choice, or relationship in the space separating two points or options.",
+            "example": "The minor territory was situated betwixt two massive geopolitical empires, forcing its local administration to navigate neutrality."
+        },
+        {
+            "word": "Wherefore",
+            "synonym": "why / therefore / reason",
+            "definition": "An old-fashioned adverb meaning for what reason, purpose, or cause; it asks or explains 'why.'",
+            "example": "The judicial panel demanded to know wherefore the executive committee had authorized expenditures without securing a majority vote."
+        },
+        {
+            "word": "Eke",
+            "synonym": "also / additionally / furthermore",
+            "definition": "An old-fashioned adverb meaning also, in addition, likewise, or furthermore, used to introduce an added element.",
+            "example": "The academic institution received an extensive library of classic philosophy, and eke a substantial endowment for research grants."
+        },
+        {
+            "word": "Forsooth",
+            "synonym": "indeed / truly / genuinely",
+            "definition": "An old-fashioned adverb meaning indeed, in truth, or certainly, often applied to reinforce the veracity of an assertion.",
+            "example": "The criminal investigator demonstrated that the suspect was forsooth miles away, utilizing immutable timestamped metadata as evidence."
+        },
+        {
+            "word": "Toil",
+            "synonym": "labor / drudgery / exertion",
+            "definition": "A noun or verb representing exhausting, continuous, and strenuous physical or intellectual labor.",
+            "example": "After years of relentless academic toil within the biochemistry lab, the researcher finally isolated the operative compound."
+        },
+        {
+            "word": "Tarry",
+            "synonym": "linger / delay / loiter",
+            "definition": "A verb meaning to stay longer than originally intended in a location, or to delay starting a planned journey.",
+            "example": "Although the web developers wished to tarry at the technology convention, they returned to the office to address an outage."
+        },
+        {
+            "word": "Mar",
+            "synonym": "spoil / ruin / damage",
+            "definition": "A verb meaning to ruin, impair, deface, or damage the quality, structural integrity, or appearance of something.",
+            "example": "A series of critical syntax errors threatened to mar the software deployment, forcing the system administrator to abort the process."
+        },
+        {
+            "word": "Bespeak",
+            "synonym": "request / indicate / predict",
+            "definition": "A verb meaning to ask for or reserve something in advance, or to serve as clear circumstantial evidence of a specific state.",
+            "example": "The flawless responsive design and secure API pathways bespeak the high level of competence possessed by the frontend architecture team."
+        },
+        {
+            "word": "Wist",
+            "synonym": "knew / understood / perceived",
+            "definition": "The past tense form of the archaic verb 'wit,' meaning to know, comprehend, or be consciously aware of a fact.",
+            "example": "The strategic commander wist that the adversarial forces would attempt an ambush, so he preemptively redirected his battalion."
+        },
+        {
+            "word": "'Tilth",
+            "synonym": "farmland / soil / cultivation",
+            "definition": "A noun indicating cultivated land, or the physical condition of topsoil that has been prepared manually for agricultural production.",
+            "example": "The dark, rich tilth of the alluvial plain provided an exceptional ecosystem for planting, yielding a record harvest that season."
+        },
+        {
+            "word": "Verse",
+            "synonym": "poetry / stanza / rhyme",
+            "definition": "A noun denoting writing arranged with a specific metrical rhythm, structure, or poetic cadence.",
+            "example": "The acclaimed author composed an elaborate verse commemorating historical breakthroughs, reciting it at the international symposium."
+        },
+        {
+            "word": "Ode",
+            "synonym": "poem / lyric / sonnet",
+            "definition": "A formal, structured lyrical poem intended to praise, elevate, or celebrate a specific individual, object, or abstract phenomenon.",
+            "example": "The composer synthesized a complex musical ode to industrial progress, blending classical strings with electronic elements seamlessly."
+        },
+        {
+            "word": "Sermon",
+            "synonym": "lecture / discourse / homily",
+            "definition": "A serious moral talk or religious speech, typically delivered by clergy to instruct a group on ethical behavior.",
+            "example": "The speaker delivered a compelling sermon regarding societal responsibility, prompting the audience to organize local mutual aid groups."
+        },
+        {
+            "word": "Bespeak (Speech)",
+            "synonym": "address / express / articulate",
+            "definition": "The secondary semantic usage of the verb meaning to speak to, address, or express thoughts directly through oral communication.",
+            "example": "During the formal academic assembly, the visiting professor chose to bespeak the undergraduate audience regarding future AI trends."
+        }
     ]
 }
