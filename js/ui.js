@@ -525,6 +525,7 @@ export const UI = {
     }
 
     const wb = XLSX.utils.book_new();
+    const usedNames = new Set();
 
     checked.forEach((cb) => {
       const cat = cb.value;
@@ -551,7 +552,33 @@ export const UI = {
       ];
 
       // Safe sheet name: Excel limits to 31 chars and forbids certain chars
-      const safeName = cat.replace(/[\/\\\?\*\[\]\:]/g, "-").slice(0, 31);
+      let name = cat.replace(/[\/\\\?\*\[\]\:]/g, "-");
+      
+      // Shorten common terms to preserve unique suffixes/prefixes
+      if (name.length > 31) {
+        name = name.replace(/Vocabulary/g, "Vocab");
+      }
+      if (name.length > 31) {
+        name = name.replace(/Package/g, "Pkg");
+      }
+      if (name.length > 31) {
+        name = name.slice(0, 14) + "..." + name.slice(-14);
+      }
+
+      let safeName = name;
+      let counter = 1;
+      while (usedNames.has(safeName.toLowerCase())) {
+        const suffix = `_${counter}`;
+        const allowedLength = 31 - suffix.length;
+        if (name.length > allowedLength) {
+          safeName = (name.slice(0, Math.ceil(allowedLength / 2) - 1) + "..." + name.slice(-Math.floor(allowedLength / 2) + 2)) + suffix;
+        } else {
+          safeName = name + suffix;
+        }
+        counter++;
+      }
+      usedNames.add(safeName.toLowerCase());
+
       XLSX.utils.book_append_sheet(wb, ws, safeName);
     });
 
