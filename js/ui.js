@@ -78,6 +78,15 @@ export const UI = {
     closeModal: document.getElementById("closeAboutModal"),
     btn: document.getElementById("showAboutBtn"),
   },
+  excel: {
+    modal: document.getElementById("excelExportModal"),
+    closeModal: document.getElementById("closeExcelExportModal"),
+    btn: document.getElementById("exportExcelBtn"),
+    setList: document.getElementById("excelSetList"),
+    selectAll: document.getElementById("excelSelectAll"),
+    downloadBtn: document.getElementById("downloadExcelBtn"),
+    downloadPdfBtn: document.getElementById("downloadPdfBtn"),
+  },
 
   showView(viewName) {
     Object.values(this.views).forEach((v) => {
@@ -439,5 +448,189 @@ export const UI = {
   closeAboutModal() {
     this.about.modal.classList.add("hidden");
     this.about.modal.classList.remove("flex");
+  },
+
+  openExcelExportModal() {
+    const categories = Object.keys(State.rawData);
+    const list = this.excel.setList;
+    list.innerHTML = "";
+
+    if (categories.length === 0) {
+      list.innerHTML = `<p class="text-slate-400 text-sm">No sets available.</p>`;
+    } else {
+      categories.forEach((cat) => {
+        const wordCount = (State.rawData[cat] || []).length;
+        const id = `excelSet_${CSS.escape(cat)}`;
+        const item = document.createElement("label");
+        item.htmlFor = id;
+        item.className =
+          "flex items-center gap-3 cursor-pointer bg-slate-800/60 hover:bg-slate-700/60 border border-slate-700/50 hover:border-slate-500/50 rounded-xl px-4 py-3 transition-all select-none group";
+        item.innerHTML = `
+          <input type="checkbox" id="${id}" value="${cat}" class="accent-green-500 w-4 h-4 cursor-pointer shrink-0">
+          <div class="flex-1 min-w-0">
+            <span class="block font-semibold text-white text-sm truncate">${cat}</span>
+            <span class="block text-xs text-slate-400 mt-0.5">${wordCount} word${wordCount !== 1 ? "s" : ""}</span>
+          </div>
+          <svg class="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+          </svg>
+        `;
+        list.appendChild(item);
+      });
+    }
+
+    // Reset select-all checkbox
+    this.excel.selectAll.checked = false;
+
+    // Wire up select-all toggle
+    const onSelectAll = () => {
+      const checked = this.excel.selectAll.checked;
+      list.querySelectorAll("input[type=checkbox]").forEach((cb) => {
+        cb.checked = checked;
+      });
+    };
+    this.excel.selectAll.removeEventListener("change", this._onSelectAll);
+    this._onSelectAll = onSelectAll;
+    this.excel.selectAll.addEventListener("change", onSelectAll);
+
+    // Keep select-all in sync when individual checkboxes change
+    list.addEventListener("change", () => {
+      const all = list.querySelectorAll("input[type=checkbox]");
+      const checked = list.querySelectorAll("input[type=checkbox]:checked");
+      this.excel.selectAll.checked =
+        all.length > 0 && all.length === checked.length;
+    });
+
+    this.excel.modal.classList.remove("hidden");
+    this.excel.modal.classList.add("flex");
+  },
+
+  closeExcelExportModal() {
+    this.excel.modal.classList.add("hidden");
+    this.excel.modal.classList.remove("flex");
+  },
+
+  downloadExcel() {
+    const checked = this.excel.setList.querySelectorAll(
+      "input[type=checkbox]:checked",
+    );
+    if (checked.length === 0) {
+      // Shake the download button briefly
+      this.excel.downloadBtn.classList.add("scale-95", "opacity-70");
+      setTimeout(
+        () => this.excel.downloadBtn.classList.remove("scale-95", "opacity-70"),
+        200,
+      );
+      return;
+    }
+
+    const wb = XLSX.utils.book_new();
+
+    checked.forEach((cb) => {
+      const cat = cb.value;
+      const words = State.rawData[cat] || [];
+      const rows = [
+        ["#", "Word", "Definition", "Synonym", "Example"], // header
+        ...words.map((w, i) => [
+          i + 1,
+          w.word || "",
+          w.definition || "",
+          w.synonym || "",
+          w.example || "",
+        ]),
+      ];
+      const ws = XLSX.utils.aoa_to_sheet(rows);
+
+      // Column widths
+      ws["!cols"] = [
+        { wch: 4 },
+        { wch: 18 },
+        { wch: 50 },
+        { wch: 25 },
+        { wch: 55 },
+      ];
+
+      // Safe sheet name: Excel limits to 31 chars and forbids certain chars
+      const safeName = cat.replace(/[\/\\\?\*\[\]\:]/g, "-").slice(0, 31);
+      XLSX.utils.book_append_sheet(wb, ws, safeName);
+    });
+
+    const fileName =
+      checked.length === 1
+        ? `${checked[0].value}_vocabulary.xlsx`
+        : `SAT_Vocabulary_${checked.length}_sets.xlsx`;
+
+    XLSX.writeFile(wb, fileName);
+    this.closeExcelExportModal();
+  },
+
+  downloadPdf() {
+    const checked = this.excel.setList.querySelectorAll(
+      "input[type=checkbox]:checked",
+    );
+    if (checked.length === 0) {
+      // Shake the download button briefly
+      this.excel.downloadPdfBtn.classList.add("scale-95", "opacity-70");
+      setTimeout(
+        () =>
+          this.excel.downloadPdfBtn.classList.remove("scale-95", "opacity-70"),
+        200,
+      );
+      return;
+    }
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    let isFirst = true;
+
+    checked.forEach((cb) => {
+      const cat = cb.value;
+      const words = State.rawData[cat] || [];
+
+      if (!isFirst) {
+        doc.addPage();
+      }
+      isFirst = false;
+
+      // Add a header for the category
+      doc.setFontSize(16);
+      doc.setFont("helvetica", "bold");
+      doc.text(cat, 14, 20);
+
+      // Add table of words
+      const headers = [["#", "Word", "Definition", "Synonym", "Example"]];
+      const data = words.map((w, i) => [
+        i + 1,
+        w.word || "",
+        w.definition || "",
+        w.synonym || "",
+        w.example || "",
+      ]);
+
+      doc.autoTable({
+        head: headers,
+        body: data,
+        startY: 25,
+        theme: "striped",
+        headStyles: { fillColor: [79, 70, 229] }, // Beautiful Indigo matching theme
+        styles: { fontSize: 9, cellPadding: 3 },
+        columnStyles: {
+          0: { cellWidth: 10 },
+          1: { cellWidth: 25 },
+          2: { cellWidth: 60 },
+          3: { cellWidth: 35 },
+          4: { cellWidth: 50 },
+        },
+      });
+    });
+
+    const fileName =
+      checked.length === 1
+        ? `${checked[0].value}_vocabulary.pdf`
+        : `SAT_Vocabulary_${checked.length}_sets.pdf`;
+
+    doc.save(fileName);
+    this.closeExcelExportModal();
   },
 };

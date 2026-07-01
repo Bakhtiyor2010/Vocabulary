@@ -306,4 +306,37 @@ export function setupEventListeners() {
       UI.closeAboutModal();
     });
   }
+
+  // Excel Export Modal
+  if (UI.excel.btn) {
+    UI.excel.btn.addEventListener("click", () => {
+      UI.openExcelExportModal();
+    });
+  }
+
+  if (UI.excel.closeModal) {
+    UI.excel.closeModal.addEventListener("click", () => {
+      UI.closeExcelExportModal();
+    });
+  }
+
+  if (UI.excel.modal) {
+    UI.excel.modal.addEventListener("click", (e) => {
+      if (e.target === UI.excel.modal) {
+        UI.closeExcelExportModal();
+      }
+    });
+  }
+
+  if (UI.excel.downloadBtn) {
+    UI.excel.downloadBtn.addEventListener("click", () => {
+      UI.downloadExcel();
+    });
+  }
+
+  if (UI.excel.downloadPdfBtn) {
+    UI.excel.downloadPdfBtn.addEventListener("click", () => {
+      UI.downloadPdf();
+    });
+  }
 }
