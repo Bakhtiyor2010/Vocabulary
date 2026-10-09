@@ -88,6 +88,37 @@ export const UI = {
     downloadPdfBtn: document.getElementById("downloadPdfBtn"),
   },
 
+  initTheme() {
+    const theme = State.getTheme();
+    this.applyTheme(theme);
+  },
+
+  toggleTheme() {
+    const currentTheme = State.getTheme();
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    State.setTheme(newTheme);
+    this.applyTheme(newTheme);
+  },
+
+  applyTheme(theme) {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+
+    document.querySelectorAll(".theme-toggle-btn").forEach((btn) => {
+      btn.setAttribute(
+        "title",
+        theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"
+      );
+      btn.setAttribute(
+        "aria-label",
+        theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"
+      );
+    });
+  },
+
   showView(viewName) {
     Object.values(this.views).forEach((v) => {
       v.classList.add("hidden");
@@ -255,21 +286,21 @@ export const UI = {
           hour: "numeric",
           minute: "2-digit",
         });
-        let scoreColor = "text-rose-400";
-        if (res.percentage >= 80) scoreColor = "text-emerald-400";
-        else if (res.percentage >= 50) scoreColor = "text-amber-400";
+        let scoreColor = "text-rose-500 dark:text-rose-400";
+        if (res.percentage >= 80) scoreColor = "text-emerald-600 dark:text-emerald-400";
+        else if (res.percentage >= 50) scoreColor = "text-amber-600 dark:text-amber-400";
 
         return `
-        <div class="quiz-history-item bg-slate-800/60 border border-slate-700 hover:border-slate-500 cursor-pointer p-4 rounded-xl flex flex-col gap-2 transition-all" data-id="${res.id}">
+        <div class="quiz-history-item bg-white/90 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-500 cursor-pointer p-4 rounded-xl flex flex-col gap-2 transition-all shadow-sm dark:shadow-none" data-id="${res.id}">
           <div class="flex justify-between items-start gap-4">
-            <span class="font-bold text-white text-sm sm:text-base break-words" title="${res.category}">${res.category === "All" ? "All Sets" : res.category}</span>
-            <span class="text-xs text-slate-400 font-medium shrink-0">${dateStr}</span>
+            <span class="font-bold text-slate-900 dark:text-white text-sm sm:text-base break-words" title="${res.category}">${res.category === "All" ? "All Sets" : res.category}</span>
+            <span class="text-xs text-slate-500 dark:text-slate-400 font-medium shrink-0">${dateStr}</span>
           </div>
           <div class="flex items-baseline justify-between mt-1">
-            <span class="text-xs text-slate-400">Score: <span class="font-bold text-slate-200">${res.score}/${res.total}</span></span>
+            <span class="text-xs text-slate-500 dark:text-slate-400">Score: <span class="font-bold text-slate-700 dark:text-slate-200">${res.score}/${res.total}</span></span>
             <span class="text-lg font-bold ${scoreColor}">${res.percentage}%</span>
           </div>
-          <div class="w-full bg-slate-700 h-1.5 rounded-full mt-1">
+          <div class="w-full bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full mt-1">
             <div class="h-1.5 rounded-full ${res.percentage >= 80 ? "bg-emerald-500" : res.percentage >= 50 ? "bg-amber-500" : "bg-rose-500"}" style="width: ${res.percentage}%"></div>
           </div>
         </div>
@@ -333,13 +364,13 @@ export const UI = {
 
     const renderWordList = (words) => {
       if (!words || words.length === 0)
-        return `<div class="text-slate-400 text-sm">None</div>`;
+        return `<div class="text-slate-500 dark:text-slate-400 text-sm">None</div>`;
       return words
         .map(
           (w) => `
-        <div class="bg-slate-900/50 p-2 rounded-lg mb-2">
-          <span class="font-bold text-slate-200 block text-sm">${w.word}</span>
-          <span class="text-slate-400 text-xs">${w.definition}</span>
+        <div class="bg-white dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-800/80 p-2.5 rounded-lg mb-2 shadow-sm dark:shadow-none">
+          <span class="font-bold text-slate-900 dark:text-slate-200 block text-sm">${w.word}</span>
+          <span class="text-slate-600 dark:text-slate-400 text-xs">${w.definition}</span>
         </div>
       `,
         )
@@ -378,30 +409,30 @@ export const UI = {
         : `Vocabulary: ${selectedCat}`;
 
     if (cards.length === 0) {
-      this.table.content.innerHTML = `<p class="text-slate-400">No vocabulary found in this category.</p>`;
+      this.table.content.innerHTML = `<p class="text-slate-500 dark:text-slate-400">No vocabulary found in this category.</p>`;
     } else {
       let contentHtml = `
         <div class="hidden min-[800px]:block">
-          <table class="w-full text-left text-sm text-slate-300">
-            <thead class="text-xs text-slate-400 uppercase bg-slate-800 sticky top-0 z-10 shadow-sm">
+          <table class="w-full text-left text-sm text-slate-700 dark:text-slate-300">
+            <thead class="text-xs text-slate-600 dark:text-slate-400 uppercase bg-slate-100 dark:bg-slate-800 sticky top-0 z-10 shadow-sm border-b border-slate-200 dark:border-slate-700">
               <tr>
-                <th class="px-4 py-3 border-b border-slate-700">#</th>
-                <th class="px-4 py-3 border-b border-slate-700">Word</th>
-                <th class="px-4 py-3 border-b border-slate-700">Definition</th>
-                <th class="px-4 py-3 border-b border-slate-700">Synonym</th>
-                <th class="px-4 py-3 border-b border-slate-700">Example</th>
+                <th class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">#</th>
+                <th class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">Word</th>
+                <th class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">Definition</th>
+                <th class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">Synonym</th>
+                <th class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">Example</th>
               </tr>
             </thead>
             <tbody>
               ${cards
                 .map(
                   (c, index) => `
-                <tr class="border-b border-slate-700/50 hover:bg-slate-800/30">
-                  <td class="px-4 py-3">${index + 1}</td>
-                  <td class="px-4 py-3 font-medium text-white">${c.word}</td>
-                  <td class="px-4 py-3">${c.definition}</td>
-                  <td class="px-4 py-3">${c.synonym}</td>
-                  <td class="px-4 py-3 italic">${c.example}</td>
+                <tr class="border-b border-slate-200/80 dark:border-slate-700/50 hover:bg-slate-50 dark:hover:bg-slate-800/30 transition-colors">
+                  <td class="px-4 py-3 text-slate-500 dark:text-slate-400">${index + 1}</td>
+                  <td class="px-4 py-3 font-semibold text-slate-900 dark:text-white">${c.word}</td>
+                  <td class="px-4 py-3 text-slate-700 dark:text-slate-300">${c.definition}</td>
+                  <td class="px-4 py-3 text-slate-700 dark:text-slate-300">${c.synonym}</td>
+                  <td class="px-4 py-3 italic text-slate-600 dark:text-slate-400">${c.example}</td>
                 </tr>
               `,
                 )
@@ -410,16 +441,16 @@ export const UI = {
           </table>
         </div>
         <div class="min-[800px]:hidden block">
-          <ol class="list-decimal list-inside space-y-4 text-sm text-slate-300">
+          <ol class="list-decimal list-inside space-y-4 text-sm text-slate-700 dark:text-slate-300">
             ${cards
               .map(
                 (c) => `
-              <li class="bg-slate-800/30 p-3 rounded-lg border border-slate-700/50">
-                <span class="font-bold text-white text-base ml-1">${c.word}</span>
+              <li class="bg-slate-50 dark:bg-slate-800/30 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm dark:shadow-none">
+                <span class="font-bold text-slate-900 dark:text-white text-base ml-1">${c.word}</span>
                 <div class="mt-2 flex flex-col gap-1 pl-5">
-                  <p><span class="text-blue-400 font-bold uppercase text-[10px] tracking-widest">Definition:</span> ${c.definition}</p>
-                  <p><span class="text-purple-400 font-bold uppercase text-[10px] tracking-widest">Synonym:</span> ${c.synonym}</p>
-                  <p><span class="text-emerald-400 font-bold uppercase text-[10px] tracking-widest">Example:</span> <span class="italic">${c.example}</span></p>
+                  <p><span class="text-blue-600 dark:text-blue-400 font-bold uppercase text-[10px] tracking-widest">Definition:</span> <span class="text-slate-700 dark:text-slate-300">${c.definition}</span></p>
+                  <p><span class="text-purple-600 dark:text-purple-400 font-bold uppercase text-[10px] tracking-widest">Synonym:</span> <span class="text-slate-700 dark:text-slate-300">${c.synonym}</span></p>
+                  <p><span class="text-emerald-600 dark:text-emerald-400 font-bold uppercase text-[10px] tracking-widest">Example:</span> <span class="italic text-slate-600 dark:text-slate-400">${c.example}</span></p>
                 </div>
               </li>
             `,
@@ -455,8 +486,113 @@ export const UI = {
     const list = this.excel.setList;
     list.innerHTML = "";
 
+    const badge = document.getElementById("excelExportCountBadge");
+    const summary = document.getElementById("excelExportSummary");
+    const emptyHint = document.getElementById("excelExportEmptyHint");
+    const summaryLine = document.getElementById("excelSummaryLine");
+    const summarySub = document.getElementById("excelSummarySub");
+
+    const recalcSelection = () => {
+      const all = list.querySelectorAll('input[type="checkbox"]');
+      const checked = list.querySelectorAll('input[type="checkbox"]:checked');
+      const count = checked.length;
+      const totalWords = Array.from(checked).reduce((sum, cb) => {
+        const words = State.rawData[cb.value] || [];
+        return sum + words.length;
+      }, 0);
+
+      if (badge) {
+        if (count > 0) {
+          badge.textContent = `${count} selected`;
+          badge.classList.remove("hidden");
+        } else {
+          badge.classList.add("hidden");
+        }
+      }
+
+      if (summary && summaryLine && summarySub) {
+        if (count > 0) {
+          summary.classList.remove("hidden");
+          summary.classList.add("flex");
+          const setLabel = count === 1 ? "set" : "sets";
+          const wordLabel = totalWords === 1 ? "word" : "words";
+          summaryLine.textContent = `${count} ${setLabel} • ${totalWords} ${wordLabel}`;
+          summarySub.textContent = "Select a format below to download";
+        } else {
+          summary.classList.add("hidden");
+          summary.classList.remove("flex");
+        }
+      }
+
+      if (emptyHint) {
+        if (count > 0) {
+          emptyHint.classList.add("hidden");
+        } else {
+          emptyHint.classList.remove("hidden");
+        }
+      }
+
+      // Update select-all checkbox state
+      if (this.excel.selectAll) {
+        this.excel.selectAll.checked =
+          all.length > 0 && all.length === checked.length;
+      }
+
+      // Update visual state on each item row (checked background/border)
+      list.querySelectorAll("label.excel-set-item").forEach((row) => {
+        const input = row.querySelector('input[type="checkbox"]');
+        if (input && input.checked) {
+          row.classList.add(
+            "bg-green-50",
+            "dark:bg-green-950/30",
+            "border-green-300",
+            "dark:border-green-700/60",
+            "shadow-sm",
+          );
+          row.classList.remove(
+            "bg-slate-50",
+            "hover:bg-slate-100/80",
+            "dark:bg-slate-800/60",
+            "dark:hover:bg-slate-700/60",
+            "border-slate-200",
+            "hover:border-slate-300",
+            "dark:border-slate-700/50",
+            "dark:hover:border-slate-500/50",
+          );
+          const checkIcon = row.querySelector(".excel-row-check");
+          if (checkIcon) {
+            checkIcon.classList.remove("text-slate-400");
+            checkIcon.classList.add("text-green-600", "dark:text-green-400");
+          }
+        } else {
+          row.classList.remove(
+            "bg-green-50",
+            "dark:bg-green-950/30",
+            "border-green-300",
+            "dark:border-green-700/60",
+            "shadow-sm",
+          );
+          row.classList.add(
+            "bg-slate-50",
+            "hover:bg-slate-100/80",
+            "dark:bg-slate-800/60",
+            "dark:hover:bg-slate-700/60",
+            "border-slate-200",
+            "hover:border-slate-300",
+            "dark:border-slate-700/50",
+            "dark:hover:border-slate-500/50",
+          );
+          const checkIcon = row.querySelector(".excel-row-check");
+          if (checkIcon) {
+            checkIcon.classList.add("text-slate-400");
+            checkIcon.classList.remove("text-green-600", "dark:text-green-400");
+          }
+        }
+      });
+    };
+
     if (categories.length === 0) {
-      list.innerHTML = `<p class="text-slate-400 text-sm">No sets available.</p>`;
+      list.innerHTML = `<p class="text-slate-500 dark:text-slate-400 text-sm py-2">No sets available.</p>`;
     } else {
       categories.forEach((cat) => {
         const wordCount = (State.rawData[cat] || []).length;
@@ -464,15 +600,29 @@ export const UI = {
         const item = document.createElement("label");
         item.htmlFor = id;
         item.className =
-          "flex items-center gap-3 cursor-pointer bg-slate-800/60 hover:bg-slate-700/60 border border-slate-700/50 hover:border-slate-500/50 rounded-xl px-4 py-3 transition-all select-none group";
+          "excel-set-item flex items-center gap-3 cursor-pointer bg-slate-50 hover:bg-slate-100/80 dark:bg-slate-800/60 dark:hover:bg-slate-700/60 border border-slate-200 hover:border-slate-300 dark:border-slate-700/50 dark:hover:border-slate-500/50 rounded-2xl px-4 py-3.5 transition-all select-none group shadow-sm dark:shadow-none";
         item.innerHTML = `
-          <input type="checkbox" id="${id}" value="${cat}" class="accent-green-500 w-4 h-4 cursor-pointer shrink-0">
-          <div class="flex-1 min-w-0">
-            <span class="block font-semibold text-white text-sm truncate">${cat}</span>
-            <span class="block text-xs text-slate-400 mt-0.5">${wordCount} word${wordCount !== 1 ? "s" : ""}</span>
+          <div class="relative shrink-0">
+            <input type="checkbox" id="${id}" value="${cat}" class="accent-green-600 dark:accent-green-500 w-5 h-5 cursor-pointer peer sr-only">
+            <div class="w-5 h-5 rounded-md border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 flex items-center justify-center transition-all peer-checked:border-green-500 peer-checked:bg-green-500 dark:peer-checked:border-green-500 dark:peer-checked:bg-green-500">
+              <svg class="w-3.5 h-3.5 text-white opacity-0 peer-checked:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
           </div>
-          <svg class="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/>
+          <div class="flex-1 min-w-0">
+            <span class="block font-semibold text-slate-900 dark:text-white text-sm truncate group-hover:text-green-700 dark:group-hover:text-green-300 transition-colors">${cat}</span>
+            <div class="flex items-center gap-1.5 mt-1">
+              <span class="inline-flex items-center gap-1 text-[11px] font-semibold bg-slate-200/80 dark:bg-slate-700/80 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded-full">
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                ${wordCount} word${wordCount !== 1 ? "s" : ""}
+              </span>
+            </div>
+          </div>
+          <svg class="excel-row-check w-5 h-5 text-slate-400 transition-all shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
           </svg>
         `;
         list.appendChild(item);
@@ -485,21 +635,22 @@ export const UI = {
     // Wire up select-all toggle
     const onSelectAll = () => {
       const checked = this.excel.selectAll.checked;
-      list.querySelectorAll("input[type=checkbox]").forEach((cb) => {
+      list.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
         cb.checked = checked;
       });
+      recalcSelection();
     };
     this.excel.selectAll.removeEventListener("change", this._onSelectAll);
     this._onSelectAll = onSelectAll;
     this.excel.selectAll.addEventListener("change", onSelectAll);
 
-    // Keep select-all in sync when individual checkboxes change
-    list.addEventListener("change", () => {
-      const all = list.querySelectorAll("input[type=checkbox]");
-      const checked = list.querySelectorAll("input[type=checkbox]:checked");
-      this.excel.selectAll.checked =
-        all.length > 0 && all.length === checked.length;
-    });
+    // Keep select-all and visuals in sync when individual checkboxes change
+    list.removeEventListener("change", this._onExcelListChange);
+    this._onExcelListChange = recalcSelection;
+    list.addEventListener("change", recalcSelection);
+
+    // Initial state calculation
+    recalcSelection();
 
     this.excel.modal.classList.remove("hidden");
     this.excel.modal.classList.add("flex");

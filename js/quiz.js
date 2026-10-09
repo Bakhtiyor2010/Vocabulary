@@ -192,7 +192,7 @@ export const QuizLogic = {
     UI.quiz.optionsContainer.innerHTML = "";
     options.forEach((opt, idx) => {
       const btn = document.createElement("button");
-      btn.className = "w-full text-left p-4 rounded-xl border border-slate-700 bg-slate-800/50 hover:bg-slate-700/50 hover:border-slate-500 text-slate-200 transition-all font-medium text-sm sm:text-base cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500";
+      btn.className = "w-full text-left p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-700/50 hover:border-blue-400 dark:hover:border-slate-500 text-slate-800 dark:text-slate-200 transition-all font-medium text-sm sm:text-base cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm dark:shadow-none";
       btn.textContent = opt;
       btn.addEventListener("click", () => this.handleQuizAnswer(idx));
       UI.quiz.optionsContainer.appendChild(btn);
@@ -219,11 +219,11 @@ export const QuizLogic = {
       btn.classList.remove("hover:bg-slate-700/50", "hover:border-slate-500", "cursor-pointer");
 
       if (idx === QuizState.correctOptionIndex) {
-        btn.className = "w-full text-left p-4 rounded-xl border border-emerald-500 bg-emerald-950/60 text-emerald-200 font-semibold transition-all text-sm sm:text-base";
+        btn.className = "w-full text-left p-4 rounded-xl border border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200 font-semibold transition-all text-sm sm:text-base shadow-sm";
       } else if (idx === selectedIdx && !isCorrect) {
-        btn.className = "w-full text-left p-4 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-semibold transition-all text-sm sm:text-base";
+        btn.className = "w-full text-left p-4 rounded-xl border border-red-500 bg-red-50 dark:bg-red-950/60 text-red-800 dark:text-red-200 font-semibold transition-all text-sm sm:text-base shadow-sm";
       } else {
-        btn.className = "w-full text-left p-4 rounded-xl border border-slate-800 bg-slate-900/30 text-slate-500 font-medium transition-all text-sm sm:text-base";
+        btn.className = "w-full text-left p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/30 text-slate-400 dark:text-slate-500 font-medium transition-all text-sm sm:text-base";
       }
     });
 
@@ -285,9 +285,9 @@ export const QuizLogic = {
     UI.quiz.word.innerHTML = `<span class="block text-4xl sm:text-5xl mb-2">${rankEmoji}</span>${percentage}% Correct`;
 
     UI.quiz.optionsContainer.innerHTML = `
-      <div class="text-center py-6 text-slate-300 flex flex-col gap-2">
-        <p class="text-lg">You correctly answered <span class="font-bold text-white">${QuizState.score}</span> out of <span class="font-bold text-white">${QuizState.queue.length}</span> definitions.</p>
-        <p class="text-sm text-slate-400 mt-2">Excellent practice session! Retake the quiz or return to the dashboard to continue studying.</p>
+      <div class="text-center py-6 text-slate-700 dark:text-slate-300 flex flex-col gap-2">
+        <p class="text-lg">You correctly answered <span class="font-bold text-slate-900 dark:text-white">${QuizState.score}</span> out of <span class="font-bold text-slate-900 dark:text-white">${QuizState.queue.length}</span> definitions.</p>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mt-2">Excellent practice session! Retake the quiz or return to the dashboard to continue studying.</p>
       </div>
     `;
 
@@ -325,7 +325,7 @@ export const QuizLogic = {
       <button id="retakeQuizBtn" class="w-full sm:w-auto bg-purple-600 hover:bg-purple-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-purple-500/20 text-sm">
         Retake Quiz
       </button>
-      <button id="finishQuizBtn" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-700 text-sm">
+      <button id="finishQuizBtn" class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-300 dark:border-slate-700 text-sm">
         Return to Dashboard
       </button>
     `;
@@ -353,7 +353,7 @@ export const QuizLogic = {
   restoreQuizFooter() {
     const footerDiv = UI.quiz.footer;
     footerDiv.innerHTML = `
-      <button id="suspendQuizBtn" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-700 text-sm">
+      <button id="suspendQuizBtn" class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-300 dark:border-slate-700 text-sm">
         Suspend Quiz
       </button>
       <button id="nextQuizBtn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-blue-500/20 text-sm hidden">

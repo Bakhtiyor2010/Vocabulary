@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (loader) loader.classList.remove("hidden");
 
   State.loadAppState();
+  UI.initTheme();
   await DataLogic.loadData();
   DataLogic.processRawData();
   DataLogic.populateCategoryDropdown();

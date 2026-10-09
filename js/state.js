@@ -10,6 +10,34 @@ export const State = {
   isFlipped: false,
   appState: {
     lastActiveCategory: "All",
+    theme: "dark",
+  },
+
+  getTheme() {
+    // 1. Explicit localStorage key wins (same key used by the inline safety script)
+    const explicit = localStorage.getItem("vocab_srs_theme");
+    if (explicit === "light" || explicit === "dark") return explicit;
+    // 2. Fall back to live <html> class (handles the case where inline script applied theme before modules load)
+    try {
+      if (document.documentElement.classList.contains("dark")) return "dark";
+    } catch (_) {}
+    // 3. appState backup
+    if (this.appState && (this.appState.theme === "light" || this.appState.theme === "dark")) {
+      return this.appState.theme;
+    }
+    // 4. System default
+    try {
+      if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) return "light";
+    } catch (_) {}
+    return "dark";
+  },
+
+  setTheme(theme) {
+    if (theme !== "light" && theme !== "dark") theme = "dark";
+    this.appState.theme = theme;
+    // Single source of truth: write to both vocab_srs_theme (inline script key) and appState
+    localStorage.setItem("vocab_srs_theme", theme);
+    this.saveAppState();
   },
 
   loadAppState() {

@@ -5,6 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SAT Vocabulary Mastery</title>
+    <!-- Prevent Theme Flash + Inline Theme Toggle (works even if ES modules fail on file://) -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('vocab_srs_theme');
+                if (savedTheme === 'light') {
+                    document.documentElement.classList.remove('dark');
+                } else {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch (e) {}
+
+            function updateToggleButtonsTitles(theme) {
+                try {
+                    document.querySelectorAll('.theme-toggle-btn').forEach(function(btn) {
+                        btn.setAttribute('title', theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+                        btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+                    });
+                } catch (e) {}
+            }
+
+            function toggleTheme() {
+                try {
+                    const isDark = document.documentElement.classList.contains('dark');
+                    const newTheme = isDark ? 'light' : 'dark';
+                    if (newTheme === 'dark') {
+                        document.documentElement.classList.add('dark');
+                    } else {
+                        document.documentElement.classList.remove('dark');
+                    }
+                    localStorage.setItem('vocab_srs_theme', newTheme);
+                    // Keep appState in sync for module side
+                    try {
+                        var rawApp = localStorage.getItem('vocab_srs_appState');
+                        var app = rawApp ? JSON.parse(rawApp) : {};
+                        app.theme = newTheme;
+                        localStorage.setItem('vocab_srs_appState', JSON.stringify(app));
+                    } catch (_) {}
+                    updateToggleButtonsTitles(newTheme);
+                } catch (e) {}
+            }
+
+            // Event delegation — works immediately, catches all theme-toggle-btn clicks now and later
+            document.addEventListener('click', function(e) {
+                if (e.target.closest && e.target.closest('.theme-toggle-btn')) {
+                    toggleTheme();
+                }
+            });
+
+            // Update title/aria-label on any newly added buttons after DOMContentLoaded
+            document.addEventListener('DOMContentLoaded', function() {
+                var t = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+                updateToggleButtonsTitles(t);
+            });
+        })();
+    </script>
     <script>
         // Suppress Tailwind Play CDN warning in the console
         (function() {
@@ -29,6 +85,8 @@
                     colors: {
                         darkBg: '#0f172a',
                         darkCard: '#1e293b',
+                        lightBg: '#f8fafc',
+                        lightCard: '#ffffff',
                     }
                 }
             }
@@ -39,19 +97,19 @@
 </head>
 
 <body
-    class="bg-darkBg text-gray-100 font-[Inter] min-h-screen flex flex-col items-center p-3 sm:p-6 overflow-x-hidden w-full">
+    class="bg-slate-50 dark:bg-darkBg text-slate-800 dark:text-gray-100 font-[Inter] min-h-screen flex flex-col items-center p-3 sm:p-6 overflow-x-hidden w-full transition-colors duration-300">
 
     <!-- Global Full-screen Loader -->
     <div id="globalAppLoader"
-        class="fixed inset-0 bg-darkBg z-[100] flex flex-col items-center justify-center transition-opacity duration-300">
-        <svg class="animate-spin h-12 w-12 text-blue-500 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none"
+        class="fixed inset-0 bg-slate-50 dark:bg-darkBg z-[100] flex flex-col items-center justify-center transition-opacity duration-300">
+        <svg class="animate-spin h-12 w-12 text-blue-600 dark:text-blue-500 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none"
             viewBox="0 0 24 24">
             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
             <path class="opacity-75" fill="currentColor"
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
             </path>
         </svg>
-        <h2 class="text-white text-xl font-bold tracking-widest uppercase">Loading...</h2>
+        <h2 class="text-slate-800 dark:text-white text-xl font-bold tracking-widest uppercase">Loading...</h2>
     </div>
 
     <!-- Dashboard -->
@@ -61,32 +119,31 @@
         <!-- Header -->
         <div class="text-center mb-4 sm:mb-6">
             <h1
-                class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-5 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 tracking-tight px-2 drop-shadow-sm">
+                class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-5 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-600 dark:from-blue-400 dark:via-purple-400 dark:to-emerald-400 tracking-tight px-2 drop-shadow-sm">
                 SAT Vocabulary Mastery
             </h1>
-            <!-- Global Search Input -->
+            <!-- Global Search Input & Controls -->
             <div
                 class="relative max-w-xl mx-auto z-40 flex flex-col min-[700px]:flex-row min-[700px]:items-center gap-3 px-2 sm:px-0">
                 <select id="searchCategorySelect"
-                    class="bg-slate-800/80 backdrop-blur-md border border-slate-600/50 rounded-xl py-3.5 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500/50 transition-all shadow-lg text-sm sm:text-base w-full min-[700px]:w-1/3 min-[700px]:shrink-0 cursor-pointer">
+                    class="bg-white/90 dark:bg-slate-800/80 backdrop-blur-md border border-slate-300 dark:border-slate-600/50 rounded-xl py-3.5 px-4 text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-400 dark:hover:border-blue-500/50 transition-all shadow-sm dark:shadow-lg text-sm sm:text-base w-full min-[700px]:w-1/3 min-[700px]:shrink-0 cursor-pointer">
                     <option value="all" selected>All</option>
                     <option value="word">Word</option>
                     <option value="definition">Definition</option>
                     <option value="synonym">Synonym</option>
                     <option value="example">Example</option>
-
                 </select>
                 <div class="relative flex-1 w-full group">
                     <input type="text" id="globalSearchInput" placeholder="Search vocabulary..."
-                        class="w-full bg-slate-800/80 backdrop-blur-md border border-slate-600/50 rounded-xl py-3.5 pl-12 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500/50 transition-all shadow-lg text-sm sm:text-base placeholder-slate-400">
-                    <svg class="w-5 h-5 text-slate-400 absolute left-4 top-4 group-focus-within:text-blue-400 transition-colors"
+                        class="w-full bg-white/90 dark:bg-slate-800/80 backdrop-blur-md border border-slate-300 dark:border-slate-600/50 rounded-xl py-3.5 pl-12 pr-10 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-400 dark:hover:border-blue-500/50 transition-all shadow-sm dark:shadow-lg text-sm sm:text-base placeholder-slate-400">
+                    <svg class="w-5 h-5 text-slate-400 absolute left-4 top-4 group-focus-within:text-blue-600 dark:group-focus-within:text-blue-400 transition-colors"
                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
                     <!-- Loader -->
                     <div id="searchLoader" class="absolute right-4 top-4 hidden">
-                        <svg class="animate-spin h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        <svg class="animate-spin h-5 w-5 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24">
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
                             </circle>
@@ -98,29 +155,46 @@
 
                     <!-- Autocomplete Dropdown -->
                     <div id="searchResults"
-                        class="absolute w-full mt-2 bg-slate-800/95 backdrop-blur-xl border border-slate-600/50 rounded-xl shadow-2xl overflow-hidden hidden max-h-60 overflow-y-auto z-50 text-left divide-y divide-slate-700/50">
+                        class="absolute w-full mt-2 bg-white/95 dark:bg-slate-800/95 backdrop-blur-xl border border-slate-200 dark:border-slate-600/50 rounded-xl shadow-2xl overflow-hidden hidden max-h-60 overflow-y-auto z-50 text-left divide-y divide-slate-100 dark:divide-slate-700/50">
                         <!-- Results injected here -->
                     </div>
                 </div>
-                <button id="showAboutBtn" title="About SAT System"
-                    class="min-[700px]:shrink-0 bg-slate-800/80 backdrop-blur-md border border-slate-600/50 hover:border-slate-400 hover:bg-slate-700/80 text-white p-3.5 rounded-xl transition-all shadow-lg flex items-center justify-center">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                </button>
+                <div class="flex items-center gap-2 self-stretch min-[700px]:self-auto">
+                    <!-- About Button -->
+                    <button id="showAboutBtn" title="About SAT System"
+                        class="flex-1 min-[700px]:flex-initial min-[700px]:shrink-0 bg-white/90 dark:bg-slate-800/80 backdrop-blur-md border border-slate-300 dark:border-slate-600/50 hover:border-slate-400 dark:hover:border-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 hover:text-slate-900 dark:text-white p-3.5 rounded-xl transition-all shadow-sm dark:shadow-lg flex items-center justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </button>
+                    <!-- Theme Toggle Button -->
+                    <button id="themeToggleBtn" title="Switch to Light Mode" aria-label="Toggle Theme"
+                        class="theme-toggle-btn flex-1 min-[700px]:flex-initial min-[700px]:shrink-0 bg-white/90 dark:bg-slate-800/80 backdrop-blur-md border border-slate-300 dark:border-slate-600/50 hover:border-amber-400 dark:hover:border-amber-400 hover:bg-amber-50/60 dark:hover:bg-slate-700/80 text-slate-700 dark:text-amber-400 p-3.5 rounded-xl transition-all shadow-sm dark:shadow-lg flex items-center justify-center cursor-pointer group">
+                        <!-- Sun Icon (visible in Dark Mode) -->
+                        <svg class="w-5 h-5 hidden dark:block transition-transform duration-300 group-hover:rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                        <!-- Moon Icon (visible in Light Mode) -->
+                        <svg class="w-5 h-5 block dark:hidden text-slate-700 transition-transform duration-300 group-hover:-rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
 
         <!-- Deck Selection & Start -->
         <div
-            class="bg-darkCard/80 backdrop-blur-lg p-5 sm:p-8 rounded-3xl shadow-xl border border-slate-700/50 flex flex-col lg:flex-row items-center gap-5 sm:gap-8 justify-between mt-2 hover:border-slate-600/50 transition-colors">
+            class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-lg p-5 sm:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 flex flex-col lg:flex-row items-center gap-5 sm:gap-8 justify-between mt-2 hover:border-slate-300 dark:hover:border-slate-600/50 transition-colors">
             <div class="flex-1 w-full">
                 <label for="categorySelect"
-                    class="block text-xs sm:text-sm font-bold text-slate-400 mb-2.5 uppercase tracking-wider text-center lg:text-left">Select
+                    class="block text-xs sm:text-sm font-bold text-slate-500 dark:text-slate-400 mb-2.5 uppercase tracking-wider text-center lg:text-left">Select
                     Set / Deck</label>
                 <select id="categorySelect"
-                    class="w-full bg-slate-900/50 border border-slate-600/50 rounded-xl py-3.5 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base hover:bg-slate-800/80">
+                    class="w-full bg-slate-50 dark:bg-slate-900/50 border border-slate-300 dark:border-slate-600/50 rounded-xl py-3.5 px-4 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-sm sm:text-base hover:bg-slate-100 dark:hover:bg-slate-800/80">
                     <option value="All">All Sets</option>
                 </select>
             </div>
@@ -170,8 +244,8 @@
 
         <!-- Stats Grid: Pulling directly from localStorage per Category -->
         <h3
-            class="text-base sm:text-lg font-bold mt-2 text-white flex items-center justify-center md:justify-start gap-2">
-            <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            class="text-base sm:text-lg font-bold mt-2 text-slate-900 dark:text-white flex items-center justify-center md:justify-start gap-2">
+            <svg class="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
                 </path>
@@ -180,48 +254,48 @@
         </h3>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 w-full">
             <div
-                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-cyan-400 drop-shadow-sm"
+                class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-lg shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-300 dark:hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 drop-shadow-sm"
                     id="statTotalCards">0</div>
-                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Total
+                <div class="text-[11px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 mt-3 uppercase tracking-wider">Total
                     Cards</div>
             </div>
             <div
-                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-teal-400 drop-shadow-sm"
+                class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-lg shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-300 dark:hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 drop-shadow-sm"
                     id="statDueToday">0</div>
-                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Due Today
+                <div class="text-[11px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 mt-3 uppercase tracking-wider">Due Today
                 </div>
             </div>
             <div
-                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-pink-400 drop-shadow-sm"
+                class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-lg shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-300 dark:hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-rose-600 to-pink-600 dark:from-rose-400 dark:to-pink-400 drop-shadow-sm"
                     id="statLearningQueue">0</div>
-                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Learning
+                <div class="text-[11px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 mt-3 uppercase tracking-wider">Learning
                     Queue</div>
             </div>
             <div
-                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-fuchsia-400 drop-shadow-sm"
+                class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-lg shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 text-center flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-300 dark:hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-fuchsia-600 dark:from-purple-400 dark:to-fuchsia-400 drop-shadow-sm"
                     id="statMastered">0</div>
-                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Mastered
+                <div class="text-[11px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 mt-3 uppercase tracking-wider">Mastered
                     Cards</div>
             </div>
             <div
-                class="bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-xl border border-slate-700/50 text-center flex flex-col justify-center col-span-2 md:col-span-1 lg:col-span-1 transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-500/50">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-orange-400 drop-shadow-sm"
+                class="bg-white/90 dark:bg-darkCard/80 backdrop-blur-md p-5 rounded-3xl shadow-lg shadow-slate-200/50 dark:shadow-xl border border-slate-200 dark:border-slate-700/50 text-center flex flex-col justify-center col-span-2 md:col-span-1 lg:col-span-1 transform transition-all duration-300 hover:scale-[1.02] hover:border-slate-300 dark:hover:border-slate-500/50">
+                <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-amber-600 to-orange-600 dark:from-amber-400 dark:to-orange-400 drop-shadow-sm"
                     id="statAvgEasiness">2.50</div>
-                <div class="text-[11px] sm:text-xs font-bold text-slate-400 mt-3 uppercase tracking-wider">Avg
+                <div class="text-[11px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 mt-3 uppercase tracking-wider">Avg
                     Easiness</div>
             </div>
         </div>
 
         <!-- Latest Quiz Results Section -->
         <div id="quizResultsSection"
-            class="bg-darkCard p-4 sm:p-6 rounded-2xl shadow-lg border border-slate-700 mt-2 hidden flex-col gap-4 w-full">
+            class="bg-white dark:bg-darkCard p-4 sm:p-6 rounded-2xl shadow-md dark:shadow-lg border border-slate-200 dark:border-slate-700 mt-2 hidden flex-col gap-4 w-full">
             <h3
-                class="text-base sm:text-lg font-bold text-white flex items-center justify-center md:justify-start gap-2">
-                <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center justify-center md:justify-start gap-2">
+                <svg class="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
                     </path>
@@ -236,33 +310,33 @@
     </div>
 
     <!-- Search Modal -->
-    <div id="searchModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 p-4">
-        <div class="bg-darkCard w-full max-w-lg rounded-2xl p-6 relative border border-slate-700">
-            <button id="closeSearchModal" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+    <div id="searchModal" class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
+        <div class="bg-white dark:bg-darkCard w-full max-w-lg rounded-2xl p-6 relative border border-slate-200 dark:border-slate-700 shadow-2xl">
+            <button id="closeSearchModal" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                     </path>
                 </svg>
             </button>
             <h2 id="modalWord"
-                class="text-3xl sm:text-4xl font-bold mb-4 text-white border-b border-slate-700 pb-3 break-words"></h2>
+                class="text-3xl sm:text-4xl font-bold mb-4 text-slate-900 dark:text-white border-b border-slate-200 dark:border-slate-700 pb-3 break-words"></h2>
             <div class="flex flex-col gap-4 text-left w-full">
                 <div>
-                    <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
-                    <p id="modalDef" class="text-lg text-slate-200 leading-relaxed"></p>
+                    <span class="text-blue-600 dark:text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
+                    <p id="modalDef" class="text-lg text-slate-700 dark:text-slate-200 leading-relaxed"></p>
                 </div>
                 <div>
-                    <span class="text-purple-400 font-bold text-xs uppercase tracking-widest block mb-1">Synonym</span>
-                    <p id="modalSyn" class="text-slate-300 font-medium text-base"></p>
+                    <span class="text-purple-600 dark:text-purple-400 font-bold text-xs uppercase tracking-widest block mb-1">Synonym</span>
+                    <p id="modalSyn" class="text-slate-700 dark:text-slate-300 font-medium text-base"></p>
                 </div>
                 <div>
-                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example</span>
-                    <p id="modalEx" class="text-slate-400 italic text-base border-l-2 border-emerald-500/30 pl-3 py-1">
+                    <span class="text-emerald-600 dark:text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example</span>
+                    <p id="modalEx" class="text-slate-600 dark:text-slate-400 italic text-base border-l-2 border-emerald-500/50 pl-3 py-1">
                     </p>
                 </div>
                 <div>
-                    <span class="text-amber-400 font-bold text-xs uppercase tracking-widest block mb-1">Set</span>
-                    <p id="modalCat" class="text-slate-300 font-medium text-base"></p>
+                    <span class="text-amber-600 dark:text-amber-400 font-bold text-xs uppercase tracking-widest block mb-1">Set</span>
+                    <p id="modalCat" class="text-slate-700 dark:text-slate-300 font-medium text-base"></p>
                 </div>
             </div>
         </div>
@@ -270,12 +344,12 @@
 
     <!-- Quiz Modal -->
     <div id="quizModal"
-        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
         <div id="quizModalContainer"
-            class="bg-darkCard w-full max-w-2xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            class="bg-white dark:bg-darkCard w-full max-w-2xl rounded-3xl p-6 sm:p-8 relative border border-slate-200 dark:border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
             <!-- Close / Suspend Button in top right -->
             <button id="closeQuizModal"
-                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                     </path>
@@ -284,14 +358,20 @@
 
             <!-- Quiz Header -->
             <div class="flex flex-col gap-2">
-                <h2 id="quizTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary Quiz
-                </h2>
+                <div class="flex items-center justify-between pr-8">
+                    <h2 id="quizTitle" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight">Vocabulary Quiz</h2>
+                    <button title="Toggle Theme" aria-label="Toggle Theme"
+                        class="theme-toggle-btn p-1.5 rounded-full border border-slate-200 dark:border-slate-700 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-amber-400 transition-colors">
+                        <svg class="w-4 h-4 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                        <svg class="w-4 h-4 block dark:hidden text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                    </button>
+                </div>
                 <!-- Progress Bar -->
-                <div class="w-full bg-slate-800 rounded-full h-2.5 mt-2">
-                    <div id="quizProgressBar" class="bg-blue-500 h-2.5 rounded-full transition-all duration-300"
+                <div class="w-full bg-slate-200 dark:bg-slate-800 rounded-full h-2.5 mt-2">
+                    <div id="quizProgressBar" class="bg-blue-600 dark:bg-blue-500 h-2.5 rounded-full transition-all duration-300"
                         style="width: 0%"></div>
                 </div>
-                <div class="flex justify-between items-center text-xs text-slate-400 mt-1">
+                <div class="flex justify-between items-center text-xs text-slate-500 dark:text-slate-400 mt-1">
                     <span id="quizProgressText">Question 0 of 0</span>
                     <span id="quizScoreText">Score: 0/0</span>
                 </div>
@@ -299,10 +379,10 @@
 
             <!-- Question Area -->
             <div class="text-center py-4">
-                <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-2">Identify the
+                <span class="text-blue-600 dark:text-blue-400 font-bold text-xs uppercase tracking-widest block mb-2">Identify the
                     Definition for</span>
                 <h3 id="quizWord"
-                    class="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight break-words px-2">Word
+                    class="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 dark:text-white tracking-tight break-words px-2">Word
                 </h3>
             </div>
 
@@ -313,29 +393,29 @@
 
             <!-- Word Details (Visible after answering) -->
             <div id="quizWordDetails"
-                class="hidden bg-slate-800/40 border border-slate-700/50 p-5 rounded-2xl flex flex-col gap-3.5 text-left transition-all duration-300">
+                class="hidden bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/50 p-5 rounded-2xl flex flex-col gap-3.5 text-left transition-all duration-300">
                 <div>
-                    <span class="text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
-                    <p id="quizWordDef" class="text-slate-200 text-sm sm:text-base leading-relaxed"></p>
+                    <span class="text-blue-600 dark:text-blue-400 font-bold text-xs uppercase tracking-widest block mb-1">Definition</span>
+                    <p id="quizWordDef" class="text-slate-700 dark:text-slate-200 text-sm sm:text-base leading-relaxed"></p>
                 </div>
                 <div id="quizWordSynContainer">
-                    <span class="text-purple-400 font-bold text-xs uppercase tracking-widest block mb-1">Synonyms</span>
-                    <p id="quizWordSyn" class="text-slate-300 font-medium text-xs sm:text-sm"></p>
+                    <span class="text-purple-600 dark:text-purple-400 font-bold text-xs uppercase tracking-widest block mb-1">Synonyms</span>
+                    <p id="quizWordSyn" class="text-slate-700 dark:text-slate-300 font-medium text-xs sm:text-sm"></p>
                 </div>
                 <div id="quizWordExContainer">
-                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example
+                    <span class="text-emerald-600 dark:text-emerald-400 font-bold text-xs uppercase tracking-widest block mb-1">Example
                         Sentence</span>
                     <p id="quizWordEx"
-                        class="text-slate-400 italic text-xs sm:text-sm border-l-2 border-emerald-500/30 pl-3 py-0.5">
+                        class="text-slate-600 dark:text-slate-400 italic text-xs sm:text-sm border-l-2 border-emerald-500/50 pl-3 py-0.5">
                     </p>
                 </div>
             </div>
 
             <!-- Footer / Action Area -->
             <div id="quizFooter"
-                class="flex flex-col sm:flex-row gap-3 items-center justify-between mt-2 pt-4 border-t border-slate-700/50">
+                class="flex flex-col sm:flex-row gap-3 items-center justify-between mt-2 pt-4 border-t border-slate-200 dark:border-slate-700/50">
                 <button id="suspendQuizBtn"
-                    class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-700 text-sm">
+                    class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-semibold py-2.5 px-5 rounded-xl transition-all border border-slate-300 dark:border-slate-700 text-sm">
                     Suspend Quiz
                 </button>
                 <button id="nextQuizBtn"
@@ -349,14 +429,22 @@
     <!-- Study Section -->
     <div id="studyContainer"
         class="w-full max-w-4xl hidden flex-col items-center gap-4 sm:gap-6 mt-2 sm:mt-6 md:mt-10 px-2 sm:px-0">
-        <div class="w-full flex justify-between items-center text-slate-400 mb-1 sm:mb-2 px-1">
+        <div class="w-full flex justify-between items-center text-slate-500 dark:text-slate-400 mb-1 sm:mb-2 px-1">
             <button id="backToDashBtn"
-                class="hover:text-white transition-colors flex items-center gap-1 sm:gap-2 font-medium bg-slate-800 py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm">
+                class="bg-white hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200 dark:border-transparent text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors flex items-center gap-1 sm:gap-2 font-medium py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm shadow-sm dark:shadow-none">
                 &larr; <span class="hidden sm:inline">Suspend Session</span><span class="sm:hidden">Suspend</span>
             </button>
-            <div id="cardsRemaining"
-                class="font-bold bg-rose-900/40 border border-rose-800/50 text-rose-300 py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm">
-                Queue: 0</div>
+            <div class="flex items-center gap-2">
+                <!-- Theme toggle in study header -->
+                <button id="studyThemeToggleBtn" title="Toggle Theme" aria-label="Toggle Theme"
+                    class="theme-toggle-btn bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-amber-400 p-1.5 rounded-full shadow-sm hover:scale-105 transition-all flex items-center justify-center">
+                    <svg class="w-4 h-4 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg class="w-4 h-4 block dark:hidden text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+                <div id="cardsRemaining"
+                    class="font-bold bg-rose-50 dark:bg-rose-900/40 border border-rose-200 dark:border-rose-800/50 text-rose-700 dark:text-rose-300 py-1.5 px-3 sm:px-4 rounded-full text-xs sm:text-sm">
+                    Queue: 0</div>
+            </div>
         </div>
 
         <!-- Flashcard -->
@@ -365,37 +453,37 @@
                 class="flashcard w-full h-full relative preserve-3d transition-transform duration-500 cursor-pointer">
                 <!-- Front -->
                 <div
-                    class="absolute w-full h-full backface-hidden bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 text-center border border-slate-700">
+                    class="absolute w-full h-full backface-hidden bg-white dark:bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 text-center border border-slate-200 dark:border-slate-700">
                     <h2 id="cardWord"
-                        class="text-4xl sm:text-5xl md:text-7xl font-bold mb-8 sm:mb-10 text-white tracking-tight break-words max-w-full px-2">
+                        class="text-4xl sm:text-5xl md:text-7xl font-bold mb-8 sm:mb-10 text-slate-900 dark:text-white tracking-tight break-words max-w-full px-2">
                     </h2>
                     <button id="showAnswerBtn"
-                        class="text-slate-300 hover:text-white border-2 border-slate-600 hover:border-slate-400 rounded-xl py-3 px-6 sm:px-10 font-medium transition-colors text-sm sm:text-base md:text-lg w-[80%] sm:w-auto">
+                        class="text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white border-2 border-slate-300 hover:border-slate-400 dark:border-slate-600 dark:hover:border-slate-400 bg-slate-50/50 hover:bg-slate-100 dark:bg-transparent rounded-xl py-3 px-6 sm:px-10 font-medium transition-colors text-sm sm:text-base md:text-lg w-[80%] sm:w-auto shadow-sm dark:shadow-none">
                         Show Answer (Space)
                     </button>
                 </div>
                 <!-- Back -->
                 <div
-                    class="absolute w-full h-full backface-hidden bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center border border-slate-700 rotate-y-180 overflow-y-auto">
+                    class="absolute w-full h-full backface-hidden bg-white dark:bg-darkCard rounded-3xl shadow-2xl flex flex-col items-center justify-center p-6 sm:p-8 md:p-12 text-center border border-slate-200 dark:border-slate-700 rotate-y-180 overflow-y-auto">
                     <h2 id="cardWordBack"
-                        class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-white border-b border-slate-700 pb-3 sm:pb-4 w-full break-words">
+                        class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-slate-900 dark:text-white border-b border-slate-200 dark:border-slate-700 pb-3 sm:pb-4 w-full break-words">
                     </h2>
                     <div class="flex flex-col gap-4 sm:gap-6 text-left w-full max-w-2xl px-2 sm:px-0">
                         <div>
                             <span
-                                class="text-blue-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Definition</span>
-                            <p id="cardDef" class="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed"></p>
+                                class="text-blue-600 dark:text-blue-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Definition</span>
+                            <p id="cardDef" class="text-base sm:text-lg md:text-xl text-slate-700 dark:text-slate-200 leading-relaxed"></p>
                         </div>
                         <div>
                             <span
-                                class="text-purple-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Synonym</span>
-                            <p id="cardSyn" class="text-slate-300 font-medium text-sm sm:text-base md:text-lg"></p>
+                                class="text-purple-600 dark:text-purple-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Synonym</span>
+                            <p id="cardSyn" class="text-slate-700 dark:text-slate-300 font-medium text-sm sm:text-base md:text-lg"></p>
                         </div>
                         <div>
                             <span
-                                class="text-emerald-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Example</span>
+                                class="text-emerald-600 dark:text-emerald-400 font-bold text-[10px] sm:text-xs uppercase tracking-widest block mb-1 sm:mb-1.5">Example</span>
                             <p id="cardEx"
-                                class="text-slate-400 italic text-sm sm:text-base md:text-lg border-l-2 border-emerald-500/30 pl-3 sm:pl-4 py-1">
+                                class="text-slate-600 dark:text-slate-400 italic text-sm sm:text-base md:text-lg border-l-2 border-emerald-500/50 pl-3 sm:pl-4 py-1">
                             </p>
                         </div>
                     </div>
@@ -407,12 +495,12 @@
         <div id="ratingButtons"
             class="w-full grid grid-cols-2 gap-2 sm:gap-4 mt-2 sm:mt-4 opacity-0 pointer-events-none transition-opacity duration-300 px-1 sm:px-0">
             <button
-                class="rate-btn bg-red-950/60 hover:bg-red-900 border border-red-800 text-red-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all"
+                class="rate-btn bg-red-50 hover:bg-red-100 dark:bg-red-950/60 dark:hover:bg-red-900 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all shadow-sm dark:shadow-none"
                 data-score="1">
                 <span class="font-bold text-xl sm:text-2xl md:text-3xl mb-0.5 sm:mb-1">No (N)</span>
             </button>
             <button
-                class="rate-btn bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-700 text-emerald-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all"
+                class="rate-btn bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-900/60 dark:hover:bg-emerald-800 border border-emerald-200 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300 py-4 sm:py-5 rounded-xl flex flex-col items-center group transition-all shadow-sm dark:shadow-none"
                 data-score="4">
                 <span class="font-bold text-xl sm:text-2xl md:text-3xl mb-0.5 sm:mb-1">Yes (Y)</span>
             </button>
@@ -423,16 +511,16 @@
     <div id="caughtUpScreen"
         class="hidden flex-col items-center justify-center text-center gap-4 sm:gap-6 max-w-xl w-full mt-6 sm:mt-10 px-4 sm:px-0">
         <div class="text-5xl sm:text-7xl mb-1 sm:mb-2 animate-bounce">🎉</div>
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight" id="caughtUpMessage">All caught
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight" id="caughtUpMessage">All caught
             up for this set!</h2>
 
-        <p class="text-slate-300 text-base sm:text-lg mt-2">Next review scheduled for: <span id="nextReviewDateDisplay"
-                class="font-bold text-emerald-400"></span></p>
+        <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg mt-2">Next review scheduled for: <span id="nextReviewDateDisplay"
+                class="font-bold text-emerald-600 dark:text-emerald-400"></span></p>
 
         <!-- Action Buttons -->
         <div class="w-full mt-4 sm:mt-8">
             <button id="btnBackToDash"
-                class="w-full bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-bold py-3 sm:py-4 px-4 rounded-xl transition-all text-sm sm:text-base">
+                class="w-full bg-white hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-300 dark:border-slate-600 text-slate-800 dark:text-white font-bold py-3 sm:py-4 px-4 rounded-xl transition-all text-sm sm:text-base shadow-sm dark:shadow-none">
                 Return to Dashboard
             </button>
         </div>
@@ -440,11 +528,11 @@
 
     <!-- Quiz Details Modal -->
     <div id="quizDetailsModal"
-        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
         <div
-            class="bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            class="bg-white dark:bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-200 dark:border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
             <button id="closeQuizDetailsModal"
-                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                     </path>
@@ -452,49 +540,49 @@
             </button>
 
             <div class="flex flex-col gap-2">
-                <h2 id="quizDetailsTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Quiz
+                <h2 id="quizDetailsTitle" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight pr-8">Quiz
                     Results Breakdown</h2>
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mt-1">
                     <div class="flex-1 max-w-xs">
                         <label for="quizAttemptSelect"
-                            class="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Select
+                            class="block text-xs font-bold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">Select
                             Attempt</label>
                         <select id="quizAttemptSelect"
-                            class="w-full bg-slate-900/50 border border-slate-600/50 rounded-xl py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-xs sm:text-sm hover:bg-slate-800/80">
+                            class="w-full bg-slate-50 dark:bg-slate-900/50 border border-slate-300 dark:border-slate-600/50 rounded-xl py-2 px-3 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer text-xs sm:text-sm hover:bg-slate-100 dark:hover:bg-slate-800/80">
                         </select>
                     </div>
-                    <div class="flex flex-col sm:items-end text-xs sm:text-sm text-slate-400">
+                    <div class="flex flex-col sm:items-end text-xs sm:text-sm text-slate-500 dark:text-slate-400">
                         <span id="quizDetailsDate"></span>
-                        <span id="quizDetailsScore" class="font-bold text-white mt-1"></span>
+                        <span id="quizDetailsScore" class="font-bold text-slate-900 dark:text-white mt-1"></span>
                     </div>
                 </div>
             </div>
 
             <div class="flex flex-col gap-4">
                 <div>
-                    <h3 class="text-emerald-400 font-bold uppercase tracking-widest text-xs mb-2">Correct Answers (<span
+                    <h3 class="text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-widest text-xs mb-2">Correct Answers (<span
                             id="correctCount">0</span>)</h3>
                     <div id="correctList"
-                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-emerald-900/30 rounded-xl p-3 bg-emerald-950/10">
+                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-emerald-200 dark:border-emerald-900/30 rounded-xl p-3 bg-emerald-50/60 dark:bg-emerald-950/10">
                     </div>
                 </div>
                 <div>
-                    <h3 class="text-rose-400 font-bold uppercase tracking-widest text-xs mb-2">Incorrect Answers (<span
+                    <h3 class="text-rose-600 dark:text-rose-400 font-bold uppercase tracking-widest text-xs mb-2">Incorrect Answers (<span
                             id="incorrectCount">0</span>)</h3>
                     <div id="incorrectList"
-                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-rose-900/30 rounded-xl p-3 bg-rose-950/10">
+                        class="flex flex-col gap-2 max-h-48 overflow-y-auto border border-rose-200 dark:border-rose-900/30 rounded-xl p-3 bg-rose-50/60 dark:bg-rose-950/10">
                     </div>
                 </div>
             </div>
 
             <div
-                class="flex flex-col sm:flex-row gap-3 items-center justify-end mt-2 pt-4 border-t border-slate-700/50">
+                class="flex flex-col sm:flex-row gap-3 items-center justify-end mt-2 pt-4 border-t border-slate-200 dark:border-slate-700/50">
                 <button id="practiceFromHistoryBtn"
                     class="w-full sm:w-auto bg-amber-600 hover:bg-amber-500 text-white font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-amber-500/20 text-sm hidden">
                     Practice Incorrect Words
                 </button>
                 <button id="closeDetailsBtn"
-                    class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-700 text-sm">
+                    class="w-full sm:w-auto bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-semibold py-2.5 px-6 rounded-xl transition-all border border-slate-300 dark:border-slate-700 text-sm">
                     Close
                 </button>
             </div>
@@ -503,17 +591,17 @@
 
     <!-- Table Modal -->
     <div id="tableModal"
-        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
         <div
-            class="bg-darkCard w-full max-w-5xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            class="bg-white dark:bg-darkCard w-full max-w-5xl rounded-3xl p-6 sm:p-8 relative border border-slate-200 dark:border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
             <button id="closeTableModal"
-                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                     </path>
                 </svg>
             </button>
-            <h2 id="tableModalTitle" class="text-xl sm:text-2xl font-bold text-white tracking-tight pr-8">Vocabulary
+            <h2 id="tableModalTitle" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight pr-8">Vocabulary
                 Table</h2>
             <div id="tableModalContent" class="w-full overflow-y-auto max-h-[70vh]">
             </div>
@@ -522,114 +610,153 @@
 
     <!-- Excel Export Modal -->
     <div id="excelExportModal"
-        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
         <div
-            class="bg-darkCard w-full max-w-lg rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-5 my-8">
+            class="bg-white dark:bg-darkCard w-full max-w-xl rounded-3xl relative border border-slate-200 dark:border-slate-700 shadow-2xl flex flex-col gap-0 my-8 overflow-hidden">
             <button id="closeExcelExportModal"
-                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors z-10">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
 
-            <!-- Title -->
-            <div class="flex items-center gap-3 pr-8">
-                <div class="p-2.5 bg-green-500/15 rounded-xl border border-green-500/30">
-                    <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
+            <!-- Header Section -->
+            <div class="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 dark:from-green-950/40 dark:via-emerald-950/30 dark:to-teal-950/40 px-6 sm:px-8 pt-7 pb-6 border-b border-slate-200 dark:border-slate-700/50">
+                <div class="flex items-start gap-4 pr-6">
+                    <div class="p-3.5 bg-white dark:bg-slate-800/80 rounded-2xl border border-green-200 dark:border-green-500/30 shadow-sm shrink-0">
+                        <svg class="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h2 class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight">Export Vocabulary Sets</h2>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Choose the sets you want to take offline</p>
+                    </div>
+                    <div id="excelExportCountBadge" class="shrink-0 bg-green-600 dark:bg-green-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-sm hidden">
+                        0 selected
+                    </div>
                 </div>
-                <div>
-                    <h2 class="text-lg sm:text-xl font-bold text-white tracking-tight">Export Vocabulary Sets</h2>
-                    <p class="text-xs text-slate-400 mt-0.5">Select one or more sets to download as Excel or PDF</p>
+            </div>
+
+            <!-- Body Section -->
+            <div class="flex flex-col gap-5 px-6 sm:px-8 py-6">
+                <!-- Select All & Filter Bar -->
+                <div class="flex items-center justify-between gap-3 flex-wrap">
+                    <div class="flex items-center gap-2">
+                        <span class="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+                            </svg>
+                        </span>
+                        <span class="text-sm font-semibold text-slate-800 dark:text-slate-200">Available Sets</span>
+                    </div>
+                    <label
+                        class="flex items-center gap-2 cursor-pointer text-xs font-semibold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white transition-colors select-none bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 dark:hover:bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700/50">
+                        <input type="checkbox" id="excelSelectAll" class="accent-green-600 dark:accent-green-500 w-3.5 h-3.5 cursor-pointer">
+                        Select All
+                    </label>
+                </div>
+
+                <!-- Set checkboxes -->
+                <div id="excelSetList" class="flex flex-col gap-2.5 max-h-64 overflow-y-auto pr-1 -mr-1">
+                    <!-- injected dynamically -->
+                </div>
+
+                <!-- Selection Summary -->
+                <div id="excelExportSummary"
+                    class="hidden items-center gap-3 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 border border-green-200 dark:border-green-800/50 rounded-2xl px-4 py-3">
+                    <div class="shrink-0 w-9 h-9 rounded-full bg-green-100 dark:bg-green-900/50 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="text-sm font-bold text-slate-900 dark:text-white" id="excelSummaryLine">Ready to export</div>
+                        <div class="text-xs text-slate-500 dark:text-slate-400" id="excelSummarySub">Choose a format below</div>
+                    </div>
+                </div>
+
+                <!-- Empty hint -->
+                <div id="excelExportEmptyHint"
+                    class="flex items-center gap-2.5 text-xs text-slate-500 dark:text-slate-400 bg-slate-50/80 dark:bg-slate-800/40 rounded-xl px-4 py-3 border border-slate-200 dark:border-slate-700/50">
+                    <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>Select at least one set above, then pick a format to download.</span>
                 </div>
             </div>
 
-            <!-- Select All toggle -->
-            <div class="flex items-center justify-between">
-                <span class="text-sm font-semibold text-slate-300">Vocabulary Sets</span>
-                <label
-                    class="flex items-center gap-2 cursor-pointer text-xs text-slate-400 hover:text-white transition-colors select-none">
-                    <input type="checkbox" id="excelSelectAll" class="accent-green-500 w-3.5 h-3.5 cursor-pointer">
-                    Select All
-                </label>
-            </div>
-
-            <!-- Set checkboxes -->
-            <div id="excelSetList" class="flex flex-col gap-2 max-h-60 overflow-y-auto pr-1">
-                <!-- injected dynamically -->
-            </div>
-
-            <!-- File format hint -->
-            <div
-                class="flex items-center gap-2 text-xs text-slate-400 bg-slate-800/50 rounded-xl px-4 py-2.5 border border-slate-700/50">
-                <svg class="w-4 h-4 text-green-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                Supports Excel (<span class="text-green-400 font-semibold">.xlsx</span>) and PDF (<span
-                    class="text-red-400 font-semibold">.pdf</span>) formats.
-            </div>
-
-            <!-- Download buttons -->
-            <div class="grid grid-cols-2 gap-3 w-full">
-                <!-- Excel -->
-                <button id="downloadExcelBtn"
-                    class="w-full bg-gradient-to-r from-lime-600 to-green-600 hover:from-lime-500 hover:to-green-500 text-white font-bold py-3.5 rounded-xl transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-green-500/25 flex items-center justify-center gap-2 text-xs sm:text-sm border border-green-500/20">
-                    <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    Download Excel
-                </button>
-                <!-- PDF -->
-                <button id="downloadPdfBtn"
-                    class="w-full bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white font-bold py-3.5 rounded-xl transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-rose-500/25 flex items-center justify-center gap-2 text-xs sm:text-sm border border-rose-500/20">
-                    <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                    </svg>
-                    Download PDF
-                </button>
+            <!-- Download Section -->
+            <div class="bg-slate-50/60 dark:bg-slate-900/40 px-6 sm:px-8 py-5 border-t border-slate-200 dark:border-slate-700/50">
+                <div class="text-[11px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">Choose Format</div>
+                <div class="grid grid-cols-2 gap-3 w-full">
+                    <!-- Excel -->
+                    <button id="downloadExcelBtn"
+                        class="excel-download-btn group relative w-full bg-gradient-to-br from-lime-500 via-green-500 to-emerald-600 hover:from-lime-400 hover:via-green-400 hover:to-emerald-500 text-white font-bold py-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 flex flex-col items-center justify-center gap-1.5 border border-green-500/20 overflow-hidden">
+                        <div class="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors"></div>
+                        <svg class="w-6 h-6 relative z-10 drop-shadow-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        <div class="relative z-10 flex flex-col items-center">
+                            <span class="text-sm leading-tight">Excel</span>
+                            <span class="text-[10px] font-semibold opacity-80 mt-0.5">.xlsx • Spreadsheet</span>
+                        </div>
+                    </button>
+                    <!-- PDF -->
+                    <button id="downloadPdfBtn"
+                        class="pdf-download-btn group relative w-full bg-gradient-to-br from-rose-500 via-red-500 to-rose-600 hover:from-rose-400 hover:via-red-400 hover:to-rose-500 text-white font-bold py-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-rose-500/30 hover:shadow-xl hover:shadow-rose-500/40 flex flex-col items-center justify-center gap-1.5 border border-rose-500/20 overflow-hidden">
+                        <div class="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors"></div>
+                        <svg class="w-6 h-6 relative z-10 drop-shadow-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                        <div class="relative z-10 flex flex-col items-center">
+                            <span class="text-sm leading-tight">PDF</span>
+                            <span class="text-[10px] font-semibold opacity-80 mt-0.5">.pdf • Document</span>
+                        </div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- About Modal -->
     <div id="aboutModal"
-        class="fixed inset-0 bg-black/80 hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
+        class="fixed inset-0 bg-slate-900/60 dark:bg-black/80 backdrop-blur-sm hidden overflow-y-auto z-50 p-4 sm:p-6 justify-center items-start sm:items-center">
         <div
-            class="bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
+            class="bg-white dark:bg-darkCard w-full max-w-3xl rounded-3xl p-6 sm:p-8 relative border border-slate-200 dark:border-slate-700 shadow-2xl flex flex-col gap-6 my-8">
             <button id="closeAboutModal"
-                class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                     </path>
                 </svg>
             </button>
-            <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight pr-8">About SAT Vocabulary Mastery</h2>
-            <div class="text-slate-300 space-y-4 text-sm sm:text-base leading-relaxed">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white tracking-tight pr-8">About SAT Vocabulary Mastery</h2>
+            <div class="text-slate-600 dark:text-slate-300 space-y-4 text-sm sm:text-base leading-relaxed">
                 <p><strong>SAT Vocabulary Mastery</strong> is a comprehensive, spaced-repetition learning platform
                     specifically optimized for the Reading and Writing sections of the digital SAT.</p>
                 <p>The system focuses on high-frequency Tier 2 vocabulary words that are highly likely to appear in
                     'Words in Context' questions on the exam.</p>
-                <h3 class="text-lg font-bold text-white mt-4">Core Methodologies:</h3>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white mt-4">Core Methodologies:</h3>
                 <ul class="list-disc pl-5 space-y-2">
-                    <li><strong class="text-blue-400">Spaced Repetition Algorithm (SRS):</strong> Adapts to your
+                    <li><strong class="text-blue-600 dark:text-blue-400">Spaced Repetition Algorithm (SRS):</strong> Adapts to your
                         learning curve. Difficult words are reviewed more frequently to ensure long-term retention
                         before your test date.</li>
-                    <li><strong class="text-purple-400">Contextual Learning:</strong> Every SAT word is provided with
+                    <li><strong class="text-purple-600 dark:text-purple-400">Contextual Learning:</strong> Every SAT word is provided with
                         detailed definitions, exact synonyms, and realistic sentence examples reflecting the style of
                         SAT passages.</li>
-                    <li><strong class="text-emerald-400">Performance Analytics:</strong> Track your Mastered Cards and
+                    <li><strong class="text-emerald-600 dark:text-emerald-400">Performance Analytics:</strong> Track your Mastered Cards and
                         Average Easiness metric to gauge your readiness for the real exam.</li>
-                    <li><strong class="text-amber-400">Global Search:</strong> Instantly look up words while taking
+                    <li><strong class="text-amber-600 dark:text-amber-400">Global Search:</strong> Instantly look up words while taking
                         practice tests or reviewing mistakes.</li>
-                    <li><strong class="text-rose-400">Targeted SAT Decks:</strong> Organize words by frequency or
+                    <li><strong class="text-rose-600 dark:text-rose-400">Targeted SAT Decks:</strong> Organize words by frequency or
                         difficulty to structure your SAT prep.</li>
                 </ul>
-                <p class="mt-4 text-slate-400 text-xs">Maximize your SAT verbal score through consistent,
+                <p class="mt-4 text-slate-500 dark:text-slate-400 text-xs">Maximize your SAT verbal score through consistent,
                     scientifically-backed vocabulary training.</p>
             </div>
         </div>

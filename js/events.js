@@ -92,19 +92,19 @@ export function setupEventListeners() {
               (searchCat === "all" && matchedProperty === "Word");
 
             return `
-              <div class="px-4 py-3 border-b border-slate-700/50 hover:bg-slate-700 cursor-pointer transition-colors search-item flex flex-col gap-1 overflow-hidden" data-key="${c.key}">
-                <div class="font-bold text-white text-base truncate">${c.word}</div>
+              <div class="px-4 py-3 border-b border-slate-100 dark:border-slate-700/50 hover:bg-slate-50 dark:hover:bg-slate-700/70 cursor-pointer transition-colors search-item flex flex-col gap-1 overflow-hidden" data-key="${c.key}">
+                <div class="font-bold text-slate-900 dark:text-white text-base truncate">${c.word}</div>
                 ${
                   !isWordMatchOnly
                     ? (() => {
-                        let colorClass = "text-blue-400";
+                        let colorClass = "text-blue-600 dark:text-blue-400";
                         if (matchedProperty === "Synonym")
-                          colorClass = "text-purple-400";
+                          colorClass = "text-purple-600 dark:text-purple-400";
                         else if (matchedProperty === "Example")
-                          colorClass = "text-emerald-400";
-                        return `<div class="text-[10px] sm:text-xs ${colorClass} font-bold uppercase tracking-wider truncate">${matchedProperty}: <span class="text-slate-300 font-normal normal-case">${matchedValue}</span></div>`;
+                          colorClass = "text-emerald-600 dark:text-emerald-400";
+                        return `<div class="text-[10px] sm:text-xs ${colorClass} font-bold uppercase tracking-wider truncate">${matchedProperty}: <span class="text-slate-600 dark:text-slate-300 font-normal normal-case">${matchedValue}</span></div>`;
                       })()
-                    : `<div class="text-xs text-slate-400 truncate">${c.definition}</div>`
+                    : `<div class="text-xs text-slate-500 dark:text-slate-400 truncate">${c.definition}</div>`
                 }
               </div>
             `;
@@ -112,7 +112,7 @@ export function setupEventListeners() {
           .join("");
         UI.search.results.classList.remove("hidden");
       } else {
-        UI.search.results.innerHTML = `<div class="px-4 py-3 text-slate-400 text-sm">No words found.</div>`;
+        UI.search.results.innerHTML = `<div class="px-4 py-3 text-slate-500 dark:text-slate-400 text-sm">No words found.</div>`;
         UI.search.results.classList.remove("hidden");
       }
     }, 300);
@@ -339,4 +339,20 @@ export function setupEventListeners() {
       UI.downloadPdf();
     });
   }
+
+  // Theme Toggle Buttons — Event Delegation (robust, catches all current & future buttons)
+  document.addEventListener("click", (e) => {
+    if (e.target.closest(".theme-toggle-btn")) {
+      UI.toggleTheme();
+    }
+  });
+
+  // Direct bindings as fallback for known buttons by ID
+  const themeBtnIds = ["themeToggleBtn", "studyThemeToggleBtn"];
+  themeBtnIds.forEach((id) => {
+    const btn = document.getElementById(id);
+    if (btn) {
+      btn.addEventListener("click", () => UI.toggleTheme());
+    }
+  });
 }
